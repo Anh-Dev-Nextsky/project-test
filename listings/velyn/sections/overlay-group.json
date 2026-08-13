@@ -1,0 +1,389 @@
+{
+  "name": "t:sections.overlay_group.name",
+  "type": "custom.overlay",
+  "sections": {
+    "header-search": {
+      "type": "header-search",
+      "settings": {}
+    },
+    "product-quickview": {
+      "type": "product-quickview",
+      "blocks": {
+        "badges_product_9T8Bcn": {
+          "type": "_badges-product",
+          "name": "t:sections.all.product_setting.badges.name",
+          "settings": {},
+          "blocks": {}
+        },
+        "title_product_tejidV": {
+          "type": "_title-product",
+          "name": "t:sections.all.product_setting.title.name",
+          "settings": {
+            "type_preset": "h2",
+            "heading_tag": "h2"
+          },
+          "blocks": {}
+        },
+        "rating_product_DE9gBh": {
+          "type": "_rating-product",
+          "name": "t:sections.all.product_setting.rating.name",
+          "settings": {},
+          "blocks": {}
+        },
+        "price_product_qKpP8Q": {
+          "type": "_price-product",
+          "name": "t:sections.all.product_setting.price.name",
+          "settings": {},
+          "blocks": {}
+        },
+        "description_product_barrpR": {
+          "type": "_description-product",
+          "name": "t:sections.all.content_setting.description.label",
+          "settings": {},
+          "blocks": {}
+        },
+        "inventory_status_RcdTyQ": {
+          "type": "_inventory-status",
+          "name": "t:sections.all.product_setting.inventory_status.name",
+          "settings": {
+            "inventory_threshold": 20,
+            "inventory_base": 50
+          },
+          "blocks": {}
+        },
+        "variant_picker_LHVWDf": {
+          "type": "_variant-picker",
+          "name": "t:sections.all.product_setting.variant_picker.name",
+          "settings": {
+            "variant_type": "swatches",
+            "show_size_guide": false,
+            "size_trigger": "Size,Größe,Misurare",
+            "size_guide_label": "Size Guide",
+            "size_guide_page": "",
+            "size_guide_footer": "<p>Still unsure? Check out our Help Center or Contact Us directly.</p>"
+          },
+          "blocks": {}
+        },
+        "buy_buttons_gcH9EL": {
+          "type": "_buy-buttons",
+          "name": "t:sections.all.product_setting.buy_buttons.name",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "badges_product_9T8Bcn",
+        "title_product_tejidV",
+        "rating_product_DE9gBh",
+        "price_product_qKpP8Q",
+        "description_product_barrpR",
+        "inventory_status_RcdTyQ",
+        "variant_picker_LHVWDf",
+        "buy_buttons_gcH9EL"
+      ],
+      "settings": {
+        "enable_image_lightbox": true,
+        "enable_video_looping": false,
+        "enable_video_autoplay": false,
+        "enable_video_controls_default": false
+      }
+    },
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "show_free_shipping_message": true,
+        "show_cart_note": false,
+        "show_estimate_shipping": false,
+        "show_gift_wrap": false,
+        "show_discount": true
+      }
+    },
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "settings": {
+        "enable_on_homepage": true,
+        "sections_width": "fullscreen",
+        "newsletter_banner": "",
+        "desktop_image_width": 50,
+        "image_desktop_position": "left",
+        "enable_collections_selector": true,
+        "collections_selector_heading": "Claim Your  <br>Style Bonus - 15%",
+        "collections_selector_sub_title": "",
+        "collections_selector_instructional_text": "<p>Tell us what you're shopping for to unlock 15%.</p>",
+        "newsletter_collection_1": "Workday Edit",
+        "newsletter_collection_2": "Everyday Wear",
+        "newsletter_collection_3": "Weekend Ease",
+        "newsletter_collection_4": "",
+        "newsletter_collection_5": "",
+        "show_discount_sticky": true,
+        "discount_sticky_heading": "Get<br>15% Off",
+        "newsletter_heading": "Get Your<br>15% Style Bonus",
+        "newsletter_sub_title": "<p>Enter your email to unlock 15% off your first order. No spam.</p>",
+        "newsletter_email_placeholder": "Enter your email...",
+        "newsletter_button_label": "Unlock 15% Off"
+      }
+    },
+    "discount_popup_AiXTiH": {
+      "type": "discount-popup",
+      "name": "t:sections.discount_popup.name",
+      "settings": {
+        "sections_width": "fullscreen",
+        "discount_banner": "",
+        "desktop_image_width": 50,
+        "image_desktop_position": "left",
+        "subheading": "",
+        "heading": "<div class=\"h1\">🎉  </div> Thank You!  <br> 15% Style Bonus",
+        "description": "<p>Your 15% discount will be applied automatically to your cart.</p>",
+        "discount_code": "",
+        "button_text": "Shop with 15% Off"
+      }
+    },
+    "offers-popup": {
+      "type": "offers-popup",
+      "blocks": {
+        "group_image_with_text_offer_RUnkEL": {
+          "type": "_group-image-with-text-offer",
+          "name": "t:sections.image-with-text.name",
+          "settings": {
+            "color_scheme": "scheme-957ad1f6-ead2-4f72-bdba-ddfe8f341c9e",
+            "image": ""
+          },
+          "blocks": {
+            "heading_KbrLNj": {
+              "type": "heading",
+              "settings": {
+                "heading": "Everyday Essentials",
+                "type_preset": "h5",
+                "padding_top": 0,
+                "padding_bottom": 5
+              },
+              "blocks": {}
+            },
+            "description_baAFFY": {
+              "type": "description",
+              "name": "t:sections.all.content_setting.description.label",
+              "settings": {
+                "description": "<p>Extra 30%—50% off for VIP customers. </p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 20
+              },
+              "blocks": {}
+            },
+            "button_CDNmzw": {
+              "type": "button",
+              "name": "t:sections.all.content_setting.button_label-block.label",
+              "settings": {
+                "first_button_label": "Shop the Edit",
+                "first_button_link": "",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_KbrLNj",
+            "description_baAFFY",
+            "button_CDNmzw"
+          ]
+        },
+        "group_image_with_text_offer_EXQVhF": {
+          "type": "_group-image-with-text-offer",
+          "name": "t:sections.image-with-text.name",
+          "settings": {
+            "color_scheme": "scheme-957ad1f6-ead2-4f72-bdba-ddfe8f341c9e",
+            "image": ""
+          },
+          "blocks": {
+            "heading_kM4L8P": {
+              "type": "heading",
+              "settings": {
+                "heading": "Self-Care Sunday Edit",
+                "type_preset": "h5",
+                "padding_top": 0,
+                "padding_bottom": 5
+              },
+              "blocks": {}
+            },
+            "description_rwfE6x": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Enjoy 50% off relaxed everyday styles.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 20
+              },
+              "blocks": {}
+            },
+            "button_3xEnWd": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Treat Yourself",
+                "first_button_link": "",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_kM4L8P",
+            "description_rwfE6x",
+            "button_3xEnWd"
+          ]
+        },
+        "group_image_with_text_offer_kBaARF": {
+          "type": "_group-image-with-text-offer",
+          "name": "t:sections.image-with-text.name",
+          "settings": {
+            "color_scheme": "scheme-957ad1f6-ead2-4f72-bdba-ddfe8f341c9e",
+            "image": ""
+          },
+          "blocks": {
+            "heading_aLtxMF": {
+              "type": "heading",
+              "settings": {
+                "heading": "Buy 5—Get 1 free!",
+                "type_preset": "h5",
+                "padding_top": 0,
+                "padding_bottom": 5
+              },
+              "blocks": {}
+            },
+            "description_dprACq": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Seasonal savings on layered styles.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 20
+              },
+              "blocks": {}
+            },
+            "button_4kxEdL": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Shop & Save",
+                "first_button_link": "",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_aLtxMF",
+            "description_dprACq",
+            "button_4kxEdL"
+          ]
+        },
+        "group_image_with_text_offer_d7aUJk": {
+          "type": "_group-image-with-text-offer",
+          "name": "t:sections.image-with-text.name",
+          "settings": {
+            "color_scheme": "scheme-957ad1f6-ead2-4f72-bdba-ddfe8f341c9e",
+            "image": ""
+          },
+          "blocks": {
+            "heading_tM8tdg": {
+              "type": "heading",
+              "settings": {
+                "heading": "Summer Styles Sale",
+                "type_preset": "h5",
+                "padding_top": 0,
+                "padding_bottom": 10
+              },
+              "blocks": {}
+            },
+            "description_mQycpt": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Save up to 35% on light summer pieces.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 20
+              },
+              "blocks": {}
+            },
+            "button_ktf8Yx": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Shop the Sale",
+                "first_button_link": "",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_tM8tdg",
+            "description_mQycpt",
+            "button_ktf8Yx"
+          ]
+        }
+      },
+      "block_order": [
+        "group_image_with_text_offer_RUnkEL",
+        "group_image_with_text_offer_EXQVhF",
+        "group_image_with_text_offer_kBaARF",
+        "group_image_with_text_offer_d7aUJk"
+      ],
+      "settings": {
+        "column_gap": "medium",
+        "image_ratio": "adapt",
+        "content_alignment": "center",
+        "highlight_text": "Today Offers"
+      }
+    },
+    "before_you_leave_qjnHRH": {
+      "type": "before-you-leave",
+      "name": "t:sections.before-you-leave.name",
+      "settings": {
+        "color_scheme": "scheme-070b6d81-d1cf-49ad-aa7a-4a016abd3a99",
+        "show_time": 60,
+        "banner": "",
+        "overlay_opacity": 0,
+        "sub_heading": "",
+        "content_heading": "Before You Go <br> Here's Your 10% Treat",
+        "description": "<p>Save 10% on orders over $170 — use the code above. Don't miss it.</p>",
+        "code": "GET10BYG",
+        "recommended_heading": "Top Sellers for You",
+        "collection": ""
+      }
+    }
+  },
+  "order": [
+    "header-search",
+    "product-quickview",
+    "cart-drawer",
+    "newsletter-popup",
+    "discount_popup_AiXTiH",
+    "offers-popup",
+    "before_you_leave_qjnHRH"
+  ]
+}

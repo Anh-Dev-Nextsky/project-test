@@ -1,0 +1,4784 @@
+{
+  "settings_schema": {
+    "layout": {
+      "name": "التخطيط",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/layout)"
+      },
+      "settings": {
+        "page_width": {
+          "label": "عرض الصفحة"
+        },
+        "site_style": {
+          "label": "زوايا مدورة",
+          "image": {
+            "label": "صورة"
+          },
+          "button": {
+            "label": "نصف قطر زاوية الزر"
+          },
+          "input": {
+            "label": "نصف قطر زاوية الإدخال"
+          }
+        },
+        "rtl": {
+          "label": "تمكين RTL",
+          "language_rtl": {
+            "label": "اللغات تدعم RTL",
+            "info": "اترك هذا الحقل فارغًا إذا كنت تريد تطبيقه على جميع اللغات. افصل رموز ISO إذا كنت تريد تطبيقه على لغات محددة فقط: ar; fa; ku; pa; sd"
+          }
+        },
+        "select_preset": {
+          "label": "حدد الإعداد المسبق",
+          "options__1": "مستحضرات التجميل",
+          "options__2": "موضة"
+        }
+      },
+      "rtl_support": {
+        "header": "دعم RTL",
+        "enable_rtl": "تمكين دعم RTL",
+        "rtl_language": {
+          "label": "رمز لغة RTL",
+          "info": "حدد اللغات التي تستخدم تخطيط RTL عن طريق إدخال رموز ISO الخاصة بها مفصولة بفواصل منقوطة. على سبيل المثال: ar; fa; ku; pa; sd. إذا تُرك الحقل فارغًا، فسيتم تطبيق تخطيط RTL على جميع اللغات."
+        }
+      }
+    },
+    "logo_favicon": {
+      "name": "الشعار والأيقونة المفضلة",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/logo-and-favicon)"
+      },
+      "settings": {
+        "favicon": {
+          "label": "الرمز المفضل"
+        },
+        "favicon_image": {
+          "label": "صورة الأيقونة المفضلة",
+          "info": "يُنصح باستخدام ملف PNG بمقاس 32 × 32 بكسل"
+        },
+        "logo": {
+          "label": "الشعار",
+          "logo_on_transparent": {
+            "label": "الشعار على رأس شفاف"
+          }
+        },
+        "logo_width": {
+          "label": "عرض الشعار",
+          "info": "يتم تحسين عرض الشعار تلقائيًا للجوال."
+        }
+      }
+    },
+    "customer_account": {
+      "how_to_use": {
+        "label": "[تعرف على كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/customer-account)"
+      },
+      "name": "حساب العميل",
+      "settings": {
+        "customer_account_menu": {
+          "label": "قائمة طعام"
+        },
+        "open_as": {
+          "label": "فتح باسم",
+          "options": {
+            "popup": "يظهر فجأة",
+            "link": "وصلة"
+          }
+        }
+      }
+    },
+    "colors": {
+      "name": "الألوان",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/colors)"
+      },
+      "settings": {
+        "general_header": {
+          "label": "عام"
+        },
+        "general_accent": {
+          "label": "لهجة"
+        },
+        "general_text": {
+          "label": "نص"
+        },
+        "general_heading": {
+          "label": "عنوان"
+        },
+        "general_link": {
+          "label": "رابط"
+        },
+        "general_link_hover": {
+          "label": "مرر الرابط"
+        },
+        "general_border": {
+          "label": "حدود",
+          "label_color": "لون الحدود"
+        },
+        "background_header": {
+          "label": "خلفية"
+        },
+        "background": {
+          "label": "خلفية"
+        },
+        "background_2": {
+          "label": "الخلفية 2"
+        },
+        "background_gradient": {
+          "label": "التدرج الخلفية",
+          "info": "يستبدل تدرج الخلفية الخلفية حيثما أمكن ذلك."
+        },
+        "fill_button_header": {
+          "label": "زر التعبئة"
+        },
+        "fill_button_background": {
+          "label": "خلفية"
+        },
+        "fill_button_text": {
+          "label": "نص"
+        },
+        "fill_button_background_hover": {
+          "label": "تحوم الخلفية"
+        },
+        "fill_button_text_hover": {
+          "label": "تحوم النص"
+        },
+        "outline_button_header": {
+          "label": "زر المخطط التفصيلي"
+        },
+        "outline_button_outline": {
+          "label": "نص"
+        },
+        "outline_button_outline_border": {
+          "label": "حدود"
+        },
+        "badges_header": {
+          "label": "لون الشارات"
+        },
+        "badges_sale": {
+          "label": "أُوكَازيُون"
+        },
+        "badges_out_stock": {
+          "label": "إنتهى من المخزن"
+        },
+        "product_header": {
+          "label": "لون المنتج"
+        },
+        "product_rate": {
+          "label": "معدل اللون"
+        },
+        "product_sale_price": {
+          "label": "سعر البيع"
+        }
+      }
+    },
+    "typography": {
+      "name": "الطباعة",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/typography)"
+      },
+      "settings": {
+        "font_weight": {
+          "label": "وزن الخط",
+          "default": "افتراضي",
+          "inline": "مضمنة",
+          "regular": "عادي",
+          "medium": "واسطة",
+          "semi_bold": "شبه جريئة",
+          "bold": "عريض",
+          "extra_bold": "جريئة للغاية"
+        },
+        "font_size": "حجم الخط",
+        "body": {
+          "label": "النص الأساسي",
+          "font": {
+            "label": "الخط",
+            "info": "تحديد خط مختلف يمكن أن يؤثر على سرعة متجرك. [تعرف على المزيد حول خطوط النظام.](https://help.shopify.com/en/manual/online-store/store-speed/improving-speed#fonts)"
+          },
+          "base_size": "حجم القاعدة"
+        },
+        "heading": {
+          "label": "عنوان",
+          "font": {
+            "label": "الخط",
+            "info": "تحديد خط مختلف يمكن أن يؤثر على سرعة متجرك. [تعرف على المزيد حول خطوط النظام.](https://help.shopify.com/en/manual/online-store/store-speed/improving-speed#fonts)"
+          },
+          "sub_heading": {
+            "sub_heading_weight": "وزن خط العنوان الفرعي"
+          },
+          "font_size_scale": "مقياس حجم الخط",
+          "text_transform": {
+            "label": "تحويل النص",
+            "unset": "غير محدد",
+            "capitalize": "الاستفادة من الحروف الكبيرة",
+            "uppercase": "أحرف كبيرة"
+          },
+          "heading_letter_spacing": {
+            "label": "تباعد الحروف"
+          }
+        },
+        "menu": {
+          "label": "القائمة",
+          "font": {
+            "label": "الخط",
+            "body_font": "النص الأساسي",
+            "heading_font": "عنوان"
+          },
+          "uppercase": {
+            "label": "المستوى الأول بالأحرف الكبيرة"
+          }
+        },
+        "button": {
+          "label": "زر",
+          "font": {
+            "label": "الخط",
+            "body_font": "النص الأساسي",
+            "heading_font": "عنوان"
+          }
+        },
+        "text_preset": {
+          "header": "الإعدادات المسبقة للنص",
+          "content": "يتم تغيير الأحجام تلقائيًا لجميع أحجام الشاشات",
+          "name": {
+            "paragraph": "فقرة",
+            "heading_1": "العنوان 1",
+            "heading_2": "العنوان 2",
+            "heading_3": "العنوان 3",
+            "heading_4": "العنوان 4",
+            "heading_5": "العنوان 5",
+            "heading_6": "العنوان 6"
+          },
+          "settings": {
+            "size": {
+              "label": "مقاس",
+              "10px": "10 بكسل",
+              "12px": "12 بكسل",
+              "14px": "14 بكسل",
+              "16px": "16 بكسل",
+              "18px": "18 بكسل",
+              "20px": "20 بكسل",
+              "22px": "22 بكسل",
+              "24px": "24 بكسل",
+              "26px": "26px",
+              "30px": "30 بكسل",
+              "36px": "36px",
+              "40px": "40 بكسل",
+              "46px": "46px",
+              "50px": "50 بكسل",
+              "56px": "56px",
+              "60px": "60px",
+              "80px": "80px",
+              "70px": "70 بكسل"
+            },
+            "line_height": {
+              "label": "ارتفاع الخط",
+              "original": "إبداعي",
+              "small": "صغير",
+              "medium": "واسطة",
+              "large": "كبير",
+              "x_large": "كبير جدًا"
+            }
+          }
+        }
+      }
+    },
+    "browser_tab_notifications": {
+      "name": "إشعارات علامة تبويب المتصفح",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/theme-settings/browser-tab-notifications)",
+      "settings": {
+        "notification_info": "اتركه فارغًا لاستخدام عنوان صفحتك الأصلي",
+        "enable_browser_tab_notifications": {
+          "label": "يُمكَِن"
+        },
+        "first_notification": {
+          "label": "الإخطار الأول"
+        },
+        "secondary_notification": {
+          "label": "إعلام ثانوي"
+        }
+      }
+    },
+    "animation": {
+      "name": "الرسوم المتحركة",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/animation)"
+      },
+      "settings": {
+        "scroll_animation": {
+          "label": "انتقل الرسوم المتحركة",
+          "options__1": {
+            "label": "إبطال"
+          },
+          "options__2": {
+            "label": "سطح المكتب فقط"
+          },
+          "options__3": {
+            "label": "جميع الشاشات"
+          }
+        },
+        "enable_loading_page_effect": {
+          "heading": "تأثير تحميل الصفحة",
+          "label": "تمكين التأثير",
+          "loading": "أيقونة التحميل",
+          "info": "عرض الصورة الموصى به هو 100x100 بكسل"
+        },
+        "image_lazy_loading": {
+          "label": "تمكين التحميل البطيء للصورة"
+        },
+        "hover_effect": {
+          "label": "تأثير التحويم",
+          "info": "يؤثر على بطاقات التمرير مثل: المنتج، واللافتة، والمجموعة، والمدونة...",
+          "none": "بدون",
+          "fade_in": "تتلاشى في",
+          "zoom": "تكبير"
+        }
+      }
+    },
+    "product": {
+      "name": "بطاقات المنتج",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/product-cards)"
+      },
+      "settings": {
+        "enable_quickview": "تمكين العرض السريع",
+        "enable_quickadd": "تمكين الإضافة السريعة",
+        "enable_color_swatches": "تمكين عينات الألوان",
+        "show_tag": {
+          "hidden": "مختفي",
+          "desktop": "سطح المكتب فقط",
+          "all_devices": "جميع الشاشات",
+          "disable": "إبطال"
+        },
+        "show_vendor": "عرض البائع",
+        "show_countdown": "عرض العد التنازلي",
+        "show_scrolling_text": "إظهار النص التمرير",
+        "show_rate": {
+          "label": "عرض المعدل",
+          "info": "لعرض التقييم، قم بإضافة تطبيق تقييم المنتج. [مزيد من المعلومات](https://help.shopify.com/en/manual/products/product-reviews/installation)"
+        },
+        "alignment": {
+          "label": "تنسيق",
+          "left": "غادر",
+          "center": "مركز",
+          "right": "يمين"
+        },
+        "product_image": {
+          "label": "صورة المنتج"
+        },
+        "show_image_hover": {
+          "label": "إظهار الصورة الثانوية"
+        },
+        "show_video_featured": {
+          "label": "تشغيل الفيديو عند التمرير",
+          "info": "يعمل فقط مع فيديو MP4."
+        },
+        "product_image_ratio": {
+          "label": "نسبة الصورة",
+          "adapt_to_image": "التكيف مع الصورة",
+          "square": "مربع (1:1)",
+          "portrait": "صورة شخصية (3:4)",
+          "landscape": "منظر طبيعي (4:3)"
+        },
+        "mobile_options": {
+          "label": "إعدادات الجوال"
+        },
+        "show_quick_add_mobile": {
+          "label": "إظهار زر الإضافة السريعة على الهاتف المحمول"
+        }
+      }
+    },
+    "badges": {
+      "name": "شارات",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/badges)"
+      },
+      "settings": {
+        "badge_color": {
+          "label": "لون النص"
+        },
+        "show_badge": {
+          "label": "إظهار الشارة"
+        },
+        "background_color": {
+          "label": "لون الخلفية"
+        },
+        "sale": {
+          "label": "أُوكَازيُون",
+          "format": {
+            "label": "شكل",
+            "text": "نص",
+            "percentage": "نسبة مئوية",
+            "fixed": "مبلغ ثابت"
+          }
+        },
+        "new": {
+          "label": "جديد",
+          "new_badge_display_period": {
+            "label": "فترة عرض الشارة الجديدة",
+            "info": "اختر مدة تصنيف المنتجات على أنها \"جديدة\" بدءًا من يوم إنشائها."
+          }
+        },
+        "pre_order": {
+          "label": "النظام السابق"
+        },
+        "sold_out": {
+          "label": "نفذ",
+          "show_sold_out": {
+            "label": "عرض بيعت بالكامل"
+          }
+        },
+        "custom_badge": {
+          "label": "شارة مخصصة",
+          "info": "يرجى اتباع المستند لمعرفة [كيفية إعداد شارة مخصصة](https://nextsky.gitbook.io/purity-theme/theme-settings/badges#id-5.-custom-badge)"
+        }
+      }
+    },
+    "color_swatches": {
+      "name": "عينات اللون",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/color-swatch)"
+      },
+      "settings": {
+        "hide_sold_out_variant": {
+          "label": "إخفاء المتغيرات المباعة"
+        },
+        "show_sale_in_variant_swatch": {
+          "label": "عرض البيع في عينة مختلفة"
+        },
+        "color_limit": {
+          "label": "الحد الأقصى من العينات للعرض"
+        },
+        "color_swatch_trigger": {
+          "label": "مشغل حامل اللون",
+          "info": "تحديد اسم خيار اللون. افصل بفاصلة. على سبيل المثال. اللون، اللون"
+        },
+        "color_swatch_type": {
+          "label": "نوع سواتش",
+          "options__1": {
+            "label": "صورة بديلة"
+          },
+          "options__2": {
+            "label": "لون"
+          }
+        },
+        "color_swatch_shape": {
+          "label": "شكل اللون",
+          "options__1": {
+            "label": "دائري"
+          },
+          "options__2": {
+            "label": "مربع"
+          }
+        },
+        "color_swatch_custom": {
+          "label": "ألوان مخصصة",
+          "info": "التنسيق الصالح: Muesli: #ddd5bc أو Muesli: image.png مفصولاً بفاصلة"
+        }
+      }
+    },
+    "cart": {
+      "name": "عربة",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/cart)"
+      },
+      "settings": {
+        "cart_action_desktop": {
+          "label": "الإجراء بعد إضافة سلة التسوق على سطح المكتب",
+          "drawer": "درج",
+          "page": "صفحة",
+          "added_message": "إشعار منبثق"
+        },
+        "cart_mobile": {
+          "label": "إعدادات الجوال",
+          "action": {
+            "label": "الإجراء بعد إضافة سلة التسوق",
+            "info": "حدد ما يحدث بعد أن يضيف العميل منتجًا إلى سلة التسوق على الهاتف المحمول.",
+            "option_1": "فتح عربة صغيرة",
+            "option_2": "رسالة الإخطار",
+            "option_3": "افتح العربة مرة واحدة، وأخطر بعد ذلك"
+          },
+          "open_cart": {
+            "label": "عربة مفتوحة كما",
+            "info": "اختر كيفية فتح عربة التسوق عند النقر على أيقونة عربة التسوق في الرأس وشريط التنقل على الهاتف المحمول.",
+            "option_1": "درج",
+            "option_2": "يظهر فجأة"
+          }
+        },
+        "cart_icon": {
+          "label": "أيقونة سلة التسوق",
+          "shopping_cart": "عربة التسوق",
+          "shopping_bag": "كيس التسوق"
+        },
+        "free_shipping": {
+          "label": "رسالة الشحن المجاني",
+          "paragraph": "تأكد من تكوين [أسعار الشحن](/admin/settings/shipping) بشكل صحيح.",
+          "message": {
+            "label": "رسالة",
+            "info": "استخدم [amount] لتتبع تقدمك نحو التأهل للشحن المجاني."
+          },
+          "minimum_amount": {
+            "label": "الشحن المجاني الحد الأدنى للمبلغ",
+            "info": "استخدم الأرقام المستديرة. استبعاد العملة والرموز والحروف."
+          }
+        },
+        "term_and_conditions": {
+          "label": "الشروط والأحكام",
+          "enable": "إظهار خانة الاختيار في عربة التسوق الصغيرة وصفحة العربة.",
+          "text": "نص"
+        },
+        "cart_count_down": {
+          "label": "العد التنازلي للعربة",
+          "show_duration": {
+            "label": "عرض على صفحة عربة التسوق الصغيرة وعربة التسوق"
+          },
+          "duration": {
+            "label": "مدة"
+          }
+        },
+        "product_recommendations": {
+          "label": "توصيات المنتج",
+          "heading": "عنوان",
+          "enable_product_recommendations": "تمكين توصيات المنتج",
+          "enable_product_recommendations_info": "سيتم عرض توصيات المنتج على صفحة العربة الصغيرة والعربة.",
+          "recommendation_product_type": {
+            "label": "نوع توصيات المنتج",
+            "auto": "آلي",
+            "selected": "مختارة"
+          },
+          "select_product_recommendation": "منتج",
+          "show_on_mobile": {
+            "label": "عرض على الجوال"
+          }
+        },
+        "gift_wrap": {
+          "label": "غلاف هدية المنتج",
+          "select_product_gift_wrap": {
+            "label": "منتج",
+            "info": "يعمل فقط مع المنتجات التي لا تحتوي على متغيرات."
+          }
+        },
+        "empty": {
+          "label": "إعدادات سلة التسوق الفارغة",
+          "heading": "عنوان",
+          "description": "وصف",
+          "collection": {
+            "label": "قائمة المجموعة",
+            "info": "ستعرض المجموعات صورتها المميزة بشكل افتراضي. استخدم حقل التعريف لتغيير الصورة والنص. يتعلم أكثر"
+          },
+          "button_text": "نص الزر",
+          "button_link": {
+            "label": "رابط الزر",
+            "info": "الافتراضي هو جمع كل الصفحة"
+          },
+          "free_shipping": {
+            "label": "رسالة الشحن المجاني"
+          },
+          "empty_cart_layout": {
+            "label": "تخطيط عربة فارغة",
+            "option_1": "قائمة",
+            "option_2": "شبكة"
+          }
+        }
+      }
+    },
+    "search": {
+      "name": "سلوك البحث",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/search-behavior)"
+      },
+      "settings": {
+        "type": {
+          "label": "يكتب",
+          "info": "الدرج هو التخطيط الافتراضي على الهاتف المحمول.",
+          "option_1": "يظهر فجأة",
+          "option_2": "درج"
+        },
+        "search_placeholder": {
+          "label": "البحث في العنصر النائب"
+        },
+        "search_results": {
+          "label": "عرض النتائج",
+          "option_1": "افتراضي",
+          "option_2": "فاتورة غير مدفوعة"
+        },
+        "recommendations": {
+          "popular_keywords": {
+            "label": "بحث شعبي",
+            "info": "قم بالتوصية بالكلمات الرئيسية التي تم البحث عنها في متجرك للعملاء. على سبيل المثال: تي شيرت، فستان، أسود."
+          },
+          "products_recommended": {
+            "label": "توصية المنتجات",
+            "info": "حدد منتجًا للتوصية به للعملاء."
+          },
+          "collections_recommended": {
+            "label": "توصية المجموعات",
+            "info": "يظهر فقط في نافذة البحث المنبثقة على سطح المكتب."
+          },
+          "search_suggestions": {
+            "label": "تمكين اقتراحات البحث"
+          }
+        },
+        "results": {
+          "label": "نتائج البحث"
+        },
+        "predictive_search": {
+          "label": "تمكين البحث التنبؤي",
+          "info": "نتائج البحث الحية. غير متوفر بجميع اللغات. [مزيد من المعلومات](https://shopify.dev/themes/navigation-search/search/predictive-search#general-requirements-and-limitations)"
+        },
+        "show_search_history": {
+          "label": "عرض سجل البحث"
+        },
+        "show_vendor": {
+          "label": "عرض بائع المنتج"
+        },
+        "show_price": {
+          "label": "عرض سعر المنتج"
+        }
+      }
+    },
+    "social_media": {
+      "name": "وسائل التواصل الاجتماعي",
+      "how_to_use": {
+        "label": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/social-media)"
+      },
+      "settings": {
+        "social_account": {
+          "label": "الحسابات الاجتماعية",
+          "facebook": {
+            "label": "فيسبوك",
+            "info": "https://facebook.com/shopify"
+          },
+          "instagram": {
+            "label": "انستغرام",
+            "info": "http://instagram.com/shopify"
+          },
+          "twitter": {
+            "label": "تغريد",
+            "info": "https://twitter.com/shopify"
+          },
+          "tiktok": {
+            "label": "تيكتوك",
+            "info": "https://tiktok.com/@shopify"
+          },
+          "pinterest": {
+            "label": "بينتريست",
+            "info": "https://pinterest.com/shopify"
+          },
+          "youtube": {
+            "label": "يوتيوب",
+            "info": "https://www.youtube.com/shopify"
+          },
+          "vimeo": {
+            "label": "فيميو",
+            "info": "https://vimeo.com/shopify"
+          },
+          "linkedin": {
+            "label": "ينكدين",
+            "info": "https://linkedin.com/company/shopify"
+          },
+          "whatsapp": {
+            "label": "واتس اب",
+            "info": "https://www.whatsapp.com/shopify"
+          },
+          "snapchat": {
+            "label": "سناب شات",
+            "info": "https://www.snapchat.com/add/shopify"
+          }
+        },
+        "sharing_options": {
+          "label": "خيارات المشاركة",
+          "facebook": {
+            "label": "شارك على الفيسبوك"
+          },
+          "pinterest": {
+            "label": "شارك على بينتيريست"
+          },
+          "twitter": {
+            "label": "شارك على تويتر"
+          },
+          "whatsapp": {
+            "label": "شارك على الواتساب"
+          },
+          "email": {
+            "label": "مشاركة على البريد الإلكتروني"
+          }
+        }
+      }
+    },
+    "currency": {
+      "name": "تنسيق العملة",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/currency-format)",
+      "settings": {
+        "code": {
+          "label": "رموز العملة",
+          "show_code": {
+            "label": "إظهار رموز العملات",
+            "info": "تعرض أسعار سلة التسوق والخروج دائمًا رموز العملات. مثال: 1.00 دولار أمريكي."
+          }
+        }
+      }
+    },
+    "script_tracking": {
+      "name": "التتبع والرؤى",
+      "settings": {
+        "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-settings/tracking-and-insights)",
+        "scripts_tracking": {
+          "label": "مقتطف الكود",
+          "info": "أضف مقتطف الشفرة الخاص بك للتتبع والرؤى"
+        },
+        "appended_scripts": {
+          "label": "تم إلحاق الموقف",
+          "body": "علامة الجسم",
+          "head": "علامة الرأس"
+        }
+      }
+    }
+  },
+  "content": {
+    "manage_customer_accounts": "[Manage visibility](/admin/settings/customer_accounts) في إعدادات حساب العميل. الحسابات القديمة غير مدعومة."
+  },
+  "sections": {
+    "all": {
+      "general": "عام",
+      "how_to_use": "[كيفية الاستخدام](https://help.shopify.com/en/manual/online-store/store-speed/improving-speed#fonts)",
+      "layout": {
+        "label": "عرض القسم",
+        "fix_width": "عرض ثابت",
+        "stretch_width": "عرض تمتد",
+        "full_width": "العرض الكامل"
+      },
+      "colors": {
+        "label": "نظام الألوان",
+        "info": "لتعديل جميع ألوان المظهر، انتقل إلى [إعدادات سمة الألوان](/editor?context=theme&category=colors). تأكد من تباين النص الواضح لتجربة مستخدم أفضل."
+      },
+      "desktop_content_position": {
+        "label": "موقف محتوى سطح المكتب",
+        "info": "يتم تحسين الموضع تلقائيًا للجوال.",
+        "info_2": "المحتوى أولاً هو تخطيط الهاتف المحمول الافتراضي.",
+        "group": {
+          "label": "مجموعة",
+          "info": "تجميع المحتوى ليتم عرضه في نفس الموضع.",
+          "top": {
+            "label": "قمة"
+          },
+          "middle": {
+            "label": "وسط"
+          },
+          "bottom": {
+            "label": "قاع"
+          },
+          "none": {
+            "label": "بدون"
+          }
+        },
+        "options__1": {
+          "label": "أعلى اليسار"
+        },
+        "options__2": {
+          "label": "المركز العلوي"
+        },
+        "options__3": {
+          "label": "أعلى اليمين"
+        },
+        "options__4": {
+          "label": "منتصف اليسار"
+        },
+        "options__5": {
+          "label": "المركز الأوسط"
+        },
+        "options__6": {
+          "label": "اليمين الأوسط"
+        },
+        "options__7": {
+          "label": "أسفل اليسار"
+        },
+        "options__8": {
+          "label": "المركز السفلي"
+        },
+        "options__9": {
+          "label": "أسفل اليمين"
+        }
+      },
+      "padding": {
+        "section_padding_heading": "حشوة القسم",
+        "padding_inline": {
+          "label": "الحشو مضمنة",
+          "info": "يتم تحسين الحشو المضمن تلقائيًا للجوال."
+        },
+        "padding_block": {
+          "label": "كتلة الحشو",
+          "info": "تم تحسين كتلة الحشو تلقائيًا للجوال."
+        },
+        "padding_top": "قمة",
+        "padding_bottom": "قاع",
+        "padding_left": "غادر",
+        "padding_right": "يمين",
+        "spacing_bottom": "تباعد القاع",
+        "spacing": "تباعد",
+        "image_spacing": "تباعد الصور",
+        "space_between": "الفضاء بين",
+        "column_gap": {
+          "label": "فجوة العمود",
+          "no_gap": "لا فجوة",
+          "small": "صغير",
+          "medium": "واسطة",
+          "large": "كبير",
+          "x_large": "كبير جدًا"
+        }
+      },
+      "space_between": {
+        "label": "المسافة بين العناصر",
+        "option__1": {
+          "label": "صغير"
+        },
+        "option__2": {
+          "label": "واسطة"
+        },
+        "option__3": {
+          "label": "كبير"
+        }
+      },
+      "width": {
+        "label": "عرض",
+        "fill": "يملأ",
+        "fit": "ملائم"
+      },
+      "columns": {
+        "label": "عدد الأعمدة"
+      },
+      "items_to_show": {
+        "label": "الحد الأقصى للعناصر التي سيتم عرضها"
+      },
+      "product_to_show": {
+        "label": "الحد الأقصى من المنتجات للعرض"
+      },
+      "text_alignment": {
+        "label": "محاذاة المحتوى",
+        "alignment": "تنسيق",
+        "options__1": {
+          "label": "غادر"
+        },
+        "options__2": {
+          "label": "مركز"
+        },
+        "options__3": {
+          "label": "يمين"
+        }
+      },
+      "content": {
+        "label": "محتوى"
+      },
+      "text": {
+        "label": "نص"
+      },
+      "content_position": {
+        "label": "موقف المحتوى",
+        "options__1": {
+          "label": "صورة تراكب",
+          "top": "قمة",
+          "middle": "وسط",
+          "bottom": "قاع",
+          "text_above_button": "زر النص أعلاه"
+        },
+        "options__2": {
+          "label": "الصورة أدناه"
+        }
+      },
+      "section_setting": {
+        "page_heading": {
+          "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "label": "عنوان الصفحة",
+          "description": {
+            "label": "محتوى",
+            "info": "اترك الوصف فارغًا لاستخدام وصف الصفحة الافتراضي"
+          },
+          "heading": {
+            "label": "عنوان"
+          },
+          "breadcrumb": {
+            "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/breadcrumb)",
+            "label": "مسار التنقل"
+          }
+        },
+        "enable_rounded_style": {
+          "label": "تمكين النمط المستدير",
+          "info": "لا تعمل إلا عند وجود شريط الإعلانات في مجموعة الرأس، أعلى الرأس."
+        }
+      },
+      "content_setting": {
+        "label": "إعدادات المحتوى",
+        "image": {
+          "label": "صورة"
+        },
+        "subheading": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "label": "عنوان فرعي"
+        },
+        "highlight_text": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/basic/highlight-text)",
+          "label": "تسليط الضوء على النص",
+          "settings": {
+            "icons": {
+              "label": "حدد الرمز",
+              "options__1": {
+                "label": "بدون"
+              },
+              "options__2": {
+                "label": "نجم"
+              },
+              "options__3": {
+                "label": "نقطة"
+              },
+              "options__4": {
+                "label": "تخفيض"
+              }
+            }
+          }
+        },
+        "heading": {
+          "label": "عنوان",
+          "info": "أضف تسطيرًا عن طريق التفاف النص بخط مائل. استخدم الزر المائل (I) في المحرر لتطبيقه."
+        },
+        "heading_highlight": {
+          "label": "نص العنوان المميز",
+          "how_to_use": "[تعرّف على كيفية استخدام هذا الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/basic/heading-highlight-text)"
+        },
+        "detail_list": {
+          "label": "قائمة التفاصيل",
+          "detail_row": {
+            "label": "صف التفاصيل",
+            "row_title": "عنوان الصف",
+            "row_details": "تفاصيل الصف"
+          }
+        },
+        "description": {
+          "label": "وصف",
+          "hide_on_mobile": {
+            "label": "إخفاء الوصف على الجوال"
+          },
+          "how_to_use": "[تعرّف على كيفية استخدام هذا الكتلة](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/product-information#id-7.-description)",
+          "description": "اعرض وصف منتجك. يستخدم حقل metafield للوصف المختصر إن وُجد، وإلا يعود إلى وصف المنتج الافتراضي. لمزيد من المعلومات، تفضل بزيارة [صفحة الدعم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/product-information#id-7.-description)."
+        },
+        "ciration": {
+          "label": "التنسيق"
+        },
+        "content": "محتوى",
+        "button_label": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "label": "نص الزر",
+          "info": "اترك التسمية فارغة لإخفاء الزر."
+        },
+        "button_label-block": {
+          "name": "ملصق",
+          "label": "زر"
+        },
+        "link": {
+          "label": "رابط",
+          "info": "ملاحظة: يعمل إعداد الارتباط هذا فقط مع الصور، وليس مقاطع الفيديو."
+        },
+        "first_button_label": {
+          "name": "الزر الأول",
+          "label": "نص الزر",
+          "link": "رابط الزر"
+        },
+        "second_button_label": {
+          "name": "الزر الثاني",
+          "label": "نص الزر",
+          "link": "رابط الزر"
+        },
+        "button_type": {
+          "label": "يكتب",
+          "primary": {
+            "label": "أساسي"
+          },
+          "outline": {
+            "label": "الخطوط العريضة"
+          },
+          "link": {
+            "label": "رابط"
+          }
+        },
+        "show_view_all_button": {
+          "label": "إظهار زر عرض الكل",
+          "label_text": "نص الزر",
+          "default_text": "عرض جميع المنتجات",
+          "default": "عرض الكل"
+        },
+        "open_link_in_new_tab": {
+          "label": "افتح الرابط في علامة تبويب جديدة"
+        },
+        "drawn_underline": {
+          "label": "تفعيل الرسوم المتحركة التي تحتها خط تحت العنوان",
+          "type": "تسطير النمط",
+          "value": {
+            "simple_underline": "تسطير بسيط",
+            "curve_underline": "ضربة منحنى",
+            "squiggle_underline": "تمايل تسطير"
+          },
+          "color": "تسطير اللون"
+        }
+      },
+      "content_header": {
+        "label": "رأس القسم",
+        "heading_size": {
+          "label": "حجم العنوان",
+          "size": "مقاس",
+          "xs_small": {
+            "label": "XS-صغير"
+          },
+          "x_small": {
+            "label": "صغير جدًا"
+          },
+          "small": {
+            "label": "صغير"
+          },
+          "medium": {
+            "label": "متوسط"
+          },
+          "large": {
+            "label": "كبير"
+          },
+          "x_large": {
+            "label": "كبير جدًا"
+          },
+          "base": {
+            "label": "حجم القاعدة"
+          },
+          "options__1": {
+            "label": "العنوان 1"
+          },
+          "options__2": {
+            "label": "العنوان 2"
+          },
+          "options__3": {
+            "label": "العنوان 3"
+          },
+          "options__4": {
+            "label": "العنوان 4"
+          },
+          "options__5": {
+            "label": "العنوان 5"
+          },
+          "options__6": {
+            "label": "العنوان 6"
+          },
+          "options__7": {
+            "label": "العنوان 7"
+          },
+          "options__0": {
+            "label": "العنوان 0"
+          }
+        }
+      },
+      "blog_setting": {
+        "show_category": "إظهار الفئة",
+        "show_tags": "إظهار العلامات",
+        "show_date": "تاريخ العرض",
+        "show_author": "عرض المؤلف",
+        "show_excerpt": "عرض مقتطفات"
+      },
+      "media": {
+        "label": "يكتب"
+      },
+      "image": {
+        "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/basic/image)",
+        "label": "صورة",
+        "image_setting": "إعدادات الصورة",
+        "width": "عرض الصورة",
+        "info_width": "يتم تحسين الصورة تلقائيًا للجوال.",
+        "mobile_image": "صورة الجوال",
+        "thumb_image": "صورة مصغرة",
+        "mobile_image_width": "عرض صورة الجوال",
+        "aspect_ratio": {
+          "label": "نسبة الصورة",
+          "label_mb": "نسبة الصورة على الهاتف المحمول",
+          "label_video": "نسبة الفيديو",
+          "options__1": "مربع (1:1)",
+          "options__2": "صورة شخصية (3:4)",
+          "options__3": "منظر طبيعي (4:3)",
+          "options__4": "نفس سطح المكتب",
+          "adapt": "التكيف مع الصورة"
+        },
+        "desktop_position": {
+          "label": "موقف صورة سطح المكتب",
+          "top": "قمة",
+          "right": "يمين",
+          "bottom": "قاع",
+          "left": "غادر",
+          "info": "سيتم عرض الصورة فوق النص على الهاتف المحمول."
+        },
+        "desktop_image_width": {
+          "label": "عرض صورة سطح المكتب",
+          "info": "يتم تحسين عرض الصورة تلقائيًا للجوال."
+        }
+      },
+      "video": {
+        "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/basic/video)",
+        "label": "فيديو",
+        "info": "يتجاوز إعداد الصورة",
+        "settings": {
+          "source": {
+            "label": "مصدر",
+            "uploaded_video": {
+              "label": "فيديو محلي"
+            },
+            "external_link": {
+              "label": "رابط فيديو خارجي"
+            }
+          }
+        },
+        "width": "عرض الفيديو",
+        "info_width": "يتم تحسين الفيديو تلقائيًا للجوال.",
+        "width_unit_type": {
+          "label": "نوع وحدة العرض",
+          "options": {
+            "percent": {
+              "label": "النسبة المئوية (٪)"
+            },
+            "px": {
+              "label": "بكسل (بكسل)"
+            }
+          }
+        }
+      },
+      "video_mobile": {
+        "label": "فيديو جوال"
+      },
+      "svg": {
+        "label": "أيقونة إس في جي",
+        "custom_svg": {
+          "label": "SVG مخصص",
+          "info": "يتجاوز إعداد الصورة."
+        }
+      },
+      "icon": {
+        "label": "أيقونة SVG",
+        "none": {
+          "label": "بدون"
+        },
+        "cruelty": {
+          "label": "القسوة"
+        },
+        "paraben": {
+          "label": "بارابين"
+        },
+        "privacy-protection": {
+          "label": "حماية الخصوصية"
+        },
+        "secure-shopping": {
+          "label": "التسوق الآمن"
+        },
+        "guarantee": {
+          "label": "يضمن"
+        },
+        "account": {
+          "label": "حساب"
+        },
+        "leaf": {
+          "label": "ورقة"
+        },
+        "moon": {
+          "label": "قمر"
+        },
+        "hive": {
+          "label": "خلية"
+        },
+        "comb": {
+          "label": "مشط"
+        },
+        "free_shipping": {
+          "label": "ًالشحن مجانا"
+        },
+        "check_badge": {
+          "label": "شارة التحقق"
+        },
+        "message_communications": {
+          "label": "اتصالات الرسائل"
+        },
+        "circular-text": {
+          "label": "نص دائري"
+        },
+        "beauty": {
+          "label": "وجه"
+        },
+        "line": {
+          "label": "خط"
+        },
+        "droplet": {
+          "label": "قطيرة"
+        },
+        "smooth": {
+          "label": "سلس"
+        },
+        "shield": {
+          "label": "درع"
+        },
+        "balloon": {
+          "label": "بالون"
+        },
+        "brightening": {
+          "label": "اشراق"
+        },
+        "hydration": {
+          "label": "الترطيب"
+        },
+        "coptic_cross": {
+          "label": "الصليب القبطي"
+        },
+        "coil": {
+          "label": "لفائف"
+        },
+        "verified": {
+          "label": "تم التحقق منه"
+        },
+        "security": {
+          "label": "حماية"
+        },
+        "package": {
+          "label": "طَرد"
+        },
+        "returns": {
+          "label": "المرتجعات"
+        }
+      },
+      "carousel": {
+        "header": "إعدادات دائري",
+        "enable_carousel": {
+          "label": "تمكين الرف الدائري",
+          "description": "يتم عرض الرف الدائري فقط عندما يكون إجمالي المجموعات أكبر من العناصر الموجودة في كل صف على سطح المكتب.",
+          "description_media": "يتم عرض الرف الدائري فقط عندما يكون إجمالي الوسائط أكبر من العناصر الموجودة في كل صف على سطح المكتب."
+        },
+        "pagination": {
+          "label": "ترقيم الصفحات"
+        },
+        "show_navigation": {
+          "label": "إظهار الملاحة"
+        },
+        "show_pagination": {
+          "label": "إظهار ترقيم الصفحات",
+          "info": "سيتم عرض ترقيم الصفحات تلقائيًا على الهاتف المحمول إذا قمت بعرض عدد العناصر على الهاتف المحمول كـ 1 أو 2",
+          "info_flexible": "عندما يكون \"الرف الدائري في الهاتف المحمول\" وترقيم الصفحات للقسم المرن نشطين، سيتم إخفاء ترقيم الصفحات للكتلة الفردية لمنع تعارض التخطيط.",
+          "info_single": "سيتم عرض ترقيم الصفحات تلقائيًا على الهاتف المحمول.",
+          "type": {
+            "label": "أسلوب ترقيم الصفحات",
+            "progress_bar": "شريط التقدم",
+            "dot": "النقاط"
+          }
+        },
+        "show_pagination_mobile": {
+          "label": "إظهار ترقيم الصفحات على الهاتف المحمول"
+        },
+        "hidden_pagination": {
+          "label": "إخفاء ترقيم الصفحات"
+        },
+        "reveal_slide": {
+          "label": "كشف الشريحة التالية",
+          "info": "عرض جزء من الشريحة القادمة."
+        },
+        "enable_carousel_mobile": {
+          "label": "تمكين الرف الدائري على الهاتف المحمول"
+        },
+        "change_slide_every": "تغيير الشرائح كل",
+        "slide_auto_change": "شريحة التغيير التلقائي"
+      },
+      "mobile_options": {
+        "label": "إعدادات الجوال",
+        "mobile_layout": {
+          "label": "تخطيط المحمول",
+          "show_text_bellow": {
+            "label": "إظهار النص أدناه على الهاتف المحمول",
+            "info": "سيتم عرض النص أدناه الصورة على الهاتف المحمول."
+          },
+          "hidden_on_mobile": {
+            "label": "إخفاء على الهاتف المحمول"
+          },
+          "hidden_description_on_mobile": {
+            "label": "إخفاء الوصف على الجوال"
+          }
+        }
+      },
+      "items": {
+        "items_per_row": "العناصر لكل صف",
+        "items_per_row_mobile": "العناصر لكل صف على الهاتف المحمول"
+      },
+      "columns_desktop": {
+        "label": "العناصر لكل صف على سطح المكتب"
+      },
+      "newsletter_setting": {
+        "email_placeholder": "العنصر النائب للبريد الإلكتروني",
+        "button_label": "نص الزر"
+      },
+      "pagination_type": {
+        "label": "نوع ترقيم الصفحات",
+        "options__1": {
+          "label": "رقم الصفحة"
+        },
+        "options__2": {
+          "label": "زر تحميل المزيد"
+        },
+        "options__3": {
+          "label": "التمرير اللانهائي"
+        }
+      },
+      "product_setting": {
+        "badges": {
+          "name": "شارات"
+        },
+        "notify": {
+          "name": "إخطار إعادة تخزين المنتج"
+        },
+        "live_view": {
+          "name": "عرض حي",
+          "settings": {
+            "min_number": "رقم الحد الأدنى",
+            "max_number": "العدد الأقصى",
+            "interval_time": "الوقت الفاصل",
+            "content": "محتوى",
+            "show_icon_eye": {
+              "label": "إظهار الأيقونة"
+            }
+          },
+          "info": "يحاكي نشاط المنتج من خلال إظهار عدد المشاهدات المباشرة، مما يساعد على تعزيز الإلحاح والإثبات الاجتماعي ومعدلات التحويل."
+        },
+        "shop_the_look": {
+          "name": "تسوق المظهر",
+          "settings": {
+            "heading": {
+              "label": "عنوان"
+            }
+          },
+          "description": "اقترح منتجات ذات صلة لإكمال الإطلالة. لمزيد من المعلومات، تفضل بزيارة [صفحة الدعم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/product-information)"
+        },
+        "stock_countdown": {
+          "name": "العد التنازلي للأسهم",
+          "settings": {
+            "message": {
+              "label": "رسالة",
+              "info": "استخدم الرمز القصير [count] لعرض الكمية المتبقية من المنتجات في المخزون. يمكنك إزالة هذا الرمز القصير أو وضعه في أي مكان"
+            },
+            "stock_items": {
+              "label": "عناصر المخزون",
+              "info": "إظهار متى يكون المخزون أقل من (X) من العناصر"
+            }
+          }
+        },
+        "product_meta": {
+          "name": "تعريف المنتج",
+          "settings": {
+            "show_sku": {
+              "label": "إظهار رمز التخزين التعريفي"
+            },
+            "show_collections": {
+              "label": "عرض المجموعات"
+            },
+            "show_tags": {
+              "label": "إظهار العلامات"
+            },
+            "show_type": {
+              "label": "نوع العرض"
+            }
+          }
+        },
+        "collapsible_row": {
+          "name": "صف الأكورديون",
+          "settings": {
+            "info": "قم بتضمين عنوان يشرح المحتوى.",
+            "content": "محتوى الصف",
+            "content_page": "صف المحتوى من الصفحة"
+          }
+        },
+        "accordion_row_drawer": {
+          "name": "درج صف الأكورديون",
+          "settings": {
+            "info": "قم بتضمين عنوان يشرح المحتوى.",
+            "content": "محتوى الصف",
+            "content_page": "صف المحتوى من الصفحة"
+          }
+        },
+        "model_size": {
+          "name": "حجم النموذج",
+          "settings": {
+            "paragraph": {
+              "content": "تعرف على المقاس الذي ترتديه العارضة، بالإضافة إلى الطول والوزن والقياسات. [تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/basic/video)"
+            }
+          }
+        },
+        "title": {
+          "name": "عنوان المنتج"
+        },
+        "title-inline": {
+          "name": "عنوان المنتج المضمن"
+        },
+        "price": {
+          "name": "سعر"
+        },
+        "rating": {
+          "name": "تصنيف المنتج",
+          "settings": {
+            "paragraph": {
+              "content": "لعرض التقييم، قم بإضافة تطبيق تقييم المنتج. [مزيد من المعلومات](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-rating-block)"
+            }
+          }
+        },
+        "variant_picker": {
+          "name": "منتقي البديل",
+          "settings": {
+            "picker_type": {
+              "label": "يكتب",
+              "options__1": {
+                "label": "اسقاط"
+              },
+              "options__2": {
+                "label": "حبوب"
+              }
+            },
+            "size_guide": {
+              "heading": "مخطط الحجم",
+              "info": "احصل على معلومات مخطط الحجم من الصفحة المحددة.",
+              "settings": {
+                "size_trigger": {
+                  "label": "حجم الزناد",
+                  "info": "تحديد اسم خيار الحجم. افصل بفاصلة. على سبيل المثال. الحجم، ميسوراري"
+                },
+                "show_size_guide": "عرض حجم الرسم البياني",
+                "show_size_recommendation": "عرض توصية الحجم",
+                "how_to_use_recommendation": "[تعرف على كيفية استخدام الحجم الموصى به](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/size-recommendation)",
+                "size_guide_label": "تسمية الرسم البياني للحجم",
+                "size_guide_page": "صفحة الرسم البياني للحجم",
+                "footer_content": "محتوى التذييل",
+                "custom_size_guide": {
+                  "label": "مخطط حجم مخصص",
+                  "info__1": "استخدام مخططات مقاسات محددة لكل مجموعة أو منتج.",
+                  "info__2": "لاستخدام مخططات حجم مخصصة للمنتج أو المجموعة، قم بإنشاء حقل تعريف بمساحة الاسم والمفتاح: \"custom.size_chart\".[مزيد من المعلومات](https://nextsky-doc.gitbook.io/angle/theme-installation/create-required-metafields#id-3.-size-chart)"
+                }
+              }
+            }
+          }
+        },
+        "buy_buttons": {
+          "name": "شراء الأزرار",
+          "settings": {
+            "show_dynamic_checkout": {
+              "label": "إظهار أزرار الخروج الديناميكية",
+              "info": "باستخدام طرق الدفع المتوفرة في متجرك، يرى العملاء خيارهم المفضل، مثل PayPal أو Apple Pay. [مزيد من المعلومات](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+            },
+            "show_gift_card_recipient": {
+              "label": "إظهار نموذج معلومات المستلم لبطاقات الهدايا",
+              "info": "يسمح للمشترين بإرسال بطاقات الهدايا في تاريخ محدد مع رسالة شخصية. [مزيد من المعلومات](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+            }
+          }
+        },
+        "subscription_widget": {
+          "name": "أداة الاشتراك",
+          "settings": {
+            "info": "يعرض الشراء لمرة واحدة وبطاقة منفصلة لكل مجموعة خطط بيع. ضع هذا الكتلة فوق أزرار الشراء.",
+            "one_time_purchase_title": {
+              "label": "عنوان الشراء لمرة واحدة"
+            },
+            "one_time_purchase_description": {
+              "label": "وصف الشراء لمرة واحدة"
+            },
+            "subscription_description": {
+              "label": "وصف الاشتراك"
+            },
+            "show_price": {
+              "label": "إظهار السعر"
+            },
+            "show_discount_badge": {
+              "label": "إظهار شارة الخصم"
+            }
+          }
+        },
+        "share": {
+          "name": "يشارك"
+        },
+        "complementary_products": {
+          "name": "المنتجات التكميلية",
+          "settings": {
+            "paragraph": {
+              "content": "لتحديد المنتجات التكميلية، قم بإضافة تطبيق البحث والاكتشاف. [مزيد من المعلومات](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+            },
+            "product_list_limit": {
+              "label": "الحد الأقصى من المنتجات للعرض"
+            },
+            "products_per_row": {
+              "label": "عدد المنتجات لكل صف"
+            }
+          }
+        },
+        "pickup_avaiability": {
+          "name": "توافر بيك اب"
+        },
+        "media_lightbox": {
+          "name": "صندوق الوسائط المبسط",
+          "settings": {
+            "enable_sticky": {
+              "label": "تمكين لزجة على سطح المكتب"
+            }
+          },
+          "description": "اعرض صورًا أو مقاطع فيديو حقيقية لمنتجك أثناء الاستخدام. لمزيد من المعلومات، تفضل بزيارة [صفحة الدعم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/product-information#id-16.-media-lightbox)"
+        },
+        "highlights": {
+          "name": "أبرز",
+          "description": "اعرض أهم نقاط البيع لمنتجك. لمزيد من المعلومات، تفضل بزيارة [صفحة الدعم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/product-information#id-8.-highlights)"
+        },
+        "key_features": {
+          "name": "الميزات الرئيسية",
+          "description": "اذكر الميزات والفوائد الرئيسية لمنتجك. لمزيد من المعلومات، تفضل بزيارة [صفحة الدعم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/product-information#id-9.-key-features)"
+        },
+        "ask_question": {
+          "name": "اطرح سؤالاً"
+        },
+        "promotion_countdown": {
+          "name": "العد التنازلي للترويج",
+          "show_countdown_units": {
+            "label": "عرض وحدات العد التنازلي"
+          },
+          "description": "أضف مؤقت عد تنازلي لخلق إلحاح لعرض منتجك. لمزيد من المعلومات، تفضل بزيارة [صفحة الدعم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/product-information#id-11.-promotion-countdown)."
+        },
+        "promotion_alert": {
+          "name": "تنبيه الترويج",
+          "heading": {
+            "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+            "label": "عنوان"
+          },
+          "description": {
+            "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+            "label": "وصف"
+          },
+          "text_color": {
+            "label": "لون النص"
+          }
+        },
+        "icon_with_text": {
+          "name": "أيقونة مع النص",
+          "heading": {
+            "label_1": "أيقونة مع النص 1",
+            "label_2": "أيقونة مع النص 2",
+            "label_3": "أيقونة مع النص 3",
+            "label_4": "أيقونة مع النص 4",
+            "label_5": "أيقونة مع النص 5"
+          },
+          "info": "سيتم إخفاء هذا المحتوى تلقائيًا على الهاتف المحمول.",
+          "svg": {
+            "label": "أيقونة إس في جي"
+          },
+          "content": {
+            "label": "محتوى"
+          },
+          "icon": {
+            "label": "رمز",
+            "none": {
+              "label": "بدون"
+            },
+            "free_shipping": {
+              "label": "ًالشحن مجانا"
+            },
+            "check_badge": {
+              "label": "شارة التحقق"
+            },
+            "message_communications": {
+              "label": "اتصالات الرسائل"
+            },
+            "boat": {
+              "label": "قارب"
+            },
+            "truck": {
+              "label": "شاحنة"
+            },
+            "question": {
+              "label": "سؤال"
+            },
+            "secure": {
+              "label": "يؤمن"
+            },
+            "protection": {
+              "label": "حماية"
+            },
+            "location": {
+              "label": "موقع"
+            },
+            "leaf": {
+              "label": "ورقة"
+            },
+            "blossom": {
+              "label": "زهر"
+            },
+            "payment": {
+              "label": "قسط"
+            },
+            "discount": {
+              "label": "تخفيض"
+            },
+            "order": {
+              "label": "طلب"
+            },
+            "return": {
+              "label": "يعود"
+            },
+            "return_package": {
+              "label": "حزمة العودة"
+            }
+          }
+        },
+        "inventory_status": {
+          "name": "حالة المخزون",
+          "settings": {
+            "inventory_threshold": {
+              "label": "عتبة المخزون منخفضة",
+              "info": "قم بتعيين هذه القيمة لتنبيه العملاء عندما يكون المنتج على وشك نفاد المخزون."
+            },
+            "inventory_base": {
+              "label": "الكمية الأساسية للمخزون",
+              "info": "قم بتعيين الكمية الأولية لمخزون المنتج الخاص بك لشريط التقدم."
+            },
+            "show_bar": {
+              "label": "إظهار شريط التقدم"
+            },
+            "show_transfer_notice": {
+              "label": "إظهار إشعار تحويل المخزون",
+              "info": "تعرف على كيفية إنشاء عمليات نقل المخزون [هنا](https://help.shopify.com/manual/products/inventory/transfers/create-transfer)"
+            }
+          }
+        }
+      },
+      "divider": {
+        "section_divider_heading": "مقسم القسم",
+        "show_divider": "إظهار المقسم"
+      }
+    },
+    "group": {
+      "product": "منتجات",
+      "collection": "المجموعات",
+      "storytelling": "رواية القصص",
+      "banners": "لافتات",
+      "blog": "مدونة",
+      "form": "النماذج",
+      "shopable": "التسوق",
+      "blocks": {
+        "basic": "أساسي",
+        "layout": "التخطيط",
+        "custom": "مخصص",
+        "forms": "النماذج"
+      },
+      "decorative": {
+        "name": "ديكور",
+        "jumbo_text": "نص جامبو",
+        "marquee": "سرادق",
+        "how_to_use_maquee": "[كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/decorative/marquee)"
+      },
+      "links": {
+        "name": "روابط",
+        "menu": "القائمة",
+        "how_to_use_menu": "[كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/theme-settings/typography)",
+        "how_to_use_popup_link": "[كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/links/popup-link)",
+        "popup_link": "الرابط المنبثق"
+      },
+      "general": {
+        "name": "عام",
+        "image_box": "مربع الصورة",
+        "image_box_use": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/overlay-group/search)"
+        },
+        "icon_list": "قائمة الأيقونات",
+        "icon_list_use": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/overlay-group/search)"
+        }
+      }
+    },
+    "overlay_group": {
+      "name": "مجموعة تراكب"
+    },
+    "search": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/overlay-group/search)",
+      "name": "بحث"
+    },
+    "footer": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/footer-group/footer)",
+      "name": "تذييل",
+      "settings": {
+        "enable_back_top": {
+          "label": "تمكين العودة إلى الأعلى"
+        },
+        "show_policy": {
+          "label": "روابط السياسة",
+          "info": "[إدارة السياسات](/admin/settings/legal)"
+        },
+        "social_icon": {
+          "content": "أيقونات وسائل التواصل الاجتماعي",
+          "info": "لعرض حسابات الوسائط الاجتماعية الخاصة بك، قم بربطها في إعدادات المظهر الخاص بك."
+        },
+        "country_language": {
+          "content": "محدد البلد/اللغة",
+          "info": "لإضافة بلد/منطقة، انتقل إلى [إعدادات السوق.](/admin/settings/markets). لإضافة لغة، انتقل إلى [إعدادات اللغة.](/admin/settings/languages)"
+        },
+        "enable_country_selector": {
+          "label": "تمكين محدد البلد/المنطقة"
+        },
+        "width": {
+          "options__1": "16%",
+          "options__2": "20%",
+          "options__3": "25%",
+          "options__4": "33%",
+          "options__5": "50%",
+          "options__6": "66%",
+          "options__7": "75%",
+          "options__8": "86%",
+          "options__9": "100%"
+        },
+        "enable_language_selector": {
+          "label": "تمكين محدد اللغة"
+        },
+        "payment": {
+          "content": "طرق الدفع"
+        },
+        "payment_enable": {
+          "label": "إظهار أيقونات الدفع"
+        },
+        "menu_policies": {
+          "label": "أسفل التذييل"
+        },
+        "header_follow": {
+          "content": "متابعة على المتجر",
+          "info": "للسماح للعملاء بمتابعة متجرك على تطبيق Shop من واجهة متجرك، يجب تمكين Shop Pay. [مزيد من المعلومات](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+        },
+        "enable_follow_on_shop": {
+          "label": "تمكين المتابعة على المتجر"
+        }
+      },
+      "blocks": {
+        "menu_block": {
+          "label": "القائمة"
+        },
+        "newsletter_block": {
+          "name": "النشرة الإخبارية",
+          "info": "تتم إضافة المشتركين تلقائيًا إلى قائمة عملاء \"التسويق المقبولين\" لديك. [مزيد من المعلومات](https://help.shopify.com/manual/customers/manage-customers)",
+          "settings": {
+            "note": {
+              "label": "ملحوظة"
+            },
+            "show_bg_social": {
+              "label": "إظهار خلفية الرموز الاجتماعية."
+            }
+          }
+        },
+        "contact_bar_block": {
+          "name": "شريط الاتصال",
+          "settings": {
+            "store_address": "عنوان",
+            "store_phone": "هاتف",
+            "store_email": "بريد إلكتروني",
+            "show_social": {
+              "label": "إظهار أيقونات وسائل التواصل الاجتماعي",
+              "info": "لعرض حسابات الوسائط الاجتماعية الخاصة بك، قم بربطها في إعدادات المظهر الخاص بك."
+            }
+          }
+        }
+      }
+    },
+    "header": {
+      "name": "رأس",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/global-sections/header-group/header)",
+      "settings": {
+        "logo_position": {
+          "label": "موقف شعار سطح المكتب",
+          "info": "يتم تحسين موضع الشعار تلقائيًا للجوال.",
+          "options__1": {
+            "label": "الشعار الأيسر، مركز القائمة"
+          },
+          "options__2": {
+            "label": "مركز الشعار، القائمة اليسرى"
+          }
+        },
+        "sticky_header_type": {
+          "label": "رأس لزجة",
+          "options__1": {
+            "label": "بدون"
+          },
+          "options__2": {
+            "label": "عند التمرير لأعلى"
+          },
+          "options__3": {
+            "label": "دائماً"
+          }
+        },
+        "menu": {
+          "label": "القائمة",
+          "menu_trigger": {
+            "label": "مشغل القائمة المنسدلة لسطح المكتب",
+            "options__1": {
+              "label": "انقر"
+            },
+            "options__2": {
+              "label": "تحوم"
+            }
+          },
+          "dropdowns_animation": {
+            "label": "الرسوم المتحركة المنسدلة",
+            "options__1": {
+              "label": "تتلاشى في"
+            },
+            "options__2": {
+              "label": "تتلاشى في الأسفل"
+            },
+            "options__3": {
+              "label": "من الأسفل إلى الأعلى"
+            }
+          }
+        },
+        "menu_mobile": {
+          "label": "إعدادات القائمة المتنقلة",
+          "banner_image": {
+            "label": "صورة البانر"
+          },
+          "link": {
+            "label": "رابط البانر"
+          },
+          "collections": {
+            "label": "المجموعات"
+          },
+          "menu_icon": {
+            "label": "موقف رمز همبرغر",
+            "info": "اختر مكان ظهور قائمة الهامبرغر على الهاتف المحمول."
+          }
+        },
+        "addons": {
+          "label": "إضافات",
+          "show_account": {
+            "label": "إظهار أيقونة الحساب"
+          },
+          "show_popup_login": {
+            "label": "إظهار تسجيل الدخول المنبثق"
+          },
+          "open_in_new_tab": {
+            "label": "افتح في علامة تبويب جديدة"
+          },
+          "show_search": {
+            "label": "إظهار أيقونة البحث"
+          },
+          "show_cart": {
+            "label": "عرض سلة التسوق"
+          },
+          "show_offer": {
+            "label": "عرض العرض"
+          },
+          "show_language": {
+            "label": "إظهار اللغة"
+          },
+          "show_currency": {
+            "label": "إظهار العملة"
+          }
+        },
+        "transparent": {
+          "content": "رأس شفاف",
+          "info": "تأكد من تكوين القسم الأول على صفحتك الرئيسية كواحد مما يلي: عرض شرائح، أو فيديو مع تراكب نص، أو صورة مع تراكب نص.",
+          "transparent": {
+            "label": "تمكين الرأس الشفاف"
+          },
+          "text_icon_transparent": {
+            "label": "لون النص والرمز"
+          }
+        },
+        "blocks": {
+          "mega_menu": {
+            "name": "لافتة (قائمة ميجا)",
+            "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/global-sections/header-group/header#banner-mega-menu)",
+            "banners": {
+              "label": "إعدادات الشعارات"
+            },
+            "promotion_1": {
+              "label": "لافتات رقم 1"
+            },
+            "promotion_2": {
+              "label": "لافتات رقم 2"
+            },
+            "promotion_3": {
+              "label": "لافتات رقم 3"
+            },
+            "promotion_4": {
+              "label": "لافتات رقم 4"
+            },
+            "promotion_5": {
+              "label": "لافتات رقم 5"
+            },
+            "info": "يوصى بأبعاد 448 بكسل × 260 بكسل"
+          },
+          "menu_item": {
+            "label": "عنصر القائمة",
+            "info": "أدخل عنصر القائمة لتطبيق القائمة المنسدلة الضخمة. يرجى التمييز بين الحروف الكبيرة والصغيرة."
+          },
+          "menu_column": {
+            "label": "أعمدة قائمة سطح المكتب"
+          },
+          "product": {
+            "name": "المنتجات (القائمة الضخمة)",
+            "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/global-sections/header-group/header#product-mega-menu)",
+            "header": "منتجات"
+          },
+          "collection": {
+            "name": "المجموعات (القائمة الضخمة)",
+            "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/global-sections/header-group/header#collection-mega-menu)",
+            "header": "المجموعات"
+          },
+          "menu_highlight": {
+            "name": "تسليط الضوء على القائمة",
+            "menu_items": {
+              "label": "عناصر القائمة لتسليط الضوء عليها",
+              "info": "أدخل أسماء عناصر القائمة المراد تمييزها، مفصولة بفواصل (على سبيل المثال، التخفيضات، الوافدون الجدد). يرجى التمييز بين الحروف الكبيرة والصغيرة."
+            },
+            "highlight_color": {
+              "label": "تسليط الضوء على اللون"
+            },
+            "highlight_icon": {
+              "label": "أيقونة التمييز",
+              "options": {
+                "unset": "غير محدد",
+                "star": "نجمة",
+                "custom": "مخصص"
+              }
+            },
+            "custom_icon": {
+              "label": "رمز مخصص",
+              "info": "رمز اختياري للعرض بجوار عناصر القائمة المميزة (الحجم الموصى به: 24 × 24 بكسل)"
+            }
+          }
+        }
+      }
+    },
+    "custom_liquid": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/custom-liquid)",
+      "how_to_use_block": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/custom-liquid)",
+      "name": "سائل مخصص",
+      "liquid_code": "كود السائل",
+      "info": "أضف مقتطفات من التطبيق أو أكواد Liquid أخرى لإنشاء تخصيصات متقدمة.",
+      "info_custom_liquid": "أضف مقتطفات من التطبيق أو تعليمات برمجية أخرى لإنشاء تخصيصات متقدمة. [مزيد من المعلومات](https://shopify.dev/docs/api/liquid)"
+    },
+    "blog-posts": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/blog-posts)",
+      "name": "مشاركات المدونة",
+      "settings": {
+        "blog-post": {
+          "label": "مشاركة المدونة",
+          "blog_post_type": {
+            "label": "نوع مقال المدونة",
+            "category": "الفئة",
+            "select_blog": "المدونات المحددة"
+          }
+        },
+        "blog": {
+          "label": "مدونة"
+        }
+      }
+    },
+    "multi_content": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/multi-content)",
+      "name": "محتوى متعدد",
+      "blocks": {
+        "label": "إعدادات الحظر",
+        "bellow_image": "إعدادات الشارة",
+        "info_bellow": "لا تعمل إلا عندما يتم ضبط موضع المحتوى على الصورة أدناه.",
+        "badge": "شارة",
+        "equal_height_adjustment": {
+          "label": "تعديل الارتفاع المتساوي"
+        },
+        "social_icon": "الرموز الاجتماعية",
+        "grid_info": "معلومات الشبكة",
+        "grid_info_1": "معلومات الشبكة 1",
+        "grid_info_2": "معلومات الشبكة 2",
+        "grid_info_3": "معلومات الشبكة 3",
+        "grid_info_4": "معلومات الشبكة 4",
+        "info": "لعرض أيقونة التواصل الاجتماعي، قم بربطها في إعدادات السمة."
+      }
+    },
+    "scrolling_text": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/scrolling-text)",
+      "name": "التمرير النص",
+      "settings": {
+        "scrolling": {
+          "label": "التمرير"
+        },
+        "direction": {
+          "label": "اتجاه",
+          "left": {
+            "label": "من اليمين إلى اليسار"
+          },
+          "right": {
+            "label": "من اليسار إلى اليمين"
+          }
+        },
+        "speed": {
+          "label": "سرعة"
+        },
+        "space_between": {
+          "label": "التباعد بين العناصر"
+        },
+        "text_size": {
+          "label": "مقاس"
+        },
+        "blocks": {
+          "image": {
+            "rounded_image": {
+              "label": "نصف قطر زاوية الصورة"
+            },
+            "image_height": {
+              "label": "ارتفاع الصورة"
+            },
+            "image_width": {
+              "label": "عرض"
+            }
+          }
+        }
+      }
+    },
+    "shopby-outfit": {
+      "name": "تسوق حسب الزي",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/products/shop-by-outfit)",
+      "blocks": {
+        "outfit": {
+          "name": "زيّ",
+          "settings": {
+            "product": {
+              "label": "قائمة المنتجات"
+            },
+            "background_type": {
+              "label": "نوع الخلفية"
+            },
+            "image": {
+              "label": "صورة"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "تسوق حسب الزي"
+      },
+      "setting": {
+        "media": {
+          "label": "نوع الوسائط"
+        },
+        "video_autoplay": {
+          "info": "إنه يعمل فقط عند تحديد الفيديو في إعدادات كتلة نوع الوسائط."
+        }
+      }
+    },
+    "collection-list": {
+      "name": "قائمة المجموعة",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/collection-list)",
+      "settings": {
+        "header": {
+          "collection": "مجموعة",
+          "collection_title": "عنوان المجموعة",
+          "collection_card": "بطاقة التحصيل",
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "how_to_use_collection_title": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)"
+        },
+        "collection_title_style": {
+          "label": "نمط عنوان المجموعة",
+          "text": "نص",
+          "button": "زر"
+        },
+        "show_product_count": {
+          "label": "إظهار عدد المنتجات"
+        },
+        "overlay_image_settings": "تراكب إعدادات الصورة",
+        "overlay_image_color": "لون النص",
+        "collection_overlay_image_color": "مجموعات لون النص"
+      },
+      "blocks": {
+        "featured_collection": {
+          "name": "مجموعة",
+          "settings": {
+            "collection": {
+              "label": "مجموعة"
+            },
+            "image": {
+              "label": "صورة",
+              "info": "اتركه فارغًا لاستخدام صورة المجموعة",
+              "info_highlight": "اتركه فارغًا لاستخدام صورة المجموعة. يوصى بأبعاد 330 بكسل × 520 بكسل",
+              "info_suitable": "اتركه فارغًا لاستخدام صورة المجموعة. يوصى بأبعاد 147 بكسل × 72 بكسل",
+              "info_collection_item": "يوصى بأبعاد 444 بكسل × 444 بكسل"
+            },
+            "title": {
+              "label": "عنوان",
+              "info": "اتركه فارغًا لاستخدام عنوان المجموعة"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "قائمة المجموعة"
+      }
+    },
+    "quickview": {
+      "name": "نظرة سريعة",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/overlay-group/quickview)",
+      "settings": {
+        "paragraph": "يتيح لك هذا القسم تخصيص نافذة العرض السريع المنبثقة."
+      }
+    },
+    "featured-collection": {
+      "name": "مجموعة مميزة",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/featured-collection)"
+    },
+    "expandable_card": {
+      "name": "بطاقة قابلة للتوسيع",
+      "how_to_use": "[تعرّف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/storytelling/expandable-card)",
+      "settings": {
+        "card_header": "إعدادات البطاقة",
+        "interaction_behavior": {
+          "label": "سلوك التفاعل",
+          "options": {
+            "hover": "إظهار عند التمرير",
+            "drawer": "انقر لفتح الدرج"
+          }
+        },
+        "content_alignment_mobile": {
+          "label": "محاذاة المحتوى"
+        }
+      },
+      "blocks": {
+        "layered_card": {
+          "name": "بطاقات متعددة الطبقات",
+          "settings": {
+            "media_header": "الصورة",
+            "description": "الوصف",
+            "drawer_page": "الوصف من الصفحة"
+          }
+        }
+      }
+    },
+    "featured-product": {
+      "name": "منتج مميز",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/featured-product)",
+      "settings": {
+        "product": "منتج"
+      }
+    },
+    "slideshow": {
+      "name": "عرض الشرائح",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/slideshow)",
+      "settings": {
+        "loading_background_color": {
+          "label": "خلفية",
+          "info": "لون الخلفية يظهر أثناء تحميل شريحة الفيديو."
+        },
+        "slide_height": {
+          "label": "ارتفاع الشريحة",
+          "full_screen": "شاشة كاملة",
+          "adapt_to_first_image": "التكيف مع الصورة الأولى",
+          "small": "صغير",
+          "medium": "واسطة",
+          "large": "كبير"
+        },
+        "info": "يوصى بأبعاد 1920 بكسل × 840 بكسل",
+        "info_mobile": "يوصى بأبعاد 390 بكسل × 572 بكسل",
+        "thumbnails": {
+          "label": "إظهار الصورة المصغرة"
+        },
+        "show_text_bellow_image": {
+          "label": "إظهار النص أدناه الصورة"
+        },
+        "blocks": {
+          "image": {
+            "label": "شريحة الصورة",
+            "image_overlay_opacity": {
+              "label": "عتامة تراكب الصورة",
+              "overlay_opacity": "تراكب التعتيم"
+            }
+          },
+          "circular_text": {
+            "label": "نص دائري"
+          },
+          "video": {
+            "label": "شريحة فيديو",
+            "video_setting": "إعدادات الفيديو",
+            "video_overlay_opacity": {
+              "label": "عتامة تراكب الفيديو"
+            }
+          }
+        }
+      }
+    },
+    "related-products": {
+      "name": "المنتجات ذات الصلة",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/related-products)"
+    },
+    "similar-products": {
+      "name": "تسوق منتج مماثل",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/group-sections/products/shop-similar-product)"
+    },
+    "complete-the-look": {
+      "name": "أكمل المظهر",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/group-sections/products/complete-the-look)"
+    },
+    "similar-color": {
+      "name": "تسوق لون مماثل",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/group-sections/products/shop-similar-color)"
+    },
+    "quick-order-list": {
+      "name": "قائمة الطلبات السريعة",
+      "how_to_use": "[How to use this setting](https://nextsky.gitbook.io/purity-theme/group-sections/products/quick-order-list)"
+    },
+    "newsletter": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/newsletter)",
+      "name": "النشرة الإخبارية",
+      "settings": {
+        "header": {
+          "heading_setting": "إعداد النشرة الإخبارية"
+        }
+      }
+    },
+    "rich-text": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/rich-text)",
+      "name": "نص غني",
+      "settings": {
+        "max_width": {
+          "label": "أقصى عرض",
+          "info": "تم تحسين الحد الأقصى للعرض تلقائيًا للجوال."
+        },
+        "rotating_text": "نص دائري"
+      }
+    },
+    "recently-viewed-products": {
+      "name": "المنتجات التي تم عرضها مؤخرا",
+      "info": "احفظ الصفحة لتحميل المنتجات التي تم عرضها مؤخرًا",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/recently-product)"
+    },
+    "info-gallery-products": {
+      "name": "منتجات معرض المعلومات",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-installation/create-required-metafields/metaobjects/info-gallery)"
+    },
+    "product-benefits": {
+      "name": "فوائد المنتج",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/group-sections/storytelling/product-benefits)",
+      "settings": {
+        "media_header": "الوسائط المركزية",
+        "image": {
+          "label": "الصورة",
+          "info": "يستخدم صورة المنتج المميزة عند تركها فارغة. يُنصح بـ 640 × 900 بكسل."
+        },
+        "media_width": {
+          "label": "عرض الصورة على سطح المكتب"
+        },
+        "video": {
+          "label": "فيديو"
+        },
+        "video_poster": {
+          "label": "صورة غلاف الفيديو"
+        }
+      },
+      "blocks": {
+        "benefit": {
+          "name": "فائدة",
+          "settings": {
+            "icon": {
+              "label": "أيقونة"
+            }
+          }
+        }
+      }
+    },
+    "quiz-results-products": {
+      "name": "منتجات نتائج الاختبار"
+    },
+    "quiz": {
+      "name": "اختبار",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/utilities-and-layout/quiz)",
+      "settings": {
+        "intro_header": "المقدمة",
+        "enable_intro_step": {
+          "label": "تفعيل خطوة المقدمة"
+        },
+        "intro_button_label": {
+          "label": "تسمية زر البدء"
+        },
+        "show_retake_button": {
+          "label": "إظهار زر إعادة الاختبار"
+        },
+        "retake_label": {
+          "label": "تسمية زر إعادة الاختبار"
+        },
+        "results_header": "النتائج",
+        "results_display_header": "عرض النتائج",
+        "content_max_width": {
+          "label": "الحد الأقصى لعرض المحتوى"
+        },
+        "show_back_button": {
+          "label": "إظهار زر الرجوع"
+        },
+        "email_header": "خطوة البريد الإلكتروني",
+        "enable_email_step": {
+          "label": "تفعيل خطوة البريد الإلكتروني"
+        },
+        "email_heading": {
+          "label": "عنوان البريد الإلكتروني"
+        },
+        "email_placeholder": {
+          "label": "نص توضيحي للبريد الإلكتروني"
+        },
+        "continue_label": {
+          "label": "تسمية زر المتابعة"
+        },
+        "skip_label": {
+          "label": "تسمية زر التخطي"
+        },
+        "results_banner_image": {
+          "label": "صورة بانر النتائج"
+        },
+        "fallback_products": {
+          "label": "منتجات احتياطية",
+          "info": "Products shown only when quiz answers do not return any strong or partial matches Use as a backup so the results page is never empty."
+        },
+        "results_products_limit": {
+          "label": "الحد الأقصى للمنتجات المعروضة"
+        }
+      },
+      "blocks": {
+        "quiz-flow": {
+          "name": "مسار الاختبار"
+        },
+        "quiz-step": {
+          "name": "سؤال الاختبار",
+          "settings": {
+            "stepper_label": {
+              "label": "تسمية الخطوة",
+              "info": "تسمية قصيرة تظهر على شريط التقدم. مثال: نوع البشرة، الاهتمام."
+            },
+            "question_id": {
+              "label": "معرف السؤال",
+              "info": "معرف فريد لهذا السؤال. يُستخدم بواسطة تخطي الأسئلة في الخيارات (مثل q1, q2)."
+            },
+            "layout": {
+              "label": "تخطيط الخيارات",
+              "options": {
+                "pill": "أزرار حبة",
+                "image": "دوائر صور"
+              }
+            }
+          }
+        },
+        "quiz-option": {
+          "name": "خيار الاختبار",
+          "settings": {
+            "label": {
+              "label": "التسمية"
+            },
+            "image": {
+              "label": "الصورة",
+              "info": "يُستخدم عندما يكون تخطيط السؤال دوائر صور."
+            },
+            "product_matching_header": "منتجات النتائج",
+            "strong_match": {
+              "label": "المنتجات الأساسية",
+              "info": "يُعرض أولاً في نتائج الاختبار عند اختيار هذا الجواب."
+            },
+            "partial_match": {
+              "label": "منتجات إضافية",
+              "info": "يُعرض بعد المنتجات الأساسية في نتائج الاختبار."
+            },
+            "exclude": {
+              "label": "لا توصي أبدًا",
+              "info": "استبعد هذه المنتجات من النتائج عند اختيار هذا الجواب، حتى لو ظهرت في إجابات أخرى."
+            },
+            "skip_questions_header": "منطق الأسئلة",
+            "skip_questions": {
+              "label": "تخطي الأسئلة",
+              "info": "أدخل معرفات الأسئلة من أسئلة الاختبار لتخطيها عند اختيار هذا الجواب. مثال: q3, q4"
+            }
+          }
+        }
+      },
+      "setup_required": "Add a Quiz flow block with at least one Quiz question inside to display the quiz."
+    },
+    "compare-products": {
+      "name": "قارن المنتجات",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-installation/create-required-metafields/metafields/compare-items)",
+      "settings": {
+        "header": {
+          "label": "قارن الإعدادات"
+        },
+        "show_price": "سعر",
+        "show_ratings": "التقييمات",
+        "show_vendor": "بائع",
+        "show_color": "لون",
+        "show_size": "مقاس",
+        "show_highlights": "أبرز",
+        "show_availability": "التوفر"
+      }
+    },
+    "bought-together-products": {
+      "name": "اشترى المنتجات معا",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/theme-installation/create-required-metafields/metafields/frequently-bought-together)"
+    },
+    "media-with-text": {
+      "name": "وسائل الإعلام مع النص",
+      "info_image": {
+        "info_desktop": "يوصى بأبعاد 950 بكسل × 844 بكسل",
+        "info_mobile": "يوصى بأبعاد 475 بكسل × 422 بكسل",
+        "info_video": "يتجاوز إعداد الصورة. يوصى بأبعاد 950 بكسل × 844 بكسل"
+      }
+    },
+    "image-with-text": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/image-with-text)",
+      "name": "صورة مع النص",
+      "settings": {
+        "desktop_vertical_alignment": {
+          "label": "محاذاة عمودية لسطح المكتب",
+          "top": "قمة",
+          "middle": "وسط",
+          "bottom": "قاع"
+        },
+        "vertical_alignment": "المحاذاة العمودية",
+        "background_type": {
+          "label": "نوع الخلفية",
+          "image": "صورة",
+          "color": "لون"
+        },
+        "background_color": "لون الخلفية",
+        "background_image": "صورة الخلفية",
+        "text_color": "لون النص",
+        "image_info": "يوصى بأبعاد 696 بكسل × 500 بكسل",
+        "offer_image_with_text_info": "يوصى بأبعاد 360 بكسل × 200 بكسل"
+      }
+    },
+    "before_after_result": {
+      "name": "قبل وبعد",
+      "how_to_use": "[تعرّف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/banners/before-after)",
+      "before_text": {
+        "label": "نص قبل",
+        "default": "قبل"
+      },
+      "after_text": {
+        "label": "نص بعد",
+        "default": "بعد"
+      }
+    },
+    "parallax-image-with-text": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/banners/parallax-split)",
+      "name": "انقسام المنظر",
+      "settings": {
+        "desktop_vertical_alignment": {
+          "label": "محاذاة عمودية لسطح المكتب",
+          "top": "قمة",
+          "middle": "وسط",
+          "bottom": "قاع"
+        },
+        "image": {
+          "image_1": {
+            "label": "الصورة 1"
+          },
+          "image_2": {
+            "label": "الصورة 2"
+          },
+          "image_3": {
+            "label": "الصورة 3"
+          },
+          "image_4": {
+            "label": "الصورة 4"
+          }
+        },
+        "image_info": "يوصى بأبعاد 696 بكسل × 500 بكسل",
+        "parallax_image": {
+          "label": "صورة المنظر"
+        }
+      }
+    },
+    "discount_popup": {
+      "info": "يستخدم هذا القسم لعرض نافذة منبثقة بعد الاشتراك.",
+      "name": "نافذة منبثقة للخصم",
+      "how_to_use": "[كيفية استخدام هذا الإعداد](https://nextsky.gitbook.io/purity-theme/global-sections/overlay-group/discount-popup)",
+      "settings": {
+        "discount_code": {
+          "label": "الرابط الترويجي",
+          "info": "كيفية الحصول على الرابط الترويجي؟ [مزيد من المعلومات](https://help.shopify.com/en/manual/discounts/managing-discount-codes#promote-a-discount-using-a-shareable-link)"
+        },
+        "discount_button": {
+          "label": "تسمية زر الترويج",
+          "default": "👉 تسوق بخصم 10%"
+        },
+        "heading": {
+          "default": "🎉 شكرا لك! خصمك 10% جاهز."
+        },
+        "sub_heading": {
+          "default": "مرحا! أنت مشترك"
+        },
+        "info_image": "سيتم إخفاء هذه الصورة تلقائيًا على الهاتف المحمول. يوصى بأبعاد 350 بكسل × 410 بكسل"
+      }
+    },
+    "image-with-text-overlay": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/image-with-text-overlay)",
+      "name": "صورة مع تراكب النص",
+      "countdown": "توقيت العد التنازلي",
+      "count_down": "العد التنازلي",
+      "how_to_use_count_down": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/decorative/countdown)",
+      "end_time": {
+        "label": "وقت الانتهاء",
+        "info": "على سبيل المثال مم-ي ي-س س س س"
+      },
+      "message": {
+        "label": "رسالة منتهية الصلاحية",
+        "info": "سيتم عرض هذه الرسالة عند انتهاء الوقت."
+      },
+      "image_info": {
+        "info_desktop": "يوصى بأبعاد 1392 بكسل × 500 بكسل",
+        "info_mobile": "يوصى بأبعاد 400 بكسل × 469 بكسل"
+      }
+    },
+    "media-hero": {
+      "name": "بطل الاعلام",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/media-hero)",
+      "media": "وسائط",
+      "info": "يتجاوز إعداد الصورة."
+    },
+    "video": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/video)",
+      "name": "فيديو",
+      "settings": {
+        "video_local": {
+          "label": "فيديو محلي",
+          "info": "إذا قمت بتحميل عنوان URL للفيديو والفيديو المحلي، فسيتم استخدام الفيديو المحلي.",
+          "info_2": "يتجاوز إعداد عنوان URL للفيديو.",
+          "info_multi_content_video": "يتجاوز إعداد عنوان URL للفيديو. يوصى بأبعاد 684 بكسل × 500 بكسل.",
+          "info_poster": "استخدم نفس أبعاد الفيديو"
+        },
+        "video_link": {
+          "label": "عنوان URL للفيديو",
+          "info": "يقبل عنوان URL لموقع YouTube أو Vimeo"
+        },
+        "video_poster": {
+          "label": "ملصق فيديو"
+        },
+        "scrolling_effect": {
+          "label": "تمكين تأثير التمرير"
+        },
+        "alt_description": {
+          "label": "نص بديل للفيديو",
+          "info": "قم بوصف الفيديو للعملاء الذين يستخدمون برامج قراءة الشاشة. [مزيد من المعلومات](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video-block)"
+        },
+        "autoplay": {
+          "label": "التشغيل التلقائي للفيديو",
+          "info": "يتم كتم صوت مقاطع الفيديو تلقائيًا للسماح بالتشغيل التلقائي"
+        },
+        "looping": {
+          "label": "تكرار الفيديو"
+        },
+        "show_action": {
+          "label": "إظهار عناصر التحكم في الفيديو"
+        },
+        "aspect_ratio": {
+          "label": "نسبة الارتفاع",
+          "option__1": "16:9",
+          "option__2": "21:9",
+          "option__3": "التكيف مع الفيديو"
+        },
+        "show_text_bellow": {
+          "label": "إظهار النص أدناه الفيديو على الهاتف المحمول",
+          "info": "سيتم عرض النص أسفل الفيديو على الهاتف المحمول."
+        }
+      }
+    },
+    "main-password-content": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/other-pages/password-page)",
+      "name": "صفحة كلمة المرور الرئيسية",
+      "settings": {
+        "header__1": {
+          "content": "الشعار",
+          "info": "قم بتحرير شعارك في إعدادات السمة"
+        },
+        "enable_banner": {
+          "label": "عرض لافتة",
+          "info": "يوصى بأبعاد 556 بكسل × 900 بكسل"
+        },
+        "banner_width": {
+          "label": "عرض الشعار"
+        },
+        "header__2": {
+          "content": "إعداد المحتوى"
+        },
+        "content_width": {
+          "label": "أقصى عرض للمحتوى"
+        }
+      },
+      "blocks": {
+        "countdown_bn": {
+          "name": "العد التنازلي",
+          "settings": {
+            "countdown_design": {
+              "label": "تصميم",
+              "options__1": {
+                "label": "افتراضي"
+              },
+              "options__2": {
+                "label": "حديث"
+              }
+            }
+          }
+        },
+        "form_subscribe": {
+          "name": "نموذج الاشتراك",
+          "settings": {
+            "email_placeholder": {
+              "label": "أرسل نص العنصر النائب بالبريد الإلكتروني"
+            },
+            "btn_label": {
+              "label": "نص الزر"
+            }
+          }
+        },
+        "text": {
+          "name": "نص"
+        }
+      }
+    },
+    "divider": {
+      "name": "مقسم",
+      "settings": {
+        "height": {
+          "label": "ارتفاع"
+        },
+        "color": {
+          "label": "لون"
+        }
+      }
+    },
+    "faq": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/storytelling/faqs)",
+      "name": "أسئلة وأجوبة",
+      "main-faq": "صفحة الأسئلة الرئيسية",
+      "heading": {
+        "content": "رسالة الأسئلة الشائعة"
+      },
+      "info_image": "يوصى بأبعاد 646 بكسل × 700 بكسل",
+      "settings": {
+        "show_faqs_message": "إظهار رسالة الأسئلة الشائعة",
+        "show_image": "إظهار الصورة",
+        "open_all_question": "فتح كافة الأسئلة",
+        "framed": "مؤطر",
+        "faq_style": "نمط الأسئلة الشائعة"
+      },
+      "blocks": {
+        "name": "الأسئلة الشائعة",
+        "settings": {
+          "question": {
+            "question": "سؤال",
+            "answer": "إجابة"
+          }
+        }
+      }
+    },
+    "page-faq": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/other-pages/faq-page)"
+    },
+    "video-with-text-overlay": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/video-with-text-overlay)",
+      "name": "فيديو مع تراكب النص",
+      "settings": {
+        "video_local": {
+          "label": "فيديو محلي",
+          "info": "يتجاوز إعداد عنوان URL للفيديو. يوصى بأبعاد 1392 بكسل × 550 بكسل"
+        },
+        "video_link": {
+          "label": "رابط الفيديو"
+        },
+        "video_poster": {
+          "info": "نفس أبعاد الفيديو"
+        },
+        "overlay_opacity": "تراكب التعتيم",
+        "video_height": {
+          "label": "ارتفاع الفيديو",
+          "info": "يتم تحسين الفيديو تلقائيًا للجوال.",
+          "options__1": {
+            "label": "التكيف مع الفيديو"
+          },
+          "options__2": {
+            "label": "صغير"
+          },
+          "options__3": {
+            "label": "واسطة"
+          },
+          "options__4": {
+            "label": "كبير"
+          }
+        }
+      }
+    },
+    "main-collection-product-grid": {
+      "name": "شبكة المنتج",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/collection-page/page-template-sections/product-grid)",
+      "settings": {
+        "items_per_page": {
+          "label": "العناصر التي سيتم عرضها في كل صفحة"
+        },
+        "columns_desktop": {
+          "label": "أعمدة لكل صف على سطح المكتب"
+        },
+        "enable_filtering": {
+          "label": "تمكين التصفية",
+          "info": "قم بتخصيص المرشحات باستخدام تطبيق البحث والاكتشاف. [مزيد من المعلومات](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+        },
+        "filter_type": {
+          "label": "تخطيط مرشح سطح المكتب",
+          "options__1": {
+            "label": "أفقي"
+          },
+          "options__2": {
+            "label": "رَأسِيّ"
+          },
+          "options__3": {
+            "label": "درج"
+          }
+        },
+        "pagination_type": {
+          "label": "نوع ترقيم الصفحات",
+          "options__1": {
+            "label": "رقم الصفحة"
+          },
+          "options__2": {
+            "label": "زر تحميل المزيد"
+          },
+          "options__3": {
+            "label": "التمرير اللانهائي"
+          }
+        },
+        "enable_sorting": {
+          "label": "تمكين الفرز"
+        },
+        "show_product_counts": {
+          "label": "إظهار أعداد المنتجات"
+        },
+        "header__1": {
+          "content": "التصفية والفرز"
+        },
+        "enable_tags": {
+          "label": "تمكين التصفية",
+          "info": "قم بتخصيص المرشحات باستخدام تطبيق البحث والاكتشاف. [مزيد من المعلومات](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+        }
+      },
+      "blocks": {
+        "name": "ترقية"
+      }
+    },
+    "main-collection": {
+      "name": "شبكة المنتج",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/collection-page)",
+      "settings": {
+        "items_per_page": {
+          "label": "العناصر التي سيتم عرضها في كل صفحة"
+        },
+        "columns_desktop": {
+          "label": "أعمدة لكل صف على سطح المكتب"
+        },
+        "enable_filtering": {
+          "label": "تمكين التصفية",
+          "info": "قم بتخصيص المرشحات باستخدام تطبيق البحث والاكتشاف. [مزيد من المعلومات](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+        },
+        "filter_type": {
+          "label": "تخطيط مرشح سطح المكتب",
+          "options__1": {
+            "label": "أفقي"
+          },
+          "options__2": {
+            "label": "رَأسِيّ"
+          },
+          "options__3": {
+            "label": "درج"
+          }
+        },
+        "pagination_type": {
+          "label": "نوع ترقيم الصفحات",
+          "options__1": {
+            "label": "رقم الصفحة"
+          },
+          "options__2": {
+            "label": "زر تحميل المزيد"
+          },
+          "options__3": {
+            "label": "التمرير اللانهائي"
+          }
+        },
+        "enable_sorting": {
+          "label": "تمكين الفرز"
+        },
+        "show_product_counts": {
+          "label": "إظهار أعداد المنتجات"
+        },
+        "header__1": {
+          "content": "التصفية والفرز"
+        },
+        "enable_tags": {
+          "label": "تمكين التصفية",
+          "info": "قم بتخصيص المرشحات باستخدام تطبيق البحث والاكتشاف. [مزيد من المعلومات](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+        }
+      },
+      "blocks": {
+        "promotion": {
+          "name": "ترقية",
+          "promotion_position": {
+            "label": "موقف الترويج"
+          },
+          "info": "يوصى باستخدام 330 بكسل 550 بكسل"
+        },
+        "steps": {
+          "name": "تسوق خطوة بخطوة",
+          "info": "يوصى بأبعاد 337 بكسل × 200 بكسل"
+        }
+      }
+    },
+    "main-search": {
+      "name": "نتائج البحث",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/other-pages/search-page)",
+      "settings": {
+        "search_results": {
+          "label": "عرض النتائج",
+          "option_1": "افتراضي",
+          "option_2": "فاتورة غير مدفوعة"
+        }
+      }
+    },
+    "main-article": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/other-pages/blog-post-page)",
+      "name": "مشاركة المدونة",
+      "settings": {
+        "show_date": "إظهار تاريخ النشر",
+        "show_comment": "إظهار التعليق",
+        "show_author": "إظهار مؤلف المشاركة",
+        "show_excerpt": "عرض مقتطف من المشاركة",
+        "show_share": "إظهار زر المشاركة",
+        "blocks": {
+          "featured_image": "صورة مميزة",
+          "content_article": "محتوى",
+          "addons": "إضافات",
+          "prev_next_articles": "المقالات السابقة والقادمة"
+        }
+      },
+      "related": {
+        "heading": "مقالات ذات صلة"
+      },
+      "blocks": {
+        "featured_image": {
+          "settings": {
+            "image_height": {
+              "label": "ارتفاع الصورة",
+              "options__1": {
+                "label": "التكيف مع الصورة"
+              },
+              "options__2": {
+                "label": "صغير"
+              },
+              "options__3": {
+                "label": "واسطة"
+              },
+              "options__4": {
+                "label": "كبير"
+              }
+            }
+          }
+        }
+      }
+    },
+    "cart-drawer": {
+      "name": "درج العربة",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/overlay-group/cart-drawer)",
+      "settings": {
+        "info": "لعرض درج سلة التسوق، برجاء الانتقال إلى إعدادات المظهر وتحديد الدرج كنوع عربة التسوق في [إعدادات سلة التسوق.](/editor?context=theme&category=cart)",
+        "content": "",
+        "show_free_shipping_message": {
+          "label": "عرض رسالة الشحن المجاني",
+          "info": "قم بتعيين الحد الأدنى لمبلغ الشحن المجاني في إعدادات السمة."
+        },
+        "show_cart_note": "عرض ملاحظة سلة التسوق",
+        "show_estimate_shipping": "عرض تقدير الشحن",
+        "show_discount": "إظهار كود التخفيضات",
+        "hide_check_badge_on_mobile": "إخفاء حظر شارات الثقة على الهاتف المحمول",
+        "hide_icon_with_text_on_mobile": "إخفاء الأيقونة مع كتلة النص على الهاتف المحمول",
+        "show_gift_wrap": {
+          "label": "عرض غلاف الهدية",
+          "info": "الرجاء تحديد منتجات تغليف الهدايا في إعدادات السمة."
+        }
+      }
+    },
+    "main-list-collections": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/collection-list-page)",
+      "name": "صفحة قائمة المجموعات",
+      "blocks": {
+        "name": "مجموعة",
+        "settings": {
+          "collection_image": "صورة المجموعة"
+        }
+      },
+      "settings": {
+        "information_position": {
+          "label": "موقف المعلومات",
+          "options__1": {
+            "label": "صورة تراكب"
+          },
+          "options__2": {
+            "label": "الصورة أدناه"
+          }
+        },
+        "collection_to_show": {
+          "label": "مجموعات للعرض",
+          "options__1": {
+            "label": "الجميع"
+          },
+          "options__2": {
+            "label": "مختارة"
+          }
+        },
+        "sort": {
+          "label": "فرز المجموعات حسب",
+          "options__1": {
+            "label": "أبجديًا، من الألف إلى الياء"
+          },
+          "options__2": {
+            "label": "أبجديًا، Z-A"
+          },
+          "options__3": {
+            "label": "التاريخ، الجديد إلى القديم"
+          },
+          "options__4": {
+            "label": "التاريخ، من القديم إلى الجديد"
+          },
+          "options__5": {
+            "label": "عدد المنتجات، من الأعلى إلى الأقل"
+          },
+          "options__6": {
+            "label": "عدد المنتجات، من الأقل إلى الأعلى"
+          }
+        },
+        "image_ratio": {
+          "label": "نسبة الصورة",
+          "options__1": {
+            "label": "التكيف مع الصورة"
+          },
+          "options__2": {
+            "label": "مربع(1:1)"
+          },
+          "options__3": {
+            "label": "صورة شخصية (3:4)"
+          },
+          "options__4": {
+            "label": "منظر طبيعي (4:3)"
+          }
+        },
+        "columns_desktop": {
+          "label": "أعمدة لكل صف على سطح المكتب"
+        },
+        "limit_collections": {
+          "label": "مجموعات لكل صفحة"
+        }
+      }
+    },
+    "main-blog": {
+      "name": "مشاركات المدونة",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/other-pages/blog-page)",
+      "settings": {
+        "header": {
+          "content": "الإعدادات العامة",
+          "content_post": "إعدادات النشر"
+        },
+        "maximum_posts_to_show": {
+          "label": "الحد الأقصى للمشاركات للعرض"
+        },
+        "post_per_row_desktop": {
+          "label": "مشاركة لكل صف على سطح المكتب"
+        },
+        "show_all_tags": {
+          "label": "إظهار قائمة العلامات"
+        },
+        "show_share": {
+          "label": "عرض المشاركة"
+        }
+      },
+      "blocks": {
+        "name": "نموذج الاشتراك",
+        "settings": {
+          "show_email_icon": "إظهار أيقونة البريد الإلكتروني",
+          "form_position": "موضع النموذج",
+          "content_link": "نص الارتباط"
+        }
+      }
+    },
+    "main-product": {
+      "name": "معلومات المنتج",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/product-information)",
+      "settings": {
+        "header": {
+          "content": "وسائط",
+          "sticky_add_cart": "إضافة لزجة إلى سلة التسوق",
+          "info": "تعرف على المزيد حول [أنواع الوسائط.](https://help.shopify.com/manual/products/product-media)"
+        },
+        "enable_sticky_desktop": {
+          "label": "تمكين عربة الإضافة اللاصقة على سطح المكتب"
+        },
+        "desktop_layout": {
+          "label": "تخطيط سطح المكتب",
+          "group": {
+            "static": "شبكة",
+            "carousel": "دائري",
+            "scroll": "التخطيط القائم على التمرير"
+          },
+          "one_columns": {
+            "label": "1 عمود"
+          },
+          "options__1": {
+            "label": "2 عمود"
+          },
+          "options__2": {
+            "label": "الصور المصغرة الأفقية"
+          },
+          "options__3": {
+            "label": "كومة"
+          },
+          "options__4": {
+            "label": "الصور المصغرة العمودية"
+          },
+          "options__5": {
+            "label": "الصور المصغرة العمودية (التمرير)"
+          },
+          "options__6": {
+            "label": "2 عمود"
+          }
+        },
+        "media": {
+          "desktop_main_img_position": {
+            "label": "موقف صورة سطح المكتب"
+          },
+          "desktop_thumbnails_position": {
+            "label": "موضع الصور المصغرة لسطح المكتب",
+            "left": "غادر",
+            "bottom": "قاع",
+            "hide": "يخفي"
+          }
+        },
+        "thumbnail_carousel_setting": {
+          "label": "إعداد دائري الصورة المصغرة",
+          "info": "يعمل هذا الإعداد فقط عند اختيار العرض الدوّار للصور المصغّرة لتخطيط سطح المكتب.",
+          "number_thumbs": "عدد الصور المصغرة"
+        },
+        "media_position": {
+          "label": "موقف وسائل الإعلام سطح المكتب",
+          "info": "يتم تحسين الموضع تلقائيًا للجوال."
+        },
+        "media_width": {
+          "label": "عرض وسائط سطح المكتب",
+          "options__1": {
+            "label": "صغير"
+          },
+          "options__2": {
+            "label": "واسطة"
+          },
+          "options__3": {
+            "label": "كبير"
+          },
+          "info": "يتم تحسين الوسائط تلقائيًا للجوال."
+        },
+        "mobile_thumbnails": {
+          "info": "تظهر الصورة المصغرة للجوال فقط عندما يكون تخطيط سطح المكتب عبارة عن صورة مصغرة دائرية.",
+          "options__1": {
+            "label": "عرض الصور المصغرة"
+          },
+          "options__2": {
+            "label": "إخفاء الصور المصغرة"
+          }
+        },
+        "variant_image_group": {
+          "label": "تفعيل مجموعة الصور المتغيرة",
+          "info": "يعمل هذا الخيار فقط مع متغيرات الألوان."
+        },
+        "enable_video_looping": {
+          "label": "تمكين تكرار الفيديو"
+        },
+        "enable_image_zoom": {
+          "label": "تكبير الصورة",
+          "options__1": {
+            "label": "إبطال"
+          },
+          "options__2": {
+            "label": "تكبير داخلي"
+          },
+          "options__3": {
+            "label": "تصغير"
+          }
+        },
+        "enable_image_lightbox": {
+          "label": "تمكين العرض المبسط"
+        },
+        "enable_video_autoplay": {
+          "label": "تمكين التشغيل التلقائي للفيديو",
+          "info": "يتم كتم صوت مقاطع الفيديو تلقائيًا للسماح بالتشغيل التلقائي. لن يعمل مع YouTube/Vimeo."
+        },
+        "enable_video_controls_default": {
+          "label": "تمكين عناصر التحكم في الفيديو المخصصة",
+          "info": "لن يعمل مع YouTube/Vimeo."
+        }
+      },
+      "blocks": {
+        "custom_product": {
+          "name": "خيارات مخصصة",
+          "tab_setting": {
+            "label": "تسميات علامة التبويب",
+            "tab_1": {
+              "label": "علامة التبويب 1"
+            },
+            "tab_2": {
+              "label": "علامة التبويب 2"
+            },
+            "tab_3": {
+              "label": "علامة التبويب 3"
+            }
+          },
+          "description": "اسمح للعملاء بتخصيص المنتج — الموضع والنص واللون — عبر نافذة منبثقة من 3 خطوات قبل الإضافة إلى السلة. لمزيد من المعلومات، تفضل بزيارة [صفحة الدعم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/custom-options)",
+          "placement": "التنسيب",
+          "text": "نص",
+          "text_limit": "حد النص",
+          "note": "ملحوظة",
+          "color": {
+            "name": "لون",
+            "options": {
+              "color_1": "اللون 1",
+              "color_2": "اللون 2",
+              "color_3": "اللون 3",
+              "color_4": "اللون 4",
+              "color_5": "اللون 5",
+              "color_6": "اللون 6",
+              "color_7": "اللون 7",
+              "color_8": "اللون 8",
+              "color_9": "اللون 9",
+              "color_10": "اللون 10"
+            }
+          },
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/custom-options)"
+        }
+      }
+    },
+    "main-cart-items": {
+      "name": "العربة الرئيسية",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/other-pages/cart-page)",
+      "settings": {
+        "enable_cart_note": "تمكين ملاحظة سلة التسوق"
+      },
+      "block": {
+        "icon_with_text": "أيقونة مع النص",
+        "trust_badges": "شارات الثقة"
+      }
+    },
+    "main-collection-banner": {
+      "name": "راية المجموعة",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/collection-page/page-template-sections/collection-banner)",
+      "settings": {
+        "heading": {
+          "label": "إعدادات"
+        },
+        "use_collection_image": {
+          "label": "استخدام صورة المجموعة",
+          "info": "تجاوز إعداد صورة الخلفية"
+        },
+        "image_height": {
+          "label": "ارتفاع الصورة",
+          "option__1": "التكيف مع الصورة",
+          "option__2": "قاعدة على المحتوى"
+        },
+        "image_position": {
+          "label": "موضع الصورة",
+          "option__1": "غادر",
+          "option__2": "يمين",
+          "option__3": "قمة",
+          "option__4": "قاع"
+        },
+        "image_opacity": {
+          "label": "عتامة الصورة"
+        }
+      }
+    },
+    "contact-form": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/contact-form)",
+      "name": "نموذج الاتصال",
+      "settings": {
+        "name": "اسم",
+        "email_placeholder": "بريد إلكتروني",
+        "message": "رسالة",
+        "option": "خيار",
+        "info_option": "تحديد اسم الخيار. افصل بين الخيارات بفاصلة. على سبيل المثال المنتج، الطلب، الصحافة، أخرى"
+      },
+      "block": {
+        "text_block": {
+          "label": "كتلة النص",
+          "settings": {
+            "content": {
+              "label": "محتوى"
+            }
+          }
+        }
+      }
+    },
+    "main-404": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/other-pages/404-page)",
+      "name": "الرئيسية 404",
+      "info_image": "يوصى بأبعاد 500 بكسل × 288 بكسل"
+    },
+    "main-password-header": {
+      "name": "رأس كلمة المرور",
+      "settings": {
+        "logo_help": {
+          "content": "قم بتعديل شعارك في [إعدادات المظهر](/editor?context=theme&category=logo)"
+        }
+      }
+    },
+    "main-activate-account": {
+      "name": "تفعيل الحساب"
+    },
+    "main-password-footer": {
+      "name": "تذييل كلمة المرور"
+    },
+    "main-account": {
+      "name": "حساب"
+    },
+    "main-register": {
+      "name": "تسجيل"
+    },
+    "main-login": {
+      "name": "تسجيل الدخول"
+    },
+    "main-reset-password": {
+      "name": "إعادة تعيين كلمة المرور"
+    },
+    "main-order": {
+      "name": "طلب"
+    },
+    "main-addresses": {
+      "name": "العناوين"
+    },
+    "announcement-bar": {
+      "how_to_use": {
+        "label": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/global-sections/header-group/announcement-bar)"
+      },
+      "name": "شريط اعلان",
+      "settings": {
+        "type": {
+          "name": "يكتب",
+          "options": {
+            "slide": {
+              "label": "دائري"
+            },
+            "marquee": {
+              "label": "سرادق"
+            }
+          }
+        },
+        "show_only_homepage": {
+          "label": "عرض فقط على الصفحة الرئيسية"
+        },
+        "show_close_button": {
+          "label": "إظهار زر الإغلاق"
+        },
+        "enable_on_mobile": {
+          "label": "تمكين على الهاتف المحمول"
+        },
+        "marquee_settings": {
+          "label": "إعدادات الشاشة الاسمية",
+          "speed": {
+            "label": "سرعة"
+          },
+          "show_icon": {
+            "label": "إظهار الأيقونة"
+          }
+        }
+      },
+      "blocks": {
+        "name": "إعلان",
+        "setting": {
+          "label": "نص"
+        }
+      }
+    },
+    "multimedia_with_text": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/media-with-text)",
+      "name": "وسائل الإعلام مع النص",
+      "blocks": {
+        "name": "وسائط",
+        "settings": {
+          "header": "إعدادات الوسائط",
+          "media_style": {
+            "label": "أسلوب الإعلام",
+            "options__1": {
+              "label": "مدور"
+            },
+            "options__2": {
+              "label": "بيضاوي"
+            },
+            "options__3": {
+              "label": "افتراضي"
+            }
+          }
+        }
+      }
+    },
+    "product-tabs": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/vertical-product-tabs)",
+      "name": "علامات تبويب المنتج",
+      "setting": {
+        "layout": {
+          "label": "تخطيط سطح المكتب",
+          "vertical": "رَأسِيّ",
+          "horizontal": "أفقي"
+        }
+      },
+      "blocks": {
+        "name": "فاتورة غير مدفوعة",
+        "header": "إعدادات الحظر",
+        "settings": {
+          "hidden_des_mobile": {
+            "label": "إخفاء وصف علامة التبويب على الهاتف المحمول"
+          },
+          "collection": {
+            "title": "عنوان",
+            "label": "مجموعة",
+            "description": "وصف"
+          }
+        }
+      }
+    },
+    "collection-highlights": {
+      "name": "يسلط الضوء على المجموعة",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/collection-highlights)",
+      "settings": {
+        "highlight_collection_width": {
+          "label": "مجموعة يسلط الضوء على العرض"
+        }
+      },
+      "blocks": {
+        "header": "إعدادات الحظر",
+        "type": {
+          "type_highlight": {
+            "header": "إعدادات مجموعة الضوء",
+            "name": "يسلط الضوء على المجموعة"
+          }
+        }
+      }
+    },
+    "suitable_products_finder": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/suitable-products-finder)",
+      "name": "مكتشف المنتجات المناسبة",
+      "settings": {
+        "collection_tab_header": {
+          "label": "علامة تبويب المجموعة"
+        },
+        "collection_tab_style": {
+          "label": "نمط علامة تبويب المجموعة"
+        },
+        "collection_tab_style_options": {
+          "range_slider": {
+            "label": "شريط تمرير النطاق",
+            "info": "سيتم إخفاء شريط تمرير النطاق تلقائيًا على الهاتف المحمول."
+          },
+          "pill_tabs": {
+            "label": "منتقي الألوان"
+          }
+        },
+        "show_pill_tabs_with_heading": {
+          "label": "مضمنة مع العنوان",
+          "info": "إظهار منتقي الألوان على نفس سطر العنوان."
+        },
+        "show_pill_tabs_color": {
+          "label": "إظهار نقطة اللون"
+        },
+        "pill_tabs_color": {
+          "label": "لون"
+        },
+        "pill_tabs_image": {
+          "label": "صورة النمط",
+          "info": "ستتجاوز صورة النمط اللون عند تحميل الصورة."
+        },
+        "image_collection_width": {
+          "label": "عرض الصورة"
+        },
+        "range_slider": {
+          "header": "شريط تمرير النطاق",
+          "settings": {
+            "show_range_slider": {
+              "label": "إظهار شريط تمرير النطاق",
+              "info": "سيتم إخفاء شريط تمرير النطاق تلقائيًا على الهاتف المحمول."
+            }
+          }
+        }
+      },
+      "preset": {
+        "ranger_slider": "مكتشف المنتج: شريط تمرير النطاق",
+        "pill_tabs": "مكتشف المنتج: علامات حبوب منع الحمل",
+        "color_dots": "مكتشف المنتج: نقاط ملونة"
+      }
+    },
+    "icon-box": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/icon-box)",
+      "name": "مربع أيقونة",
+      "settings": {
+        "icon_settings": {
+          "header": "إعدادات الأيقونة",
+          "icon_position": {
+            "label": "موضع"
+          },
+          "icon_size": {
+            "label": "مقاس"
+          },
+          "radius_image": {
+            "label": "صورة مستديرة",
+            "info": "يعمل هذا الإعداد فقط عندما تكون الأيقونة صورة."
+          }
+        }
+      }
+    },
+    "metric-banner": {
+      "how_to_use": "[تعرّف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/storytelling/metric-banner)",
+      "name": "لافتة المقياس",
+      "settings": {
+        "metric_setting": "إعدادات المقياس",
+        "metric_font_size": "حجم خط المقياس",
+        "enable_metric_animation": "تفعيل تحريك المقياس",
+        "metric_value": {
+          "start": "قيمة بداية المقياس",
+          "end": "قيمة نهاية المقياس"
+        },
+        "metric_unit": "وحدة المقياس"
+      },
+      "block": {
+        "name": "عنصر المقياس"
+      }
+    },
+    "email-signup-banner": {
+      "name": "لافتة تسجيل البريد الإلكتروني",
+      "email_form": {
+        "name": "نموذج البريد الإلكتروني"
+      }
+    },
+    "compact_product_bundle": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/compact-product-bundle)",
+      "name": "حزمة المنتجات المدمجة",
+      "settings": {
+        "header": {
+          "setting": "إعدادات"
+        },
+        "image": {
+          "label": "صورة",
+          "info_desktop": "يوصى بأبعاد 696 بكسل × 750 بكسل",
+          "info_mobile": "يوصى بأبعاد 350 بكسل × 303 بكسل"
+        },
+        "enable_quick_add_for_items": {
+          "label": "تمكين الإضافة السريعة للعناصر"
+        },
+        "hidden_button_mobile": {
+          "label": "الزر المخفي في الجوال"
+        },
+        "products_show": {
+          "label": "تظهر المنتجات كما",
+          "options__1": {
+            "label": "قائمة"
+          },
+          "options__2": {
+            "label": "شبكة"
+          }
+        }
+      },
+      "presets": {
+        "name": "حزمة المنتجات المدمجة"
+      },
+      "blocks": {
+        "settings": {
+          "name": "منتج",
+          "select_product": "منتج",
+          "position_top": "الوضع العمودي",
+          "position_left": "الوضع الأفقي"
+        }
+      }
+    },
+    "mobile-navigation-bar": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/overlay-group/mobile-navigation-bar)",
+      "name": "شريط التنقل المحمول",
+      "info": "هذا القسم يظهر فقط على الجوال. يرجى التبديل إلى عرض الجوال.",
+      "settings": {
+        "show_section": "تمكين شريط التنقل المحمول",
+        "show_shop": "عرض المحل",
+        "show_account": "إظهار الحساب",
+        "show_cart": "عرض العربة",
+        "show_homepage": "إظهار الصفحة الرئيسية"
+      }
+    },
+    "mobile_first": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/storytelling/mobile-first)",
+      "name": "الجوال أولا",
+      "image_1": "الصورة 1",
+      "image_2": "الصورة 2",
+      "image_3": "الصورة 3",
+      "image_4": "الصورة 4",
+      "image_5": "الصورة 5",
+      "text_1": "النص 1",
+      "text_2": "النص 2",
+      "text_3": "النص 3",
+      "text_4": "النص 4",
+      "text_5": "النص 5"
+    },
+    "map": {
+      "name": "خريطة جوجل",
+      "settings": {
+        "header": {
+          "heading_map": "رسم خريطة",
+          "heading_content": "إعداد المحتوى",
+          "heading_address": "إعدادات عنوان الخريطة"
+        },
+        "settings_map": {
+          "map_height": "ارتفاع الخريطة",
+          "iframe_key": "خريطة رمز iframe",
+          "info_iframe": "يمكنك الحصول على رمز iframe لخريطة Google المضمّنة [هنا](https://support.google.com/maps/answer/144361?hl=en&co=GENIE.Platform%3DDesktop)",
+          "banner": "راية الصورة"
+        }
+      }
+    },
+    "shopable_video": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/shopable-video)",
+      "name": "فيديو قابل للتسوق",
+      "settings": {
+        "video_settings": {
+          "header": "إعدادات الفيديو"
+        },
+        "enable_sticky": {
+          "label": "تمكين الفيديو لزجة",
+          "option_1": {
+            "label": "إبطال"
+          },
+          "option_2": {
+            "label": "سطح المكتب فقط"
+          },
+          "option_3": {
+            "label": "جميع الشاشات"
+          }
+        },
+        "ratio": {
+          "adapt": {
+            "label": "التكيف مع الفيديو الأول"
+          }
+        },
+        "video": {
+          "auto_play": {
+            "info": "سيتم تشغيل الفيديو تلقائيًا عندما تكون هذه الكتلة نشطة أو مرئية على الشاشة"
+          }
+        }
+      },
+      "blocks": {
+        "name": "فيديو",
+        "settings": {
+          "poster_image": {
+            "label": "صورة الملصق",
+            "info": "يوصى بأبعاد 1080 بكسل × 1920 بكسل"
+          },
+          "local_video": {
+            "label": "فيديو محلي"
+          },
+          "select_product": {
+            "label": "منتج"
+          }
+        }
+      }
+    },
+    "image_card": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/image-cards)",
+      "name": "بطاقات الصور",
+      "blocks": {
+        "header": "إعدادات البطاقة",
+        "group_name": "بطاقة",
+        "setting": {
+          "hide_description_on_mobile": {
+            "label": "إخفاء الوصف على الجوال"
+          }
+        },
+        "info": "يوصى بأبعاد 451 بكسل × 453 بكسل"
+      }
+    },
+    "testimonials": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/storytelling/testimonials)",
+      "name": "الشهادات",
+      "settings": {
+        "header": "إعدادات الشهادة",
+        "show_icon_quote": {
+          "label": "إظهار أيقونة الاقتباس"
+        },
+        "item_on_desktop": {
+          "label": "عدد الأعمدة على سطح المكتب",
+          "options__1": {
+            "label": "1"
+          },
+          "options__2": {
+            "label": "2"
+          }
+        }
+      },
+      "blocks": {
+        "name": "البند الشهادات",
+        "settings": {
+          "quote": {
+            "label": "يقتبس"
+          },
+          "info_image": "يوصى باستخدام 180 بكسل 60 بكسل"
+        }
+      }
+    },
+    "gallery_image": {
+      "name": "صورة المعرض",
+      "settings": {
+        "header": {
+          "label": "إعدادات الوسائط"
+        }
+      },
+      "blocks": {
+        "name": "وسائط"
+      }
+    },
+    "press_card": {
+      "name": "بطاقة الصحافة",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/press-card)",
+      "blocks": {
+        "content": "محتوى",
+        "media": "وسائط",
+        "quote": "يقتبس",
+        "settings": {
+          "show_icon_quote": "إظهار أيقونة الاقتباس",
+          "author_name": "اسم المؤلف",
+          "quote_content": "محتوى الاقتباس",
+          "press-image": {
+            "info": "يتجاوز إعداد لون الخلفية"
+          }
+        }
+      }
+    },
+    "scrolling_image": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/scrolling-image)",
+      "name": "صورة المعرض",
+      "settings": {
+        "show_background_blur": {
+          "label": "إظهار الخلفية غير الواضحة"
+        },
+        "show_icon_hover": {
+          "label": "إظهار أيقونة الانستقرام عند التمرير"
+        },
+        "info_image": "يوصى بأبعاد 303 بكسل × 303 بكسل"
+      }
+    },
+    "featured_product_banner": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/featured-product-banner)",
+      "name": "لافتة المنتج المميزة",
+      "hide_icon_text": "إخفاء الأيقونة مع الكتل النصية على الهاتف المحمول",
+      "blocks": {
+        "name": "أيقونة مع النص",
+        "image_effect": {
+          "label": "صورة المنظر",
+          "info": "سيتم إخفاء هذه الصورة تلقائيًا على الهاتف المحمول.",
+          "position_top": "الوضع العمودي",
+          "position_left": "الوضع الأفقي"
+        }
+      },
+      "info": {
+        "info_desktop": "يوصى بأبعاد 400 بكسل × 400 بكسل",
+        "info_mobile": "يوصى بأبعاد 300 بكسل × 300 بكسل"
+      }
+    },
+    "product_testimonials": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/products/product-testimonials)",
+      "name": "شهادات المنتج",
+      "settings": {
+        "header": "إعدادات الشهادات",
+        "width": {
+          "label": "عرض الوسائط",
+          "info": "إنه يعمل فقط عند تحديد اليسار في إعداد موضع صورة سطح المكتب"
+        },
+        "rating_color": {
+          "label": "لون التقييم"
+        },
+        "rating_type": {
+          "label": "نوع التقييم",
+          "default": "افتراضي",
+          "modern": "حديث",
+          "show": "إظهار التقييم",
+          "show_before_after": "إظهار نص قبل وبعد"
+        },
+        "product_rounded": {
+          "label": "نصف قطر زاوية صورة المنتج"
+        },
+        "show_verified_buyer": {
+          "label": "إظهار المشتري الذي تم التحقق منه"
+        }
+      },
+      "blocks": {
+        "type": {
+          "media": {
+            "label": "وسائل الإعلام الشهادة"
+          },
+          "image_comparison": {
+            "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/decorative/image-comparison)",
+            "label": "مقارنة الصور الشهادة",
+            "name": "مقارنة الصور",
+            "show_after_before_text": {
+              "label": "إظهار قبل/بعد النص"
+            }
+          }
+        },
+        "settings": {
+          "media": {
+            "label": "إعدادات الوسائط",
+            "info": "يوصى بأبعاد 448 بكسل × 246 بكسل",
+            "before_after_image": {
+              "label": "قبل وبعد الصور"
+            },
+            "before_image": {
+              "label": "قبل"
+            },
+            "after_image": {
+              "label": "بعد"
+            }
+          },
+          "information": {
+            "label": "إعدادات المعلومات",
+            "rating_star": {
+              "label": "نجمة التقييم"
+            },
+            "select_product": {
+              "label": "منتج"
+            },
+            "author_name": {
+              "label": "اسم المؤلف"
+            },
+            "review_sumary": {
+              "label": "ملخص"
+            },
+            "use_richtext": {
+              "label": "استخدام النص المنسق"
+            }
+          }
+        }
+      }
+    },
+    "routine-builder": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/routine-builder)",
+      "name": "تسوق خطوة بخطوة",
+      "blocks": {
+        "name": "خطوة",
+        "settings": {
+          "text_step": {
+            "label": "عنوان الخطوة"
+          },
+          "product_in_step": {
+            "label": "المنتج في الخطوة"
+          }
+        }
+      }
+    },
+    "newsletter_popup": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/overlay-group/newsletter-popup)",
+      "name": "النشرة الإخبارية المنبثقة",
+      "header": {
+        "heading": "الإعدادات العامة"
+      },
+      "settings": {
+        "sections_width": {
+          "label": "عرض",
+          "options": {
+            "options__1": "العرض الكامل",
+            "options__2": "آلي"
+          }
+        },
+        "collections_selector": {
+          "setting": "إعدادات محدد المجموعة",
+          "label": "تمكين محدد المجموعات",
+          "collection": {
+            "label_1": "المجموعة 1",
+            "label_2": "المجموعة 2",
+            "label_3": "المجموعة 3",
+            "label_4": "المجموعة 4",
+            "label_5": "المجموعة 5"
+          },
+          "heading": ""
+        },
+        "show_newsletter": "تمكين الرسالة الإخبارية المنبثقة",
+        "newsletter_heading": "إعدادات النشرة الإخبارية",
+        "show_on_homepage": "عرض فقط على الصفحة الرئيسية",
+        "discount_sticky": {
+          "setting": "الخصم لزجة",
+          "label": "إظهار الخصم لزجة",
+          "heading": "Heading",
+          "info": "سيتم اقتطاع المحتوى تلقائيًا بعد 18 حرفًا."
+        },
+        "heading": "عنوان",
+        "short_description": "وصف",
+        "instructional_text": "النص التعليمي",
+        "email_placeholder": "العنصر النائب للبريد الإلكتروني",
+        "button_label": "نص الزر",
+        "banner_image": "صورة البانر",
+        "enable_social_icon": "تمكين أيقونة الاجتماعية"
+      }
+    },
+    "featured-blog": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/featured-blog)",
+      "name": "مدونة مميزة"
+    },
+    "recommended_collection": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/recommended-collection)",
+      "name": "المجموعة الموصى بها",
+      "hide_banner_on_mobile": "مخفي على الجوال",
+      "settings": {},
+      "blocks": {
+        "button": {
+          "info": "[title] و[collection] هما اسما المتغيرين اللذين سيتم استبدالهما تلقائيًا. يجب عدم تغييرهما، لكن يمكنك تغيير موضعهما في النص."
+        }
+      },
+      "background": {
+        "label": "إظهار صورة الخلفية",
+        "header": "صورة الخلفية"
+      },
+      "image_info": {
+        "info_desktop": "يوصى بأبعاد 1920 بكسل × 700 بكسل",
+        "info_mobile": "يوصى بأبعاد 390 بكسل × 407 بكسل"
+      }
+    },
+    "offers-popup": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/overlay-group/offers-popup)",
+      "name": "العروض المنبثقة",
+      "popup": {
+        "label": "عرض العنوان المنبثق",
+        "info": "قم بتخصيص محتوى كتلة العروض المنبثقة في مجموعة التراكب."
+      }
+    },
+    "outfit-finder": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/products/outfit-finder)",
+      "name": "مكتشف الزي",
+      "settings": {
+        "collection": {
+          "label": "قائمة المجموعة"
+        },
+        "product_listing": {
+          "label": "إعدادات قائمة المنتجات"
+        },
+        "outfit_finder_logic": {
+          "label": "إعدادات المعاينة"
+        },
+        "max_items_to_show": {
+          "label": "المنتجات لكل صفحة",
+          "info": "عدد المنتجات المعروضة في البداية. سيؤدي التمرير لأسفل إلى تحميل المزيد من العناصر."
+        },
+        "max_items": {
+          "label": "الحد الأقصى من المنتجات لكل جماعة",
+          "info": "يحد من عدد العناصر التي يمكن للعميل إضافتها إلى منطقة المعاينة."
+        },
+        "product": {
+          "label": "الزي المقترح",
+          "info": "حدد ما يصل إلى 3 منتجات ليتم عرضها في منطقة المعاينة بشكل افتراضي عند تحميل الصفحة."
+        },
+        "notify_preview": {
+          "label": "إشعار الحالة الفارغة",
+          "info": "يظهر نص الإرشاد في منطقة المعاينة قبل إضافة أي عناصر."
+        }
+      }
+    },
+    "scrolling-card": {
+      "how_to_use": "[Learn how to use this section](https://nextsky.gitbook.io/purity-theme/group-sections/storytelling/scrolling-card)",
+      "name": "بطاقة التمرير"
+    },
+    "scroll-scatter": {
+      "how_to_use": "[تعرّف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/storytelling/scroll-scatter)",
+      "name": "تمرير متفرق"
+    },
+    "store-location": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/other-pages/store-location)",
+      "name": "موقع المتجر",
+      "settings": {
+        "key_google_map": {
+          "label": "مفتاح API لخرائط Google",
+          "info": "يتطلب واجهات برمجة التطبيقات \"Maps JavaScript\" و\"الأماكن\" و\"الترميز الجغرافي\". [الحصول على المفتاح](https://console.cloud.google.com/google/maps-apis/credentials)."
+        },
+        "map_settings": {
+          "header": "إعدادات الخريطة"
+        },
+        "allowed_countries": {
+          "label": "الدول المسموح بها",
+          "info": "التحكم في المكان الذي يمكن للعملاء البحث فيه عن المتاجر. استخدم رموز البلدان وفقًا لمعايير ISO (مثل الولايات المتحدة والمملكة المتحدة وكاليفورنيا) مفصولة بفواصل. اتركه فارغًا للبحث عالميًا."
+        },
+        "radius_km": {
+          "label": "نصف قطر البحث (كم)",
+          "info": "المسافة القصوى لنتائج المتجر."
+        }
+      },
+      "blocks": {
+        "name": "محل",
+        "settings": {
+          "store_name": {
+            "label": "اسم المتجر"
+          },
+          "store_address": {
+            "label": "عنوان المتجر"
+          },
+          "store_email": {
+            "label": "تخزين البريد الإلكتروني"
+          },
+          "store_phone": {
+            "label": "تخزين الهاتف"
+          },
+          "store_lat": {
+            "label": "خط العرض المتجر",
+            "info": "انسخ الرقم الأول من إحداثيات خرائط جوجل."
+          },
+          "store_lng": {
+            "label": "تخزين خط الطول",
+            "info": "انسخ الرقم الثاني من إحداثيات خرائط جوجل."
+          },
+          "time_location": {
+            "monday": "الاثنين",
+            "tuesday": "يوم الثلاثاء",
+            "wednesday": "الأربعاء",
+            "thursday": "يوم الخميس",
+            "friday": "جمعة",
+            "saturday": "السبت",
+            "sunday": "الأحد",
+            "status": "حالة المتجر",
+            "open": "يفتح",
+            "closed": "مغلق",
+            "open_time": "الوقت المفتوح",
+            "open_time_hour": "ساعة زمنية مفتوحة",
+            "open_time_minute": "دقيقة وقت مفتوح",
+            "start_break": "بداية الاستراحة",
+            "end_break": "نهاية الاستراحة",
+            "close_time": "وقت الإغلاق",
+            "close_time_hour": "إغلاق الوقت ساعة",
+            "close_time_minute": "إغلاق الوقت دقيقة"
+          },
+          "time": {
+            "zero_hour": "00",
+            "one_hour": "01",
+            "two_hour": "02",
+            "three_hour": "03",
+            "four_hour": "04",
+            "five_hour": "05",
+            "six_hour": "06",
+            "seven_hour": "07",
+            "eight_hour": "08",
+            "nine_hour": "09",
+            "ten_hour": "10",
+            "eleven_hour": "11",
+            "twelve_hour": "12",
+            "thirteen_hour": "13",
+            "fourteen_hour": "14",
+            "fifteen_hour": "15",
+            "sixteen_hour": "16",
+            "seventeen_hour": "17",
+            "eighteen_hour": "18",
+            "nineteen_hour": "19",
+            "twenty_hour": "20",
+            "twenty_one_hour": "21",
+            "twenty_two_hour": "22",
+            "twenty_three_hour": "23"
+          },
+          "time_schedule": {
+            "monday": "جدول",
+            "tuesday": "جدول",
+            "wednesday": "جدول",
+            "thursday": "جدول",
+            "friday": "جدول",
+            "saturday": "جدول",
+            "sunday": "جدول"
+          }
+        }
+      }
+    },
+    "product-bundle": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/product-bundle)",
+      "name": "حزمة المنتج",
+      "settings": {
+        "discount": {
+          "name": "تخفيض",
+          "info": "تعرف على كيفية إنشاء الخصم [هنا](https://help.shopify.com/manual/discounts)",
+          "minimum": "الحد الأدنى من العناصر المطلوبة",
+          "maximum": "الحد الأقصى من العناصر",
+          "edit_quantity": "السماح بتغيير الكمية لكل منتج",
+          "discount_title": "رمز الخصم",
+          "discount_value": {
+            "name": "قيمة الخصم",
+            "option": {
+              "fixed": {
+                "label": "مبلغ ثابت",
+                "once_per_order": "مرة واحدة لكل طلب"
+              },
+              "percentage": {
+                "label": "نسبة مئوية"
+              }
+            }
+          }
+        },
+        "your_bundle": {
+          "name": "تخفيض",
+          "settings": {
+            "show_progress_bar": {
+              "label": "إظهار شريط التقدم"
+            }
+          }
+        }
+      },
+      "blocks": {
+        "settings": {
+          "product_discount": {
+            "name": "حزمة المنتج",
+            "info": "يستبدل المجموعة عند تحديدها."
+          }
+        }
+      }
+    },
+    "shopable-image": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/sections/shopable-image)",
+      "name": "صورة قابلة للتسوق",
+      "blocks": {
+        "tags": {
+          "name": "العلامات",
+          "info": "تحديد اسم العلامات. افصل بفاصلة. على سبيل المثال. العلامة 1، العلامة 2",
+          "info_image": "يوصى بأبعاد 448 بكسل × 600 بكسل",
+          "settings": {
+            "show_verify_icon": {
+              "label": "إظهار علامة الاختيار على الأيقونة"
+            }
+          }
+        },
+        "lookbook": {
+          "name": "كتاب البحث",
+          "settings": {
+            "products": {
+              "label": "منتجات",
+              "position_top": "الوضع العمودي",
+              "position_left": "الوضع الأفقي",
+              "products": {
+                "otpion__1": {
+                  "label": "المنتج 1"
+                },
+                "otpion__2": {
+                  "label": "المنتج 2"
+                },
+                "otpion__3": {
+                  "label": "المنتج 3"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "parallax-image": {
+      "name": "صورة المنظر",
+      "blocks": {
+        "icon": {
+          "name": "رمز",
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/shopable-image)",
+          "info": "يتجاوز إعداد أيقونة svg"
+        }
+      }
+    },
+    "main-page": {
+      "name": "صفحة"
+    },
+    "subcollection-list": {
+      "name": "المجموعة الفرعية",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/collection-page/page-template-sections/sub-collection)"
+    },
+    "before-you-leave": {
+      "name": "قبل أن تغادر",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/global-sections/overlay-group/before-you-leave)",
+      "settings": {
+        "header": {
+          "recommended_products": "المنتجات الموصى بها",
+          "content_popup": "محتوى"
+        },
+        "show_time": {
+          "label": "عرض الوقت بعد (ثواني)"
+        },
+        "banner": {
+          "label": "صورة البانر",
+          "info": "يوصى بأبعاد 380 بكسل × 423 بكسل"
+        },
+        "collection": {
+          "label": "مجموعة"
+        },
+        "code": {
+          "label": "رمز الخصم"
+        }
+      }
+    },
+    "advanced-slideshow": {
+      "name": "عرض الشرائح المتقدم",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](#)",
+      "block": {
+        "slide": "شريحة",
+        "settings": {
+          "type": {
+            "label": "يكتب",
+            "image": {
+              "label": "صورة"
+            },
+            "video": {
+              "label": "فيديو"
+            }
+          },
+          "media_overlay": {
+            "label": "تراكب الوسائط"
+          }
+        }
+      }
+    },
+    "custom_section": {
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/group-sections/advanced/flexible-section)",
+      "name": "قسم مرن",
+      "settings": {
+        "layout": {
+          "label": "التخطيط",
+          "direction": {
+            "label": "اتجاه",
+            "options__1": {
+              "label": "رَأسِيّ"
+            },
+            "options__2": {
+              "label": "أفقي"
+            }
+          },
+          "vertical_on_mobile": {
+            "label": "عمودي على الهاتف المحمول"
+          },
+          "carousel_on_mobile": {
+            "label": "تمكين الرف الدائري على الهاتف المحمول",
+            "items_per_row": {
+              "label": "العناصر لكل صف"
+            },
+            "gap": {
+              "label": "فجوة العمود"
+            }
+          },
+          "content_wrap": {
+            "label": "التفاف المحتوى"
+          },
+          "height": {
+            "label": "ارتفاع",
+            "options": {
+              "auto": {
+                "label": "آلي"
+              },
+              "custom": {
+                "label": "مخصص"
+              }
+            },
+            "custom_height": {
+              "label": "ارتفاع مخصص"
+            }
+          },
+          "gap": {
+            "label": "فجوة"
+          },
+          "border_between": {
+            "label": "الحدود بين العناصر"
+          },
+          "position": {
+            "label": "موضع",
+            "options__1": {
+              "label": "قمة"
+            },
+            "options__2": {
+              "label": "مركز"
+            },
+            "options__3": {
+              "label": "قاع"
+            }
+          },
+          "alignment": {
+            "label": "تنسيق",
+            "label_mobile": "محاذاة المحمول",
+            "options__1": {
+              "label": "غادر"
+            },
+            "options__2": {
+              "label": "مركز"
+            },
+            "options__3": {
+              "label": "يمين"
+            },
+            "options__4": {
+              "label": "الفضاء بين"
+            }
+          },
+          "hide_on_mobile": {
+            "label": "مخفي على الجوال"
+          }
+        },
+        "appearance": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "header": "مظهر",
+          "settings": {
+            "background_media": {
+              "label": "الوسائط الخلفية",
+              "options__2": {
+                "label": "صورة"
+              },
+              "options__3": {
+                "label": "فيديو"
+              },
+              "options__1": {
+                "label": "بدون"
+              },
+              "parallax": {
+                "label": "تمكين تأثير المنظر"
+              }
+            },
+            "border": {
+              "label": "الحدود",
+              "options": {
+                "none": "بدون",
+                "solid": "صلب"
+              },
+              "border_color": {
+                "label": "لون الحدود"
+              },
+              "border_thickness": {
+                "label": "سمك الحدود"
+              }
+            },
+            "borders": {
+              "label": "الحدود",
+              "style": "أسلوب",
+              "options__1": {
+                "label": "بدون"
+              },
+              "options__2": {
+                "label": "صلب"
+              }
+            },
+            "border_thickness": {
+              "label": "سمك الحدود"
+            },
+            "border_opacity": {
+              "label": "عتامة الحدود"
+            },
+            "corner_radius": {
+              "label": "شعاع الزاوية",
+              "options": {
+                "none": {
+                  "label": "بدون"
+                },
+                "rounded": {
+                  "label": "مدور"
+                },
+                "custom": {
+                  "label": "مخصص"
+                },
+                "inherit": {
+                  "label": "يرث",
+                  "info": "إذا تم تعيينها على \"وراثة\"، فستتبع هذه الكتلة إعداد الزوايا الدائرية العامة في إعدادات السمة ▸ التخطيط ▸ الصورة المستديرة."
+                }
+              },
+              "custom_radius": {
+                "label": "نصف قطر مخصص"
+              }
+            },
+            "background_overlay": {
+              "label": "تراكب الخلفية",
+              "overlay_color": {
+                "label": "لون التراكب"
+              },
+              "overlay_style": {
+                "label": "نمط التراكب",
+                "options__1": {
+                  "label": "صلب"
+                },
+                "options__2": {
+                  "label": "التدرج"
+                }
+              },
+              "gradient_direction": {
+                "label": "اتجاه التدرج",
+                "options__1": {
+                  "label": "أعلى"
+                },
+                "options__2": {
+                  "label": "تحت"
+                }
+              }
+            },
+            "video_position": {
+              "label": "موقف الفيديو",
+              "options__1": {
+                "label": "غطاء"
+              },
+              "options__2": {
+                "label": "يحتوي"
+              }
+            }
+          }
+        }
+      },
+      "blocks": {
+        "settings": {
+          "size": {
+            "label": "مقاس",
+            "height": {
+              "label": "ارتفاع"
+            },
+            "desktop_width": {
+              "label": "عرض سطح المكتب"
+            },
+            "width": {
+              "label": "عرض",
+              "custom_width": {
+                "label": "عرض مخصص"
+              }
+            },
+            "mobile_width": {
+              "label": "عرض الجوال",
+              "custom_mobile_width": {
+                "label": "عرض الجوال المخصص"
+              }
+            },
+            "options": {
+              "options__1": {
+                "label": "ملائم"
+              },
+              "options__2": {
+                "label": "يملأ"
+              },
+              "options__3": {
+                "label": "مخصص"
+              },
+              "options__4": {
+                "label": "التكيف مع الخلفية الإعلامية"
+              }
+            }
+          },
+          "background": {
+            "label": "خلفية"
+          },
+          "background_color": {
+            "label": "لون الخلفية"
+          }
+        },
+        "heading": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/basic/heading)",
+          "label": "محددة مسبقا",
+          "heading_tag": {
+            "label": "علامة العنوان",
+            "info": "قم بتعيين علامة العنوان (H1–H6) للتحكم في التسلسل الهرمي للمحتوى وتحسين إمكانية قراءة تحسين محركات البحث لمحركات البحث.",
+            "h1": "H1",
+            "h2": "H2",
+            "h3": "ح3",
+            "h4": "H4",
+            "h5": "ح5",
+            "h6": "ح6",
+            "h7": "ح7"
+          },
+          "custom": "مخصص",
+          "default": "افتراضي",
+          "paragraph": "فقرة",
+          "h1": "العنوان 1",
+          "h2": "العنوان 2",
+          "h3": "العنوان 3",
+          "h4": "العنوان 4",
+          "h5": "العنوان 5",
+          "h6": "العنوان 6",
+          "h7": "العنوان 7",
+          "info": {
+            "edit_presets_in_theme_settings": "تحرير الإعدادات المسبقة في [إعدادات المظهر](/editor?context=theme&category=typography)",
+            "label": "حجم الخط"
+          },
+          "text_alignment": {
+            "desktop": "تنسيق",
+            "mobile": "محاذاة المحمول"
+          }
+        },
+        "logo": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "name": "الشعار",
+          "settings": {
+            "size": {
+              "name": "مقاس",
+              "unit": {
+                "label": "وحدة",
+                "option__1": {
+                  "label": "بكسل"
+                },
+                "option__2": {
+                  "label": "نسبة مئوية"
+                }
+              },
+              "custom_mobile_size": {
+                "label": "حجم الجوال المخصص"
+              },
+              "height": {
+                "label": "ارتفاع"
+              },
+              "mobile": {
+                "name": "حجم الجوال",
+                "width": {
+                  "label": "عرض"
+                }
+              }
+            }
+          }
+        },
+        "email_subscription": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/forms/newsletter)",
+          "name": "النشرة الإخبارية"
+        },
+        "contact_form": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/forms/contact-form)",
+          "name": "نموذج الاتصال",
+          "settings": {
+            "name": "اسم",
+            "email": "بريد إلكتروني",
+            "message": "رسالة",
+            "select_label": "حدد التسمية",
+            "default_select_label": "موضوع",
+            "option": "خيار",
+            "default_option": "المنتج، الطلب، الصحافة، أخرى",
+            "phone": "هاتف",
+            "submit_button": "زر الإرسال",
+            "default_submit_button": "يُقدِّم"
+          }
+        },
+        "accordion": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/layout/accordion)",
+          "name": "الأكورديون",
+          "settings": {
+            "icon_style": {
+              "style": "أسلوب",
+              "label": "نمط الأيقونة",
+              "caret": "عربة",
+              "plus": "زائد"
+            },
+            "row_style": {
+              "label": "نمط الصف",
+              "background": "خلفية",
+              "divider": "مقسم"
+            },
+            "background_color": "لون الخلفية",
+            "row_spacing": "تباعد العناصر",
+            "gap_row": "فجوة",
+            "padding_row": "حشوة",
+            "gap_content": "الفضاء بين",
+            "heading_preset": "العنوان مُعد مسبقًا",
+            "accordion_row": "صف الأكورديون",
+            "default_accordion_row": "عنوان الأكورديون",
+            "accordion_content": "محتوى الأكورديون",
+            "settings": {
+              "heading": "عنوان",
+              "heading_size": "حجم العنوان",
+              "heading_weight": "وزن العنوان",
+              "body_weight": "وزن الجسم",
+              "open_default": {
+                "label": "فتح الافتراضي"
+              }
+            }
+          }
+        },
+        "group": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/layout/group)",
+          "name": "مجموعة",
+          "settings": {
+            "link": "رابط",
+            "open_in_new_tab": {
+              "label": "افتح الرابط في علامة تبويب جديدة"
+            }
+          }
+        },
+        "carousel": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/layout/carousel)",
+          "name": "دائري"
+        },
+        "text": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/basic/text)",
+          "name": "نص",
+          "default_text": "نحن نصنع الأشياء التي تعمل بشكل أفضل وتدوم لفترة أطول. منتجاتنا تحل المشاكل الحقيقية من خلال التصميم النظيف والمواد الصادقة.",
+          "text_color": {
+            "label": "لون النص",
+            "body_color": "لون الجسم",
+            "heading_color": "لون العنوان"
+          }
+        },
+        "button": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/basic/button)"
+        },
+        "icon": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/basic/icon)"
+        },
+        "page": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "name": "صفحة",
+          "inherit_color_scheme": "وراثة نظام الألوان",
+          "appearance": "مظهر",
+          "spacing": "تباعد",
+          "padding": "حشوة"
+        },
+        "spacer": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/layout/spacer)",
+          "name": "فاصل",
+          "mobile_settings": {
+            "label": "إعدادات الجوال"
+          }
+        },
+        "divider": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "name": "مقسم",
+          "settings": {
+            "thickness": "سماكة",
+            "size": "مقاس",
+            "color": "لون"
+          }
+        },
+        "icon_list": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "name": "قائمة الأيقونات",
+          "item": "غرض",
+          "inline": "مضمنة",
+          "open_new_tab": "افتح علامة تبويب جديدة"
+        },
+        "alert": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "name": "يُحذًِر",
+          "dismiss_icon": "رمز الرفض",
+          "display_dismiss_icon": "عرض رمز الرفض"
+        },
+        "social_icons": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "name": "الرموز الاجتماعية",
+          "circle": "دائرة",
+          "rounded": "مدور",
+          "square": "مربع",
+          "shape": "شكل",
+          "color": "لون",
+          "backgroup_color": "لون المجموعة الخلفية"
+        },
+        "progress_bar": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/page-heading)",
+          "name": "شريط التقدم",
+          "display_title": "عرض العنوان",
+          "text_color": "لون النص",
+          "text_shadow": "ظل النص",
+          "percentage": "نسبة مئوية",
+          "border_radius": "نصف قطر الحدود",
+          "display_percentage": "نسبة العرض",
+          "inner_text": "النص الداخلي"
+        },
+        "counter": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/decorative/counter)",
+          "name": "عداد",
+          "counter_style": {
+            "label": "نمط العداد",
+            "default": "افتراضي",
+            "circle": "دائرة"
+          },
+          "counter_layout": {
+            "label": "تخطيط العداد",
+            "horizontal": "أفقي",
+            "vertical": "رَأسِيّ"
+          },
+          "number_position": "موقف الرقم",
+          "space_between": "الفضاء بين",
+          "before_title": "قبل العنوان",
+          "text_shadow": "ظل النص",
+          "after_title": "بعد العنوان",
+          "number_alignment": "محاذاة الأرقام",
+          "title_alignment": "محاذاة العنوان",
+          "stroke_color": "لون السكتة الدماغية",
+          "indicator_color": "لون المؤشر",
+          "background_color": "لون الخلفية",
+          "text_color": "لون النص",
+          "ending_number": "رقم النهاية",
+          "starting_number": "رقم البداية",
+          "animation": "مدة الرسوم المتحركة (مللي ثانية)",
+          "text_stroke": "السكتة الدماغية النص"
+        },
+        "map": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/decorative/google-maps)",
+          "name": "خرائط جوجل",
+          "location": "موقع",
+          "longitude": "خط الطول",
+          "latitude": "خط العرض"
+        },
+        "jumbo_text": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/sections/custom-liquid)",
+          "name": "نص جامبو"
+        },
+        "tab": {
+          "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/layout/tab)",
+          "name": "فاتورة غير مدفوعة",
+          "tab_row": "عنصر علامة التبويب",
+          "settings": {
+            "heading": "أسلوب العنوان",
+            "heading_preset": "العنوان مُعد مسبقًا",
+            "heading_alignment": "محاذاة العنوان",
+            "heading_color": "لون العنوان",
+            "enable_underline_heading": "تمكين تسطير العنوان",
+            "content": "نمط المحتوى",
+            "content_alignment": "محاذاة المحتوى"
+          }
+        },
+        "icon_with_text": {
+          "name": "أيقونة مع النص",
+          "icon_first": "الأيقونة أولاً",
+          "icon_second": "الأيقونة الثانية",
+          "svg_custom": "مخصص SVG"
+        },
+        "popup_link": {
+          "button_type_link": {
+            "label": "نوع الزر",
+            "primary": {
+              "label": "أساسي"
+            },
+            "outline": {
+              "label": "الخطوط العريضة"
+            },
+            "link": {
+              "label": "رابط"
+            }
+          },
+          "popup_style": {
+            "label": "النمط المنبثق"
+          },
+          "popup_link": "الرابط المنبثق",
+          "popup_type": {
+            "label": "نوع النافذة المنبثقة"
+          },
+          "popup_width": {
+            "label": "عرض سطح المكتب المنبثق"
+          },
+          "icon_type": {
+            "label": "نوع الأيقونة",
+            "none": "بدون",
+            "arrow": "سهم",
+            "image": {
+              "label": "صورة",
+              "size": "مقاس"
+            }
+          },
+          "text_and_icon": {
+            "label": "لون النص والرمز"
+          }
+        }
+      },
+      "preset": {
+        "promotion_banner": "Flexible: لافتة ترويجية",
+        "flexible_marquee": "Flexible: شريط تمرير"
+      }
+    },
+    "text_image_pairing": {
+      "how_to_use": "[تعرف على كيفية استخدام هذه الكتلة](https://nextsky.gitbook.io/purity-theme/group-blocks/decorative/text-image-pairing)",
+      "name": "إقران الصورة النصية",
+      "settings": {
+        "text_default": "\"امتلك توهجك[image_1]تألق مزيج التمرير <br/> واشعر بالجمال[image_2]شاهده بالكامل[image_3]احتفل.\"",
+        "info": {
+          "label": "استخدم تنسيقًا محددًا للعنصر النائب `[image_X]` حيث تريد أن تظهر الصورة. X هو فهرس الصورة. على سبيل المثال: سيتم استبدال `[image_1]` بالصورة الأولى."
+        },
+        "images": {
+          "label": "الصور",
+          "image_style": {
+            "label": "نمط الصورة"
+          },
+          "image_1": {
+            "label": "الصورة رقم 1"
+          },
+          "image_2": {
+            "label": "الصورة رقم 2"
+          },
+          "image_3": {
+            "label": "الصورة رقم 3"
+          }
+        }
+      }
+    },
+    "product_sizing": {
+      "name": "تحجيم المنتج",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/product-information)",
+      "info": "يساعد العملاء على فهم مدى ملاءمة المنتج واختيار الحجم المناسب بثقة."
+    },
+    "size_recommendation": {
+      "name": "توصية الحجم",
+      "how_to_use": "[تعرف على كيفية استخدام هذا القسم](https://nextsky.gitbook.io/purity-theme/collection-and-product-page/product-page/page-template-sections/size-recommendation)",
+      "info": "يساعد العملاء في العثور على الحجم المناسب باستخدام مدخلات بسيطة مثل الطول والوزن وشكل الجسم وحجم الصدر وحجم الكوب.",
+      "data_usage_notice": {
+        "label": "إشعار استخدام البيانات",
+        "info": "تشرح هذه الرسالة كيفية استخدام تفاصيل العميل لتوصيات الحجم. يمكنك تخصيص الصياغة لتتناسب مع نغمة خصوصية متجرك."
+      },
+      "no_size_match": {
+        "label": "لا توجد رسالة مطابقة للحجم",
+        "info": "يتم عرض الرسالة عندما لا يتطابق أي حجم مع مدخلات العميل."
+      },
+      "fit_recommendation_note": {
+        "label": "مذكرة توصية مناسبة",
+        "info": "يتم عرضه بعد نتائج توصية الحجم."
+      }
+    },
+    "parallax-cards": {
+      "name": "بطاقات بارالاكس",
+      "settings": {
+        "underline_style": {
+          "simple": "خط سفلي بسيط",
+          "curve": "خط سفلي منحني",
+          "squiggle": "خط سفلي متموج"
+        }
+      },
+      "blocks": {
+        "image": {
+          "name": "الصورة"
+        }
+      }
+    }
+  },
+  "blocks": {
+    "quiz-flow": {
+      "name": "مسار الاختبار"
+    },
+    "quiz-step": {
+      "name": "سؤال الاختبار",
+      "settings": {
+        "stepper_label": {
+          "label": "تسمية الخطوة",
+          "info": "تسمية قصيرة تظهر على شريط التقدم. مثال: نوع البشرة، الاهتمام."
+        },
+        "question_id": {
+          "label": "معرف السؤال",
+          "info": "معرف فريد لهذا السؤال. يُستخدم بواسطة تخطي الأسئلة في الخيارات (مثل q1, q2)."
+        },
+        "layout": {
+          "label": "تخطيط الخيارات",
+          "options": {
+            "pill": "أزرار حبة",
+            "image": "دوائر صور"
+          }
+        }
+      }
+    },
+    "quiz-option": {
+      "name": "خيار الاختبار",
+      "settings": {
+        "label": {
+          "label": "التسمية"
+        },
+        "image": {
+          "label": "الصورة",
+          "info": "يُستخدم عندما يكون تخطيط السؤال دوائر صور."
+        },
+        "product_matching_header": "منتجات النتائج",
+        "strong_match": {
+          "label": "المنتجات الأساسية",
+          "info": "يُعرض أولاً في نتائج الاختبار عند اختيار هذا الجواب."
+        },
+        "partial_match": {
+          "label": "منتجات إضافية",
+          "info": "يُعرض بعد المنتجات الأساسية في نتائج الاختبار."
+        },
+        "exclude": {
+          "label": "لا توصي أبدًا",
+          "info": "استبعد هذه المنتجات من النتائج عند اختيار هذا الجواب، حتى لو ظهرت في إجابات أخرى."
+        },
+        "skip_questions_header": "منطق الأسئلة",
+        "skip_questions": {
+          "label": "تخطي الأسئلة",
+          "info": "أدخل معرفات الأسئلة من أسئلة الاختبار لتخطيها عند اختيار هذا الجواب. مثال: q3, q4"
+        }
+      }
+    }
+  }
+}

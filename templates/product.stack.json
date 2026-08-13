@@ -1,0 +1,764 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "section_width": "fix_width",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "badges_product_rKG3rB": {
+          "type": "_badges-product",
+          "settings": {},
+          "blocks": {}
+        },
+        "title_product_JVDjeh": {
+          "type": "_title-product",
+          "settings": {
+            "type_preset": "h2",
+            "heading_tag": "h2"
+          },
+          "blocks": {}
+        },
+        "rating_product_C9Hfyp": {
+          "type": "_rating-product",
+          "settings": {},
+          "blocks": {}
+        },
+        "price_product_n7CwNK": {
+          "type": "_price-product",
+          "settings": {},
+          "blocks": {}
+        },
+        "promotion_countdown_product_iHWWGP": {
+          "type": "_promotion-countdown-product",
+          "name": "t:sections.all.product_setting.promotion_countdown.name",
+          "settings": {
+            "heading": "Flash Deals",
+            "description": "<p>End in:</p>",
+            "show_countdown_units": false
+          },
+          "blocks": {}
+        },
+        "variant_picker_Lrxzwg": {
+          "type": "_variant-picker",
+          "settings": {
+            "variant_type": "swatches",
+            "show_size_guide": false,
+            "size_trigger": "Size,Größe,Misurare",
+            "size_guide_label": "Size Guide",
+            "size_guide_page": "",
+            "size_guide_footer": "<p>Still unsure? Check out our Help Center or Contact Us directly.</p>"
+          },
+          "blocks": {}
+        },
+        "inventory_status_EGaDxQ": {
+          "type": "_inventory-status",
+          "settings": {
+            "inventory_threshold": 20,
+            "inventory_base": 50
+          },
+          "blocks": {}
+        },
+        "subscription_widget_product_kJDjWL": {
+          "type": "_subscription-widget-product",
+          "name": "t:sections.all.product_setting.subscription_widget.name",
+          "settings": {
+            "subscription_description": "<ul><li>Save 15% on future purchases</li><li>Free shipping on all subscription orders</li><li>Pause, skip or cancel anytime</li></ul>",
+            "one_time_purchase_title": "",
+            "one_time_purchase_description": "",
+            "show_price": true
+          },
+          "blocks": {}
+        },
+        "buy_buttons_MCtbJ4": {
+          "type": "_buy-buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          },
+          "blocks": {}
+        },
+        "icon_with_text_product_kTHyP8": {
+          "type": "_icon-with-text-product",
+          "name": "t:sections.all.product_setting.icon_with_text.name",
+          "settings": {
+            "svg_icon_1": "truck",
+            "content_1": "<p>Free shipping $175+. View <a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">shipping policy</a></p>",
+            "svg_icon_2": "return",
+            "content_2": "<p>30 day returns. View <a href=\"/policies/refund-policy\" target=\"_blank\" title=\"Refund Policy\">return policy</a></p>",
+            "svg_icon_3": "none",
+            "content_3": "",
+            "svg_icon_4": "none",
+            "content_4": "",
+            "svg_icon_5": "none",
+            "content_5": ""
+          },
+          "blocks": {}
+        },
+        "description_product_bUFmqW": {
+          "type": "_description-product",
+          "settings": {},
+          "blocks": {}
+        },
+        "highlights_product_fCPzTz": {
+          "type": "_highlights-product",
+          "name": "t:sections.all.product_setting.highlights.name",
+          "settings": {},
+          "blocks": {}
+        },
+        "key_features_product_zVVz3W": {
+          "type": "_key-features-product",
+          "name": "t:sections.all.product_setting.key_features.name",
+          "settings": {
+            "heading": "Top Benefits"
+          },
+          "blocks": {}
+        },
+        "media_lightbox_product_c8h6Wh": {
+          "type": "_media-lightbox-product",
+          "name": "t:sections.all.product_setting.media_lightbox.name",
+          "settings": {
+            "block_heading": "See in Action",
+            "items_to_show": 4,
+            "show_navigation": true,
+            "show_pagination": false,
+            "enable_sticky": true
+          },
+          "blocks": {}
+        },
+        "pickup_availability_YTqPGA": {
+          "type": "_pickup-availability",
+          "settings": {},
+          "blocks": {}
+        },
+        "collapsible_row_PzNbxp": {
+          "type": "_collapsible-row",
+          "name": "t:sections.all.product_setting.collapsible_row.name",
+          "settings": {
+            "heading": "Product Info",
+            "content": "{{ closest.product.description }}",
+            "page": ""
+          },
+          "blocks": {}
+        },
+        "collapsible_row_gCxMXg": {
+          "type": "_collapsible-row",
+          "name": "t:sections.all.product_setting.collapsible_row.name",
+          "settings": {
+            "heading": "How to Use",
+            "content": "<p></p>",
+            "page": ""
+          },
+          "blocks": {}
+        },
+        "collapsible_row_jf846C": {
+          "type": "_collapsible-row",
+          "name": "t:sections.all.product_setting.collapsible_row.name",
+          "settings": {
+            "heading": "Ingredients",
+            "content": "<p></p>",
+            "page": ""
+          },
+          "blocks": {}
+        },
+        "complementary_w4ymBE": {
+          "type": "_complementary",
+          "settings": {
+            "block_heading": "Pairs well With",
+            "product_list_limit": 10,
+            "show_navigation": true
+          },
+          "blocks": {}
+        },
+        "ask_question_product_LUYanF": {
+          "type": "_ask-question-product",
+          "name": "t:sections.all.product_setting.ask_question.name",
+          "settings": {
+            "heading": "Help Center?",
+            "description": "Book an appointment with our virtual stylists!"
+          },
+          "blocks": {}
+        },
+        "share_product_hjUAFY": {
+          "type": "_share-product",
+          "settings": {
+            "title": "Share"
+          },
+          "blocks": {}
+        },
+        "text_product_ccJmBj": {
+          "type": "_text-product",
+          "name": "t:sections.all.text.label",
+          "settings": {
+            "text": "<p><em>* This is a demonstration store — no orders shall be fulfilled.</em></p>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "badges_product_rKG3rB",
+        "title_product_JVDjeh",
+        "rating_product_C9Hfyp",
+        "price_product_n7CwNK",
+        "promotion_countdown_product_iHWWGP",
+        "variant_picker_Lrxzwg",
+        "inventory_status_EGaDxQ",
+        "subscription_widget_product_kJDjWL",
+        "buy_buttons_MCtbJ4",
+        "icon_with_text_product_kTHyP8",
+        "description_product_bUFmqW",
+        "highlights_product_fCPzTz",
+        "key_features_product_zVVz3W",
+        "media_lightbox_product_c8h6Wh",
+        "pickup_availability_YTqPGA",
+        "collapsible_row_PzNbxp",
+        "collapsible_row_gCxMXg",
+        "collapsible_row_jf846C",
+        "complementary_w4ymBE",
+        "ask_question_product_LUYanF",
+        "share_product_hjUAFY",
+        "text_product_ccJmBj"
+      ],
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "enable_sticky_desktop": true,
+        "desktop_layout": "stack",
+        "desktop_media_width": 50,
+        "media_position": "left",
+        "enable_image_zoom": "none",
+        "enable_image_lightbox": true,
+        "enable_video_looping": false,
+        "enable_video_autoplay": true,
+        "enable_video_controls_default": true,
+        "mobile_thumbnails": "show_thumbnail",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "quick_order_list_9trrwN": {
+      "type": "quick-order-list",
+      "name": "t:sections.quick-order-list.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "title": "",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "multi_content_BdffXF": {
+      "type": "multi-content",
+      "blocks": {
+        "image_4mXwbe": {
+          "type": "_image",
+          "name": "t:sections.all.image.label",
+          "settings": {
+            "link": "",
+            "vertical_alignment": "start",
+            "width": "50%"
+          },
+          "blocks": {}
+        },
+        "image_FxRrVU": {
+          "type": "_image",
+          "name": "t:sections.all.image.label",
+          "settings": {
+            "link": "",
+            "vertical_alignment": "start",
+            "width": "50%"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "image_4mXwbe",
+        "image_FxRrVU"
+      ],
+      "name": "t:sections.multi_content.name",
+      "settings": {
+        "section_width": "fix_width",
+        "subheading": "3-in-1 Lip Innovation",
+        "heading": "<p>Plump. Hydrate. Shine.</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Fuller lips, deep hydration, and high-gloss finish – all in one smooth swipe, for a<br/>healthy, radiant, all-day glow.</p>",
+        "heading_size": "medium",
+        "alignment": "center",
+        "column_gap": "medium",
+        "enable_carousel_mobile": false,
+        "items_per_row": 1,
+        "hidden_des_mobile": false,
+        "equal_height_adjustment": true,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_divider": true
+      }
+    },
+    "product_testimonials_kqXDfb": {
+      "type": "product-testimonials",
+      "blocks": {
+        "image_comparison_tLNnWz": {
+          "type": "image_comparison",
+          "settings": {
+            "rating_star": 5,
+            "testimonial_author": "Carie H.",
+            "review_sumary": "Smells divine radiant",
+            "testimonial_quote": "",
+            "testimonial_product": "glow-micellar-toner",
+            "testimonial_quote_richtext": "<p>This is hands down the prettiest glow I've ever had on my skin. The soft shimmer is noticeable ...</p>",
+            "use_richtext": true
+          }
+        },
+        "testimonial_rXr6TH": {
+          "type": "testimonial",
+          "settings": {
+            "media_type": "video",
+            "video_alt_text": "Video alt text",
+            "rating_star": 5,
+            "testimonial_author": "Came S.",
+            "review_sumary": "So refreshing and effective",
+            "testimonial_quote": "",
+            "testimonial_product": "brightening-serum",
+            "testimonial_quote_richtext": "<p>The texture is light, almost water-like, but it delivers powerful results. My dull areas started to ...</p>",
+            "use_richtext": true
+          }
+        },
+        "image_comparison_UWVWbr": {
+          "type": "image_comparison",
+          "settings": {
+            "rating_star": 5,
+            "testimonial_author": "Algist L.",
+            "review_sumary": "Pure comfort in a bottle",
+            "testimonial_quote": "",
+            "testimonial_product": "anti-aging-serum",
+            "testimonial_quote_richtext": "<p>Every time I wear it, people ask what I'm using. Scent is heavenly. The glow it leaves is incredible.</p>",
+            "use_richtext": true
+          }
+        },
+        "testimonial_Dtn8fc": {
+          "type": "testimonial",
+          "settings": {
+            "media_type": "image",
+            "video_alt_text": "Video alt text",
+            "rating_star": 5,
+            "testimonial_author": "Susan G.",
+            "review_sumary": "Balances my skin perfectly",
+            "testimonial_quote": "",
+            "testimonial_product": "cookies-clay-scrub",
+            "testimonial_quote_richtext": "<p>That cleanser keeps both dry and oily areas happy and removes makeup without stripping.</p>",
+            "use_richtext": true
+          }
+        },
+        "testimonial_RDd3jJ": {
+          "type": "testimonial",
+          "settings": {
+            "media_type": "video",
+            "video_alt_text": "Video alt text",
+            "rating_star": 5,
+            "testimonial_author": "Célodie F.",
+            "review_sumary": "Fades dark spots well",
+            "testimonial_quote": "",
+            "testimonial_product": "brightening-serum",
+            "testimonial_quote_richtext": "<p>This serum is a skin-brightening miracle. I had dark patches from breakouts and it cleared them.</p>",
+            "use_richtext": true
+          }
+        }
+      },
+      "block_order": [
+        "image_comparison_tLNnWz",
+        "testimonial_rXr6TH",
+        "image_comparison_UWVWbr",
+        "testimonial_Dtn8fc",
+        "testimonial_RDd3jJ"
+      ],
+      "name": "t:sections.product_testimonials.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "scheme-76e16d9c-62d8-4250-9f3a-e19467efff31",
+        "subheading": "Loved by 17k+ Customers",
+        "title": "<p>What They're Saying</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "image_desktop_position": "top",
+        "image_ratio": "adapt",
+        "show_verified_buyer": true,
+        "show_rating": true,
+        "rating_type": "default",
+        "rating_color": "#ff9c05",
+        "show_before_after_text": true,
+        "product_type": "inherit",
+        "items_per_row": 3,
+        "column_gap": "medium",
+        "show_navigation": true,
+        "show_pagination": false,
+        "type_pagination": "progress_bar",
+        "slide_auto_change": false,
+        "change_slide_every": 5,
+        "reveal_slide": true,
+        "image_ratio_mobile": "adapt",
+        "items_per_row_mobile": 1.1,
+        "hidden_des_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "multi_content_HDDFiU": {
+      "type": "multi-content",
+      "blocks": {
+        "group_text_WVbW7h": {
+          "type": "_group-text",
+          "name": "t:sections.all.text.label",
+          "settings": {
+            "color_scheme": "scheme-76e16d9c-62d8-4250-9f3a-e19467efff31",
+            "vertical_alignment": "center",
+            "width": "50%",
+            "text_alignment": "start",
+            "padding_content_inline": 100,
+            "padding_content_block": 35
+          },
+          "blocks": {
+            "icon_ePtR3Y": {
+              "type": "icon",
+              "name": "t:sections.parallax-image.blocks.icon.name",
+              "settings": {
+                "link_image": "",
+                "open_in_new_tab": false,
+                "icon_svg": "hive",
+                "image_width": 60,
+                "image_width_mb": 50
+              },
+              "blocks": {}
+            },
+            "subheading_DcaXef": {
+              "type": "subheading",
+              "name": "t:sections.all.content_setting.subheading.label",
+              "settings": {
+                "subheading": "Creamy Complex",
+                "type_preset": "h7",
+                "padding_top": 24,
+                "padding_bottom": 10
+              },
+              "blocks": {}
+            },
+            "heading_kje8HJ": {
+              "type": "heading",
+              "settings": {
+                "heading": "Silk Formula",
+                "type_preset": "h2",
+                "padding_top": 0,
+                "padding_bottom": 24
+              },
+              "blocks": {}
+            },
+            "description_467NPf": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Infused with micro-pigments and plant oils, this formula delivers bold color, silky texture, and long-lasting hydration.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon_ePtR3Y",
+            "subheading_DcaXef",
+            "heading_kje8HJ",
+            "description_467NPf"
+          ]
+        },
+        "image_ay7ddD": {
+          "type": "_image",
+          "name": "t:sections.all.image.label",
+          "settings": {
+            "link": "",
+            "vertical_alignment": "end",
+            "width": "50%"
+          },
+          "blocks": {}
+        },
+        "image_Uika3e": {
+          "type": "_image",
+          "name": "t:sections.all.image.label",
+          "settings": {
+            "link": "",
+            "vertical_alignment": "end",
+            "width": "50%"
+          },
+          "blocks": {}
+        },
+        "group_text_9r7XPk": {
+          "type": "_group-text",
+          "name": "t:sections.all.text.label",
+          "settings": {
+            "color_scheme": "scheme-76e16d9c-62d8-4250-9f3a-e19467efff31",
+            "vertical_alignment": "center",
+            "width": "50%",
+            "text_alignment": "start",
+            "padding_content_inline": 100,
+            "padding_content_block": 35
+          },
+          "blocks": {
+            "icon_fURmee": {
+              "type": "icon",
+              "name": "t:sections.parallax-image.blocks.icon.name",
+              "settings": {
+                "link_image": "",
+                "open_in_new_tab": false,
+                "icon_svg": "moon",
+                "image_width": 60,
+                "image_width_mb": 50
+              },
+              "blocks": {}
+            },
+            "subheading_bR6y6X": {
+              "type": "subheading",
+              "name": "t:sections.all.content_setting.subheading.label",
+              "settings": {
+                "subheading": "Always On",
+                "type_preset": "h7",
+                "padding_top": 24,
+                "padding_bottom": 10
+              },
+              "blocks": {}
+            },
+            "heading_J3Ajd6": {
+              "type": "heading",
+              "settings": {
+                "heading": "Color That Stays",
+                "type_preset": "h2",
+                "padding_top": 0,
+                "padding_bottom": 24
+              },
+              "blocks": {}
+            },
+            "description_KQcfL6": {
+              "type": "description",
+              "name": "t:sections.all.content_setting.description.label",
+              "settings": {
+                "description": "<p>No fading, no touch-ups — just weightless, vibrant color that stays true from morning to midnight and everything in between.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon_fURmee",
+            "subheading_bR6y6X",
+            "heading_J3Ajd6",
+            "description_KQcfL6"
+          ]
+        }
+      },
+      "block_order": [
+        "group_text_WVbW7h",
+        "image_ay7ddD",
+        "image_Uika3e",
+        "group_text_9r7XPk"
+      ],
+      "custom_css": [
+        ".block__subheading {width: 100%;}"
+      ],
+      "name": "t:sections.multi_content.name",
+      "settings": {
+        "section_width": "fix_width",
+        "subheading": "",
+        "heading": "",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "alignment": "start",
+        "column_gap": "medium",
+        "enable_carousel_mobile": false,
+        "items_per_row": 1,
+        "hidden_des_mobile": false,
+        "equal_height_adjustment": true,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "icon_box_ww37gT": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_dXrMpb": {
+          "type": "icon_box",
+          "settings": {
+            "icon_svg": "cruelty",
+            "heading": "Cruelty-Free",
+            "description": "<p>We're cruelty-free, always and forever, because we believe compassion is the true beauty.</p>"
+          }
+        },
+        "icon_box_wfqBQX": {
+          "type": "icon_box",
+          "settings": {
+            "icon_svg": "paraben",
+            "heading": "Paraben-Free",
+            "description": "<p>Products paraben-free, always and forever, because we believe in clean, safe beauty for all.</p>"
+          }
+        },
+        "icon_box_m63VBk": {
+          "type": "icon_box",
+          "settings": {
+            "icon_svg": "leaf",
+            "heading": "Earth-Conscious",
+            "description": "<p>Our commitment to the planet is present in every step of our product's journey and process.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_dXrMpb",
+        "icon_box_wfqBQX",
+        "icon_box_m63VBk"
+      ],
+      "name": "t:sections.icon-box.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "title": "",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "alignment": "start",
+        "column_gap": "large",
+        "icon_size": 60,
+        "icon_position": "top",
+        "rounded_image": false,
+        "content_icon_alignment": "center",
+        "content_icon_size": "large",
+        "enable_carousel_mobile": true,
+        "items_per_row": "1",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "compare_products_QKrcP9": {
+      "type": "compare-products",
+      "name": "t:sections.compare-products.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "Compare With",
+        "heading": "<p>Similar Products</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "show_price": true,
+        "show_ratings": true,
+        "show_vendor": false,
+        "show_color": false,
+        "show_size": false,
+        "size_trigger": "Size,Größe,Misurare",
+        "show_highlights": true,
+        "show_availability": true,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_divider": true
+      }
+    },
+    "related_products_tA4kBj": {
+      "type": "related-products",
+      "name": "t:sections.related-products.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "title": "<p>Others Also Bought</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Check out similar products people are loving. Click to explore trending styles.</p>",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "items_to_show": 4,
+        "items_per_row": 4,
+        "column_gap": "medium",
+        "enable_carousel": false,
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": false,
+        "items_per_row_mobile": 2,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "recently_viewed_products_riVJTL": {
+      "type": "recently-viewed-products",
+      "name": "t:sections.recently-viewed-products.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "title": "<p>Recently Viewed</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Take another look at items you've recently explored. Easily return to your favorites.</p>",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "items_to_show": 4,
+        "items_per_row": 4,
+        "column_gap": "medium",
+        "enable_carousel": false,
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": false,
+        "items_per_row_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "quick_order_list_9trrwN",
+    "multi_content_BdffXF",
+    "product_testimonials_kqXDfb",
+    "multi_content_HDDFiU",
+    "icon_box_ww37gT",
+    "compare_products_QKrcP9",
+    "related_products_tA4kBj",
+    "recently_viewed_products_riVJTL"
+  ]
+}

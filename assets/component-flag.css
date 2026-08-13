@@ -1,0 +1,808 @@
+.country-flags {
+    background-image: -webkit-image-set(
+      url("flags.png") 1x,
+      url("flags-2x.png") 2x
+    );
+    background-image: image-set(url("flags.png") 1x, url("flags-2x.png") 2x);
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  .flags-AD {
+    background-position: 0 0;
+  }
+  .flags-AE {
+    background-position: -21px 0;
+  }
+  .flags-AF {
+    background-position: 0 -21px;
+  }
+  .flags-African_nion {
+    background-position: -21px -21px;
+  }
+  .flags-AG {
+    background-position: -42px 0;
+  }
+  .flags-AI {
+    background-position: -42px -21px;
+  }
+  .flags-AL {
+    background-position: 0 -42px;
+  }
+  .flags-AM {
+    background-position: -21px -42px;
+  }
+  .flags-AMS {
+    background-position: -42px -42px;
+  }
+  .flags-AO {
+    background-position: -63px 0;
+  }
+  .flags-AQ {
+    background-position: -63px -21px;
+  }
+  .flags-AR {
+    background-position: -63px -42px;
+  }
+  .flags-AS {
+    background-position: 0 -63px;
+  }
+  .flags-AT {
+    background-position: -21px -63px;
+  }
+  .flags-AU {
+    background-position: -42px -63px;
+  }
+  .flags-AW {
+    background-position: -63px -63px;
+  }
+  .flags-AX {
+    background-position: -84px 0;
+  }
+  .flags-AZ {
+    background-position: -84px -21px;
+  }
+  .flags-BA {
+    background-position: -84px -42px;
+  }
+  .flags-BB {
+    background-position: -84px -63px;
+  }
+  .flags-BD {
+    background-position: 0 -84px;
+  }
+  .flags-BE {
+    background-position: -21px -84px;
+  }
+  .flags-BF {
+    background-position: -42px -84px;
+  }
+  .flags-BG {
+    background-position: -63px -84px;
+  }
+  .flags-BH {
+    background-position: -84px -84px;
+  }
+  .flags-BI {
+    background-position: -105px 0;
+  }
+  .flags-BJ {
+    background-position: -105px -21px;
+  }
+  .flags-BL {
+    background-position: -105px -42px;
+  }
+  .flags-BM {
+    background-position: -105px -63px;
+  }
+  .flags-BN {
+    background-position: -105px -84px;
+  }
+  .flags-BO {
+    background-position: 0 -105px;
+  }
+  .flags-BQ-BO {
+    background-position: -21px -105px;
+  }
+  .flags-BQ-SA {
+    background-position: -42px -105px;
+  }
+  .flags-BQ-SE {
+    background-position: -63px -105px;
+  }
+  .flags-BR {
+    background-position: -84px -105px;
+  }
+  .flags-BS {
+    background-position: -105px -105px;
+  }
+  .flags-BT {
+    background-position: -126px 0;
+  }
+  .flags-BV {
+    background-position: -126px -21px;
+  }
+  .flags-BW {
+    background-position: -126px -42px;
+  }
+  .flags-BY {
+    background-position: -126px -63px;
+  }
+  .flags-BZ {
+    background-position: -126px -84px;
+  }
+  .flags-CA {
+    background-position: -126px -105px;
+  }
+  .flags-CC {
+    background-position: 0 -126px;
+  }
+  .flags-CD {
+    background-position: -21px -126px;
+  }
+  .flags-CF {
+    background-position: -42px -126px;
+  }
+  .flags-CG {
+    background-position: -63px -126px;
+  }
+  .flags-CH {
+    background-position: -84px -126px;
+  }
+  .flags-CI {
+    background-position: -105px -126px;
+  }
+  .flags-CK {
+    background-position: -126px -126px;
+  }
+  .flags-CL {
+    background-position: -147px 0;
+  }
+  .flags-CM {
+    background-position: -147px -21px;
+  }
+  .flags-CN {
+    background-position: -147px -42px;
+  }
+  .flags-CO {
+    background-position: -147px -63px;
+  }
+  .flags-CR {
+    background-position: -147px -84px;
+  }
+  .flags-CU {
+    background-position: -147px -105px;
+  }
+  .flags-CV {
+    background-position: -147px -126px;
+  }
+  .flags-CW {
+    background-position: 0 -147px;
+  }
+  .flags-CX {
+    background-position: -21px -147px;
+  }
+  .flags-CY {
+    background-position: -42px -147px;
+  }
+  .flags-CZ {
+    background-position: -63px -147px;
+  }
+  .flags-DE {
+    background-position: -84px -147px;
+  }
+  .flags-DJ {
+    background-position: -105px -147px;
+  }
+  .flags-DK {
+    background-position: -126px -147px;
+  }
+  .flags-DM {
+    background-position: -147px -147px;
+  }
+  .flags-DO {
+    background-position: -168px 0;
+  }
+  .flags-DZ {
+    background-position: -168px -21px;
+  }
+  .flags-EC {
+    background-position: -168px -42px;
+  }
+  .flags-EE {
+    background-position: -168px -63px;
+  }
+  .flags-EG {
+    background-position: -168px -84px;
+  }
+  .flags-EH {
+    background-position: -168px -105px;
+  }
+  .flags-ER {
+    background-position: -168px -126px;
+  }
+  .flags-ES {
+    background-position: -168px -147px;
+  }
+  .flags-ET {
+    background-position: 0 -168px;
+  }
+  .flags-EUROPE {
+    background-position: -21px -168px;
+  }
+  .flags-FI {
+    background-position: -42px -168px;
+  }
+  .flags-FJ {
+    background-position: -63px -168px;
+  }
+  .flags-FK {
+    background-position: -84px -168px;
+  }
+  .flags-FM {
+    background-position: -105px -168px;
+  }
+  .flags-FO {
+    background-position: -126px -168px;
+  }
+  .flags-FR {
+    background-position: -147px -168px;
+  }
+  .flags-GA {
+    background-position: -168px -168px;
+  }
+  .flags-GB {
+    background-position: -189px -63px;
+  }
+  .flags-GB-NIR {
+    background-position: -189px -21px;
+  }
+  .flags-GB-SCT {
+    background-position: -189px -42px;
+  }
+  .flags-GB-UKM {
+    background-position: -189px -63px;
+  }
+  .flags-GB-WLS {
+    background-position: -189px -84px;
+  }
+  .flags-GD {
+    background-position: -189px -105px;
+  }
+  .flags-GE {
+    background-position: -189px -126px;
+  }
+  .flags-GF {
+    background-position: -189px -147px;
+  }
+  .flags-GG {
+    background-position: -189px -168px;
+  }
+  .flags-GH {
+    background-position: 0 -189px;
+  }
+  .flags-GI {
+    background-position: -21px -189px;
+  }
+  .flags-GL {
+    background-position: -42px -189px;
+  }
+  .flags-GM {
+    background-position: -63px -189px;
+  }
+  .flags-GN {
+    background-position: -84px -189px;
+  }
+  .flags-GP {
+    background-position: -105px -189px;
+  }
+  .flags-GP {
+    background-position: -126px -189px;
+  }
+  .flags-GQ {
+    background-position: -147px -189px;
+  }
+  .flags-GR {
+    background-position: -168px -189px;
+  }
+  .flags-GS {
+    background-position: -189px -189px;
+  }
+  .flags-GT {
+    background-position: -210px 0;
+  }
+  .flags-GU {
+    background-position: -210px -21px;
+  }
+  .flags-GW {
+    background-position: -210px -42px;
+  }
+  .flags-GY {
+    background-position: -210px -63px;
+  }
+  .flags-HK {
+    background-position: -210px -84px;
+  }
+  .flags-HM {
+    background-position: -210px -105px;
+  }
+  .flags-HN {
+    background-position: -210px -126px;
+  }
+  .flags-HR {
+    background-position: -210px -147px;
+  }
+  .flags-HT {
+    background-position: -210px -168px;
+  }
+  .flags-HU {
+    background-position: -210px -189px;
+  }
+  .flags-ID {
+    background-position: 0 -210px;
+  }
+  .flags-IE {
+    background-position: -21px -210px;
+  }
+  .flags-IL {
+    background-position: -42px -210px;
+  }
+  .flags-IM {
+    background-position: -63px -210px;
+  }
+  .flags-IN {
+    background-position: -84px -210px;
+  }
+  .flags-IO {
+    background-position: -105px -210px;
+  }
+  .flags-IQ {
+    background-position: -126px -210px;
+  }
+  .flags-IR {
+    background-position: -147px -210px;
+  }
+  .flags-IS {
+    background-position: -168px -210px;
+  }
+  .flags-IT {
+    background-position: -189px -210px;
+  }
+  .flags-JE {
+    background-position: -210px -210px;
+  }
+  .flags-JM {
+    background-position: -231px 0;
+  }
+  .flags-JO {
+    background-position: -231px -21px;
+  }
+  .flags-JP {
+    background-position: -231px -42px;
+  }
+  .flags-KG {
+    background-position: -231px -63px;
+  }
+  .flags-KH {
+    background-position: -231px -84px;
+  }
+  .flags-KI {
+    background-position: -231px -105px;
+  }
+  .flags-KM {
+    background-position: -231px -126px;
+  }
+  .flags-KN {
+    background-position: -231px -147px;
+  }
+  .flags-KN-SK {
+    background-position: -231px -168px;
+  }
+  .flags-KP {
+    background-position: -231px -189px;
+  }
+  .flags-KR {
+    background-position: -231px -210px;
+  }
+  .flags-KW {
+    background-position: 0 -231px;
+  }
+  .flags-KY {
+    background-position: -21px -231px;
+  }
+  .flags-KZ {
+    background-position: -42px -231px;
+  }
+  .flags-LA {
+    background-position: -63px -231px;
+  }
+  .flags-LB {
+    background-position: -84px -231px;
+  }
+  .flags-LC {
+    background-position: -105px -231px;
+  }
+  .flags-LI {
+    background-position: -126px -231px;
+  }
+  .flags-LK {
+    background-position: -147px -231px;
+  }
+  .flags-LR {
+    background-position: -168px -231px;
+  }
+  .flags-LS {
+    background-position: -189px -231px;
+  }
+  .flags-LT {
+    background-position: -210px -231px;
+  }
+  .flags-LU {
+    background-position: -231px -231px;
+  }
+  .flags-LV {
+    background-position: -252px 0;
+  }
+  .flags-LY {
+    background-position: -252px -21px;
+  }
+  .flags-MA {
+    background-position: -252px -42px;
+  }
+  .flags-MC {
+    background-position: -252px -63px;
+  }
+  .flags-MD {
+    background-position: -252px -84px;
+  }
+  .flags-ME {
+    background-position: -252px -105px;
+  }
+  .flags-MF {
+    background-position: -252px -126px;
+  }
+  .flags-MG {
+    background-position: -252px -147px;
+  }
+  .flags-MH {
+    background-position: -252px -168px;
+  }
+  .flags-MK {
+    background-position: -252px -189px;
+  }
+  .flags-ML {
+    background-position: -252px -210px;
+  }
+  .flags-MM {
+    background-position: -252px -231px;
+  }
+  .flags-MN {
+    background-position: 0 -252px;
+  }
+  .flags-MO {
+    background-position: -21px -252px;
+  }
+  .flags-MP {
+    background-position: -42px -252px;
+  }
+  .flags-MQ {
+    background-position: -63px -252px;
+  }
+  .flags-MQ-UNF {
+    background-position: -84px -252px;
+  }
+  .flags-MR {
+    background-position: -105px -252px;
+  }
+  .flags-MS {
+    background-position: -126px -252px;
+  }
+  .flags-MT {
+    background-position: -147px -252px;
+  }
+  .flags-MU {
+    background-position: -168px -252px;
+  }
+  .flags-MV {
+    background-position: -189px -252px;
+  }
+  .flags-MW {
+    background-position: -210px -252px;
+  }
+  .flags-MX {
+    background-position: -231px -252px;
+  }
+  .flags-MY {
+    background-position: -252px -252px;
+  }
+  .flags-MZ {
+    background-position: -273px 0;
+  }
+  .flags-NA {
+    background-position: -273px -21px;
+  }
+  .flags-NC {
+    background-position: -273px -42px;
+  }
+  .flags-NE {
+    background-position: -273px -63px;
+  }
+  .flags-NF {
+    background-position: -273px -84px;
+  }
+  .flags-NG {
+    background-position: -273px -105px;
+  }
+  .flags-NI {
+    background-position: -273px -126px;
+  }
+  .flags-NL {
+    background-position: -273px -147px;
+  }
+  .flags-NO {
+    background-position: -273px -168px;
+  }
+  .flags-NP {
+    background-position: -273px -189px;
+  }
+  .flags-NR {
+    background-position: -273px -210px;
+  }
+  .flags-NU {
+    background-position: -273px -231px;
+  }
+  .flags-NZ {
+    background-position: -273px -252px;
+  }
+  .flags-OM {
+    background-position: 0 -273px;
+  }
+  .flags-PA {
+    background-position: -21px -273px;
+  }
+  .flags-PE {
+    background-position: -42px -273px;
+  }
+  .flags-PF {
+    background-position: -63px -273px;
+  }
+  .flags-PG {
+    background-position: -84px -273px;
+  }
+  .flags-PH {
+    background-position: -105px -273px;
+  }
+  .flags-PK {
+    background-position: -126px -273px;
+  }
+  .flags-PL {
+    background-position: -147px -273px;
+  }
+  .flags-PM {
+    background-position: -168px -273px;
+  }
+  .flags-Pf-UNF {
+    background-position: -189px -273px;
+  }
+  .flags-PN {
+    background-position: -210px -273px;
+  }
+  .flags-PR {
+    background-position: -231px -273px;
+  }
+  .flags-PS {
+    background-position: -252px -273px;
+  }
+  .flags-PT {
+    background-position: -273px -273px;
+  }
+  .flags-PW {
+    background-position: -294px 0;
+  }
+  .flags-PY {
+    background-position: -294px -21px;
+  }
+  .flags-QA {
+    background-position: -294px -42px;
+  }
+  .flags-RAINBOW {
+    background-position: -294px -63px;
+  }
+  .flags-RE {
+    background-position: -294px -84px;
+  }
+  .flags-RO {
+    background-position: -294px -105px;
+  }
+  .flags-RS {
+    background-position: -294px -126px;
+  }
+  .flags-RU {
+    background-position: -294px -147px;
+  }
+  .flags-RW {
+    background-position: -294px -168px;
+  }
+  .flags-SA {
+    background-position: -294px -189px;
+  }
+  .flags-SB {
+    background-position: -294px -210px;
+  }
+  .flags-SC {
+    background-position: -294px -231px;
+  }
+  .flags-SD {
+    background-position: -294px -252px;
+  }
+  .flags-SE {
+    background-position: -294px -273px;
+  }
+  .flags-SG {
+    background-position: 0 -294px;
+  }
+  .flags-SH {
+    background-position: -21px -294px;
+  }
+  .flags-SI {
+    background-position: -42px -294px;
+  }
+  .flags-SJ {
+    background-position: -63px -294px;
+  }
+  .flags-SK {
+    background-position: -84px -294px;
+  }
+  .flags-SL {
+    background-position: -105px -294px;
+  }
+  .flags-SM {
+    background-position: -126px -294px;
+  }
+  .flags-SN {
+    background-position: -147px -294px;
+  }
+  .flags-SO {
+    background-position: -168px -294px;
+  }
+  .flags-SR {
+    background-position: -189px -294px;
+  }
+  .flags-SS {
+    background-position: -210px -294px;
+  }
+  .flags-ST {
+    background-position: -231px -294px;
+  }
+  .flags-SV {
+    background-position: -252px -294px;
+  }
+  .flags-SX {
+    background-position: -273px -294px;
+  }
+  .flags-SY {
+    background-position: -294px -294px;
+  }
+  .flags-SZ {
+    background-position: -315px 0;
+  }
+  .flags-TC {
+    background-position: -315px -21px;
+  }
+  .flags-TD {
+    background-position: -315px -42px;
+  }
+  .flags-TF {
+    background-position: -315px -63px;
+  }
+  .flags-TG {
+    background-position: -315px -84px;
+  }
+  .flags-TH {
+    background-position: -315px -105px;
+  }
+  .flags-TJ {
+    background-position: -315px -126px;
+  }
+  .flags-TK {
+    background-position: -315px -147px;
+  }
+  .flags-TL {
+    background-position: -315px -168px;
+  }
+  .flags-TM {
+    background-position: -315px -189px;
+  }
+  .flags-TN {
+    background-position: -315px -210px;
+  }
+  .flags-TO {
+    background-position: -315px -231px;
+  }
+  .flags-TR {
+    background-position: -315px -252px;
+  }
+  .flags-TT {
+    background-position: -315px -273px;
+  }
+  .flags-TV {
+    background-position: -315px -294px;
+  }
+  .flags-TW {
+    background-position: 0 -315px;
+  }
+  .flags-TZ {
+    background-position: -21px -315px;
+  }
+  .flags-UA {
+    background-position: -42px -315px;
+  }
+  .flags-UG {
+    background-position: -63px -315px;
+  }
+  .flags-UM {
+    background-position: -84px -315px;
+  }
+  .flags-Union_f_outh_merican_ations {
+    background-position: -105px -315px;
+  }
+  .flags-US {
+    background-position: -126px -315px;
+  }
+  .flags-UY {
+    background-position: -147px -315px;
+  }
+  .flags-UZ {
+    background-position: -168px -315px;
+  }
+  .flags-VA {
+    background-position: -189px -315px;
+  }
+  .flags-VC {
+    background-position: -210px -315px;
+  }
+  .flags-VE {
+    background-position: -231px -315px;
+  }
+  .flags-VG {
+    background-position: -252px -315px;
+  }
+  .flags-VI {
+    background-position: -273px -315px;
+  }
+  .flags-VN {
+    background-position: -294px -315px;
+  }
+  .flags-VU {
+    background-position: -315px -315px;
+  }
+  .flags-WF {
+    background-position: -336px 0;
+  }
+  .flags-WS {
+    background-position: -336px -21px;
+  }
+  .flags-XK {
+    background-position: -336px -42px;
+  }
+  .flags-YE {
+    background-position: -336px -63px;
+  }
+  .flags-YT-UNF {
+    background-position: -336px -84px;
+  }
+  .flags-ZA {
+    background-position: -336px -105px;
+  }
+  .flags-ZM {
+    background-position: -336px -126px;
+  }
+  .flags-ZW {
+    background-position: -336px -147px;
+  }
+  /*# sourceMappingURL=/cdn/shop/t/4/assets/component-country-flag.css.map?v=34440972015563471671716382925 */
+  

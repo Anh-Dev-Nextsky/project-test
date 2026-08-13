@@ -1,0 +1,22 @@
+{%- if closest.product != blank -%}
+  {%- if closest.product.metafields.custom.short_description -%}
+    {{ closest.product.metafields.custom.short_description }}
+  {%- else -%}
+    {{ closest.product.description }}
+  {% endif %}
+{%- else -%}
+  {{ 'onboarding.default_description' | t }}
+{% endif %}
+{% schema %}
+{
+  "name": "t:sections.all.content_setting.description.label",
+  "class": "block-product__description my-custom rte slideIn-animate",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.all.content_setting.description.description"
+    }
+  ],
+  "presets": [{ "name": "t:sections.all.content_setting.description.label" }]
+}
+{% endschema %}

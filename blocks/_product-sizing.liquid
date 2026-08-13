@@ -1,0 +1,59 @@
+{% assign product_sizing = closest.product.metafields.custom.product_sizing.value %}
+{% if product_sizing %}
+  {% style %}
+    .product-sizing-slider {
+      background-color: transparent;
+    }
+    .sizing-slider.active {
+      background-color: var(--color-heading);
+    }
+  {% endstyle %}
+  <div class="w-full flex column">
+    <div class="product-sizing-slider relative w-full h-custom flex gap-sp-2" style="--height: 3px;">
+      {% for item in product_sizing %}
+        <span
+          class="sizing-slider bg-custom flex-1 h-full rounded-10{% if item.active %} active{% endif %}"
+          style="--bg-color-custom: #E5E5E5;"
+        >
+        </span>
+        {% unless forloop.last %}
+          <span
+            class="sizing-slider bg-custom flex-1 h-full rounded-10 hidden block-1025"
+            style="--bg-color-custom: #E5E5E5;"
+          ></span>
+        {% endunless %}
+      {% endfor %}
+    </div>
+    <div class="product-sizing-options fs-small flex space-between w-full mt-sp-2 w-full">
+      {% for item in product_sizing %}
+        <span class="sizing-option{% if item.active %} active{% endif %}">
+          {{ item.label }}
+        </span>
+        {% unless forloop.last %}
+          <span class="sizing-empty"></span>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+{% schema %}
+{
+  "name": "t:sections.product_sizing.name",
+  "class": "product-sizing-block my-custom",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.product_sizing.how_to_use"
+    },
+    {
+      "type": "paragraph",
+      "content": "t:sections.product_sizing.info"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.product_sizing.name"
+    }
+  ]
+}
+{% endschema %}

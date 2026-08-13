@@ -1,0 +1,42 @@
+{%- if closest.product != blank -%}
+  {%- if closest.product.metafields.custom.highlights.value -%}
+    <ul
+      class="list-unstyled flex wrap gap-sp-4 gap-1025-sp-8 row-gap-sp-4"
+    >
+      {%- for highlights in closest.product.metafields.custom.highlights.value -%}
+        <li class="flex column fs-small" style="--width:6.5rem;">
+          {% # theme-check-disable %}
+          {% assign image_alt = highlights.icon.alt | default: closest.product.title | escape %}
+          {% # theme-check-enable %}
+          {%- if highlights.icon -%}
+            {%
+              render 'responsive-image',
+              type: 'other',
+              image: highlights.icon,
+              image_alt: image_alt,s
+              class: 'rounded w-custom max-w-100'
+            %}
+          {% endif %}
+          {%- if highlights.title -%}
+            <div class="highlights-text heading-color mt-sp-2 w-full text-size">
+              {{ highlights.title }}
+            </div>
+          {% endif %}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {% endif %}
+{% endif %}
+{% schema %}
+{
+  "name": "t:sections.all.product_setting.highlights.name",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.all.product_setting.highlights.description"
+    }
+  ],
+  "class": "block-product__highlights my-custom slideIn-animate",
+  "presets": [{ "name": "t:sections.all.product_setting.highlights.name" }]
+}
+{% endschema %}

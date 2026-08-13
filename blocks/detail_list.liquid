@@ -1,0 +1,128 @@
+{% liquid
+  assign block_st = block.settings
+%}
+{% capture style %}
+--space-bottom: {{ block_st.padding_bottom }};--space-top: {{ block_st.padding_top }};
+{% endcapture %}
+{% style %}
+  .block__detail-list-container .detail-row:first-child {
+    padding-top: 0;
+  }
+  .block__detail-list-container .detail-row:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+{% endstyle %}
+{% if request.visual_preview_mode %}
+  <div
+    class="block__detail-list-container w-full flex column w-custom rounded-20 p-sp-5 bg-white"
+    style="--width: 500px;"
+  >
+    <div
+      class="detail-row flex space-between gap-sp-4 py-sp-4 border-bottom"
+    >
+      <div class="row-title heading-color">{{ 'sections.detai_list.detail_row.row_title' | t }}</div>
+      <div class="row-details">
+        {{ 'sections.detai_list.detail_row.row_detail' | t }}
+      </div>
+    </div>
+    <div
+      class="detail-row flex space-between gap-sp-4 py-sp-4 border-bottom"
+    >
+      <div class="row-title  heading-color">{{ 'sections.detai_list.detail_row.row_title' | t }}</div>
+      <div class="row-details">
+        {{ 'sections.detai_list.detail_row.row_detail' | t }}
+      </div>
+    </div>
+    <div
+      class="detail-row flex space-between gap-sp-4 py-sp-4 border-bottom"
+    >
+      <div class="row-title heading-color">{{ 'sections.detai_list.detail_row.row_title' | t }}</div>
+      <div class="row-details">
+        {{ 'sections.detai_list.detail_row.row_detail' | t }}
+      </div>
+    </div>
+    <div
+      class="detail-row flex space-between gap-sp-4 py-sp-4 border-bottom"
+    >
+      <div class="row-title  heading-color">{{ 'sections.detai_list.detail_row.row_title' | t }}</div>
+      <div class="row-details">
+        {{ 'sections.detai_list.detail_row.row_detail' | t }}
+      </div>
+    </div>
+  </div>
+{% else %}
+  <div
+    class="block__detail-list mb-custom mt-custom{% if block_st.padding_bottom > 10 %} mb_auto-rsp{% endif %}{% if block_st.padding_top > 10 %} mt_auto-rsp{% endif %} w-full"
+    style="{{ style | strip | strip_newlines }}"
+    {{ block.shopify_attributes }}
+  >
+    <div
+      class="block__detail-list-container w-full flex column w-full"
+      {{ block.shopify_attributes }}
+    >
+      {% content_for 'blocks' %}
+    </div>
+  </div>
+{%- endif -%}
+{% schema %}
+{
+  "name": "t:sections.all.content_setting.detail_list.label",
+  "tag": null,
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.all.product_setting.promotion_alert.heading.how_to_use"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.custom_section.blocks.page.spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 10
+    }
+  ],
+  "blocks": [
+    {
+      "type": "_detail-row"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.all.content_setting.detail_list.label",
+      "category": "t:sections.group.blocks.basic",
+      "blocks": [
+        {
+          "type": "_detail-row"
+        },
+        {
+          "type": "_detail-row"
+        },
+        {
+          "type": "_detail-row"
+        },
+        {
+          "type": "_detail-row"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

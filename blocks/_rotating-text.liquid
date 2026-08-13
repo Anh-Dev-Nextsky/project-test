@@ -1,0 +1,190 @@
+{%- liquid
+  assign section_st = section.settings
+  assign block_st = block.settings
+  assign content_alignment = section_st.text_alignment
+  assign theme_st = settings
+  assign scroll_animation = theme_st.scroll_animation
+  assign block_id = block.id | replace: '_', '-'
+  assign text = block_st.circle_text
+  assign direction = block_st.spin_direction
+  assign speed = block_st.spin_speed
+  assign rotation_class = 'rotate-' | append: direction | append: '-' | append: block_id
+%}
+{% style %}
+  .circular-text__icon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #circular-text-{{ block_id }} {
+    display: flex;
+    justify-content: {{ content_alignment }};
+    align-items: center;
+    position: relative;
+    margin-bottom: {{ block_st.spacing_bottom }}px;
+  }
+  #circular-text-{{ block_id }} svg {
+    transform-origin: center;
+  }
+  #circleSvg-{{ block_id }} {
+    {% if block_st.spin_direction != 'none' %}
+      animation: rotate-{{ block_id }} {{ speed }}s linear infinite;
+      direction: ltr;
+    {% endif %}
+  }
+  @keyframes rotate-{{ block_id }} {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate({% if direction == 'normal' %}360deg{% else %}-360deg{% endif %});
+    }
+  }
+{% endstyle %}
+
+{% if request.visual_preview_mode %}
+  <div
+    {{ block.shopify_attributes }}
+  >
+    <svg width="132" height="132" viewBox="0 0 132 132">
+      <use href="#icon-rotate-text" />
+    </svg>
+  </div>
+{% else %}
+  {%- if scroll_animation != 'disable' -%}
+    <motion-effect data-animate="fade-up" class="block">
+  {%- endif -%}
+  <div
+    class="mb-custom{% if block_st.spacing_bottom > 10 %} mb_auto-rsp{% endif %} flex justify-content-{{ content_alignment }}"
+  >
+    <div
+      id="circular-text-{{ block_id }}"
+      class="relative flex justify-center items-center heading-style"
+    >
+      <svg id="circleSvg-{{ block_id }}">
+        <defs>
+          <path id="circle-{{ block_id }}" />
+        </defs>
+        <text class="{{ rotation_class }}{% if block_st.uppercase %} uppercase{% endif %}" font-size="15">
+          <textPath xlink:href="#circle-{{ block_id }}" id="textPath-{{ block_id }}">
+            {{ block_st.circle_text }}
+          </textPath>
+        </text>
+      </svg>
+      <div class="absolute circular-text__icon flex justify-center items-center">
+        {% render 'icon_svg_list', icon: block_st.icon_svg, custom_width: 42, custom_height: 42 %}
+      </div>
+    </div>
+  </div>
+  {%- if scroll_animation != 'disable' -%}
+    </motion-effect>
+  {%- endif -%}
+{% endif %}
+<script type="module">
+  import { CircularText } from '{{ 'circular-text.js' | asset_url }}';
+  document.addEventListener('DOMContentLoaded', () => {
+    new CircularText('{{ block_id }}', '{{ text | escape }}', {{ block.settings.uppercase | json }}).init();
+  });
+  document.addEventListener('shopify:section:load', (event) => {
+    if (event.target.id === 'shopify-section-{{ section.id }}') {
+      new CircularText('{{ block_id }}', '{{ text | escape }}', {{ block.settings.uppercase | json }}).init();
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "t:sections.rich-text.settings.rotating_text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "circle_text",
+      "label": "t:sections.all.text.label",
+      "default": "Circular text - Circular text - "
+    },
+    {
+      "type": "checkbox",
+      "id": "uppercase",
+      "default": false,
+      "label": "t:settings_schema.typography.settings.heading.text_transform.uppercase"
+    },
+    {
+      "type": "select",
+      "id": "icon_svg",
+      "label": "t:sections.all.svg.label",
+      "default": "circular-text",
+      "options": [
+        {
+          "value": "leaf",
+          "label": "t:sections.all.icon.leaf.label"
+        },
+        {
+          "value": "cruelty",
+          "label": "t:sections.all.icon.cruelty.label"
+        },
+        {
+          "value": "paraben",
+          "label": "t:sections.all.icon.paraben.label"
+        },
+        {
+          "value": "check_badge",
+          "label": "t:sections.all.icon.check_badge.label"
+        },
+        {
+          "value": "free_shipping",
+          "label": "t:sections.all.icon.free_shipping.label"
+        },
+        {
+          "value": "message_communications",
+          "label": "t:sections.all.icon.message_communications.label"
+        },
+        {
+          "value": "circular-text",
+          "label": "t:sections.all.icon.circular-text.label"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "spin_direction",
+      "label": "t:sections.scrolling_text.settings.direction.label",
+      "default": "normal",
+      "options": [
+        {
+          "value": "reverse",
+          "label": "t:sections.scrolling_text.settings.direction.left.label"
+        },
+        {
+          "value": "normal",
+          "label": "t:sections.scrolling_text.settings.direction.right.label"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "spin_speed",
+      "label": "t:sections.scrolling_text.settings.speed.label",
+      "default": 15,
+      "min": 5,
+      "max": 50,
+      "step": 1,
+      "unit": "s"
+    },
+    {
+      "type": "range",
+      "id": "spacing_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.spacing_bottom",
+      "default": 50
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.rich-text.settings.rotating_text"
+    }
+  ]
+}
+{% endschema %}

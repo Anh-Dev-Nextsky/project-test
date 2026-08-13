@@ -1,0 +1,469 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "section_width": "fix_width",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "heading": {
+      "type": "page-heading",
+      "blocks": {
+        "heading_cVehNH": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}"
+          }
+        },
+        "description_PdnN6k": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_cVehNH",
+        "description_PdnN6k"
+      ],
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "text_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "main": {
+      "type": "page-faqs",
+      "blocks": {
+        "group_faq_page_HRBCbF": {
+          "type": "_group-faq-page",
+          "name": "t:sections.faq.name",
+          "settings": {
+            "heading": "Order",
+            "framed": true
+          },
+          "blocks": {
+            "item_faq_QjYaY4": {
+              "type": "_item-faq",
+              "name": "t:sections.faq.blocks.name",
+              "settings": {
+                "question": "How do I place orders?",
+                "answer": "<p>To place an order, simply browse our products and click \"Add to Cart\" on the items you love. Once you're ready, go to your cart and proceed to checkout. Follow the steps to enter your shipping details and payment information to complete the order.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_qmnekn": {
+              "type": "_item-faq",
+              "name": "t:sections.faq.blocks.name",
+              "settings": {
+                "question": "Can I cancel or edit my order?",
+                "answer": "<p>We understand that changes may be needed. If your order hasn’t been processed yet, please contact our support team as soon as possible. Once an order has entered the fulfillment stage, it may no longer be possible to cancel or edit it.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_6VeXJF": {
+              "type": "_item-faq",
+              "name": "t:sections.faq.blocks.name",
+              "settings": {
+                "question": "Where is my order now?",
+                "answer": "<p>After placing your order, you’ll receive a confirmation email with your order details. Once your order is shipped, a follow-up email will be sent with tracking information so you can monitor its progress.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_YcAmNY": {
+              "type": "_item-faq",
+              "name": "t:sections.faq.blocks.name",
+              "settings": {
+                "question": "I didn’t receive confirmation email—why?",
+                "answer": "<p>Please check your spam or junk folder first. If you still don’t see the confirmation email, make sure the email address you entered during checkout was correct. Feel free to contact our support team, and we’ll be happy to assist.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_qwknMD": {
+              "type": "_item-faq",
+              "name": "t:sections.faq.blocks.name",
+              "settings": {
+                "question": "Can I track my shipment?",
+                "answer": "<p>Yes. Once your order has been shipped, you’ll receive an email containing a tracking link. You can use this link to follow your shipment until it arrives at your destination.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_cziPmt": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "What if I entered wrong info?",
+                "answer": "<p>If you notice incorrect shipping or contact information, please reach out to us immediately. We can help update the details if the order hasn’t been processed yet.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_6ekn9V": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "I received the wrong product—what now?",
+                "answer": "<p>We’re sorry for the inconvenience. Please contact our support team with your order number and details of the issue. We’ll work with you to resolve it as quickly as possible.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_zXEBjb": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Do you support bulk orders?",
+                "answer": "<p>Yes, we do support bulk orders. If you’re interested in placing a large or custom order, please contact us directly so we can discuss your requirements and provide the best solution.</p>"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "item_faq_QjYaY4",
+            "item_faq_qmnekn",
+            "item_faq_6VeXJF",
+            "item_faq_YcAmNY",
+            "item_faq_qwknMD",
+            "item_faq_cziPmt",
+            "item_faq_6ekn9V",
+            "item_faq_zXEBjb"
+          ]
+        },
+        "group_faq_page_LPwLhH": {
+          "type": "_group-faq-page",
+          "name": "t:sections.faq.name",
+          "settings": {
+            "heading": "Payment",
+            "framed": true
+          },
+          "blocks": {
+            "item_faq_XPP9Km": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "What payment methods do you accept?",
+                "answer": "<p>We accept major credit and debit cards, as well as other secure payment methods available at checkout. All payments are processed safely and securely.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_UyK4CN": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Is my payment information secure?",
+                "answer": "<p>Yes. We use industry-standard encryption and trusted payment gateways to protect your payment information at all times.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_6jmNRe": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "When will my payment be charged?",
+                "answer": "<p>Your payment will be charged once your order is successfully placed and confirmed.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_AzwV7G": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Why was my payment declined?",
+                "answer": "<p>Payments may be declined due to incorrect details, insufficient funds, or bank restrictions. Please double-check your information or contact your bank for assistance.</p>"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "item_faq_XPP9Km",
+            "item_faq_UyK4CN",
+            "item_faq_6jmNRe",
+            "item_faq_AzwV7G"
+          ]
+        },
+        "group_faq_page_bNR67x": {
+          "type": "_group-faq-page",
+          "name": "t:sections.faq.name",
+          "settings": {
+            "heading": "Accounts",
+            "framed": true
+          },
+          "blocks": {
+            "item_faq_FT8nfh": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Do I need an account to place an order?",
+                "answer": "<p>No, you can check out as a guest. However, creating an account allows you to track orders and save your details for future purchases.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_pbbYph": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "How do I create an account?",
+                "answer": "<p>Click on the “Sign Up” or “Create Account” option and follow the instructions to set up your account.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_CKcmDA": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "I forgot my password—what should I do?",
+                "answer": "<p>Click “Forgot Password” on the login page and follow the steps to reset your password via email.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_fMd6xD": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "How can I update my account information?",
+                "answer": "<p>Log in to your account and go to your account settings to update your personal information.</p>"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "item_faq_FT8nfh",
+            "item_faq_pbbYph",
+            "item_faq_CKcmDA",
+            "item_faq_fMd6xD"
+          ]
+        },
+        "group_faq_page_drBpwk": {
+          "type": "_group-faq-page",
+          "name": "t:sections.faq.name",
+          "settings": {
+            "heading": "Products",
+            "framed": true
+          },
+          "blocks": {
+            "item_faq_mVVfhk": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "How can I find the right size?",
+                "answer": "<p>Use our <strong>Find Your Size</strong> feature to get a size recommendation based on your measurements before adding the product to your cart.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_UPVY6R": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Are product images accurate?",
+                "answer": "<p>We aim to display product images as accurately as possible. However, colors may vary slightly depending on your screen settings.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_YDkVRC": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Is the product currently in stock?",
+                "answer": "<p>Product availability is shown on each product page. If an item is out of stock, it will be clearly indicated.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_UFXQnP": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Can I get more product details?",
+                "answer": "<p>Yes. Each product page includes detailed descriptions, materials, and care instructions to help you make an informed decision.</p>"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "item_faq_mVVfhk",
+            "item_faq_UPVY6R",
+            "item_faq_YDkVRC",
+            "item_faq_UFXQnP"
+          ]
+        },
+        "group_faq_page_yjc3th": {
+          "type": "_group-faq-page",
+          "name": "t:sections.faq.name",
+          "settings": {
+            "heading": "Shipping",
+            "framed": true
+          },
+          "blocks": {
+            "item_faq_YfLqbD": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Where do you ship to?",
+                "answer": "<p>We ship to multiple locations. Available shipping destinations will be shown during checkout.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_aa7iXn": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "How long does shipping take?",
+                "answer": "<p>Shipping times vary depending on your location and selected shipping method. Estimated delivery times are provided at checkout.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_dFqa9m": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "How much does shipping cost?",
+                "answer": "<p>Shipping costs are calculated at checkout based on your order and delivery address.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_D3iH6B": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Will I receive a tracking number?",
+                "answer": "<p>Yes. Once your order is shipped, you’ll receive a confirmation email with tracking information.</p>"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "item_faq_YfLqbD",
+            "item_faq_aa7iXn",
+            "item_faq_dFqa9m",
+            "item_faq_D3iH6B"
+          ]
+        },
+        "group_faq_page_LbLyGC": {
+          "type": "_group-faq-page",
+          "name": "t:sections.faq.name",
+          "settings": {
+            "heading": "Contact",
+            "framed": true
+          },
+          "blocks": {
+            "item_faq_WHUnzp": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "How can I contact customer support?",
+                "answer": "<p>You can reach us by filling out the contact form on this page or by emailing our support team.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_A7hWwy": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "When will I receive a response?",
+                "answer": "<p>Our support team typically responds within 1–2 business days.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_ceYBFQ": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Do you offer customer support on weekends?",
+                "answer": "<p>Support availability may vary. Messages received outside business hours will be answered as soon as possible.</p>"
+              },
+              "blocks": {}
+            },
+            "item_faq_7RjQ4E": {
+              "type": "_item-faq",
+              "settings": {
+                "question": "Can I get more product details?",
+                "answer": "<p>Yes. Each product page includes detailed descriptions, materials, and care instructions to help you make an informed decision.</p>"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "item_faq_WHUnzp",
+            "item_faq_A7hWwy",
+            "item_faq_ceYBFQ",
+            "item_faq_7RjQ4E"
+          ]
+        }
+      },
+      "block_order": [
+        "group_faq_page_HRBCbF",
+        "group_faq_page_LPwLhH",
+        "group_faq_page_bNR67x",
+        "group_faq_page_drBpwk",
+        "group_faq_page_yjc3th",
+        "group_faq_page_LbLyGC"
+      ],
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "default",
+        "open_all_question": false,
+        "show_faqs_message": true,
+        "desktop_content_position": "right",
+        "highlight_text": "",
+        "heading": "Support <br> Contact Our Team",
+        "description": "<p>Have a question? Email us—we'll help fast.</p>",
+        "text_alignment": "left",
+        "name": "Your name",
+        "email_placeholder": "Your email",
+        "message": "Tell us how we can help",
+        "button_label": "Contact Support",
+        "padding_top": 20,
+        "padding_bottom": 100
+      }
+    },
+    "icon_box_mFpEpG": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_wRJbe7": {
+          "type": "icon_box",
+          "settings": {
+            "icon_svg": "free_shipping",
+            "heading": "Free Shipping",
+            "description": "<p>Enjoy free worldwide shipping and returns, with customs and duties taxes included.</p>"
+          }
+        },
+        "icon_box_fEjng3": {
+          "type": "icon_box",
+          "settings": {
+            "icon_svg": "check_badge",
+            "heading": "100—Day money Back",
+            "description": "<p>Free returns within 100 days, please ensure the product is not damaged.</p>"
+          }
+        },
+        "icon_box_BQhWap": {
+          "type": "icon_box",
+          "settings": {
+            "icon_svg": "message_communications",
+            "heading": "Support Online",
+            "description": "<p>We support customers 24/7, send questions we will solve for you immediately.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_wRJbe7",
+        "icon_box_fEjng3",
+        "icon_box_BQhWap"
+      ],
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "title": "",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "alignment": "start",
+        "column_gap": "medium",
+        "icon_size": 40,
+        "icon_position": "top",
+        "content_icon_alignment": "center",
+        "content_icon_size": "large",
+        "enable_carousel_mobile": true,
+        "items_per_row": "1",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "heading",
+    "main",
+    "icon_box_mFpEpG"
+  ]
+}

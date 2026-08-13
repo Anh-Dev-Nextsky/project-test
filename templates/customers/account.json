@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "section_width": "fix_width",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-account",
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main"
+  ]
+}

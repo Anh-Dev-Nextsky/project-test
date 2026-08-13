@@ -1,0 +1,1560 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "section_width": "fix_width",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "heading": {
+      "type": "page-heading",
+      "blocks": {
+        "heading_4UVp4G": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}"
+          }
+        },
+        "description_qN7phD": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_4UVp4G",
+        "description_qN7phD"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "text_alignment": "center",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "image_with_text_overlay_GYeRrE": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_zXAtK8": {
+          "type": "subheading",
+          "name": "t:sections.all.content_setting.subheading.label",
+          "settings": {
+            "subheading": "Our Story",
+            "type_preset": "h7",
+            "padding_top": 0,
+            "padding_bottom": 24
+          },
+          "blocks": {}
+        },
+        "heading_FeqCNj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Built for Everyday",
+            "type_preset": "h1",
+            "padding_top": 0,
+            "padding_bottom": 16
+          },
+          "blocks": {}
+        },
+        "description_3KPwtx": {
+          "type": "description",
+          "settings": {
+            "description": "<p>We design clothing to move through life—comfortable, intentional, <br/>and made to be trusted every day.</p>",
+            "type_preset": "",
+            "padding_top": 0,
+            "padding_bottom": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "subheading_zXAtK8",
+        "heading_FeqCNj",
+        "description_3KPwtx"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "scheme-9992034c-51d7-4a47-92a6-2d680b0b20b4",
+        "image": "",
+        "mobile_image": "",
+        "overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-left",
+        "text_alignment": "start",
+        "max_width": 100,
+        "padding_content_inline": 60,
+        "padding_content_block": 60,
+        "show_text_bellow_mobile": false,
+        "text_alignment_mobile": "start",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "flexible_section_ceqFiX": {
+      "type": "flexible-section",
+      "blocks": {
+        "text_nybEpm": {
+          "type": "text",
+          "name": "t:sections.custom_section.blocks.text.name",
+          "settings": {
+            "text": "<p>Our Philosophy</p>",
+            "text_color": "text-color",
+            "text_size": 18,
+            "width_block": "fill",
+            "custom_width": 100,
+            "text_align_desktop": "center",
+            "width_block_mobile": "fill",
+            "custom_width_mobile": 100,
+            "text_align_mobile": "center",
+            "padding_top": 0,
+            "padding_bottom": 9,
+            "hide_description_on_mobile": false
+          },
+          "blocks": {}
+        },
+        "heading_block_g6Y8jh": {
+          "type": "heading_block",
+          "name": "t:sections.all.content_setting.heading.label",
+          "settings": {
+            "heading": "Designed for Confidence",
+            "type_preset": "h2",
+            "heading_tag": "h2",
+            "width_block": "fill",
+            "custom_width": 100,
+            "text_align_desktop": "center",
+            "width_block_mobile": "fill",
+            "custom_width_mobile": 100,
+            "text_align_mobile": "center",
+            "padding_top": 0,
+            "padding_bottom": 32
+          },
+          "blocks": {}
+        },
+        "text_fPpQ4U": {
+          "type": "text",
+          "name": "t:sections.custom_section.blocks.text.name",
+          "settings": {
+            "text": "<p>Our designs focus on comfort, balance, and thoughtful details—so getting dressed feels natural, assured, and effortless. Each piece is created with intention, from fabric selection to fit and finish—shaped by purpose, not passing trends.</p>",
+            "text_color": "text-color",
+            "text_size": 16,
+            "width_block": "custom",
+            "custom_width": 62,
+            "text_align_desktop": "center",
+            "width_block_mobile": "fill",
+            "custom_width_mobile": 100,
+            "text_align_mobile": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "hide_description_on_mobile": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_nybEpm",
+        "heading_block_g6Y8jh",
+        "text_fPpQ4U"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "custom_layout": "vertical",
+        "vertical_on_mobile": false,
+        "content_wrap": false,
+        "height_section": "auto",
+        "custom_height": 400,
+        "horizontal_position": "center",
+        "vertical_position": "center",
+        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "gap": 0,
+        "background_media": "none",
+        "padding_block": 50,
+        "border_radius_type": "none",
+        "border_radius_custom": 20,
+        "enable_background_overlay": false,
+        "background_overlay_color": "#0000000f",
+        "background_overlay_style": "solid",
+        "background_overlay_gradient_direction": "to top",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "icon_box_qWNwBA": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_JWCt6h": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "",
+            "icon_svg": "none",
+            "heading": "Premium-Grade Fabrics",
+            "description": "<p>Crafted from durable, comfortable fabrics designed to hold their shape and feel great throughout your day, every time.</p>"
+          }
+        },
+        "icon_box_HGU3qx": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "",
+            "icon_svg": "none",
+            "heading": "Embrace Slow Fashion",
+            "description": "<p>Choose pieces made with intention - timeless styles you can wear often, pair easily, and keep in your wardrobe longer.</p>"
+          }
+        },
+        "icon_box_7eTd4K": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "",
+            "icon_svg": "none",
+            "heading": "Eco-Driven Choices",
+            "description": "<p>Choose thoughtfully made pieces crafted with lower-impact materials, supporting cleaner practices for everyday living.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_JWCt6h",
+        "icon_box_HGU3qx",
+        "icon_box_7eTd4K"
+      ],
+      "name": "t:sections.icon-box.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "title": "",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "small",
+        "alignment": "start",
+        "column_gap": "medium",
+        "icon_size": 140,
+        "icon_position": "top",
+        "rounded_image": true,
+        "content_icon_alignment": "center",
+        "content_icon_size": "large",
+        "enable_carousel_mobile": true,
+        "items_per_row": "1",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "multi_content_wr6UUx": {
+      "type": "multi-content",
+      "blocks": {
+        "image_G4yhNt": {
+          "type": "_image",
+          "name": "t:sections.all.image.label",
+          "settings": {
+            "image": "",
+            "link": "",
+            "vertical_alignment": "start",
+            "width": "50%"
+          },
+          "blocks": {}
+        },
+        "group_text_wygAUa": {
+          "type": "_group-text",
+          "name": "t:sections.all.text.label",
+          "settings": {
+            "color_scheme": "scheme-71ad6e77-818b-46af-a5ac-36e11fc517b6",
+            "vertical_alignment": "end",
+            "width": "50%",
+            "text_alignment": "start",
+            "padding_content_inline": 60,
+            "padding_content_block": 60
+          },
+          "blocks": {
+            "heading_DGxhBt": {
+              "type": "heading",
+              "settings": {
+                "heading": "Designed to Last",
+                "type_preset": "h2",
+                "padding_top": 0,
+                "padding_bottom": 25
+              },
+              "blocks": {}
+            },
+            "description_YtkzRY": {
+              "type": "description",
+              "settings": {
+                "description": "<p>We design in harmony with nature, choosing considered materials that are responsible and made to last.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 12
+              },
+              "blocks": {}
+            },
+            "description_99dGBN": {
+              "type": "description",
+              "name": "t:sections.all.content_setting.description.label",
+              "settings": {
+                "description": "<p>From responsibly sourced cotton to plant-based and recycled fibers, every choice supports a thoughtful way of living for everyday wear.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 32
+              },
+              "blocks": {}
+            },
+            "button_ryWyfR": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Explore the Feel",
+                "first_button_link": "",
+                "first_button_type": "primary",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_DGxhBt",
+            "description_YtkzRY",
+            "description_99dGBN",
+            "button_ryWyfR"
+          ]
+        }
+      },
+      "block_order": [
+        "image_G4yhNt",
+        "group_text_wygAUa"
+      ],
+      "name": "t:sections.multi_content.name",
+      "settings": {
+        "section_width": "fix_width",
+        "subheading": "",
+        "heading": "",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "alignment": "start",
+        "column_gap": "medium",
+        "enable_carousel_mobile": false,
+        "items_per_row": 1,
+        "hidden_des_mobile": false,
+        "equal_height_adjustment": true,
+        "padding_top": 0,
+        "padding_bottom": 24,
+        "show_divider": false
+      }
+    },
+    "multi_content_bFcAJ6": {
+      "type": "multi-content",
+      "blocks": {
+        "group_text_AtdinU": {
+          "type": "_group-text",
+          "name": "t:sections.all.text.label",
+          "settings": {
+            "color_scheme": "scheme-71ad6e77-818b-46af-a5ac-36e11fc517b6",
+            "vertical_alignment": "end",
+            "width": "50%",
+            "text_alignment": "start",
+            "padding_content_inline": 60,
+            "padding_content_block": 60
+          },
+          "blocks": {
+            "heading_UBEXWT": {
+              "type": "heading",
+              "settings": {
+                "heading": "Ease in Every Detail",
+                "type_preset": "h2",
+                "padding_top": 0,
+                "padding_bottom": 24
+              },
+              "blocks": {}
+            },
+            "description_tJ9cjj": {
+              "type": "description",
+              "settings": {
+                "description": "<p>We design with everyday movement in mind, shaping each piece to feel natural, comfortable, and easy to wear.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 12
+              },
+              "blocks": {}
+            },
+            "description_wJx3i9": {
+              "type": "description",
+              "name": "t:sections.all.content_setting.description.label",
+              "settings": {
+                "description": "<p>From relaxed silhouettes to thoughtful proportions, every detail supports daily life—allowing clothing to move with you and feel effortless.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 33
+              },
+              "blocks": {}
+            },
+            "button_xEHdJ9": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "View Collection",
+                "first_button_link": "",
+                "first_button_type": "primary",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_UBEXWT",
+            "description_tJ9cjj",
+            "description_wJx3i9",
+            "button_xEHdJ9"
+          ]
+        },
+        "image_9zVTtX": {
+          "type": "_image",
+          "name": "t:sections.all.image.label",
+          "settings": {
+            "image": "",
+            "link": "",
+            "vertical_alignment": "start",
+            "width": "50%"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "group_text_AtdinU",
+        "image_9zVTtX"
+      ],
+      "name": "t:sections.multi_content.name",
+      "settings": {
+        "section_width": "fix_width",
+        "subheading": "",
+        "heading": "",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "alignment": "center",
+        "column_gap": "medium",
+        "enable_carousel_mobile": false,
+        "items_per_row": 1,
+        "hidden_des_mobile": false,
+        "equal_height_adjustment": true,
+        "padding_top": 0,
+        "padding_bottom": 94,
+        "show_divider": false
+      }
+    },
+    "image_card_TQcbh9": {
+      "type": "image-card",
+      "blocks": {
+        "group_image_card_YjckTH": {
+          "type": "_group-image-card",
+          "settings": {
+            "image": ""
+          },
+          "blocks": {
+            "highlight_text_QPzQg3": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "05/2017",
+                "highlight_text_size": "",
+                "highlight_text_icon": "none",
+                "background_color": "rgba(0,0,0,0)",
+                "text_color": "#444444",
+                "uppercase": false,
+                "padding_top": 0,
+                "padding_bottom": 4
+              },
+              "blocks": {}
+            },
+            "heading_XteUWe": {
+              "type": "heading",
+              "settings": {
+                "heading": "Where It All Began",
+                "type_preset": "h6",
+                "padding_top": 0,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "description_gyqafD": {
+              "type": "description",
+              "settings": {
+                "description": "<p>We started with a simple idea: create everyday clothing that feels considered, comfortable, and lasting.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_QPzQg3",
+            "heading_XteUWe",
+            "description_gyqafD"
+          ]
+        },
+        "group_image_card_PVjDAM": {
+          "type": "_group-image-card",
+          "settings": {
+            "image": ""
+          },
+          "blocks": {
+            "highlight_text_eQxYVi": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "08/2019",
+                "highlight_text_size": "",
+                "highlight_text_icon": "none",
+                "background_color": "rgba(0,0,0,0)",
+                "text_color": "#444444",
+                "uppercase": false,
+                "padding_top": 0,
+                "padding_bottom": 4
+              },
+              "blocks": {}
+            },
+            "heading_RMw7cV": {
+              "type": "heading",
+              "settings": {
+                "heading": "Building Our Studio",
+                "type_preset": "h6",
+                "padding_top": 0,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "description_TmjzmC": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Our studio gave us clarity, structure, and better control over how each collection evolved.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_eQxYVi",
+            "heading_RMw7cV",
+            "description_TmjzmC"
+          ]
+        },
+        "group_image_card_xF8LpM": {
+          "type": "_group-image-card",
+          "name": "t:sections.image_card.blocks.group_name",
+          "settings": {
+            "image": ""
+          },
+          "blocks": {
+            "highlight_text_4A3MWQ": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "07/2021",
+                "highlight_text_size": "",
+                "highlight_text_icon": "none",
+                "background_color": "rgba(0,0,0,0)",
+                "text_color": "#444444",
+                "uppercase": false,
+                "padding_top": 0,
+                "padding_bottom": 4
+              },
+              "blocks": {}
+            },
+            "heading_CQ7VH7": {
+              "type": "heading",
+              "settings": {
+                "heading": "10.000 Strong",
+                "type_preset": "h6",
+                "padding_top": 0,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "description_q7yEK7": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Growing community shaped our direction and reinforced the value of thoughtful everyday design.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_4A3MWQ",
+            "heading_CQ7VH7",
+            "description_q7yEK7"
+          ]
+        },
+        "group_image_card_TfXEGQ": {
+          "type": "_group-image-card",
+          "name": "t:sections.image_card.blocks.group_name",
+          "settings": {
+            "image": ""
+          },
+          "blocks": {
+            "highlight_text_JfEp43": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "01/2023",
+                "highlight_text_size": "",
+                "highlight_text_icon": "none",
+                "background_color": "rgba(0,0,0,0)",
+                "text_color": "#444444",
+                "uppercase": false,
+                "padding_top": 0,
+                "padding_bottom": 4
+              },
+              "blocks": {}
+            },
+            "heading_iPVjkU": {
+              "type": "heading",
+              "settings": {
+                "heading": "Beyond Product",
+                "type_preset": "h6",
+                "padding_top": 0,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "description_YfkrbK": {
+              "type": "description",
+              "settings": {
+                "description": "<p>We expanded into complete collections designed to support versatile, intentional everyday wardrobes.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_JfEp43",
+            "heading_iPVjkU",
+            "description_YfkrbK"
+          ]
+        },
+        "group_image_card_8GRBmt": {
+          "type": "_group-image-card",
+          "name": "t:sections.image_card.blocks.group_name",
+          "settings": {
+            "image": ""
+          },
+          "blocks": {
+            "highlight_text_kp7k66": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "07/2025",
+                "highlight_text_size": "",
+                "highlight_text_icon": "none",
+                "background_color": "rgba(0,0,0,0)",
+                "text_color": "#444444",
+                "uppercase": false,
+                "padding_top": 0,
+                "padding_bottom": 4
+              },
+              "blocks": {}
+            },
+            "heading_dGcpPy": {
+              "type": "heading",
+              "settings": {
+                "heading": "Growing with Purpose",
+                "type_preset": "h6",
+                "padding_top": 0,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "description_UTyN7A": {
+              "type": "description",
+              "settings": {
+                "description": "<p>We continue to grow while staying focused on honest design and responsible production.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_kp7k66",
+            "heading_dGcpPy",
+            "description_UTyN7A"
+          ]
+        },
+        "group_image_card_zfQj6g": {
+          "type": "_group-image-card",
+          "name": "t:sections.image_card.blocks.group_name",
+          "settings": {
+            "image": ""
+          },
+          "blocks": {
+            "highlight_text_dGNqyH": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "01/2030",
+                "highlight_text_size": "",
+                "highlight_text_icon": "none",
+                "background_color": "rgba(0,0,0,0)",
+                "text_color": "#444444",
+                "uppercase": false,
+                "padding_top": 0,
+                "padding_bottom": 4
+              },
+              "blocks": {}
+            },
+            "heading_hjNMCm": {
+              "type": "heading",
+              "settings": {
+                "heading": "Official IPO Launch",
+                "type_preset": "h6",
+                "padding_top": 0,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "description_hrrqkC": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Long-term fundraising — paving the way for our IPO journey and shared success.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 20
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_dGNqyH",
+            "heading_hjNMCm",
+            "description_hrrqkC"
+          ]
+        }
+      },
+      "block_order": [
+        "group_image_card_YjckTH",
+        "group_image_card_PVjDAM",
+        "group_image_card_xF8LpM",
+        "group_image_card_TfXEGQ",
+        "group_image_card_8GRBmt",
+        "group_image_card_zfQj6g"
+      ],
+      "custom_css": [
+        ".subheading_weight {color: var(--color-text);}"
+      ],
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "default",
+        "subheading": "Our History",
+        "title": "<p>Our Story in Time</p>",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "header_alignment": "center",
+        "image_ratio": "adapt",
+        "image_desktop_position": "top",
+        "background_color": "#ffffff",
+        "desktop_vertical_alignment": "end",
+        "text_alignment": "start",
+        "gap_item": "small",
+        "enable_rounded_content": false,
+        "padding_content_inline": 0,
+        "padding_content_block": 0,
+        "items_per_row": 3,
+        "column_gap": "medium",
+        "show_navigation": false,
+        "show_pagination": false,
+        "slide_auto_change": false,
+        "change_slide_every": 5,
+        "reveal_slide": true,
+        "items_per_row_mobile": 1,
+        "text_alignment_mobile": "start",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "featured_collection_3htrYX": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "<p>Others Also Bought</p>",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Check out similar products people are loving. Click to explore trending styles.</p>",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "show_view_all_button": false,
+        "view_all_button_label": "View all product",
+        "btn_type": "link",
+        "collection": "",
+        "items_to_show": 4,
+        "items_per_row": 4,
+        "column_gap": "medium",
+        "enable_carousel": false,
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": false,
+        "items_per_row_mobile": 2,
+        "hide_description_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 94,
+        "show_divider": false
+      }
+    },
+    "flexible_section_WyXQT6": {
+      "type": "flexible-section",
+      "blocks": {
+        "group_t7ETqc": {
+          "type": "group",
+          "name": "t:sections.custom_section.blocks.group.name",
+          "settings": {
+            "link_block": "",
+            "open_in_new_tab": false,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-71ad6e77-818b-46af-a5ac-36e11fc517b6",
+            "custom_layout": "horizontal",
+            "vertical_on_mobile": true,
+            "content_wrap": false,
+            "horizontal_position": "bottom",
+            "vertical_position": "center",
+            "vertical_alignment": "center",
+            "horizontal_alignment": "center",
+            "gap": 0,
+            "hidden_on_mobile": false,
+            "width_block": "fill",
+            "custom_width": 100,
+            "width_block_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height_block": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "border_radius_type": "custom",
+            "border_radius_custom": 20,
+            "enable_background_overlay": false,
+            "background_overlay_color": "#00000026",
+            "background_overlay_style": "solid",
+            "background_overlay_gradient_direction": "to top",
+            "border_style": "none",
+            "border_color": "#e5e5e5",
+            "border_thickness": 1,
+            "padding_inline": 0,
+            "padding_block": 0
+          },
+          "blocks": {
+            "group_Yit7kY": {
+              "type": "group",
+              "name": "t:sections.custom_section.blocks.group.name",
+              "settings": {
+                "link_block": "",
+                "open_in_new_tab": false,
+                "inherit_color_scheme": true,
+                "color_scheme": "scheme-71ad6e77-818b-46af-a5ac-36e11fc517b6",
+                "custom_layout": "vertical",
+                "vertical_on_mobile": false,
+                "content_wrap": false,
+                "horizontal_position": "center",
+                "vertical_position": "center",
+                "vertical_alignment": "start",
+                "horizontal_alignment": "center",
+                "gap": 0,
+                "hidden_on_mobile": false,
+                "width_block": "fill",
+                "custom_width": 100,
+                "width_block_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height_block": "adapt",
+                "custom_height": 100,
+                "background_media": "none",
+                "border_radius_type": "none",
+                "border_radius_custom": 20,
+                "enable_background_overlay": false,
+                "background_overlay_color": "#00000026",
+                "background_overlay_style": "solid",
+                "background_overlay_gradient_direction": "to top",
+                "border_style": "none",
+                "border_color": "#e5e5e5",
+                "border_thickness": 1,
+                "padding_inline": 80,
+                "padding_block": 80
+              },
+              "blocks": {
+                "icon_mp6P6F": {
+                  "type": "icon",
+                  "name": "t:sections.parallax-image.blocks.icon.name",
+                  "settings": {
+                    "link_image": "",
+                    "open_in_new_tab": false,
+                    "image_block": "",
+                    "icon_svg": "none",
+                    "image_width": 60,
+                    "image_width_mb": 60
+                  },
+                  "blocks": {}
+                },
+                "text_qpjdbE": {
+                  "type": "text",
+                  "name": "t:sections.custom_section.blocks.text.name",
+                  "settings": {
+                    "text": "<p>Thoughtful design and quality materials come together to create clothing made for everyday life, lasting wear, and quiet confidence.</p>",
+                    "text_color": "text-color",
+                    "text_size": 26,
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "text_align_desktop": "left",
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "text_align_mobile": "left",
+                    "padding_top": 50,
+                    "padding_bottom": 50,
+                    "hide_description_on_mobile": false
+                  },
+                  "blocks": {}
+                },
+                "group_aQaFbz": {
+                  "type": "group",
+                  "name": "t:sections.custom_section.blocks.group.name",
+                  "settings": {
+                    "link_block": "",
+                    "open_in_new_tab": false,
+                    "inherit_color_scheme": false,
+                    "color_scheme": "scheme-71ad6e77-818b-46af-a5ac-36e11fc517b6",
+                    "custom_layout": "horizontal",
+                    "vertical_on_mobile": false,
+                    "content_wrap": false,
+                    "horizontal_position": "center",
+                    "vertical_position": "center",
+                    "vertical_alignment": "center",
+                    "horizontal_alignment": "start",
+                    "gap": 10,
+                    "hidden_on_mobile": false,
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height_block": "fit",
+                    "custom_height": 100,
+                    "background_media": "none",
+                    "border_radius_type": "none",
+                    "border_radius_custom": 20,
+                    "enable_background_overlay": false,
+                    "background_overlay_color": "#00000026",
+                    "background_overlay_style": "solid",
+                    "background_overlay_gradient_direction": "to top",
+                    "border_style": "none",
+                    "border_color": "#e5e5e5",
+                    "border_thickness": 1,
+                    "padding_inline": 0,
+                    "padding_block": 0
+                  },
+                  "blocks": {
+                    "icon_4HtMCL": {
+                      "type": "icon",
+                      "name": "t:sections.parallax-image.blocks.icon.name",
+                      "settings": {
+                        "link_image": "",
+                        "open_in_new_tab": false,
+                        "image_block": "",
+                        "icon_svg": "none",
+                        "image_width": 30,
+                        "image_width_mb": 30
+                      },
+                      "blocks": {}
+                    },
+                    "text_a63waP": {
+                      "type": "text",
+                      "name": "t:sections.custom_section.blocks.text.name",
+                      "settings": {
+                        "text": "<p>Ava Collins / CEO and Founder</p>",
+                        "text_color": "heading-color",
+                        "text_size": 18,
+                        "width_block": "fill",
+                        "custom_width": 100,
+                        "text_align_desktop": "left",
+                        "width_block_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "text_align_mobile": "left",
+                        "padding_top": 0,
+                        "padding_bottom": 0,
+                        "hide_description_on_mobile": false
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_4HtMCL",
+                    "text_a63waP"
+                  ]
+                }
+              },
+              "block_order": [
+                "icon_mp6P6F",
+                "text_qpjdbE",
+                "group_aQaFbz"
+              ]
+            },
+            "image_6PQiPw": {
+              "type": "image",
+              "name": "t:sections.all.image.label",
+              "settings": {
+                "image": "",
+                "link": "",
+                "image_ratio": "adapt",
+                "width_unit_type": "percent",
+                "width_block": "fill",
+                "custom_width": 100,
+                "custom_width_px": 300,
+                "width_block_mobile": "fill",
+                "custom_width_mobile": 100,
+                "custom_width_mobile_px": 100,
+                "height_block": "fill",
+                "custom_height": 100,
+                "border_radius_type": "none",
+                "border_radius_custom": 20,
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "group_Yit7kY",
+            "image_6PQiPw"
+          ]
+        }
+      },
+      "block_order": [
+        "group_t7ETqc"
+      ],
+      "custom_css": [
+        ".flexible-block {--lh: 1.6 !important;}"
+      ],
+      "name": "Quote",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "default",
+        "custom_layout": "horizontal",
+        "vertical_on_mobile": false,
+        "content_wrap": false,
+        "height_section": "auto",
+        "custom_height": 400,
+        "horizontal_position": "center",
+        "vertical_position": "center",
+        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "gap": 0,
+        "background_media": "none",
+        "padding_block": 50,
+        "border_radius_type": "none",
+        "border_radius_custom": 0,
+        "enable_background_overlay": false,
+        "background_overlay_color": "#0000000f",
+        "background_overlay_style": "solid",
+        "background_overlay_gradient_direction": "to top",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "flexible_section_KDTKxW": {
+      "type": "flexible-section",
+      "blocks": {
+        "group_F8brhP": {
+          "type": "group",
+          "name": "t:sections.custom_section.blocks.group.name",
+          "settings": {
+            "link_block": "",
+            "open_in_new_tab": false,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "custom_layout": "vertical",
+            "vertical_on_mobile": false,
+            "content_wrap": false,
+            "horizontal_position": "center",
+            "vertical_position": "center",
+            "vertical_alignment": "center",
+            "horizontal_alignment": "center",
+            "gap": 0,
+            "hidden_on_mobile": false,
+            "width_block": "fill",
+            "custom_width": 100,
+            "width_block_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height_block": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "border_radius_type": "none",
+            "border_radius_custom": 20,
+            "enable_background_overlay": false,
+            "background_overlay_color": "#00000026",
+            "background_overlay_style": "solid",
+            "background_overlay_gradient_direction": "to top",
+            "border_style": "none",
+            "border_color": "#e5e5e5",
+            "border_thickness": 1,
+            "padding_inline": 0,
+            "padding_block": 0
+          },
+          "blocks": {
+            "text_MryPcH": {
+              "type": "text",
+              "name": "t:sections.custom_section.blocks.text.name",
+              "settings": {
+                "text": "<p>Where Trust Begins</p>",
+                "text_color": "text-color",
+                "text_size": 18,
+                "width_block": "fill",
+                "custom_width": 100,
+                "text_align_desktop": "center",
+                "width_block_mobile": "fill",
+                "custom_width_mobile": 100,
+                "text_align_mobile": "center",
+                "padding_top": 0,
+                "padding_bottom": 9,
+                "hide_description_on_mobile": false
+              },
+              "blocks": {}
+            },
+            "heading_block_XVQzqc": {
+              "type": "heading_block",
+              "name": "t:sections.all.content_setting.heading.label",
+              "settings": {
+                "heading": "Built to Earn Your Trust",
+                "type_preset": "h2",
+                "heading_tag": "h2",
+                "width_block": "fit",
+                "custom_width": 100,
+                "text_align_desktop": "center",
+                "width_block_mobile": "fill",
+                "custom_width_mobile": 100,
+                "text_align_mobile": "center",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_MryPcH",
+            "heading_block_XVQzqc"
+          ]
+        },
+        "carousel_kfkDjw": {
+          "type": "carousel",
+          "name": "t:sections.custom_section.blocks.carousel.name",
+          "settings": {
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "show_navigation": false,
+            "show_pagination": true,
+            "items_per_row": 3,
+            "items_per_row_mobile": 1,
+            "column_gap": "medium",
+            "padding_inline": 0,
+            "padding_block": 0
+          },
+          "blocks": {
+            "group_jUVDqa": {
+              "type": "group",
+              "name": "t:sections.custom_section.blocks.group.name",
+              "settings": {
+                "link_block": "",
+                "open_in_new_tab": false,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "custom_layout": "vertical",
+                "vertical_on_mobile": false,
+                "content_wrap": false,
+                "horizontal_position": "center",
+                "vertical_position": "top",
+                "vertical_alignment": "center",
+                "horizontal_alignment": "center",
+                "gap": 0,
+                "hidden_on_mobile": false,
+                "width_block": "fill",
+                "custom_width": 100,
+                "width_block_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height_block": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "border_radius_type": "none",
+                "border_radius_custom": 20,
+                "enable_background_overlay": false,
+                "background_overlay_color": "#00000026",
+                "background_overlay_style": "solid",
+                "background_overlay_gradient_direction": "to top",
+                "border_style": "none",
+                "border_color": "#e5e5e5",
+                "border_thickness": 1,
+                "padding_inline": 0,
+                "padding_block": 0
+              },
+              "blocks": {
+                "image_CeHkPB": {
+                  "type": "image",
+                  "name": "t:sections.all.image.label",
+                  "settings": {
+                    "image": "",
+                    "image_mobile": "",
+                    "link": "",
+                    "image_ratio": "adapt",
+                    "width_unit_type": "percent",
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "custom_width_px": 300,
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "custom_width_mobile_px": 100,
+                    "height_block": "fit",
+                    "custom_height": 100,
+                    "border_radius_type": "inherit",
+                    "border_radius_custom": 20,
+                    "padding_top": 0,
+                    "padding_bottom": 24
+                  },
+                  "blocks": {}
+                },
+                "heading_block_HPEeE6": {
+                  "type": "heading_block",
+                  "name": "t:sections.all.content_setting.heading.label",
+                  "settings": {
+                    "heading": "Crafted with Care",
+                    "type_preset": "h4",
+                    "heading_tag": "h4",
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "text_align_desktop": "left",
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "text_align_mobile": "left",
+                    "padding_top": 0,
+                    "padding_bottom": 16
+                  },
+                  "blocks": {}
+                },
+                "text_8BVCAC": {
+                  "type": "text",
+                  "name": "t:sections.custom_section.blocks.text.name",
+                  "settings": {
+                    "text": "<p>Every piece is thoughtfully made with attention to materials, construction, and finishing—so quality is something you can see and feel over time.</p>",
+                    "text_color": "text-color",
+                    "text_size": 16,
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "text_align_desktop": "left",
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "text_align_mobile": "left",
+                    "padding_top": 0,
+                    "padding_bottom": 0,
+                    "hide_description_on_mobile": false
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_CeHkPB",
+                "heading_block_HPEeE6",
+                "text_8BVCAC"
+              ]
+            },
+            "group_WrkYMf": {
+              "type": "group",
+              "name": "t:sections.custom_section.blocks.group.name",
+              "settings": {
+                "link_block": "",
+                "open_in_new_tab": false,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "custom_layout": "vertical",
+                "vertical_on_mobile": false,
+                "content_wrap": false,
+                "horizontal_position": "center",
+                "vertical_position": "top",
+                "vertical_alignment": "center",
+                "horizontal_alignment": "center",
+                "gap": 0,
+                "hidden_on_mobile": false,
+                "width_block": "fill",
+                "custom_width": 100,
+                "width_block_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height_block": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "border_radius_type": "none",
+                "border_radius_custom": 20,
+                "enable_background_overlay": false,
+                "background_overlay_color": "#00000026",
+                "background_overlay_style": "solid",
+                "background_overlay_gradient_direction": "to top",
+                "border_style": "none",
+                "border_color": "#e5e5e5",
+                "border_thickness": 1,
+                "padding_inline": 0,
+                "padding_block": 0
+              },
+              "blocks": {
+                "image_xbnKFm": {
+                  "type": "image",
+                  "name": "t:sections.all.image.label",
+                  "settings": {
+                    "image": "",
+                    "image_mobile": "",
+                    "link": "",
+                    "image_ratio": "adapt",
+                    "width_unit_type": "percent",
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "custom_width_px": 300,
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "custom_width_mobile_px": 100,
+                    "height_block": "fit",
+                    "custom_height": 100,
+                    "border_radius_type": "inherit",
+                    "border_radius_custom": 20,
+                    "padding_top": 0,
+                    "padding_bottom": 24
+                  },
+                  "blocks": {}
+                },
+                "heading_block_WGKGcp": {
+                  "type": "heading_block",
+                  "name": "t:sections.all.content_setting.heading.label",
+                  "settings": {
+                    "heading": "Designed for Everyday",
+                    "type_preset": "h4",
+                    "heading_tag": "h4",
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "text_align_desktop": "left",
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "text_align_mobile": "left",
+                    "padding_top": 0,
+                    "padding_bottom": 16
+                  },
+                  "blocks": {}
+                },
+                "text_wRyn4k": {
+                  "type": "text",
+                  "name": "t:sections.custom_section.blocks.text.name",
+                  "settings": {
+                    "text": "<p>Created to move naturally through daily routines—so clothing feels wearable, comfortable, and easy to return to again.</p>",
+                    "text_color": "text-color",
+                    "text_size": 16,
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "text_align_desktop": "left",
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "text_align_mobile": "left",
+                    "padding_top": 0,
+                    "padding_bottom": 16,
+                    "hide_description_on_mobile": false
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_xbnKFm",
+                "heading_block_WGKGcp",
+                "text_wRyn4k"
+              ]
+            },
+            "group_MJqVnK": {
+              "type": "group",
+              "name": "t:sections.custom_section.blocks.group.name",
+              "settings": {
+                "link_block": "",
+                "open_in_new_tab": false,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "custom_layout": "vertical",
+                "vertical_on_mobile": false,
+                "content_wrap": false,
+                "horizontal_position": "center",
+                "vertical_position": "top",
+                "vertical_alignment": "center",
+                "horizontal_alignment": "center",
+                "gap": 0,
+                "hidden_on_mobile": false,
+                "width_block": "fill",
+                "custom_width": 100,
+                "width_block_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height_block": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "border_radius_type": "none",
+                "border_radius_custom": 20,
+                "enable_background_overlay": false,
+                "background_overlay_color": "#00000026",
+                "background_overlay_style": "solid",
+                "background_overlay_gradient_direction": "to top",
+                "border_style": "none",
+                "border_color": "#e5e5e5",
+                "border_thickness": 1,
+                "padding_inline": 0,
+                "padding_block": 0
+              },
+              "blocks": {
+                "image_8i3gb9": {
+                  "type": "image",
+                  "name": "t:sections.all.image.label",
+                  "settings": {
+                    "image": "",
+                    "image_mobile": "",
+                    "link": "",
+                    "image_ratio": "adapt",
+                    "width_unit_type": "percent",
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "custom_width_px": 300,
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "custom_width_mobile_px": 100,
+                    "height_block": "fit",
+                    "custom_height": 100,
+                    "border_radius_type": "inherit",
+                    "border_radius_custom": 20,
+                    "padding_top": 0,
+                    "padding_bottom": 24
+                  },
+                  "blocks": {}
+                },
+                "heading_block_dV874h": {
+                  "type": "heading_block",
+                  "name": "t:sections.all.content_setting.heading.label",
+                  "settings": {
+                    "heading": "Comfort That Lasts",
+                    "type_preset": "h4",
+                    "heading_tag": "h4",
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "text_align_desktop": "left",
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "text_align_mobile": "left",
+                    "padding_top": 0,
+                    "padding_bottom": 16
+                  },
+                  "blocks": {}
+                },
+                "text_fVUkJJ": {
+                  "type": "text",
+                  "name": "t:sections.custom_section.blocks.text.name",
+                  "settings": {
+                    "text": "<p>Made to stay comfortable over time, easy to care for, and reliable day after day—so your wardrobe works with you, not against you.</p>",
+                    "text_color": "text-color",
+                    "text_size": 16,
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "text_align_desktop": "left",
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "text_align_mobile": "left",
+                    "padding_top": 0,
+                    "padding_bottom": 0,
+                    "hide_description_on_mobile": false
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_8i3gb9",
+                "heading_block_dV874h",
+                "text_fVUkJJ"
+              ]
+            }
+          },
+          "block_order": [
+            "group_jUVDqa",
+            "group_WrkYMf",
+            "group_MJqVnK"
+          ]
+        }
+      },
+      "block_order": [
+        "group_F8brhP",
+        "carousel_kfkDjw"
+      ],
+      "name": "Trust",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "custom_layout": "vertical",
+        "vertical_on_mobile": false,
+        "content_wrap": false,
+        "height_section": "auto",
+        "custom_height": 400,
+        "horizontal_position": "center",
+        "vertical_position": "center",
+        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "gap": 32,
+        "background_media": "none",
+        "padding_block": 50,
+        "border_radius_type": "none",
+        "border_radius_custom": 20,
+        "enable_background_overlay": false,
+        "background_overlay_color": "#0000000f",
+        "background_overlay_style": "solid",
+        "background_overlay_gradient_direction": "to top",
+        "padding_top": 0,
+        "padding_bottom": 84,
+        "show_divider": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "heading",
+    "image_with_text_overlay_GYeRrE",
+    "flexible_section_ceqFiX",
+    "icon_box_qWNwBA",
+    "multi_content_wr6UUx",
+    "multi_content_bFcAJ6",
+    "image_card_TQcbh9",
+    "featured_collection_3htrYX",
+    "flexible_section_WyXQT6",
+    "flexible_section_KDTKxW"
+  ]
+}

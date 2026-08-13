@@ -1,0 +1,169 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement_bar_gikKqa": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_WcaXYf": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>30—Days returns and Exchange.</p>"
+          }
+        },
+        "announcement_TTWCUr": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>Free Shipping for orders over $150.</p>"
+          }
+        },
+        "announcement_XcdLRy": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>Extra 35% Off all Accessories.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_WcaXYf",
+        "announcement_TTWCUr",
+        "announcement_XcdLRy"
+      ],
+      "name": "t:sections.announcement-bar.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "scheme-4a4a3e14-571e-4a2f-aa65-1158b87a9b0e",
+        "show_close": false,
+        "homepage_only": false,
+        "show_mobile": true,
+        "announcement_actions": "slide",
+        "show_navigation": true,
+        "slide_auto_change": true,
+        "change_slide_every": 5,
+        "marquee_speed": 7,
+        "space_between_text": 50,
+        "uppercase": false,
+        "scrolling_size": "small",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "menu_mega_QRH46r": {
+          "type": "menu_mega",
+          "name": "Mega menu Banner Shop",
+          "settings": {
+            "text": "Shop",
+            "menu_column": 3,
+            "mega_width": 41,
+            "banner_column": 1,
+            "content_position": "end",
+            "content_alignment": "left",
+            "promotion_image_1": "",
+            "color_scheme_banner_1": "scheme-070b6d81-d1cf-49ad-aa7a-4a016abd3a99",
+            "promotion_subheading_1": "Tops and Tees",
+            "promotion_heading_1": "Extra 35% Off",
+            "promotion_description_1": "",
+            "promotion_button_label_1": "Shop the Sale",
+            "promotion_button_link_1": "",
+            "color_scheme_banner_2": "default-color-scheme",
+            "promotion_subheading_2": "",
+            "promotion_heading_2": "",
+            "promotion_description_2": "",
+            "promotion_button_label_2": "",
+            "promotion_button_link_2": "",
+            "color_scheme_banner_3": "default-color-scheme",
+            "promotion_subheading_3": "",
+            "promotion_heading_3": "",
+            "promotion_description_3": "",
+            "promotion_button_label_3": "",
+            "promotion_button_link_3": "",
+            "color_scheme_banner_4": "default-color-scheme",
+            "promotion_subheading_4": "",
+            "promotion_heading_4": "",
+            "promotion_description_4": "",
+            "promotion_button_label_4": "",
+            "promotion_button_link_4": "",
+            "color_scheme_banner_5": "default-color-scheme",
+            "promotion_subheading_5": "",
+            "promotion_heading_5": "",
+            "promotion_description_5": "",
+            "promotion_button_label_5": "",
+            "promotion_button_link_5": ""
+          }
+        },
+        "menu_mega_fUGmrL": {
+          "type": "menu_mega",
+          "name": "Mega menu Banner Collections",
+          "settings": {
+            "text": "Collections",
+            "menu_column": 2,
+            "mega_width": 41,
+            "banner_column": 1,
+            "content_position": "end",
+            "content_alignment": "left",
+            "promotion_image_1": "",
+            "color_scheme_banner_1": "scheme-070b6d81-d1cf-49ad-aa7a-4a016abd3a99",
+            "promotion_subheading_1": "Seasonal Highlight",
+            "promotion_heading_1": "Spring/Summer Edit",
+            "promotion_description_1": "",
+            "promotion_button_label_1": "Explore Collection",
+            "promotion_button_link_1": "",
+            "color_scheme_banner_2": "default-color-scheme",
+            "promotion_subheading_2": "",
+            "promotion_heading_2": "",
+            "promotion_description_2": "",
+            "promotion_button_label_2": "",
+            "promotion_button_link_2": "",
+            "color_scheme_banner_3": "default-color-scheme",
+            "promotion_subheading_3": "",
+            "promotion_heading_3": "",
+            "promotion_description_3": "",
+            "promotion_button_label_3": "",
+            "promotion_button_link_3": "",
+            "color_scheme_banner_4": "default-color-scheme",
+            "promotion_subheading_4": "",
+            "promotion_heading_4": "",
+            "promotion_description_4": "",
+            "promotion_button_label_4": "",
+            "promotion_button_link_4": "",
+            "color_scheme_banner_5": "default-color-scheme",
+            "promotion_subheading_5": "",
+            "promotion_heading_5": "",
+            "promotion_description_5": "",
+            "promotion_button_label_5": "",
+            "promotion_button_link_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "menu_mega_QRH46r",
+        "menu_mega_fUGmrL"
+      ],
+      "settings": {
+        "section_width": "stretch_width",
+        "color_scheme": "default",
+        "logo_position": "left",
+        "sticky_header_type": "on-scroll-up",
+        "menu": "main-menu",
+        "menu_trigger": "hover",
+        "dropdowns_animation": "down-to-up",
+        "mobile_menu_position": "left",
+        "show_search": true,
+        "show_account": true,
+        "show_cart": true,
+        "show_offer": true,
+        "transparent": false,
+        "header_text_icon_transparent": "#ffffff",
+        "padding_top": 18,
+        "padding_bottom": 19
+      }
+    }
+  },
+  "order": [
+    "announcement_bar_gikKqa",
+    "header"
+  ]
+}

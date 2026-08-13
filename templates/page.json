@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "section_width": "fix_width",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "heading": {
+      "type": "page-heading",
+      "blocks": {
+        "heading_cVehNH": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}"
+          }
+        },
+        "description_PdnN6k": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_cVehNH",
+        "description_PdnN6k"
+      ],
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "text_alignment": "none",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "heading"
+  ]
+}

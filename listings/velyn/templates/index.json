@@ -1,0 +1,1933 @@
+{
+  "sections": {
+    "slideshow_LdgkDi": {
+      "type": "slideshow",
+      "blocks": {
+        "image_KDNy8q": {
+          "type": "image",
+          "settings": {
+            "image": "",
+            "image_mobile": "",
+            "overlay_opacity": 0,
+            "highlight_text": "",
+            "highlight_text_icon": "star",
+            "background_color": "#e3cea4",
+            "text_color": "#1d1d1f",
+            "subheading": "Women's Tops",
+            "heading": "<p>Sleek Layers<br/>Effortless Poise</p>",
+            "heading_size": "h0",
+            "drawn_underline": false,
+            "drawn_underline_type": "squiggle_underline",
+            "drawn_underline_color": "#ffb005",
+            "description": "",
+            "first_button_label": "Explore Collection",
+            "first_button_link": "",
+            "first_button_type": "primary",
+            "desktop_content_position": "middle-center",
+            "text_alignment": "center",
+            "content_position_mobile": "end",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "image_xEf9A7": {
+          "type": "image",
+          "settings": {
+            "image": "",
+            "image_mobile": "",
+            "overlay_opacity": 0,
+            "highlight_text": "",
+            "highlight_text_icon": "star",
+            "background_color": "#e3cea4",
+            "text_color": "#1d1d1f",
+            "subheading": "Outer Knit Capsule",
+            "heading": "<p>Soft Textures <br/>Everyday Shapes</p>",
+            "heading_size": "h0",
+            "drawn_underline": false,
+            "drawn_underline_type": "squiggle_underline",
+            "drawn_underline_color": "#ffb005",
+            "description": "",
+            "first_button_label": "Explore Collection",
+            "first_button_link": "",
+            "first_button_type": "primary",
+            "desktop_content_position": "middle-left",
+            "text_alignment": "left",
+            "content_position_mobile": "end",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "image_4M6zq3": {
+          "type": "image",
+          "settings": {
+            "image": "",
+            "image_mobile": "",
+            "overlay_opacity": 0,
+            "highlight_text": "",
+            "highlight_text_icon": "star",
+            "background_color": "#e3cea4",
+            "text_color": "#1d1d1f",
+            "subheading": "Dresses Collection",
+            "heading": "<p>Soft Details<br/>Clearly Defined</p>",
+            "heading_size": "h0",
+            "drawn_underline": false,
+            "drawn_underline_type": "squiggle_underline",
+            "drawn_underline_color": "#ffb005",
+            "description": "",
+            "first_button_label": "Explore Collection",
+            "first_button_link": "",
+            "first_button_type": "primary",
+            "desktop_content_position": "middle-center",
+            "text_alignment": "center",
+            "content_position_mobile": "end",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_KDNy8q",
+        "image_xEf9A7",
+        "image_4M6zq3"
+      ],
+      "name": "t:sections.slideshow.name",
+      "settings": {
+        "section_width": "full_width",
+        "slide_height": "full_screen",
+        "color_scheme": "scheme-9992034c-51d7-4a47-92a6-2d680b0b20b4",
+        "background_color_loading": "#f3f0ec",
+        "show_navigation": true,
+        "show_pagination": true,
+        "slide_auto_change": true,
+        "change_slide_every": 5,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_rJyUzL": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "<p>New Arrivals</p>",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>New arrivals designed to mix, match, and wear with ease.</p>",
+        "heading_size": "small",
+        "text_alignment": "start",
+        "show_view_all_button": true,
+        "view_all_button_label": "View All",
+        "btn_type": "link",
+        "collection": "",
+        "items_to_show": 6,
+        "items_per_row": 4,
+        "column_gap": "medium",
+        "enable_carousel": true,
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": true,
+        "items_per_row_mobile": 2,
+        "hide_description_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "image_with_text_YbVYYb": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_3ieU7r": {
+          "type": "subheading",
+          "name": "t:sections.all.content_setting.subheading.label",
+          "settings": {
+            "subheading": "Curated Styles",
+            "type_preset": "h6",
+            "padding_top": 0,
+            "padding_bottom": 8
+          },
+          "blocks": {}
+        },
+        "heading_cBH7Ew": {
+          "type": "heading",
+          "settings": {
+            "heading": "Save 35%—Today",
+            "type_preset": "h2",
+            "padding_top": 0,
+            "padding_bottom": 32
+          },
+          "blocks": {}
+        },
+        "button_TXaJyw": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "Shop the Sale",
+            "first_button_link": "",
+            "first_button_type": "primary",
+            "blank_first_button": false,
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_type": "outline",
+            "blank_second_button": false,
+            "spacing_bottom": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "subheading_3ieU7r",
+        "heading_cBH7Ew",
+        "button_TXaJyw"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "scheme-9992034c-51d7-4a47-92a6-2d680b0b20b4",
+        "image": "",
+        "desktop_image_width": 50,
+        "image_desktop_position": "left",
+        "background_type": "image",
+        "background_image": "",
+        "background_color": "",
+        "desktop_vertical_alignment": "center",
+        "text_alignment": "center",
+        "column_gap": "no_gap",
+        "padding_content_inline": 40,
+        "padding_content_block": 40,
+        "text_alignment_mobile": "center",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "collection_list_6CCjyA": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_YJqdbL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_image": "",
+            "collection_title": ""
+          }
+        },
+        "featured_collection_PpFDnm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_image": "",
+            "collection_title": "Everyday Wear"
+          }
+        },
+        "featured_collection_aNahig": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_image": "",
+            "collection_title": "Weekend Ease"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_YJqdbL",
+        "featured_collection_PpFDnm",
+        "featured_collection_aNahig"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "color-scheme-1",
+        "heading": "<p>Shop by Occasion</p>",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Everyday pieces made for effortless comfort and clean modern style.</p>",
+        "heading_size": "small",
+        "text_alignment": "start",
+        "show_view_all_button": true,
+        "view_all_button_label": "View All",
+        "first_button_link": "",
+        "btn_type": "link",
+        "image_ratio": "adapt",
+        "content_position": "overlay",
+        "content_alignment": "center",
+        "collection_title_style": "button",
+        "show_product_count": false,
+        "items_per_row": 3,
+        "column_gap": "medium",
+        "overlay_image_color": "#111111",
+        "enable_carousel": true,
+        "show_navigation": false,
+        "show_pagination": false,
+        "reveal_slide": false,
+        "items_per_row_mobile": 1.5,
+        "hidden_des_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "recommended_collection_BMwK43": {
+      "type": "recommended-collection",
+      "blocks": {
+        "subheading_LQrnLr": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Define Your Style",
+            "spacing_bottom": 18
+          }
+        },
+        "heading_qDLp3p": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find Your Perfect Fit",
+            "heading_size": "h2",
+            "spacing_bottom": 22
+          }
+        },
+        "description_NFwerh": {
+          "type": "description",
+          "settings": {
+            "description": "I like a[title]and I'm shopping for[collection]",
+            "description_size": "22",
+            "spacing_bottom": 30
+          }
+        },
+        "button_874g3Q": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "Find my Style",
+            "first_button_type": "primary",
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_type": "link",
+            "spacing_bottom": 2
+          }
+        },
+        "featured_collection_dyp4iF": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "Slim Fit",
+            "collection_list": []
+          }
+        },
+        "featured_collection_rLtdjb": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "Regular Fit",
+            "collection_list": []
+          }
+        },
+        "featured_collection_BN37kP": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "Relaxed Fit",
+            "collection_list": []
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LQrnLr",
+        "heading_qDLp3p",
+        "description_NFwerh",
+        "button_874g3Q",
+        "featured_collection_dyp4iF",
+        "featured_collection_rLtdjb",
+        "featured_collection_BN37kP"
+      ],
+      "custom_css": [
+        ".block__heading.fs-big-2 {color: var(--color-text);}"
+      ],
+      "name": "t:sections.recommended_collection.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "show_collection_image": false,
+        "overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "desktop_content_position_bg_false": "center",
+        "text_alignment": "center",
+        "max_width": 100,
+        "text_alignment_mobile": "center",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "shopby_outfit_VJqREW": {
+      "type": "shopby-outfit",
+      "blocks": {
+        "outfit_aFWkD9": {
+          "type": "outfit",
+          "settings": {
+            "media_type": "video",
+            "image": "",
+            "video_local": "",
+            "product_list": []
+          }
+        },
+        "outfit_GjGQ88": {
+          "type": "outfit",
+          "settings": {
+            "media_type": "image",
+            "image": "",
+            "product_list": []
+          }
+        },
+        "outfit_QLNQtg": {
+          "type": "outfit",
+          "settings": {
+            "media_type": "video",
+            "image": "",
+            "video_local": "",
+            "product_list": []
+          }
+        },
+        "outfit_iCdxFL": {
+          "type": "outfit",
+          "settings": {
+            "media_type": "image",
+            "image": "",
+            "product_list": []
+          }
+        },
+        "outfit_wbrjnb": {
+          "type": "outfit",
+          "settings": {
+            "media_type": "image",
+            "image": "",
+            "product_list": []
+          }
+        },
+        "outfit_hqk3k9": {
+          "type": "outfit",
+          "settings": {
+            "media_type": "image",
+            "image": "",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "outfit_aFWkD9",
+        "outfit_GjGQ88",
+        "outfit_QLNQtg",
+        "outfit_iCdxFL",
+        "outfit_wbrjnb",
+        "outfit_hqk3k9"
+      ],
+      "name": "t:sections.shopby-outfit.presets.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "color-scheme-1",
+        "heading": "<p>Styled for You</p>",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Ready-made outfits you can wear with confidence.</p>",
+        "heading_size": "small",
+        "text_alignment": "start",
+        "show_view_all_button": true,
+        "view_all_button_label": "View All",
+        "btn_type": "link",
+        "link_view_all": "",
+        "ratio": "adapt",
+        "autoplay": true,
+        "items_per_row": 4,
+        "column_gap": "medium",
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": true,
+        "items_per_row_mobile": 1.5,
+        "hide_description_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_divider": true
+      }
+    },
+    "image_with_text_qfXVUT": {
+      "type": "image-with-text",
+      "blocks": {
+        "description_9URRkB": {
+          "type": "description",
+          "name": "t:sections.all.content_setting.description.label",
+          "settings": {
+            "description": "<p>Your Style—Your Way</p>",
+            "type_preset": "fs-big-2",
+            "padding_top": 0,
+            "padding_bottom": 16
+          },
+          "blocks": {}
+        },
+        "heading_EzyzaJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Build Your Outfit",
+            "type_preset": "h2",
+            "padding_top": 0,
+            "padding_bottom": 16
+          },
+          "blocks": {}
+        },
+        "description_8YUMYJ": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Pick pieces, combine them, and shop the full outfit in seconds.</p>",
+            "type_preset": "",
+            "padding_top": 0,
+            "padding_bottom": 40
+          },
+          "blocks": {}
+        },
+        "button_CyriNU": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "Create Your Outfit",
+            "first_button_link": "",
+            "first_button_type": "primary",
+            "blank_first_button": false,
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_type": "outline",
+            "blank_second_button": false,
+            "spacing_bottom": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "description_9URRkB",
+        "heading_EzyzaJ",
+        "description_8YUMYJ",
+        "button_CyriNU"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "image": "",
+        "desktop_image_width": 50,
+        "image_desktop_position": "left",
+        "background_type": "color",
+        "background_color": "#e3dcd4",
+        "desktop_vertical_alignment": "center",
+        "text_alignment": "center",
+        "column_gap": "no_gap",
+        "padding_content_inline": 80,
+        "padding_content_block": 53,
+        "text_alignment_mobile": "center",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "suitable_products_finder_UqCe3f": {
+      "type": "suitable-products-finder",
+      "blocks": {
+        "featured_collection_EH4cjA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_pill_color": "#3a60e6",
+            "collection_title": "New In"
+          }
+        },
+        "featured_collection_W6e6DE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_pill_color": "#3a60e6",
+            "collection_title": "T-shirts"
+          }
+        },
+        "featured_collection_PwcdXD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_pill_color": "#3a60e6",
+            "collection_title": "Hoodies"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_EH4cjA",
+        "featured_collection_W6e6DE",
+        "featured_collection_PwcdXD"
+      ],
+      "name": "Product finder: Pill tabs",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "title": "<p>Trending Products</p>",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Curated weekly favorites to elevate your style.</p>",
+        "heading_size": "small",
+        "text_alignment": "start",
+        "show_view_all_button": true,
+        "view_all_button_label": "View All",
+        "btn_type": "link",
+        "collection_tab_style": "pill_tabs",
+        "image_collection_width": 100,
+        "media_type": "oval",
+        "show_range_slider": false,
+        "range_slider_background": "linear-gradient(90deg, rgba(247, 192, 157, 1), rgba(205, 109, 69, 1) 50%, rgba(110, 65, 54, 1) 100%)",
+        "show_pill_tabs_with_heading": true,
+        "show_pill_tabs_color": false,
+        "items_to_show": 6,
+        "items_per_row": 4,
+        "column_gap": "medium",
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": false,
+        "hide_description_on_mobile": true,
+        "items_per_row_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "parallax_image_with_text_8X4fBj": {
+      "type": "parallax-image-with-text",
+      "blocks": {
+        "heading_HNHXPW": {
+          "type": "heading",
+          "settings": {
+            "heading": "The City Edit<br>Everyday Style Pieces",
+            "type_preset": "h1",
+            "padding_top": 0,
+            "padding_bottom": 24
+          },
+          "blocks": {}
+        },
+        "description_K3tWC4": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Clean silhouettes designed for modern city life, moving seamlessly from day to night with comfort, versatility, and effortless everyday confidence.</p>",
+            "type_preset": "",
+            "padding_top": 0,
+            "padding_bottom": 50
+          },
+          "blocks": {}
+        },
+        "button_LCqhRM": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "Explore Collection",
+            "first_button_link": "",
+            "first_button_type": "primary",
+            "blank_first_button": false,
+            "second_button_label": "Our Inspiration",
+            "second_button_link": "",
+            "second_button_type": "outline",
+            "blank_second_button": false,
+            "spacing_bottom": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_HNHXPW",
+        "description_K3tWC4",
+        "button_LCqhRM"
+      ],
+      "name": "t:sections.parallax-image-with-text.name",
+      "settings": {
+        "section_width": "full_width",
+        "color_scheme": "scheme-0ba1b009-7eed-45cd-b0f5-57fda3e81ca0",
+        "image": "",
+        "desktop_image_width": 50,
+        "image_desktop_position": "left",
+        "subheading": "New Collection",
+        "heading": "A curated selection of refined essentials for everyday dressing, balancing comfort and effortless modern style.",
+        "text_color": "#ffffff",
+        "parallax_image_1": "",
+        "parallax_image_2": "",
+        "parallax_image_3": "",
+        "desktop_vertical_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_divider": false
+      }
+    },
+    "suitable_products_finder_8MNqzd": {
+      "type": "suitable-products-finder",
+      "blocks": {
+        "featured_collection_qJ4RFz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_pill_color": "#1d1d1f",
+            "collection_title": "Black"
+          }
+        },
+        "featured_collection_CLfyKf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_pill_color": "#7c9bb7",
+            "collection_title": "Dusty Blue"
+          }
+        },
+        "featured_collection_TWbd8F": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_pill_color": "#cfa7a3",
+            "collection_title": "Pink"
+          }
+        },
+        "featured_collection_yq7iwg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_pill_color": "#7a6969",
+            "collection_title": "Brown"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_qJ4RFz",
+        "featured_collection_CLfyKf",
+        "featured_collection_TWbd8F",
+        "featured_collection_yq7iwg"
+      ],
+      "name": "Product finder: Color dots",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "title": "<p>Explore by Color</p>",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Find pieces in your favorite color this season.</p>",
+        "heading_size": "small",
+        "text_alignment": "start",
+        "show_view_all_button": true,
+        "view_all_button_label": "View All",
+        "btn_type": "link",
+        "collection_tab_style": "pill_tabs",
+        "image_collection_width": 100,
+        "media_type": "oval",
+        "show_range_slider": false,
+        "range_slider_background": "linear-gradient(90deg, rgba(247, 192, 157, 1), rgba(205, 109, 69, 1) 50%, rgba(110, 65, 54, 1) 100%)",
+        "show_pill_tabs_with_heading": true,
+        "show_pill_tabs_color": true,
+        "items_to_show": 6,
+        "items_per_row": 4,
+        "column_gap": "medium",
+        "show_navigation": true,
+        "show_pagination": false,
+        "reveal_slide": false,
+        "hide_description_on_mobile": true,
+        "items_per_row_mobile": 2,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "press_card_6WbcXc": {
+      "type": "press-card",
+      "blocks": {
+        "press_content_PywPpU": {
+          "type": "_press-content",
+          "settings": {
+            "color_scheme": "scheme-71ad6e77-818b-46af-a5ac-36e11fc517b6",
+            "vertical_alignment": "start",
+            "text_alignment": "start",
+            "padding_content_inline": 100,
+            "padding_content_block": 110
+          },
+          "blocks": {
+            "group_press_content_Bahqmp": {
+              "type": "_group-press-content",
+              "settings": {
+                "author_name": "The Gentlewoman",
+                "quote_content": "<p>With refined comfort, thoughtful fits, and quiet elegance, the brand distinguishes itself with new arrivals defined by quality and simplicity.</p>"
+              },
+              "blocks": {}
+            },
+            "group_press_content_wGnFAa": {
+              "type": "_group-press-content",
+              "settings": {
+                "author_name": "Harper's Bazaar",
+                "quote_content": "<p>The brand delivers a refreshing blend of modernity and versatility, curating collections that feel stylish, practical, and quietly refined.</p>"
+              },
+              "blocks": {}
+            },
+            "group_press_content_3WGjAn": {
+              "type": "_group-press-content",
+              "settings": {
+                "author_name": "Vanity Fair",
+                "quote_content": "<p>Brand has quickly gained attention for its clean silhouettes and accessible styles. It's the kind of label that understands what real people want to wear.</p>"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "group_press_content_Bahqmp",
+            "group_press_content_wGnFAa",
+            "group_press_content_3WGjAn"
+          ]
+        },
+        "press_media_WqyEez": {
+          "type": "_press-media",
+          "settings": {
+            "color_bg": "#896957",
+            "hidden_on_mobile": true
+          },
+          "blocks": {
+            "press_image_nTpLCL": {
+              "type": "_press-image",
+              "settings": {
+                "image": ""
+              },
+              "blocks": {}
+            },
+            "press_image_rM8U6M": {
+              "type": "_press-image",
+              "settings": {
+                "image": ""
+              },
+              "blocks": {}
+            },
+            "press_image_yEX4eY": {
+              "type": "_press-image",
+              "settings": {
+                "image": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "press_image_nTpLCL",
+            "press_image_rM8U6M",
+            "press_image_yEX4eY"
+          ]
+        }
+      },
+      "block_order": [
+        "press_content_PywPpU",
+        "press_media_WqyEez"
+      ],
+      "name": "t:sections.press_card.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "title": "",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "show_icon_quote": true,
+        "show_navigation": true,
+        "show_pagination": true,
+        "slide_auto_change": false,
+        "change_slide_every": 5,
+        "image_ratio": "adapt",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "product_testimonials_wF8TC7": {
+      "type": "product-testimonials",
+      "blocks": {
+        "testimonial_eHKmB8": {
+          "type": "testimonial",
+          "settings": {
+            "media_type": "image",
+            "testimonial_image": "",
+            "video_alt_text": "Video alt text",
+            "rating_star": 5,
+            "testimonial_author": "Carie H.",
+            "review_sumary": "Great comfy!",
+            "testimonial_quote": "",
+            "testimonial_product": "",
+            "testimonial_quote_richtext": "<p>I wasn't sure when ordering online, but the fabric feels amazing and the fit's right. Looks exactly like the photos.</p>",
+            "use_richtext": true
+          }
+        },
+        "testimonial_pptLFV": {
+          "type": "testimonial",
+          "settings": {
+            "media_type": "video",
+            "video_local": "",
+            "video_alt_text": "Video alt text",
+            "rating_star": 5,
+            "testimonial_author": "Came S.",
+            "review_sumary": "Love the look!",
+            "testimonial_quote": "",
+            "testimonial_product": "",
+            "testimonial_quote_richtext": "<p>Lightweight, easy to mix and match, and really flattering. I've already gotten compliments at work. Love it.</p>",
+            "use_richtext": true
+          }
+        },
+        "testimonial_NVjTBM": {
+          "type": "testimonial",
+          "settings": {
+            "media_type": "image",
+            "testimonial_image": "",
+            "video_alt_text": "Video alt text",
+            "rating_star": 5,
+            "testimonial_author": "Célodie F.",
+            "review_sumary": "Beautiful color!",
+            "testimonial_quote": "",
+            "testimonial_product": "",
+            "testimonial_quote_richtext": "<p>The sizing guide was spot-on. The color looks even better in person — soft, rich, and easy to pair with jeans or skirts.</p>",
+            "use_richtext": true
+          }
+        },
+        "testimonial_iEkim9": {
+          "type": "testimonial",
+          "settings": {
+            "media_type": "image",
+            "testimonial_image": "",
+            "video_alt_text": "Video alt text",
+            "rating_star": 5,
+            "testimonial_author": "Emily H.",
+            "review_sumary": "Better than expected.",
+            "testimonial_quote": "",
+            "testimonial_product": "",
+            "testimonial_quote_richtext": "<p>Bought this last week and I'm really impressed. Soft, structured fabric with a very flattering fit and refined shape.</p>",
+            "use_richtext": true
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_eHKmB8",
+        "testimonial_pptLFV",
+        "testimonial_NVjTBM",
+        "testimonial_iEkim9"
+      ],
+      "custom_css": [
+        ".testimonial-wrapper .testimonial-media {--col-width: 44%;}"
+      ],
+      "name": "t:sections.product_testimonials.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "scheme-0ba1b009-7eed-45cd-b0f5-57fda3e81ca0",
+        "subheading": "",
+        "title": "<p>Customer Feedback</p>",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Let's hear what our customers have to say about their experience.</p>",
+        "heading_size": "small",
+        "text_alignment": "center",
+        "image_desktop_position": "left",
+        "image_ratio": "adapt",
+        "show_verified_buyer": true,
+        "rating_type": "modern",
+        "rating_color": "#ff9c05",
+        "product_type": "inherit",
+        "items_per_row": 2,
+        "column_gap": "medium",
+        "show_navigation": true,
+        "show_pagination": false,
+        "type_pagination": "dots",
+        "slide_auto_change": false,
+        "change_slide_every": 5,
+        "reveal_slide": true,
+        "image_ratio_mobile": "adapt",
+        "items_per_row_mobile": 1.3,
+        "hidden_des_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "featured_product_BWQnKt": {
+      "type": "featured-product",
+      "blocks": {
+        "badges_product_7yAp8a": {
+          "type": "_badges-product",
+          "name": "t:sections.all.product_setting.badges.name",
+          "settings": {},
+          "blocks": {}
+        },
+        "title_product_EiYqkh": {
+          "type": "_title-product",
+          "name": "t:sections.all.product_setting.title.name",
+          "settings": {
+            "type_preset": "h2",
+            "heading_tag": "h2"
+          },
+          "blocks": {}
+        },
+        "rating_product_J8p6Jd": {
+          "type": "_rating-product",
+          "settings": {},
+          "blocks": {}
+        },
+        "price_product_UmDq9U": {
+          "type": "_price-product",
+          "settings": {},
+          "blocks": {}
+        },
+        "inventory_status_6pmzyp": {
+          "type": "_inventory-status",
+          "name": "t:sections.all.product_setting.inventory_status.name",
+          "settings": {
+            "inventory_threshold": 20,
+            "inventory_base": 50
+          },
+          "blocks": {}
+        },
+        "variant_picker_jc7KqK": {
+          "type": "_variant-picker",
+          "settings": {
+            "variant_type": "swatches",
+            "show_size_guide": true,
+            "size_trigger": "Size,Größe,Misurare",
+            "size_guide_label": "Size guide",
+            "size_guide_page": "",
+            "size_guide_footer": "<p>Still unsure? Check out our <a href=\"https://velyn.nextsky.co/pages/faqs\" title=\"https://velyn.nextsky.co/pages/faqs\">Help Center</a> or <a href=\"https://velyn.nextsky.co/pages/contact-us\" title=\"https://velyn.nextsky.co/pages/contact-us\">Contact Us</a> directly.</p>"
+          },
+          "blocks": {}
+        },
+        "size_recommender_RXAhYj": {
+          "type": "_size-recommender",
+          "name": "t:sections.size_recommendation.name",
+          "settings": {
+            "size_trigger": "Size,Größe,Misurare",
+            "button_title": "Find your fit assistant size",
+            "button_bg_color": "#e7eaf6",
+            "policy_text": "<p>By continuing, you agree to the use of your details for size recommendations. <a href=\"https://velyn.nextsky.co/policies/privacy-policy\" target=\"_blank\" title=\"https://velyn.nextsky.co/policies/privacy-policy\">Privacy Policy.</a></p>",
+            "fit_recommendation_note": "<p>This recommendation is based on the size that <strong>people like you</strong> bought, and whether they returned it.</p>",
+            "text_not_available": "<p>*Adjust measurements or check the size guide.</p>"
+          },
+          "blocks": {}
+        },
+        "product_live_view_WW4cdC": {
+          "type": "_product-live-view",
+          "name": "t:sections.all.product_setting.live_view.name",
+          "settings": {
+            "show_icon_eye": false,
+            "min_number": 10,
+            "max_number": 40,
+            "interval_time": 10,
+            "content": "<p>🔥&nbsp; Going fast! [count] views in the past day.</p>"
+          },
+          "blocks": {}
+        },
+        "buy_buttons_XCe99x": {
+          "type": "_buy-buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "badges_product_7yAp8a",
+        "title_product_EiYqkh",
+        "rating_product_J8p6Jd",
+        "price_product_UmDq9U",
+        "inventory_status_6pmzyp",
+        "variant_picker_jc7KqK",
+        "size_recommender_RXAhYj",
+        "product_live_view_WW4cdC",
+        "buy_buttons_XCe99x"
+      ],
+      "name": "t:sections.featured-product.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "product": "",
+        "desktop_media_width": 66,
+        "media_position": "left",
+        "desktop_layout": "two_columns_carousel",
+        "column_gap": "medium",
+        "enable_image_lightbox": true,
+        "enable_video_looping": false,
+        "enable_video_autoplay": false,
+        "enable_video_controls_default": false,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "scrolling_text_G3mM7B": {
+      "type": "scrolling-text",
+      "blocks": {
+        "image_E8hWWD": {
+          "type": "image",
+          "settings": {
+            "image_block": "",
+            "image_width": 25,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 25
+          }
+        },
+        "text_TLnNH3": {
+          "type": "text",
+          "settings": {
+            "content": "Perfect Comfort Fit",
+            "link_text": ""
+          }
+        },
+        "image_RUzXKi": {
+          "type": "image",
+          "settings": {
+            "image_block": "",
+            "image_width": 25,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 25
+          }
+        },
+        "text_eqpakE": {
+          "type": "text",
+          "settings": {
+            "content": "Eco Commitment Care",
+            "link_text": ""
+          }
+        },
+        "image_MaULcG": {
+          "type": "image",
+          "settings": {
+            "image_block": "",
+            "image_width": 25,
+            "icon_svg": "none",
+            "link_image": "",
+            "image_width_mb": 25
+          }
+        },
+        "text_kBrGRM": {
+          "type": "text",
+          "settings": {
+            "content": "Premium Organic Cotton",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_E8hWWD",
+        "text_TLnNH3",
+        "image_RUzXKi",
+        "text_eqpakE",
+        "image_MaULcG",
+        "text_kBrGRM"
+      ],
+      "custom_css": [
+        ".text_scroll.h4 {font-weight: var(--body-weight);}"
+      ],
+      "name": "t:sections.scrolling_text.name",
+      "settings": {
+        "section_width": "full_width",
+        "color_scheme": "",
+        "direction": "left",
+        "speed": 31,
+        "space_between": 100,
+        "heading_size": "small",
+        "uppercase": false,
+        "rounded_image": 0,
+        "padding_top": 35,
+        "padding_bottom": 35,
+        "show_divider": true
+      }
+    },
+    "icon_box_6zntpr": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_4PFUnn": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "",
+            "icon_svg": "none",
+            "heading": "Premium-Grade Fabrics",
+            "description": "<p>Crafted from durable, comfortable fabrics designed to hold their shape and feel great throughout your day, every time.</p>"
+          }
+        },
+        "icon_box_TbkyFY": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "",
+            "icon_svg": "none",
+            "heading": "Embrace Slow Fashion",
+            "description": "<p>Choose pieces made with intention - timeless styles you can wear often, pair easily, and keep in your wardrobe longer.</p>"
+          }
+        },
+        "icon_box_FrgKGB": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "",
+            "icon_svg": "none",
+            "heading": "Eco-Driven Choices",
+            "description": "<p>Choose thoughtfully made pieces crafted with lower-impact materials, supporting cleaner practices for everyday living.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_4PFUnn",
+        "icon_box_TbkyFY",
+        "icon_box_FrgKGB"
+      ],
+      "custom_css": [],
+      "name": "t:sections.icon-box.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "title": "",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "small",
+        "alignment": "start",
+        "column_gap": "large",
+        "icon_size": 140,
+        "icon_position": "top",
+        "rounded_image": true,
+        "content_icon_alignment": "center",
+        "content_icon_size": "large",
+        "enable_carousel_mobile": true,
+        "items_per_row": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_divider": true
+      }
+    },
+    "image_with_text_Yey3QK": {
+      "type": "image-with-text",
+      "blocks": {
+        "description_jPHyCb": {
+          "type": "description",
+          "name": "t:sections.all.content_setting.description.label",
+          "settings": {
+            "description": "<p>Our Philosophy</p>",
+            "type_preset": "fs-big-2",
+            "padding_top": 0,
+            "padding_bottom": 16
+          },
+          "blocks": {}
+        },
+        "heading_N8EQcU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Better Basics Everyday Dressing",
+            "type_preset": "h2",
+            "padding_top": 0,
+            "padding_bottom": 24
+          },
+          "blocks": {}
+        },
+        "description_e78pdm": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Timeless essentials for the modern woman, crafted with quality fabrics and refined fits for polished pieces that move effortlessly from work to everyday life.</p>",
+            "type_preset": "",
+            "padding_top": 0,
+            "padding_bottom": 40
+          },
+          "blocks": {}
+        },
+        "button_fVQtga": {
+          "type": "button",
+          "settings": {
+            "first_button_label": "Explore About Us",
+            "first_button_link": "",
+            "first_button_type": "primary",
+            "blank_first_button": false,
+            "second_button_label": "",
+            "second_button_link": "",
+            "second_button_type": "outline",
+            "blank_second_button": false,
+            "spacing_bottom": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "description_jPHyCb",
+        "heading_N8EQcU",
+        "description_e78pdm",
+        "button_fVQtga"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "image": "",
+        "desktop_image_width": 50,
+        "image_desktop_position": "right",
+        "background_type": "color",
+        "background_color": "#e3dcd4",
+        "desktop_vertical_alignment": "center",
+        "text_alignment": "start",
+        "column_gap": "no_gap",
+        "padding_content_inline": 100,
+        "padding_content_block": 53,
+        "text_alignment_mobile": "center",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "multi_content_M9maEx": {
+      "type": "multi-content",
+      "blocks": {
+        "group_image_with_text_dJLHY7": {
+          "type": "_group-image-with-text",
+          "settings": {
+            "color_scheme": "",
+            "vertical_alignment_group": "start",
+            "width": "33.333%",
+            "image": "",
+            "link": "",
+            "content_position": "bellow",
+            "text_alignment": "start",
+            "show_badge": false,
+            "badge": "Highlight text",
+            "highlight_text_icon": "star",
+            "background_color": "#c03e35",
+            "text_color": "#ffffff",
+            "vertical_position": "bottom",
+            "overlay_opacity": 0,
+            "desktop_content_position": "middle-left"
+          },
+          "blocks": {
+            "heading_VXGR9B": {
+              "type": "heading",
+              "settings": {
+                "heading": "Southland Boutique",
+                "type_preset": "h5",
+                "padding_top": 0,
+                "padding_bottom": 10
+              },
+              "blocks": {}
+            },
+            "description_RnczaJ": {
+              "type": "description",
+              "name": "t:sections.all.content_setting.description.label",
+              "settings": {
+                "description": "<p><a href=\"tel:+1 (973)-1800-5757\" title=\"tel:+1 (973)-1800-5757\">+1 (973)-1800-5757</a></p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            },
+            "description_fJhcbj": {
+              "type": "description",
+              "settings": {
+                "description": "<p>East 1300th Avenue, IL, USA</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 20
+              },
+              "blocks": {}
+            },
+            "button_xH7qzi": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "View Store",
+                "first_button_link": "",
+                "first_button_type": "link",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_VXGR9B",
+            "description_RnczaJ",
+            "description_fJhcbj",
+            "button_xH7qzi"
+          ]
+        },
+        "group_image_with_text_mmJFi8": {
+          "type": "_group-image-with-text",
+          "settings": {
+            "color_scheme": "",
+            "vertical_alignment_group": "start",
+            "width": "33.333%",
+            "image": "",
+            "link": "",
+            "content_position": "bellow",
+            "text_alignment": "start",
+            "show_badge": false,
+            "badge": "Highlight text",
+            "highlight_text_icon": "star",
+            "background_color": "#c03e35",
+            "text_color": "#ffffff",
+            "vertical_position": "bottom",
+            "overlay_opacity": 0,
+            "desktop_content_position": "middle-left"
+          },
+          "blocks": {
+            "heading_khbxtC": {
+              "type": "heading",
+              "settings": {
+                "heading": "Century Boutique",
+                "type_preset": "h5",
+                "padding_top": 0,
+                "padding_bottom": 10
+              },
+              "blocks": {}
+            },
+            "description_YGGNe7": {
+              "type": "description",
+              "name": "t:sections.all.content_setting.description.label",
+              "settings": {
+                "description": "<p><a href=\"tel:+1 (973)-1800-5757\" title=\"tel:+1 (973)-1800-5757\">+1 (973)-1800-5757</a></p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            },
+            "description_qMtVRR": {
+              "type": "description",
+              "settings": {
+                "description": "<p>68 Owen Lane, Kansas, USA</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 20
+              },
+              "blocks": {}
+            },
+            "button_nTzVQC": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "View Store",
+                "first_button_link": "",
+                "first_button_type": "link",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_khbxtC",
+            "description_YGGNe7",
+            "description_qMtVRR",
+            "button_nTzVQC"
+          ]
+        },
+        "group_image_with_text_KxhGip": {
+          "type": "_group-image-with-text",
+          "settings": {
+            "color_scheme": "",
+            "vertical_alignment_group": "start",
+            "width": "33.333%",
+            "image": "",
+            "link": "",
+            "content_position": "bellow",
+            "text_alignment": "start",
+            "show_badge": false,
+            "badge": "Highlight text",
+            "highlight_text_icon": "star",
+            "background_color": "#c03e35",
+            "text_color": "#ffffff",
+            "vertical_position": "bottom",
+            "overlay_opacity": 0,
+            "desktop_content_position": "middle-left"
+          },
+          "blocks": {
+            "heading_fPXQgL": {
+              "type": "heading",
+              "settings": {
+                "heading": "Brighton Boutique",
+                "type_preset": "h5",
+                "padding_top": 0,
+                "padding_bottom": 10
+              },
+              "blocks": {}
+            },
+            "description_MVLC98": {
+              "type": "description",
+              "name": "t:sections.all.content_setting.description.label",
+              "settings": {
+                "description": "<p><a href=\"tel:+1 (973)-1800-5757\" title=\"tel:+1 (973)-1800-5757\">+1 (973)-1800-5757</a></p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 0
+              },
+              "blocks": {}
+            },
+            "description_mFyr43": {
+              "type": "description",
+              "settings": {
+                "description": "<p>48 Smith, Norcross, USA</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 20
+              },
+              "blocks": {}
+            },
+            "button_zb6ppi": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "View Store",
+                "first_button_link": "",
+                "first_button_type": "link",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_fPXQgL",
+            "description_MVLC98",
+            "description_mFyr43",
+            "button_zb6ppi"
+          ]
+        }
+      },
+      "block_order": [
+        "group_image_with_text_dJLHY7",
+        "group_image_with_text_mmJFi8",
+        "group_image_with_text_KxhGip"
+      ],
+      "custom_css": [
+        ".block__description a {text-decoration: none; color: inherit; font-weight: normal;}"
+      ],
+      "name": "t:sections.multi_content.name",
+      "settings": {
+        "section_width": "fix_width",
+        "subheading": "",
+        "heading": "<p>Store Locations</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Visit our store to explore our collections in person and find more.</p>",
+        "heading_size": "small",
+        "alignment": "start",
+        "column_gap": "medium",
+        "enable_carousel_mobile": true,
+        "items_per_row": 1.5,
+        "hidden_des_mobile": true,
+        "equal_height_adjustment": true,
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "flexible_section_eARh8z": {
+      "type": "flexible-section",
+      "blocks": {
+        "group_9atgFr": {
+          "type": "group",
+          "name": "t:sections.custom_section.blocks.group.name",
+          "settings": {
+            "link_block": "",
+            "open_in_new_tab": false,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-71ad6e77-818b-46af-a5ac-36e11fc517b6",
+            "custom_layout": "horizontal",
+            "vertical_on_mobile": true,
+            "content_wrap": false,
+            "horizontal_position": "center",
+            "vertical_position": "space_between",
+            "vertical_alignment": "center",
+            "horizontal_alignment": "space_between",
+            "gap": 20,
+            "hidden_on_mobile": false,
+            "width_block": "fill",
+            "custom_width": 100,
+            "width_block_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height_block": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "border_radius_type": "custom",
+            "border_radius_custom": 20,
+            "enable_background_overlay": false,
+            "background_overlay_color": "#00000026",
+            "background_overlay_style": "solid",
+            "background_overlay_gradient_direction": "to top",
+            "border_style": "none",
+            "border_color": "#e5e5e5",
+            "border_thickness": 1,
+            "padding_inline": 40,
+            "padding_block": 27
+          },
+          "blocks": {
+            "group_EDnwWX": {
+              "type": "group",
+              "name": "t:sections.custom_section.blocks.group.name",
+              "settings": {
+                "link_block": "",
+                "open_in_new_tab": false,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "custom_layout": "vertical",
+                "vertical_on_mobile": false,
+                "content_wrap": false,
+                "horizontal_position": "center",
+                "vertical_position": "center",
+                "vertical_alignment": "start",
+                "horizontal_alignment": "center",
+                "gap": 0,
+                "hidden_on_mobile": false,
+                "width_block": "fill",
+                "custom_width": 100,
+                "width_block_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height_block": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "border_radius_type": "none",
+                "border_radius_custom": 20,
+                "enable_background_overlay": false,
+                "background_overlay_color": "#00000026",
+                "background_overlay_style": "solid",
+                "background_overlay_gradient_direction": "to top",
+                "border_style": "none",
+                "border_color": "#e5e5e5",
+                "border_thickness": 1,
+                "padding_inline": 0,
+                "padding_block": 0
+              },
+              "blocks": {
+                "heading_block_fjD3PC": {
+                  "type": "heading_block",
+                  "name": "t:sections.all.content_setting.heading.label",
+                  "settings": {
+                    "heading": "Get Exclusive Deals!",
+                    "type_preset": "h3",
+                    "heading_tag": "h2",
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "text_align_desktop": "left",
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "text_align_mobile": "center",
+                    "padding_top": 0,
+                    "padding_bottom": 4
+                  },
+                  "blocks": {}
+                },
+                "text_tLpAYh": {
+                  "type": "text",
+                  "name": "t:sections.custom_section.blocks.text.name",
+                  "settings": {
+                    "text": "<p>Become a member for exclusive discounts and early access to new drops.</p>",
+                    "text_color": "text-color",
+                    "text_size": 16,
+                    "width_block": "fill",
+                    "custom_width": 100,
+                    "text_align_desktop": "left",
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "text_align_mobile": "center",
+                    "padding_top": 0,
+                    "padding_bottom": 0,
+                    "hide_description_on_mobile": false
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "heading_block_fjD3PC",
+                "text_tLpAYh"
+              ]
+            },
+            "group_9nixp6": {
+              "type": "group",
+              "name": "t:sections.custom_section.blocks.group.name",
+              "settings": {
+                "link_block": "",
+                "open_in_new_tab": false,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "custom_layout": "horizontal",
+                "vertical_on_mobile": true,
+                "content_wrap": false,
+                "horizontal_position": "center",
+                "vertical_position": "center",
+                "vertical_alignment": "center",
+                "horizontal_alignment": "end",
+                "gap": 12,
+                "hidden_on_mobile": false,
+                "width_block": "custom",
+                "custom_width": 39,
+                "width_block_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height_block": "fit",
+                "custom_height": 100,
+                "background_media": "none",
+                "border_radius_type": "none",
+                "border_radius_custom": 20,
+                "enable_background_overlay": false,
+                "background_overlay_color": "#00000026",
+                "background_overlay_style": "solid",
+                "background_overlay_gradient_direction": "to top",
+                "border_style": "none",
+                "border_color": "#e5e5e5",
+                "border_thickness": 1,
+                "padding_inline": 0,
+                "padding_block": 0
+              },
+              "blocks": {
+                "button_block_3MBqCK": {
+                  "type": "button_block",
+                  "name": "t:sections.all.content_setting.button_label-block.label",
+                  "settings": {
+                    "first_button_label": "Sign In",
+                    "first_button_link": "",
+                    "first_button_type": "primary",
+                    "blank_first_button": false,
+                    "width_block": "custom",
+                    "custom_width": 100,
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                },
+                "button_block_nnWN4z": {
+                  "type": "button_block",
+                  "name": "t:sections.all.content_setting.button_label-block.label",
+                  "settings": {
+                    "first_button_label": "Create Account",
+                    "first_button_link": "",
+                    "first_button_type": "outline",
+                    "blank_first_button": false,
+                    "width_block": "custom",
+                    "custom_width": 100,
+                    "width_block_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "padding_top": 0,
+                    "padding_bottom": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_block_3MBqCK",
+                "button_block_nnWN4z"
+              ]
+            }
+          },
+          "block_order": [
+            "group_EDnwWX",
+            "group_9nixp6"
+          ]
+        }
+      },
+      "block_order": [
+        "group_9atgFr"
+      ],
+      "name": "Flexible: Promotion banner",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "custom_layout": "vertical",
+        "vertical_on_mobile": false,
+        "content_wrap": false,
+        "height_section": "auto",
+        "custom_height": 400,
+        "horizontal_position": "center",
+        "vertical_position": "center",
+        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "gap": 20,
+        "background_media": "none",
+        "padding_block": 50,
+        "border_radius_type": "none",
+        "border_radius_custom": 20,
+        "enable_background_overlay": false,
+        "background_overlay_color": "#0000000f",
+        "background_overlay_style": "solid",
+        "background_overlay_gradient_direction": "to top",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "scrolling_image_GjAT3k": {
+      "type": "scrolling-image",
+      "blocks": {
+        "image_T8qrcJ": {
+          "type": "image",
+          "settings": {
+            "image_block": "",
+            "link_image": ""
+          }
+        },
+        "image_3DhmYG": {
+          "type": "image",
+          "settings": {
+            "image_block": "",
+            "link_image": ""
+          }
+        },
+        "image_3rHVQ7": {
+          "type": "image",
+          "settings": {
+            "image_block": "",
+            "link_image": ""
+          }
+        },
+        "image_GaD8KV": {
+          "type": "image",
+          "settings": {
+            "image_block": "",
+            "link_image": ""
+          }
+        },
+        "image_Rkiny7": {
+          "type": "image",
+          "settings": {
+            "image_block": "",
+            "link_image": ""
+          }
+        },
+        "image_XnaWmM": {
+          "type": "image",
+          "settings": {
+            "image_block": "",
+            "link_image": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_T8qrcJ",
+        "image_3DhmYG",
+        "image_3rHVQ7",
+        "image_GaD8KV",
+        "image_Rkiny7",
+        "image_XnaWmM"
+      ],
+      "name": "t:sections.scrolling_image.name",
+      "settings": {
+        "section_width": "stretch_width",
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_width": 250,
+        "image_width_mb": 150,
+        "gallery_actions": "slide",
+        "show_background_blur": false,
+        "show_icon_hover": true,
+        "subheading": "",
+        "title": "<p>Velyn On Gram</p>",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "<p>Discover everyday essentials by @velyn — trusted by 15k+ customers.</p>",
+        "heading_size": "small",
+        "text_alignment": "center",
+        "show_navigation": false,
+        "show_pagination": false,
+        "column_gap": "small",
+        "items_per_row": 6,
+        "items_per_row_mobile": 2,
+        "direction": "left",
+        "speed": 15,
+        "space_between": 100,
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
+    "icon_box_4wxdpX": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_NdAgmV": {
+          "type": "icon_box",
+          "settings": {
+            "icon_svg": "free_shipping",
+            "heading": "Free Shipping",
+            "description": "<p>Enjoy free worldwide shipping and returns, with customs and duties taxes included.</p>"
+          }
+        },
+        "icon_box_FVxcxU": {
+          "type": "icon_box",
+          "settings": {
+            "icon_svg": "check_badge",
+            "heading": "30—Day money Back",
+            "description": "<p>Enjoy free returns within 30 days, provided items are unused and undamaged.</p>"
+          }
+        },
+        "icon_box_wjHY7t": {
+          "type": "icon_box",
+          "settings": {
+            "icon_svg": "message_communications",
+            "heading": "Support Online",
+            "description": "<p>We support customers 24/7, send questions we will solve for you immediately.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_NdAgmV",
+        "icon_box_FVxcxU",
+        "icon_box_wjHY7t"
+      ],
+      "name": "t:sections.icon-box.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "title": "",
+        "drawn_underline": false,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "alignment": "start",
+        "column_gap": "large",
+        "icon_size": 40,
+        "icon_position": "top",
+        "rounded_image": false,
+        "content_icon_alignment": "center",
+        "content_icon_size": "large",
+        "enable_carousel_mobile": true,
+        "items_per_row": "1",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_LdgkDi",
+    "featured_collection_rJyUzL",
+    "image_with_text_YbVYYb",
+    "collection_list_6CCjyA",
+    "recommended_collection_BMwK43",
+    "shopby_outfit_VJqREW",
+    "image_with_text_qfXVUT",
+    "suitable_products_finder_UqCe3f",
+    "parallax_image_with_text_8X4fBj",
+    "suitable_products_finder_8MNqzd",
+    "press_card_6WbcXc",
+    "product_testimonials_wF8TC7",
+    "featured_product_BWQnKt",
+    "scrolling_text_G3mM7B",
+    "icon_box_6zntpr",
+    "image_with_text_Yey3QK",
+    "multi_content_M9maEx",
+    "flexible_section_eARh8z",
+    "scrolling_image_GjAT3k",
+    "icon_box_4wxdpX"
+  ]
+}

@@ -1,0 +1,60 @@
+{%- liquid
+  assign theme_st = settings
+  assign logo_img = theme_st.logo
+  assign logo_transparent = theme_st.logo_on_transparent
+  assign logo_width = theme_st.logo_width
+-%}
+{%- if request.page_type == 'index' -%}
+  <h1 class="visually-hidden">{{ shop.name }}</h1>
+{%- endif -%}
+<div class="header__logo inline-flex align-center color-inherit{% if section_st.logo_position =='center' %} text-center content-center{% else %} justify-center flex-1025-start{% endif %}">
+  <a
+    href="{{ routes.root_url }}"
+    class="header__heading-link no-underline h3 inline-flex align-center transparent-color"
+    aria-label="{{ shop.name }}"
+  >
+    {%- if section_st.transparent and logo_transparent != blank and request.page_type == 'index' -%}
+      {%- liquid
+        assign img_transparent_alt = logo_transparent.alt | default: shop.name | escape
+        assign logo_height = logo_width | divided_by: logo_transparent.aspect_ratio
+        if logo_img != blank
+          assign logo_height = logo_width | divided_by: logo_img.aspect_ratio
+        endif
+      -%}
+      {{
+        logo_transparent
+        | image_url: width: logo_width
+        | image_tag:
+          class: 'header__heading-logo transparent-logo',
+          widths: '50, 100, 150, 200, 250, 300, 400, 500, 600',
+          height: logo_height,
+          width: logo_width,
+          alt: img_transparent_alt,
+          sizes: '100vw'
+      }}
+    {%- endif -%}
+    {%- if logo_img != blank -%}
+      {%- assign img_alt = logo_img.alt | default: shop.name | escape -%}
+      {%- assign logo_height = logo_width | divided_by: logo_img.aspect_ratio -%}
+      {%- liquid
+        assign logo_class = 'header__heading-logo logo-normal'
+        if request.page_type == 'index' and section_st.transparent and logo_transparent != blank
+          assign logo_class = logo_class | append: ' hidden'
+        endif
+      -%}
+      {{
+        logo_img
+        | image_url: width: logo_width
+        | image_tag:
+          class: logo_class,
+          widths: '50, 100, 150, 200, 250, 300, 400, 500, 600',
+          height: logo_height,
+          width: logo_width,
+          alt: img_alt,
+          sizes: '100vw'
+      }}
+    {%- else -%}
+      <span class="site-logo {{ logo_class }}">{{ shop.name }}</span>
+    {%- endif -%}
+  </a>
+</div>

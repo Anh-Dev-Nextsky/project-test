@@ -1,0 +1,57 @@
+{%- if closest.product != blank and closest.product.metafields.custom.shop_the_look -%}
+  {%- liquid
+    assign metafield_list = product.metafields.custom.shop_the_look
+  -%}
+  {%- if block.settings.heading != blank -%}
+    <div class="inline-flex gap-sp-2 align-center text-size heading_weight">
+      {{ block.settings.heading }}
+    </div>
+    <div class="look">
+      <ul>
+        {%- assign index_look = 0 -%}
+        {% for item in metafield_list.value %}
+          {%- if item.image.value != blank and item.product.value != blank -%}
+            {%- liquid
+              assign media = item.image.value
+              assign card_product = item.product.value
+              assign image_alt = media.alt | default: closest.product.title | escape
+              assign index_look = index_look | plus: 1
+              if index_look == 1
+                assign ratio = media.aspect_ratio
+              endif
+            -%}
+            <li>
+              <a href="{{ card_product.url }}" style="--aspect-ratio: {{ ratio }};">
+                {% render 'responsive-image', type: 'banner', image: media, image_alt: image_alt %}
+              </a>
+              <span>{{ 'products.product.look_set' | t: index: index_look }}</span>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+{% endif %}
+{% schema %}
+{
+  "name": "t:sections.all.product_setting.shop_the_look.name",
+  "class": "block-product__shop-the-look",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.all.product_setting.shop_the_look.description"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:sections.all.product_setting.shop_the_look.settings.heading.label",
+      "default": "Heading"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.all.product_setting.shop_the_look.name"
+    }
+  ]
+}
+{% endschema %}

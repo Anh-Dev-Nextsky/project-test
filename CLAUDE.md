@@ -1,0 +1,1 @@
+/Users/khiempham/Documents/GitHub/eclectic-ambience-theme/AGENTS.md
