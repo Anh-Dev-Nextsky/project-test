@@ -2852,7 +2852,7 @@
               "type": "description",
               "settings": {
                 "description": "<p>Create your skincare — pick 3+ favorites and glow with 50% off.</p>",
-                "type_preset": "rte",
+                "type_preset": "h1",
                 "padding_top": 0,
                 "padding_bottom": 24
               },
