@@ -1535,296 +1535,6 @@
         "show_divider": false
       }
     },
-    "image_card_LYf9Vn": {
-      "type": "image-card",
-      "blocks": {
-        "group_image_card_eMGaja": {
-          "type": "_group-image-card",
-          "settings": {},
-          "blocks": {
-            "highlight_text_MDHfTL": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Save 35%",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#cdd7a9",
-                "text_color": "#1f473e",
-                "uppercase": false,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "heading_AdBjAh": {
-              "type": "heading",
-              "settings": {
-                "heading": "Build Your Routine",
-                "type_preset": "h3",
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_GdCMet": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Create your skincare — pick 3+ favorites and glow with 50% off.</p>",
-                "type_preset": "rte",
-                "padding_top": 0,
-                "padding_bottom": 24
-              },
-              "blocks": {}
-            },
-            "button_U8xzwg": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Get the Set",
-                "first_button_link": "",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_MDHfTL",
-            "heading_AdBjAh",
-            "description_GdCMet",
-            "button_U8xzwg"
-          ]
-        },
-        "group_image_card_7ddEja": {
-          "type": "_group-image-card",
-          "settings": {},
-          "blocks": {
-            "highlight_text_zzHKrH": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Save 15%",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#cdd7a9",
-                "text_color": "#1f473e",
-                "uppercase": false,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "heading_QTikhm": {
-              "type": "heading",
-              "settings": {
-                "heading": "Brightening Eye Serum",
-                "type_preset": "h3",
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_xpdeQX": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Brightens and depuffs with 7% Vitamin C, Caffeine your daily eye reset.</p>",
-                "type_preset": "rte",
-                "padding_top": 0,
-                "padding_bottom": 24
-              },
-              "blocks": {}
-            },
-            "button_GUm4tg": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Shop the Serum",
-                "first_button_link": "",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_zzHKrH",
-            "heading_QTikhm",
-            "description_xpdeQX",
-            "button_GUm4tg"
-          ]
-        },
-        "group_image_card_7Rmiax": {
-          "type": "_group-image-card",
-          "settings": {},
-          "blocks": {
-            "highlight_text_jcmDrc": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Buy 1 Get 1",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#cdd7a9",
-                "text_color": "#1f473e",
-                "uppercase": false,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "heading_ENWmtc": {
-              "type": "heading",
-              "settings": {
-                "heading": "Daily Skin Care Combo",
-                "type_preset": "h3",
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_RQMWim": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Hydrate & glow — your go-to combo for smooth, radiant skin.</p>",
-                "type_preset": "rte",
-                "padding_top": 0,
-                "padding_bottom": 24
-              },
-              "blocks": {}
-            },
-            "button_dwiYMW": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Claim the Offer",
-                "first_button_link": "",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_jcmDrc",
-            "heading_ENWmtc",
-            "description_RQMWim",
-            "button_dwiYMW"
-          ]
-        },
-        "group_image_card_WX3zxn": {
-          "type": "_group-image-card",
-          "name": "t:sections.image_card.blocks.group_name",
-          "settings": {},
-          "blocks": {
-            "highlight_text_9yD3xq": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Save 35%",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#cdd7a9",
-                "text_color": "#1f473e",
-                "uppercase": false,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "heading_jNf9r3": {
-              "type": "heading",
-              "settings": {
-                "heading": "Gloss Bomb Lip",
-                "type_preset": "h3",
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_Ycxgkj": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Bold color, weightless feel — a lip that flatters every skin tone.</p>",
-                "type_preset": "",
-                "padding_top": 0,
-                "padding_bottom": 24
-              },
-              "blocks": {}
-            },
-            "button_wN3qKV": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Shop the Shade",
-                "first_button_link": "https://purity.nextsky.co/discount/10%2525%2520off%2520for%2520foundations?redirect=%2Fcollections%2Ffoundations",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_9yD3xq",
-            "heading_jNf9r3",
-            "description_Ycxgkj",
-            "button_wN3qKV"
-          ]
-        }
-      },
-      "block_order": [
-        "group_image_card_eMGaja",
-        "group_image_card_7ddEja",
-        "group_image_card_7Rmiax",
-        "group_image_card_WX3zxn"
-      ],
-      "name": "t:sections.image_card.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "",
-        "subheading": "Special Skincare Offers",
-        "title": "<p>Today's <em>Best Deals</em></p>",
-        "drawn_underline": true,
-        "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#ffb005",
-        "description": "",
-        "heading_size": "medium",
-        "header_alignment": "center",
-        "image_ratio": "portrait",
-        "image_desktop_position": "left",
-        "background_color": "#ece7da",
-        "desktop_vertical_alignment": "end",
-        "text_alignment": "start",
-        "gap_item": "no_gap",
-        "enable_rounded_content": false,
-        "padding_content_inline": 40,
-        "padding_content_block": 40,
-        "items_per_row": 1.5,
-        "column_gap": "medium",
-        "show_navigation": true,
-        "show_pagination": false,
-        "slide_auto_change": false,
-        "change_slide_every": 5,
-        "reveal_slide": true,
-        "items_per_row_mobile": 1.1,
-        "text_alignment_mobile": "start",
-        "padding_top": 0,
-        "padding_bottom": 100,
-        "show_divider": false
-      }
-    },
     "routine_builder_WHycPa": {
       "type": "routine-builder",
       "blocks": {
@@ -3107,6 +2817,296 @@
         "show_divider": false
       }
     },
+    "image_card_LYf9Vn": {
+      "type": "image-card",
+      "blocks": {
+        "group_image_card_eMGaja": {
+          "type": "_group-image-card",
+          "settings": {},
+          "blocks": {
+            "highlight_text_MDHfTL": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "Save 35%",
+                "highlight_text_size": "small-1",
+                "highlight_text_icon": "none",
+                "background_color": "#cdd7a9",
+                "text_color": "#1f473e",
+                "uppercase": false,
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "heading_AdBjAh": {
+              "type": "heading",
+              "settings": {
+                "heading": "Build Your Routine",
+                "type_preset": "h3",
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "description_GdCMet": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Create your skincare — pick 3+ favorites and glow with 50% off.</p>",
+                "type_preset": "rte",
+                "padding_top": 0,
+                "padding_bottom": 24
+              },
+              "blocks": {}
+            },
+            "button_U8xzwg": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Get the Set",
+                "first_button_link": "",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_MDHfTL",
+            "heading_AdBjAh",
+            "description_GdCMet",
+            "button_U8xzwg"
+          ]
+        },
+        "group_image_card_7ddEja": {
+          "type": "_group-image-card",
+          "settings": {},
+          "blocks": {
+            "highlight_text_zzHKrH": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "Save 15%",
+                "highlight_text_size": "small-1",
+                "highlight_text_icon": "none",
+                "background_color": "#cdd7a9",
+                "text_color": "#1f473e",
+                "uppercase": false,
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "heading_QTikhm": {
+              "type": "heading",
+              "settings": {
+                "heading": "Brightening Eye Serum",
+                "type_preset": "h3",
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "description_xpdeQX": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Brightens and depuffs with 7% Vitamin C, Caffeine your daily eye reset.</p>",
+                "type_preset": "rte",
+                "padding_top": 0,
+                "padding_bottom": 24
+              },
+              "blocks": {}
+            },
+            "button_GUm4tg": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Shop the Serum",
+                "first_button_link": "",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_zzHKrH",
+            "heading_QTikhm",
+            "description_xpdeQX",
+            "button_GUm4tg"
+          ]
+        },
+        "group_image_card_7Rmiax": {
+          "type": "_group-image-card",
+          "settings": {},
+          "blocks": {
+            "highlight_text_jcmDrc": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "Buy 1 Get 1",
+                "highlight_text_size": "small-1",
+                "highlight_text_icon": "none",
+                "background_color": "#cdd7a9",
+                "text_color": "#1f473e",
+                "uppercase": false,
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "heading_ENWmtc": {
+              "type": "heading",
+              "settings": {
+                "heading": "Daily Skin Care Combo",
+                "type_preset": "h3",
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "description_RQMWim": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Hydrate & glow — your go-to combo for smooth, radiant skin.</p>",
+                "type_preset": "rte",
+                "padding_top": 0,
+                "padding_bottom": 24
+              },
+              "blocks": {}
+            },
+            "button_dwiYMW": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Claim the Offer",
+                "first_button_link": "",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_jcmDrc",
+            "heading_ENWmtc",
+            "description_RQMWim",
+            "button_dwiYMW"
+          ]
+        },
+        "group_image_card_WX3zxn": {
+          "type": "_group-image-card",
+          "name": "t:sections.image_card.blocks.group_name",
+          "settings": {},
+          "blocks": {
+            "highlight_text_9yD3xq": {
+              "type": "highlight-text",
+              "settings": {
+                "highlight_text": "Save 35%",
+                "highlight_text_size": "small-1",
+                "highlight_text_icon": "none",
+                "background_color": "#cdd7a9",
+                "text_color": "#1f473e",
+                "uppercase": false,
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "heading_jNf9r3": {
+              "type": "heading",
+              "settings": {
+                "heading": "Gloss Bomb Lip",
+                "type_preset": "h3",
+                "padding_top": 0,
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "description_Ycxgkj": {
+              "type": "description",
+              "settings": {
+                "description": "<p>Bold color, weightless feel — a lip that flatters every skin tone.</p>",
+                "type_preset": "",
+                "padding_top": 0,
+                "padding_bottom": 24
+              },
+              "blocks": {}
+            },
+            "button_wN3qKV": {
+              "type": "button",
+              "settings": {
+                "first_button_label": "Shop the Shade",
+                "first_button_link": "https://purity.nextsky.co/discount/10%2525%2520off%2520for%2520foundations?redirect=%2Fcollections%2Ffoundations",
+                "first_button_type": "outline",
+                "blank_first_button": false,
+                "second_button_label": "",
+                "second_button_link": "",
+                "second_button_type": "outline",
+                "blank_second_button": false,
+                "spacing_bottom": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "highlight_text_9yD3xq",
+            "heading_jNf9r3",
+            "description_Ycxgkj",
+            "button_wN3qKV"
+          ]
+        }
+      },
+      "block_order": [
+        "group_image_card_eMGaja",
+        "group_image_card_7ddEja",
+        "group_image_card_7Rmiax",
+        "group_image_card_WX3zxn"
+      ],
+      "name": "t:sections.image_card.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "Special Skincare Offers",
+        "title": "<p>Today's <em>Best Deals</em></p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "header_alignment": "center",
+        "image_ratio": "portrait",
+        "image_desktop_position": "left",
+        "background_color": "#ece7da",
+        "desktop_vertical_alignment": "end",
+        "text_alignment": "start",
+        "gap_item": "no_gap",
+        "enable_rounded_content": false,
+        "padding_content_inline": 40,
+        "padding_content_block": 40,
+        "items_per_row": 1.5,
+        "column_gap": "medium",
+        "show_navigation": true,
+        "show_pagination": false,
+        "slide_auto_change": false,
+        "change_slide_every": 5,
+        "reveal_slide": true,
+        "items_per_row_mobile": 1.1,
+        "text_alignment_mobile": "start",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_divider": false
+      }
+    },
     "review_nkYmNM": {
       "type": "review",
       "blocks": {
@@ -3199,7 +3199,6 @@
     "shopable_video_X6Vwtr",
     "product_testimonials_YWmVYx",
     "featured_product_banner_btH9t9",
-    "image_card_LYf9Vn",
     "routine_builder_WHycPa",
     "flexible_section_riA8Eb",
     "scrolling_image_L4NU7L",
@@ -3207,6 +3206,7 @@
     "faqs_8y7kPB",
     "scrolling_image_XCJXfG",
     "icon_box_bxhaa4",
+    "image_card_LYf9Vn",
     "review_nkYmNM"
   ]
 }
