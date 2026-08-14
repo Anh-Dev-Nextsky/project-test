@@ -1340,10 +1340,10 @@
             "rating_star": 5,
             "testimonial_author": "Carie-Gosée H.",
             "review_sumary": "Smells divine, looks radiant",
+            "use_richtext": true,
             "testimonial_quote": "",
-            "testimonial_product": "",
             "testimonial_quote_richtext": "<p>I noticed a softer, healthier glow after just a few uses. The texture feels lightweight, absorbs ...</p>",
-            "use_richtext": true
+            "testimonial_product": ""
           }
         },
         "testimonial_JKwkqq": {
@@ -1354,10 +1354,10 @@
             "rating_star": 5,
             "testimonial_author": "Cameron S.",
             "review_sumary": "A fresh glow without the heaviness",
+            "use_richtext": true,
             "testimonial_quote": "",
-            "testimonial_product": "",
             "testimonial_quote_richtext": "<p>I love how lightweight this feels from the first drop. It melts into my skin quickly, leaves a soft ...</p>",
-            "use_richtext": true
+            "testimonial_product": ""
           }
         },
         "image_comparison_XAiBXc": {
@@ -1366,10 +1366,10 @@
             "rating_star": 5,
             "testimonial_author": "Algistino L.",
             "review_sumary": "A soft, healthy glow",
+            "use_richtext": true,
             "testimonial_quote": "",
-            "testimonial_product": "",
             "testimonial_quote_richtext": "<p>After a few weeks, my skin looked calmer, smoother, and more even. I love that the glow ...</p>",
-            "use_richtext": true
+            "testimonial_product": ""
           }
         },
         "testimonial_Q3VqnR": {
@@ -1380,10 +1380,10 @@
             "rating_star": 5,
             "testimonial_author": "Susan G.",
             "review_sumary": "Balances my skin perfectly",
+            "use_richtext": true,
             "testimonial_quote": "",
-            "testimonial_product": "",
             "testimonial_quote_richtext": "<p>This felt gentle from the first use and left my skin looking smoother, softer, and naturally lit ...</p>",
-            "use_richtext": true
+            "testimonial_product": ""
           }
         },
         "testimonial_fnP8h4": {
@@ -1394,10 +1394,10 @@
             "rating_star": 5,
             "testimonial_author": "Célo F.",
             "review_sumary": "Fades dark spots well",
+            "use_richtext": true,
             "testimonial_quote": "",
-            "testimonial_product": "",
             "testimonial_quote_richtext": "<p>This serum is a skin-brightening miracle. I had dark patches from breakouts and it cleared them...</p>",
-            "use_richtext": true
+            "testimonial_product": ""
           }
         }
       },
@@ -3106,6 +3106,82 @@
         "padding_bottom": 100,
         "show_divider": false
       }
+    },
+    "review_nkYmNM": {
+      "type": "review",
+      "blocks": {
+        "review_Gntpee": {
+          "type": "review",
+          "settings": {
+            "rating_star": 4.5,
+            "author_name": "Grace L.",
+            "review_sumary": "Balances my skin perfectly",
+            "use_richtext": false,
+            "review_quote": "This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.",
+            "review_quote_richtext": "<p>You can add text content from press comments, reviews, or testimonials here.</p>"
+          }
+        },
+        "review_T4Me4b": {
+          "type": "review",
+          "settings": {
+            "rating_star": 4.5,
+            "author_name": "Grace L.",
+            "review_sumary": "Balances my skin perfectly",
+            "use_richtext": false,
+            "review_quote": "This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.",
+            "review_quote_richtext": "<p>You can add text content from press comments, reviews, or testimonials here.</p>"
+          }
+        },
+        "review_gRGQFJ": {
+          "type": "review",
+          "settings": {
+            "rating_star": 4.5,
+            "author_name": "Grace L.",
+            "review_sumary": "Balances my skin perfectly",
+            "use_richtext": false,
+            "review_quote": "This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.",
+            "review_quote_richtext": "<p>You can add text content from press comments, reviews, or testimonials here.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_Gntpee",
+        "review_T4Me4b",
+        "review_gRGQFJ"
+      ],
+      "name": "t:sections.review.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "Loved by 17k+ Customers",
+        "title": "<p>A Gentler Way to Glow</p>",
+        "drawn_underline": true,
+        "drawn_underline_type": "squiggle_underline",
+        "drawn_underline_color": "#ffb005",
+        "description": "",
+        "heading_size": "medium",
+        "text_alignment": "center",
+        "show_icon_review": true,
+        "show_author_image": true,
+        "show_verified_buyer": true,
+        "show_rating": true,
+        "rate_color": "#ffb005",
+        "color_bg": "#f2efe6",
+        "hidden_on_mobile": false,
+        "content_vertical_alignment": "start",
+        "content_text_alignment": "start",
+        "padding_content_inline": 100,
+        "padding_content_block": 100,
+        "show_navigation": true,
+        "show_pagination": true,
+        "type_pagination": "progress_bar",
+        "slide_auto_change": false,
+        "change_slide_every": 5,
+        "image_ratio": "adapt",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "show_divider": false
+      }
     }
   },
   "order": [
@@ -3130,6 +3206,7 @@
     "image_with_text_BHk7ME",
     "faqs_8y7kPB",
     "scrolling_image_XCJXfG",
-    "icon_box_bxhaa4"
+    "icon_box_bxhaa4",
+    "review_nkYmNM"
   ]
 }
