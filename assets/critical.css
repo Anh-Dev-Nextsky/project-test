@@ -3581,6 +3581,10 @@ quantity-input input {
     position: sticky;
   }
 
+  .w-custom-md {
+    width: var(--width-md);
+  }
+
   .max-w-custom-md {
     max-width: var(--max-width);
   }

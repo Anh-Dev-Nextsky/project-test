@@ -1,0 +1,128 @@
+{% liquid
+  assign section_st = section.settings
+  assign block_st = block.settings
+
+  assign desktop_image_width = section_st.desktop_image_width
+
+  assign image_ratio = section_st.image_ratio
+  assign ratio = '3/4'
+  assign ratio_mobile = '3/4'
+  if image_ratio != 'adapt'
+    case image_ratio
+      when 'square'
+        assign ratio = '1/1'
+        assign ratio_mobile = '1/1'
+      when 'landscape'
+        assign ratio = '4/3'
+        assign ratio_mobile = '4/3'
+      when 'portrait'
+        assign ratio = '3/4'
+        assign ratio_mobile = '3/4'
+    endcase
+  else
+    if block_st.image != blank
+      assign ratio = block_st.image.aspect_ratio
+      if block_st.image_mobile != blank
+        assign ratio_mobile = block_st.image_mobile.aspect_ratio
+      else
+        assign ratio_mobile = ratio
+      endif
+    else
+      assign ratio = '3/4'
+      assign ratio_mobile = '3/4'
+    endif
+  endif
+%}
+
+<div class="flex-md{% if section_st.image_desktop_position == 'right' %} row-reverse-md{% endif %}">
+  <div
+    class="banner__media w-custom-md"
+    style="--aspect-ratio-mb: {{ ratio_mobile }}; --aspect-ratio: {{ ratio }};--width-md: {{ desktop_image_width }}%;"
+  >
+    {% liquid
+      assign alt = 'general.image.image_alt_default' | t
+      if block_st.image.alt
+        assign alt = block_st.image.alt | escape
+      endif
+    %}
+    {% if block_st.image != blank or block_st.image_mobile != blank %}
+      {% render 'responsive-image',
+        type: 'other',
+        image: block_st.image,
+        image_alt: alt,
+        image_mobile: block_st.image_mobile,
+        motion: true,
+        animate: 'zoom-out-small'
+      %}
+    {% else %}
+      {% render 'placeholder-render',
+        type: 'collection-6',
+        class: 'img-placeholder h-full w-full',
+        motion: true,
+        animate: 'zoom-out-small'
+      %}
+    {% endif %}
+  </div>
+  <div
+    class="flex flex-1 column bg-custom px-custom py-custom justify-content-{{ section_st.content_vertical_alignment }} text-{{ section_st.content_text_alignment }}"
+    style="--bg-color-custom: {{ section_st.color_bg }};--padding-inline: {{ section_st.padding_content_inline }};--padding-block: {{ section_st.padding_content_block }};"
+  >
+    {% if section_st.show_icon_review %}
+      <div
+        class="icon-quote inline-flex justify-content-{{ section_st.content_text_alignment }} text-color"
+        style="--color-text: #CAC6B9;"
+      >
+        {% render 'icon-quote', custom_width: 70 %}
+      </div>
+    {% endif %}
+    {% content_for 'blocks' %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.feedback-product.blocks.group_name",
+  "class": "blocks-group-feedback",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.all.image.label",
+      "info": "t:sections.image_card.blocks.info"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "t:sections.all.image.mobile_image",
+      "info": "t:sections.image_card.blocks.info"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading"
+    },
+    {
+      "type": "description"
+    },
+    {
+      "type": "author"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.feedback-product.blocks.group_name",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "description"
+        },
+        {
+          "type": "author"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1015,6 +1015,9 @@
             "squiggle_underline": "Squiggle underline"
           },
           "color": "Underline color"
+        },
+        "author": {
+          "label": "Author"
         }
       },
       "content_header": {
@@ -4762,6 +4765,12 @@
         "image": {
           "name": "Image"
         }
+      }
+    },
+    "feedback-product": {
+      "name": "Feedback Product",
+      "blocks": {
+        "group_name": "Feedback Item"
       }
     }
   },
