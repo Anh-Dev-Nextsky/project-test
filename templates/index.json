@@ -9,375 +9,83 @@
  */
 {
   "sections": {
-    "image_card_LYf9Vn": {
-      "type": "image-card",
+    "feedback_product_6xBqmq": {
+      "type": "feedback-product",
       "blocks": {
-        "group_image_card_eMGaja": {
-          "type": "_group-image-card",
+        "group_feedback_DQzRtK": {
+          "type": "_group-feedback",
           "settings": {},
           "blocks": {
-            "highlight_text_MDHfTL": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Save 35%",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#cdd7a9",
-                "text_color": "#1f473e",
-                "uppercase": false,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "heading_AdBjAh": {
+            "heading_3eaXNE": {
               "type": "heading",
               "settings": {
-                "heading": "Build Your Routine",
-                "type_preset": "h3",
+                "heading": "Talk about your brand",
+                "type_preset": "h2",
                 "padding_top": 0,
-                "padding_bottom": 16
+                "padding_bottom": 10
               },
               "blocks": {}
             },
-            "description_GdCMet": {
+            "description_JPeeNX": {
               "type": "description",
               "settings": {
-                "description": "<p>Create your skincare — pick 3+ favorites and glow with 50% off.</p>",
-                "type_preset": "h1",
-                "padding_top": 0,
-                "padding_bottom": 24
-              },
-              "blocks": {}
-            },
-            "button_U8xzwg": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Get the Set",
-                "first_button_link": "",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_MDHfTL",
-            "heading_AdBjAh",
-            "description_GdCMet",
-            "button_U8xzwg"
-          ]
-        },
-        "group_image_card_7ddEja": {
-          "type": "_group-image-card",
-          "settings": {},
-          "blocks": {
-            "highlight_text_zzHKrH": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Save 15%",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#cdd7a9",
-                "text_color": "#1f473e",
-                "uppercase": false,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "heading_QTikhm": {
-              "type": "heading",
-              "settings": {
-                "heading": "Brightening Eye Serum",
-                "type_preset": "h3",
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_xpdeQX": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Brightens and depuffs with 7% Vitamin C, Caffeine your daily eye reset.</p>",
-                "type_preset": "rte",
-                "padding_top": 0,
-                "padding_bottom": 24
-              },
-              "blocks": {}
-            },
-            "button_GUm4tg": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Shop the Serum",
-                "first_button_link": "",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_zzHKrH",
-            "heading_QTikhm",
-            "description_xpdeQX",
-            "button_GUm4tg"
-          ]
-        },
-        "group_image_card_7Rmiax": {
-          "type": "_group-image-card",
-          "settings": {},
-          "blocks": {
-            "highlight_text_jcmDrc": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Buy 1 Get 1",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#cdd7a9",
-                "text_color": "#1f473e",
-                "uppercase": false,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "heading_ENWmtc": {
-              "type": "heading",
-              "settings": {
-                "heading": "Daily Skin Care Combo",
-                "type_preset": "h3",
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_RQMWim": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Hydrate & glow — your go-to combo for smooth, radiant skin.</p>",
-                "type_preset": "rte",
-                "padding_top": 0,
-                "padding_bottom": 24
-              },
-              "blocks": {}
-            },
-            "button_dwiYMW": {
-              "type": "button",
-              "settings": {
-                "first_button_label": "Claim the Offer",
-                "first_button_link": "",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "highlight_text_jcmDrc",
-            "heading_ENWmtc",
-            "description_RQMWim",
-            "button_dwiYMW"
-          ]
-        },
-        "group_image_card_WX3zxn": {
-          "type": "_group-image-card",
-          "name": "t:sections.image_card.blocks.group_name",
-          "settings": {},
-          "blocks": {
-            "highlight_text_9yD3xq": {
-              "type": "highlight-text",
-              "settings": {
-                "highlight_text": "Save 35%",
-                "highlight_text_size": "small-1",
-                "highlight_text_icon": "none",
-                "background_color": "#cdd7a9",
-                "text_color": "#1f473e",
-                "uppercase": false,
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "heading_jNf9r3": {
-              "type": "heading",
-              "settings": {
-                "heading": "Gloss Bomb Lip",
-                "type_preset": "h3",
-                "padding_top": 0,
-                "padding_bottom": 16
-              },
-              "blocks": {}
-            },
-            "description_Ycxgkj": {
-              "type": "description",
-              "settings": {
-                "description": "<p>Bold color, weightless feel — a lip that flatters every skin tone.</p>",
+                "description": "<p>Add a short description for this block.</p>",
                 "type_preset": "",
                 "padding_top": 0,
-                "padding_bottom": 24
+                "padding_bottom": 20
               },
               "blocks": {}
             },
-            "button_wN3qKV": {
-              "type": "button",
+            "author_pRgyWD": {
+              "type": "author",
               "settings": {
-                "first_button_label": "Shop the Shade",
-                "first_button_link": "https://purity.nextsky.co/discount/10%2525%2520off%2520for%2520foundations?redirect=%2Fcollections%2Ffoundations",
-                "first_button_type": "outline",
-                "blank_first_button": false,
-                "second_button_label": "",
-                "second_button_link": "",
-                "second_button_type": "outline",
-                "blank_second_button": false,
-                "spacing_bottom": 0
+                "image_width": 100,
+                "border_radius": 50,
+                "author_name": "Author Name",
+                "rating_star": 5,
+                "padding_top": 0,
+                "padding_bottom": 10
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "highlight_text_9yD3xq",
-            "heading_jNf9r3",
-            "description_Ycxgkj",
-            "button_wN3qKV"
+            "heading_3eaXNE",
+            "description_JPeeNX",
+            "author_pRgyWD"
           ]
         }
       },
       "block_order": [
-        "group_image_card_eMGaja",
-        "group_image_card_7ddEja",
-        "group_image_card_7Rmiax",
-        "group_image_card_WX3zxn"
+        "group_feedback_DQzRtK"
       ],
-      "name": "t:sections.image_card.name",
+      "name": "t:sections.feedback-product.name",
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "",
-        "subheading": "Special Skincare Offers",
-        "title": "<p>Today's <em>Best Deals</em></p>",
-        "drawn_underline": true,
-        "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#ffb005",
-        "description": "",
+        "subheading": "<p>Loved by 17k+ Customers</p>",
+        "title": "A Gentler Way to Glow",
         "heading_size": "medium",
         "header_alignment": "center",
-        "image_ratio": "portrait",
         "image_desktop_position": "left",
-        "background_color": "#ece7da",
-        "desktop_vertical_alignment": "end",
-        "text_alignment": "start",
-        "gap_item": "no_gap",
-        "enable_rounded_content": false,
-        "padding_content_inline": 40,
-        "padding_content_block": 40,
-        "items_per_row": 1.5,
-        "column_gap": "medium",
-        "show_navigation": true,
-        "show_pagination": false,
-        "slide_auto_change": false,
-        "change_slide_every": 5,
-        "reveal_slide": true,
-        "items_per_row_mobile": 1.1,
-        "text_alignment_mobile": "start",
-        "padding_top": 0,
-        "padding_bottom": 100,
-        "show_divider": false
-      }
-    },
-    "review_nkYmNM": {
-      "type": "review",
-      "blocks": {
-        "review_Gntpee": {
-          "type": "review",
-          "settings": {
-            "rating_star": 4.5,
-            "author_name": "Grace L.",
-            "review_sumary": "Balances my skin perfectly",
-            "use_richtext": false,
-            "review_quote": "This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.",
-            "review_quote_richtext": "<p>You can add text content from press comments, reviews, or testimonials here.</p>"
-          }
-        },
-        "review_T4Me4b": {
-          "type": "review",
-          "settings": {
-            "rating_star": 4.5,
-            "author_name": "Grace L.",
-            "review_sumary": "Balances my skin perfectly",
-            "use_richtext": false,
-            "review_quote": "This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.",
-            "review_quote_richtext": "<p>You can add text content from press comments, reviews, or testimonials here.</p>"
-          }
-        },
-        "review_gRGQFJ": {
-          "type": "review",
-          "settings": {
-            "rating_star": 4.5,
-            "author_name": "Grace L.",
-            "review_sumary": "Balances my skin perfectly",
-            "use_richtext": false,
-            "review_quote": "This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.",
-            "review_quote_richtext": "<p>You can add text content from press comments, reviews, or testimonials here.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "review_Gntpee",
-        "review_T4Me4b",
-        "review_gRGQFJ"
-      ],
-      "name": "t:sections.review.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "",
-        "subheading": "Loved by 17k+ Customers",
-        "title": "<p>A Gentler Way to Glow</p>",
-        "drawn_underline": true,
-        "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#ffb005",
-        "description": "",
-        "heading_size": "medium",
-        "text_alignment": "center",
-        "show_icon_review": true,
-        "show_author_image": true,
-        "show_verified_buyer": true,
-        "show_rating": true,
-        "rate_color": "#ffb005",
-        "color_bg": "#f2efe6",
-        "hidden_on_mobile": false,
-        "content_vertical_alignment": "start",
-        "content_text_alignment": "start",
+        "desktop_image_width": 50,
+        "image_ratio": "adapt",
+        "color_bg": "#F2EFE6",
         "padding_content_inline": 100,
         "padding_content_block": 100,
-        "show_navigation": true,
-        "show_pagination": true,
-        "type_pagination": "progress_bar",
-        "slide_auto_change": false,
-        "change_slide_every": 5,
-        "image_ratio": "adapt",
+        "content_vertical_alignment": "center",
+        "content_text_alignment": "start",
+        "show_icon_review": true,
+        "show_author_image": true,
+        "show_rating": true,
+        "show_verified_buyer": true,
+        "rate_color": "#FFB005",
         "padding_top": 48,
-        "padding_bottom": 48,
-        "show_divider": false
+        "padding_bottom": 48
       }
     }
   },
   "order": [
-    "image_card_LYf9Vn",
-    "review_nkYmNM"
+    "feedback_product_6xBqmq"
   ]
 }
