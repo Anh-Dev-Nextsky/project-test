@@ -4779,7 +4779,18 @@
     "feedback-product": {
       "name": "Feedback Product",
       "blocks": {
-        "group_name": "Feedback Item"
+        "group_name": "Feedback Item",
+        "media": "Media",
+        "content": "Content",
+        "settings": {
+          "show_icon": "Show icon",
+          "show_author_image": "Show author image",
+          "feedback_sumary": "Feedback summary",
+          "feedback_quote": "Quote",
+          "author_image": "Author image",
+          "author_name": "Author name",
+          "rating_star": "Rating star"
+        }
       }
     }
   },
