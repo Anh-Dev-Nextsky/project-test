@@ -32,7 +32,7 @@
               "type": "description",
               "settings": {
                 "description": "<p>This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.</p>",
-                "type_preset": "",
+                "type_preset": "fs-small",
                 "padding_top": 0,
                 "padding_bottom": 0
               },
