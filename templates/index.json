@@ -23,7 +23,7 @@
               "settings": {
                 "heading": "Balances my skin perfectly",
                 "type_preset": "h5",
-                "padding_top": 0,
+                "padding_top": 24,
                 "padding_bottom": 10
               },
               "blocks": {}
