@@ -9,58 +9,25 @@
  */
 {
   "sections": {
-    "feedback_product_6xBqmq": {
+    "feedback_product_QAkh9N": {
       "type": "feedback-product",
       "blocks": {
-        "group_feedback_DQzRtK": {
-          "type": "_group-feedback",
+        "feedback_bQP9bw": {
+          "type": "feedback",
           "settings": {
-            "image": "shopify://shop_images/img.jpg"
-          },
-          "blocks": {
-            "heading_3eaXNE": {
-              "type": "heading",
-              "settings": {
-                "heading": "Balances my skin perfectly",
-                "type_preset": "h5",
-                "padding_top": 24,
-                "padding_bottom": 12
-              },
-              "blocks": {}
-            },
-            "description_JPeeNX": {
-              "type": "description",
-              "settings": {
-                "description": "<p>This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.</p>",
-                "type_preset": "fs-big-2",
-                "padding_top": 0,
-                "padding_bottom": 24
-              },
-              "blocks": {}
-            },
-            "author_pRgyWD": {
-              "type": "author",
-              "settings": {
-                "author_image": "shopify://shop_images/img-author.jpg",
-                "image_width": 60,
-                "border_radius": 50,
-                "author_name": "Grace L.",
-                "rating_star": 4.5,
-                "padding_top": 0,
-                "padding_bottom": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading_3eaXNE",
-            "description_JPeeNX",
-            "author_pRgyWD"
-          ]
+            "image": "shopify://shop_images/img.jpg",
+            "feedback_sumary": "Balances my skin perfectly",
+            "feedback_quote": "This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.",
+            "author_image": "shopify://shop_images/img-author.jpg",
+            "image_width": 100,
+            "border_radius": 50,
+            "author_name": "Author Name",
+            "rating_star": 5
+          }
         }
       },
       "block_order": [
-        "group_feedback_DQzRtK"
+        "feedback_bQP9bw"
       ],
       "name": "t:sections.feedback-product.name",
       "settings": {
@@ -73,22 +40,22 @@
         "image_desktop_position": "left",
         "desktop_image_width": 50,
         "image_ratio": "adapt",
-        "color_bg": "#f2efe6",
+        "color_bg": "#F2EFE6",
         "padding_content_inline": 100,
-        "padding_content_block": 100,
+        "padding_content_block": 130,
         "content_vertical_alignment": "center",
         "content_text_alignment": "start",
-        "show_icon_review": true,
+        "show_icon": true,
         "show_author_image": true,
         "show_rating": true,
         "show_verified_buyer": true,
-        "rate_color": "#ffb005",
+        "rate_color": "#FFB005",
         "padding_top": 48,
         "padding_bottom": 48
       }
     }
   },
   "order": [
-    "feedback_product_6xBqmq"
+    "feedback_product_QAkh9N"
   ]
 }
