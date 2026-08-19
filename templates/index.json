@@ -23,8 +23,8 @@
               "settings": {
                 "heading": "Balances my skin perfectly",
                 "type_preset": "h5",
-                "padding_top": 22,
-                "padding_bottom": 10
+                "padding_top": 24,
+                "padding_bottom": 12
               },
               "blocks": {}
             },
@@ -34,7 +34,7 @@
                 "description": "<p>This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.</p>",
                 "type_preset": "fs-big-2",
                 "padding_top": 0,
-                "padding_bottom": 0
+                "padding_bottom": 24
               },
               "blocks": {}
             },
@@ -42,12 +42,12 @@
               "type": "author",
               "settings": {
                 "author_image": "shopify://shop_images/img-author.jpg",
-                "image_width": 100,
+                "image_width": 60,
                 "border_radius": 50,
                 "author_name": "Grace L.",
                 "rating_star": 4.5,
                 "padding_top": 0,
-                "padding_bottom": 10
+                "padding_bottom": 0
               },
               "blocks": {}
             }
