@@ -24,7 +24,7 @@
                 "heading": "Balances my skin perfectly",
                 "type_preset": "h5",
                 "padding_top": 22,
-                "padding_bottom": 0
+                "padding_bottom": 10
               },
               "blocks": {}
             },
@@ -34,7 +34,7 @@
                 "description": "<p>This wash has a fresh citrus scent and soft foamy lather. It rinses off easily without drying my skin, leaving it smooth, refreshed, and comfortable after every shower.</p>",
                 "type_preset": "",
                 "padding_top": 0,
-                "padding_bottom": 20
+                "padding_bottom": 0
               },
               "blocks": {}
             },
