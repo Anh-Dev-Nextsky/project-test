@@ -39,7 +39,7 @@
         "header_alignment": "center",
         "image_desktop_position": "left",
         "desktop_image_width": 50,
-        "image_ratio": "adapt",
+        "image_ratio": "landscape",
         "color_bg": "#F2EFE6",
         "padding_content_inline": 100,
         "padding_content_block": 130,
