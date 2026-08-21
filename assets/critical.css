@@ -1278,6 +1278,14 @@ a.hover-heading-color:hover,
   align-self: flex-start;
 }
 
+.flex-custom {
+  flex: 0 0
+    calc(
+      var(--flex-custom) * 1% 
+      - (100 - var(--flex-custom)) * var(--gap, 0) * 0.001rem
+    );
+}
+
 .flex-auto {
   flex: 0 0 auto;
 }
@@ -3404,6 +3412,10 @@ quantity-input input {
 
   .my-md-sp-3 {
     margin-block: var(--sp-3);
+  }
+
+  .mb-md-0 {
+    margin-bottom: 0rem;
   }
 
   .mb-md-5 {

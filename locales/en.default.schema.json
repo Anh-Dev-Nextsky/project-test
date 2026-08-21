@@ -4792,6 +4792,38 @@
           "rating_star": "Rating star"
         }
       }
+    },
+    "feature-comparison": {
+      "name": "Feature comparison",
+      "settings": {
+        "review_text": "Review text",
+        "comparison_table": "Comparison table",
+        "desktop_table_position": {
+          "label": "Desktop table position",
+          "info": "Table will be shown below text on mobile",
+          "left": "Left",
+          "right": "Right"
+        },
+        "desktop_table_width": {
+          "label": "Desktop table width",
+          "info": "Table is automatically optimized for mobile."
+        },
+        "brand_label": "Brand label",
+        "competitor_label": "Competitor label"
+      },
+      "block": {
+        "comparison_row": {
+          "label": "Comparison row",
+          "feature": "Feature",
+          "comparison_type": {
+            "label": "Comparison type",
+            "icon": "Icon",
+            "text": "Text"
+          },
+          "brand_content": "Brand content",
+          "competitor_content": "Competitor content"
+        }
+      }
     }
   },
   "blocks": {

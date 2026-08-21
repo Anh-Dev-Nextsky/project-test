@@ -1,0 +1,504 @@
+{% liquid
+  assign section_st = section.settings
+
+  if section_st.section_width == 'fix_width'
+    assign section_width = 'container'
+  elsif section_st.section_width == 'full_width'
+    assign section_width = 'full-width'
+  else
+    assign section_width = 'fluid_container'
+  endif
+
+  assign heading_size = section_st.heading_size
+  assign header_size = ''
+  if heading_size == 'small'
+    assign header_size = 'h3'
+  elsif heading_size == 'large'
+    assign header_size = 'h1'
+  endif
+%}
+
+{% capture style %}
+  --section-pt: {{ section_st.padding_top }}; --section-pb: {{ section_st.padding_bottom }};
+{% endcapture %}
+
+{% style %}
+  .comparison-header__feature,
+  .comparison-row__feature {
+    padding-left: 1rem;
+  }
+
+  .comparison-header__feature {
+    border-top-left-radius: 2rem;
+  }
+
+  .comparison-header__brand {
+    border-top-right-radius: 2rem;
+  }
+
+  .comparison-row:last-child>div {
+    padding-bottom: 2rem;
+  }
+
+  .comparison-row:last-child>.comparison-row__feature {
+    border-bottom-left-radius: 2rem;
+  }
+
+  .comparison-row:last-child>.comparison-row__brand {
+    border-bottom-right-radius: 2rem;
+  }
+
+  {% if section_st.highlight_brand_column %}
+    .comparison-header__feature,
+    .comparison-header__brand,
+    .comparison-row__feature,
+    .comparison-row__brand {
+      background-color: #ffffff4b;
+    }
+  {% endif %}
+
+{% endstyle %}
+
+<div
+  class="section color-{{ section_st.color_scheme }} gradient"
+  style="{{ style | strip | strip_newlines }}"
+>
+  <div class="{{ section_width }} flex-md{% if section_st.desktop_table_position == 'left' %} row-reverse-md{% endif %}">
+    <div 
+      class="feature-comparison__header mb-30 mb-md-0 flex flex-1 column px-custom justify-content-{{ section_st.content_vertical_alignment }} text-{{ section_st.header_alignment }}"
+      style="--padding-inline: {{ section_st.padding_content_inline }};"
+    >
+      {% if section_st.subheading != blank %}
+        <div class="section-subheading subheading_weight h7 mb-sp-1 mb-md-sp-2 fs-big-2">
+          {{ section_st.subheading }}
+        </div>
+      {% endif %}
+
+      {% if section_st.heading != blank %}
+        <h2 class="section-heading {{ header_size }} mb-sp-1 mb-md-sp-5" style="letter-spacing: 0.01rem;">
+          {{ section_st.heading }}
+        </h2>
+      {% endif %}
+
+      <div class="section-description prose mb-sp-1 mb-md-sp-5">
+        {{ section_st.description }}
+      </div>
+
+      {% if section_st.show_rating %}
+        <div class="flex gap-sp-2 justify-content-{{ section_st.header_alignment }}">
+          <div class="rating flex relative me-3" role="img">
+            {% liquid
+              assign rating_star = section_st.rating_star
+              assign rating_integer = rating_star | floor
+              assign rating_decimal = rating_star | modulo: 1
+            %}
+            <span
+              aria-hidden="true"
+              class="star-rating inline-flex align-center gap"
+              style="--gap: 1px; --gap-desktop: 1px;"
+            >
+              {%- for i in (1..5) -%}
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <use href="#icon-rate"></use>
+                </svg>
+              {%- endfor -%}
+            </span>
+            <div
+              class="absolute inset-0 z-1 inline-flex align-center gap"
+              style="--gap: 1px; --gap-desktop: 1px;--rate-color: {{ section_st.rate_color }};"
+            >
+              {%- for i in (1..rating_integer) -%}
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  class="rate-color"
+                >
+                  <use href="#icon-rate"></use>
+                </svg>
+              {%- endfor -%}
+              {% if rating_decimal == 0.5 %}
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  class="half-star rtl-mirror"
+                >
+                  <use href="#icon-rate-half"></use>
+                </svg>
+              {% endif %}
+            </div>
+          </div>
+          <div class="review-text fs-small">
+            {{ section_st.review_text }}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+    <div class="feature-comparison__table w-custom-md" style="--width-md: {{ section_st.desktop_table_width }}%;">
+      <div class="comparison-header flex">
+        <h5 class="comparison-header__feature flex-custom" style="--flex-custom: 50;--gap: 0;">
+          <span class="block border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full"></span>
+        </h5>
+        <h5 class="comparison-header__brand flex-custom text-center" style="--flex-custom: 25;--gap: 0;">
+          <span class="block border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full">
+            {{ section_st.brand_label }}
+          </span>
+        </h5>
+        <h5 class="comparison-header__competitor flex-custom text-center" style="--flex-custom: 25;--gap: 0;">
+          <span class="block border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full">
+            {{ section_st.competitor_label }}
+          </span>
+        </h5>
+      </div>
+
+      {% for block in section.blocks %}
+        {% liquid
+          assign block_st = block.settings
+        %}
+        <div class="comparison-row flex">
+          <div class="comparison-row__feature flex-custom h6 body-font body_weight" style="--flex-custom: 50;--gap: 0;">
+            <span class="block border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full">
+              {{ block_st.feature_name }}
+            </span>
+          </div>
+          <div class="comparison-row__brand flex-custom" style="--flex-custom: 25;--gap: 0;">
+            <span class="flex content-center text-center border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full">
+              {% if block_st.comparison_type == 'icon' %}
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <use href="#icon-tick"></use>
+                </svg>
+              {% else %}
+                {{ block_st.brand_content }}
+              {% endif %}
+            </span>
+          </div>
+          <div class="comparison-row__competitor flex-custom" style="--flex-custom: 25;--gap: 0;">
+            <span class="flex content-center text-center border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full">
+              {% if block_st.comparison_type == 'icon' %}
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <use href="#icon-close"></use>
+              </svg>
+            {% else %}
+              {{ block_st.competitor_content }}
+            {% endif %}
+            </span>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.feature-comparison.name",
+  "tag": "section",
+  "class": "section section-feature-comparison",
+  "disabled_on": {
+    "groups": ["header", "footer", "custom.overlay"]
+  },
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.general"
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "options": [
+        {
+          "value": "fix_width",
+          "label": "t:sections.all.layout.fix_width"
+        },
+        {
+          "value": "stretch_width",
+          "label": "t:sections.all.layout.stretch_width"
+        },
+        {
+          "value": "full_width",
+          "label": "t:sections.all.layout.full_width"
+        }
+      ],
+      "default": "fix_width",
+      "label": "t:sections.all.layout.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "info": "t:sections.all.colors.info",
+      "default": "default-color-scheme"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.content_header.label"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "t:sections.all.content_setting.subheading.label",
+      "default": "<p>Subheading</p>"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:sections.all.content_setting.heading.label",
+      "default": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "t:sections.all.content_setting.description.label",
+      "default": "<p>Description</p>"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.all.content_header.heading_size.options__3.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.all.content_header.heading_size.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.all.content_header.heading_size.options__1.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.all.content_header.heading_size.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "default": true,
+      "label": "t:sections.review.settings.rating_type.show"
+    },
+    {
+      "type": "range",
+      "id": "rating_star",
+      "min": 1,
+      "max": 5,
+      "step": 0.5,
+      "label": "t:sections.feedback-product.blocks.settings.rating_star",
+      "default": 5,
+      "visible_if": "{{ section.settings.show_rating == true }}"
+    },
+    {
+      "type": "color",
+      "id": "rate_color",
+      "label": "t:sections.review.settings.rate_color.label",
+      "default": "#FFB005",
+      "visible_if": "{{ section.settings.show_rating == true }}"
+    },
+    {
+      "type": "text",
+      "id": "review_text",
+      "label": "t:sections.feature-comparison.settings.review_text",
+      "default": "Review text",
+      "visible_if": "{{ section.settings.show_rating == true }}"
+    },
+    {
+      "type": "select",
+      "id": "content_vertical_alignment",
+      "options": [
+        {
+          "value": "start",
+          "label": "t:sections.image-with-text.settings.desktop_vertical_alignment.top"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-with-text.settings.desktop_vertical_alignment.middle"
+        },
+        {
+          "value": "end",
+          "label": "t:sections.image-with-text.settings.desktop_vertical_alignment.bottom"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.image-with-text.settings.vertical_alignment"
+    },
+    {
+      "type": "select",
+      "id": "header_alignment",
+      "options": [
+        {
+          "value": "start",
+          "label": "t:sections.all.text_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.all.text_alignment.options__2.label"
+        },
+        {
+          "value": "end",
+          "label": "t:sections.all.text_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.all.text_alignment.label"
+    },
+    {
+      "type": "range",
+      "id": "padding_content_inline",
+      "min": 30,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_inline.label",
+      "info": "t:sections.all.padding.padding_inline.info",
+      "default": 100
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.feature-comparison.settings.comparison_table"
+    },
+        {
+      "type": "select",
+      "id": "desktop_table_position",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.feature-comparison.settings.desktop_table_position.left"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.feature-comparison.settings.desktop_table_position.right"
+        }
+      ],
+      "default": "right",
+      "label": "t:sections.feature-comparison.settings.desktop_table_position.label",
+      "info": "t:sections.feature-comparison.settings.desktop_table_position.info"
+    },
+    {
+      "type": "range",
+      "id": "desktop_table_width",
+      "min": 40,
+      "max": 60,
+      "step": 1,
+      "unit": "%",
+      "default": 50,
+      "label": "t:sections.feature-comparison.settings.desktop_table_width.label",
+      "info": "t:sections.feature-comparison.settings.desktop_table_width.info"
+    },
+    {
+      "type": "text",
+      "id": "brand_label",
+      "label": "t:sections.feature-comparison.settings.brand_label",
+      "default": "Brand label"
+    },
+    {
+      "type": "text",
+      "id": "competitor_label",
+      "label": "t:sections.feature-comparison.settings.competitor_label",
+      "default": "Competitor label"
+    },
+    {
+      "type": "checkbox",
+      "id": "highlight_brand_column",
+      "default": true,
+      "label": "Highlight brand column"
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 48
+    }
+  ],
+  "blocks": [
+    {
+      "type": "comparison_row",
+      "name": "t:sections.feature-comparison.block.comparison_row.label",
+      "settings": [
+        {
+          "type": "text",
+          "id": "feature_name",
+          "label": "t:sections.feature-comparison.block.comparison_row.feature",
+          "default": "Feature"
+        },
+        {
+          "type": "select",
+          "id": "comparison_type",
+          "options": [
+            {
+              "value": "icon",
+              "label": "t:sections.feature-comparison.block.comparison_row.comparison_type.icon"
+            },
+            {
+              "value": "text",
+              "label": "t:sections.feature-comparison.block.comparison_row.comparison_type.text"
+            }
+          ],
+          "default": "icon",
+          "label": "t:sections.feature-comparison.block.comparison_row.comparison_type.label"
+        },
+        {
+          "type": "text",
+          "id": "brand_content",
+          "label": "t:sections.feature-comparison.block.comparison_row.brand_content",
+          "default": "Brand content",
+          "visible_if": "{{ block.settings.comparison_type == 'text' }}"
+        },
+        {
+          "type": "text",
+          "id": "competitor_content",
+          "label": "t:sections.feature-comparison.block.comparison_row.competitor_content",
+          "default": "Competitor content",
+          "visible_if": "{{ block.settings.comparison_type == 'text' }}"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.feature-comparison.name",
+      "category": "t:sections.group.storytelling",
+      "blocks": [
+        {
+          "type": "comparison_row"
+        },
+        {
+          "type": "comparison_row"
+        },
+        {
+          "type": "comparison_row"
+        },
+        {
+          "type": "comparison_row"
+        },
+        {
+          "type": "comparison_row"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
