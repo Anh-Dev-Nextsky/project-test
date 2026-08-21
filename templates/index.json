@@ -40,7 +40,7 @@
         "image_desktop_position": "left",
         "desktop_image_width": 50,
         "image_ratio": "landscape",
-        "color_bg": "#F2EFE6",
+        "color_bg": "#f2efe6",
         "padding_content_inline": 100,
         "padding_content_block": 130,
         "content_vertical_alignment": "center",
@@ -49,13 +49,94 @@
         "show_author_image": true,
         "show_rating": true,
         "show_verified_buyer": true,
+        "rate_color": "#ffb005",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "feature_comparison_E4dXiQ": {
+      "type": "feature-comparison",
+      "blocks": {
+        "comparison_row_QxWeDp": {
+          "type": "comparison_row",
+          "settings": {
+            "feature_name": "Feature",
+            "comparison_type": "icon",
+            "brand_content": "Brand content",
+            "competitor_content": "Competitor content"
+          }
+        },
+        "comparison_row_iRfk6G": {
+          "type": "comparison_row",
+          "settings": {
+            "feature_name": "Feature",
+            "comparison_type": "icon",
+            "brand_content": "Brand content",
+            "competitor_content": "Competitor content"
+          }
+        },
+        "comparison_row_ikNtxw": {
+          "type": "comparison_row",
+          "settings": {
+            "feature_name": "Feature",
+            "comparison_type": "icon",
+            "brand_content": "Brand content",
+            "competitor_content": "Competitor content"
+          }
+        },
+        "comparison_row_ptXEbJ": {
+          "type": "comparison_row",
+          "settings": {
+            "feature_name": "Feature",
+            "comparison_type": "icon",
+            "brand_content": "Brand content",
+            "competitor_content": "Competitor content"
+          }
+        },
+        "comparison_row_BaEWKY": {
+          "type": "comparison_row",
+          "settings": {
+            "feature_name": "Feature",
+            "comparison_type": "icon",
+            "brand_content": "Brand content",
+            "competitor_content": "Competitor content"
+          }
+        }
+      },
+      "block_order": [
+        "comparison_row_QxWeDp",
+        "comparison_row_iRfk6G",
+        "comparison_row_ikNtxw",
+        "comparison_row_ptXEbJ",
+        "comparison_row_BaEWKY"
+      ],
+      "name": "t:sections.feature-comparison.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "<p>Subheading</p>",
+        "heading": "Heading",
+        "description": "<p>Description</p>",
+        "heading_size": "medium",
+        "show_rating": true,
+        "rating_star": 5,
         "rate_color": "#FFB005",
+        "review_text": "Review text",
+        "content_vertical_alignment": "center",
+        "header_alignment": "center",
+        "padding_content_inline": 100,
+        "desktop_table_position": "right",
+        "desktop_table_width": 50,
+        "brand_label": "Brand label",
+        "competitor_label": "Competitor label",
+        "highlight_brand_column": true,
         "padding_top": 48,
         "padding_bottom": 48
       }
     }
   },
   "order": [
-    "feedback_product_QAkh9N"
+    "feedback_product_QAkh9N",
+    "feature_comparison_E4dXiQ"
   ]
 }
