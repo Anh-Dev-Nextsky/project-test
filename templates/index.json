@@ -9,6 +9,86 @@
  */
 {
   "sections": {
+    "feature_comparison_JxLTFn": {
+      "type": "feature-comparison",
+      "blocks": {
+        "comparison_row_DWkD3J": {
+          "type": "comparison_row",
+          "settings": {
+            "feature_name": "Gut-friendly biotics (Pre, Pro & Post)",
+            "comparison_type": "icon",
+            "brand_content": "Brand content",
+            "competitor_content": "Competitor content"
+          }
+        },
+        "comparison_row_YQmP67": {
+          "type": "comparison_row",
+          "settings": {
+            "feature_name": "No Added Sugars or Salt",
+            "comparison_type": "icon",
+            "brand_content": "Brand content",
+            "competitor_content": "Competitor content"
+          }
+        },
+        "comparison_row_8DtVgU": {
+          "type": "comparison_row",
+          "settings": {
+            "feature_name": "Clear Ingredient List",
+            "comparison_type": "icon",
+            "brand_content": "Brand content",
+            "competitor_content": "Competitor content"
+          }
+        },
+        "comparison_row_HzEfPq": {
+          "type": "comparison_row",
+          "settings": {
+            "feature_name": "Sustainably sourced Protein",
+            "comparison_type": "icon",
+            "brand_content": "Brand content",
+            "competitor_content": "Competitor content"
+          }
+        },
+        "comparison_row_YYXUWT": {
+          "type": "comparison_row",
+          "settings": {
+            "feature_name": "Pollo-Pescatarian Recipes",
+            "comparison_type": "icon",
+            "brand_content": "Brand content",
+            "competitor_content": "Competitor content"
+          }
+        }
+      },
+      "block_order": [
+        "comparison_row_DWkD3J",
+        "comparison_row_YQmP67",
+        "comparison_row_8DtVgU",
+        "comparison_row_HzEfPq",
+        "comparison_row_YYXUWT"
+      ],
+      "name": "t:sections.feature-comparison.name",
+      "settings": {
+        "section_width": "fix_width",
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "NATURAL RECIPES FOR GUT HEALTH",
+        "description": "<p>Happy Tums = Happy Bums. Our recipes use easy to digest poultry & fish, no added sugars and gut-loving prebiotics, probiotics and postbiotics to support healthy digestion perfect for sensitive stomach cats and dogs.</p>",
+        "heading_size": "medium",
+        "show_rating": true,
+        "rating_star": 5,
+        "rate_color": "#FFB005",
+        "review_text": "Bed on 3,006 reviews",
+        "content_vertical_alignment": "center",
+        "header_alignment": "center",
+        "padding_content_inline": 100,
+        "desktop_table_position": "right",
+        "desktop_table_width": 50,
+        "brand_label": "Scrumbles",
+        "competitor_label": "Others",
+        "highlight_brand_column": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
     "feedback_product_QAkh9N": {
       "type": "feedback-product",
       "blocks": {
@@ -53,90 +133,10 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
-    },
-    "feature_comparison_E4dXiQ": {
-      "type": "feature-comparison",
-      "blocks": {
-        "comparison_row_QxWeDp": {
-          "type": "comparison_row",
-          "settings": {
-            "feature_name": "Feature",
-            "comparison_type": "icon",
-            "brand_content": "Brand content",
-            "competitor_content": "Competitor content"
-          }
-        },
-        "comparison_row_iRfk6G": {
-          "type": "comparison_row",
-          "settings": {
-            "feature_name": "Feature",
-            "comparison_type": "icon",
-            "brand_content": "Brand content",
-            "competitor_content": "Competitor content"
-          }
-        },
-        "comparison_row_ikNtxw": {
-          "type": "comparison_row",
-          "settings": {
-            "feature_name": "Feature",
-            "comparison_type": "icon",
-            "brand_content": "Brand content",
-            "competitor_content": "Competitor content"
-          }
-        },
-        "comparison_row_ptXEbJ": {
-          "type": "comparison_row",
-          "settings": {
-            "feature_name": "Feature",
-            "comparison_type": "icon",
-            "brand_content": "Brand content",
-            "competitor_content": "Competitor content"
-          }
-        },
-        "comparison_row_BaEWKY": {
-          "type": "comparison_row",
-          "settings": {
-            "feature_name": "Feature",
-            "comparison_type": "icon",
-            "brand_content": "Brand content",
-            "competitor_content": "Competitor content"
-          }
-        }
-      },
-      "block_order": [
-        "comparison_row_QxWeDp",
-        "comparison_row_iRfk6G",
-        "comparison_row_ikNtxw",
-        "comparison_row_ptXEbJ",
-        "comparison_row_BaEWKY"
-      ],
-      "name": "t:sections.feature-comparison.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "",
-        "subheading": "<p>Subheading</p>",
-        "heading": "Heading",
-        "description": "<p>Description</p>",
-        "heading_size": "medium",
-        "show_rating": true,
-        "rating_star": 5,
-        "rate_color": "#FFB005",
-        "review_text": "Review text",
-        "content_vertical_alignment": "center",
-        "header_alignment": "center",
-        "padding_content_inline": 100,
-        "desktop_table_position": "right",
-        "desktop_table_width": 50,
-        "brand_label": "Brand label",
-        "competitor_label": "Competitor label",
-        "highlight_brand_column": true,
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
     }
   },
   "order": [
-    "feedback_product_QAkh9N",
-    "feature_comparison_E4dXiQ"
+    "feature_comparison_JxLTFn",
+    "feedback_product_QAkh9N"
   ]
 }
