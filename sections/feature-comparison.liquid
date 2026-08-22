@@ -23,40 +23,62 @@
 {% endcapture %}
 
 {% style %}
-  .comparison-header__feature,
-  .comparison-row__feature {
+  .feature-comparison__table {
+    grid-template-columns: 50% 25% 25%;
+  }
+  .feature-comparison__feature {
+    grid-column: 1/2;
+  }
+  .feature-comparison__brand {
+    grid-column: 2/3;
+  }
+  .feature-comparison__competitor {
+    grid-column: 3/4;
+  }
+
+  .feature-comparison__feature {
     padding-left: 1rem;
   }
 
-  .comparison-header__feature {
-    border-top-left-radius: 2rem;
-  }
-
-  .comparison-header__brand {
-    border-top-right-radius: 2rem;
-  }
-
-  .comparison-row:last-child>div {
+  .feature-comparison__feature.last-row,
+  .feature-comparison__brand.last-row,
+  .feature-comparison__competitor.last-row {
     padding-bottom: 2rem;
   }
-
-  .comparison-row:last-child>.comparison-row__feature {
+  .feature-comparison__feature:first-child {
+    border-top-left-radius: 2rem;
+  }
+  .feature-comparison__brand:nth-child(2) {
+    border-top-right-radius: 2rem;
+  }
+  .feature-comparison__feature:nth-last-child(3) {
     border-bottom-left-radius: 2rem;
   }
-
-  .comparison-row:last-child>.comparison-row__brand {
+  .feature-comparison__brand:nth-last-child(2) {
     border-bottom-right-radius: 2rem;
   }
-
   {% if section_st.highlight_brand_column %}
-    .comparison-header__feature,
-    .comparison-header__brand,
-    .comparison-row__feature,
-    .comparison-row__brand {
+    .feature-comparison__feature,
+    .feature-comparison__brand {
       background-color: #ffffff4b;
+    }
+    .feature-comparison__feature {
+      box-shadow: -8px 0 18px rgba(0, 0, 0, 0.06);
+    }
+    .feature-comparison__brand {
+      box-shadow: 8px 0 18px rgba(0, 0, 0, 0.06);
     }
   {% endif %}
 
+  @media (max-width: 767px) {
+    .feature-comparison__table-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .feature-comparison__table {
+      min-width: max-content;
+    }
+  }
 {% endstyle %}
 
 <div
@@ -64,7 +86,7 @@
   style="{{ style | strip | strip_newlines }}"
 >
   <div class="{{ section_width }} flex-md{% if section_st.desktop_table_position == 'left' %} row-reverse-md{% endif %}">
-    <div 
+    <div
       class="feature-comparison__header mb-30 mb-md-0 flex flex-1 column px-custom justify-content-{{ section_st.content_vertical_alignment }} text-{{ section_st.header_alignment }}"
       style="--padding-inline: {{ section_st.padding_content_inline }};"
     >
@@ -137,57 +159,68 @@
         </div>
       {% endif %}
     </div>
-    <div class="feature-comparison__table w-custom-md" style="--width-md: {{ section_st.desktop_table_width }}%;">
-      <div class="comparison-header flex">
-        <h5 class="comparison-header__feature flex-custom" style="--flex-custom: 50;--gap: 0;">
-          <span class="block border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full"></span>
-        </h5>
-        <h5 class="comparison-header__brand flex-custom text-center" style="--flex-custom: 25;--gap: 0;">
-          <span class="block border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full">
-            {{ section_st.brand_label }}
-          </span>
-        </h5>
-        <h5 class="comparison-header__competitor flex-custom text-center" style="--flex-custom: 25;--gap: 0;">
-          <span class="block border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full">
-            {{ section_st.competitor_label }}
-          </span>
-        </h5>
-      </div>
 
-      {% for block in section.blocks %}
-        {% liquid
-          assign block_st = block.settings
-        %}
-        <div class="comparison-row flex">
-          <div class="comparison-row__feature flex-custom h6 body-font body_weight" style="--flex-custom: 50;--gap: 0;">
-            <span class="block border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full">
-              {{ block_st.feature_name }}
-            </span>
-          </div>
-          <div class="comparison-row__brand flex-custom" style="--flex-custom: 25;--gap: 0;">
-            <span class="flex content-center text-center border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full">
-              {% if block_st.comparison_type == 'icon' %}
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                  <use href="#icon-tick"></use>
-                </svg>
-              {% else %}
-                {{ block_st.brand_content }}
-              {% endif %}
-            </span>
-          </div>
-          <div class="comparison-row__competitor flex-custom" style="--flex-custom: 25;--gap: 0;">
-            <span class="flex content-center text-center border-bottom py-sp-3 py-md-sp-4 px-sp-3 h-full w-full">
-              {% if block_st.comparison_type == 'icon' %}
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <use href="#icon-close"></use>
-              </svg>
-            {% else %}
-              {{ block_st.competitor_content }}
-            {% endif %}
-            </span>
-          </div>
+    <div class="feature-comparison__table-wrapper w-custom-md h-fit my-auto" style="--width-md: {{ section_st.desktop_table_width }}%;">
+      <div class="feature-comparison__table grid">
+        <div class="feature-comparison__feature">
+          <h6 class="feature-comparison__feature-content h-full">
+            <span class="block border-bottom py-sp-3 px-sp-1 h-full"></span>
+          </h6>
         </div>
-      {% endfor %}
+        <div class="feature-comparison__brand">
+          <h6 class="feature-comparison__brand-content h-full">
+            <span class="block border-bottom py-sp-3 px-sp-1 text-center h-full">
+              {{ section_st.brand_label }}
+            </span>
+          </h6>
+        </div>
+        <div class="feature-comparison__competitor">
+          <h6 class="feature-comparison__competitor-content h-full">
+            <span class="block border-bottom py-sp-3 px-sp-1 text-center h-full">
+              {{ section_st.competitor_label }}
+            </span>
+          </h6>
+        </div>
+
+        {% for block in section.blocks %}
+          {% liquid
+            assign block_st = block.settings
+          %}
+          <div class="feature-comparison__feature{% if forloop.last %} last-row{% endif %}">
+            <div class="feature-comparison__feature-content h-full h6 body-font body_weight">
+              <span class="flex align-center border-bottom py-sp-3 px-sp-1 h-full">
+                {{ block_st.feature_name }}
+              </span>
+            </div>
+          </div>
+          <div class="feature-comparison__brand{% if forloop.last %} last-row{% endif %}">
+            <div class="feature-comparison__brand-content h-full">
+              <span class="flex content-center border-bottom py-sp-3 px-sp-1 text-center h-full">
+                {% if block_st.comparison_type == 'icon' %}
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <use href="#icon-tick"></use>
+                  </svg>
+                {% else %}
+                  {{ block_st.brand_content }}
+                {% endif %}
+              </span>
+            </div>
+          </div>
+          <div class="feature-comparison__competitor{% if forloop.last %} last-row{% endif %}">
+            <div class="feature-comparison__competitor-content h-full">
+              <span class="flex content-center border-bottom py-sp-3 px-sp-1 text-center h-full">
+                {% if block_st.comparison_type == 'icon' %}
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <use href="#icon-close"></use>
+                  </svg>
+                {% else %}
+                  {{ block_st.competitor_content }}
+                {% endif %}
+              </span>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
@@ -361,7 +394,7 @@
       "type": "header",
       "content": "t:sections.feature-comparison.settings.comparison_table"
     },
-        {
+    {
       "type": "select",
       "id": "desktop_table_position",
       "options": [
