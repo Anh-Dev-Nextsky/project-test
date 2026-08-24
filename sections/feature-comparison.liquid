@@ -35,7 +35,7 @@
 
   .feature-comparison__feature {
     grid-column: 1 / 2;
-    padding-left: 1rem;
+    padding-inline-start: 1rem;
   }
 
   .feature-comparison__brand {
@@ -59,27 +59,27 @@
     }
 
     #shopify-section-{{ section.id }} .feature-comparison__feature:first-child {
-      border-top-left-radius: 2rem;
+      border-start-start-radius: 2rem;
     }
 
     #shopify-section-{{ section.id }} .feature-comparison__brand:nth-child(2) {
-      border-top-right-radius: 2rem;
+      border-start-end-radius: 2rem;
     }
 
     #shopify-section-{{ section.id }} .feature-comparison__feature:nth-last-child(3) {
-      border-bottom-left-radius: 2rem;
+      border-end-start-radius: 2rem;
     }
 
     #shopify-section-{{ section.id }} .feature-comparison__brand:nth-last-child(2) {
-      border-bottom-right-radius: 2rem;
+      border-end-end-radius: 2rem;
     }
 
     #shopify-section-{{ section.id }} .feature-comparison__feature {
-      box-shadow: -8px 0 18px rgba(0, 0, 0, 0.06);
+      box-shadow: calc(-8px * var(--flow-direction, 1)) 0 18px rgba(0, 0, 0, 0.06);
     }
 
     #shopify-section-{{ section.id }} .feature-comparison__brand {
-      box-shadow: 8px 0 18px rgba(0, 0, 0, 0.06);
+      box-shadow: calc(8px * var(--flow-direction, 1)) 0 18px rgba(0, 0, 0, 0.06);
     }
   {% endif %}
 
