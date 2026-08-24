@@ -4809,7 +4809,8 @@
           "info": "Table is automatically optimized for mobile."
         },
         "brand_label": "Brand label",
-        "competitor_label": "Competitor label"
+        "competitor_label": "Competitor label",
+        "highlight_brand_column": "Highlight brand column"
       },
       "block": {
         "comparison_row": {
