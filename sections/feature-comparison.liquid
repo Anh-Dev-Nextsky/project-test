@@ -26,6 +26,7 @@
   .feature-comparison__table-wrapper {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    border-radius: 2rem;
   }
 
   .feature-comparison__table {
@@ -51,7 +52,7 @@
   .feature-comparison__competitor.last-row {
     padding-bottom: 2rem;
   }
-  
+
   {% if section_st.highlight_brand_column %}
     #shopify-section-{{ section.id }} .feature-comparison__feature,
     #shopify-section-{{ section.id }} .feature-comparison__brand {
@@ -90,6 +91,7 @@
 
     .feature-comparison__table {
       min-width: 0;
+
     }
   }
 {% endstyle %}
@@ -118,7 +120,6 @@
         <h2
           id="FeatureComparisonHeading-{{ section.id }}"
           class="section-heading {{ header_size }} mb-sp-1 mb-md-sp-5"
-          style="letter-spacing: 0.01rem;"
         >
           {{ section_st.heading | escape }}
         </h2>
@@ -244,7 +245,7 @@
             aria-colindex="1"
             {{ block.shopify_attributes }}
           >
-            <div class="feature-comparison__feature-content flex align-center border-bottom py-sp-3 px-sp-1 h-full h6 body-font body_weight">
+            <div class="feature-comparison__feature-content flex align-center border-bottom py-sp-3 px-sp-3 h-full fs-big-2 fw-500">
               {{ block_st.feature_name | escape }}
             </div>
           </div>
@@ -255,7 +256,7 @@
             aria-colindex="2"
             aria-describedby="FeatureComparisonBrand-{{ section.id }}"
           >
-            <div class="feature-comparison__brand-content flex content-center border-bottom py-sp-3 px-sp-1 text-center h-full">
+            <div class="feature-comparison__brand-content flex content-center border-bottom py-sp-3 px-sp-3 text-center h-full fs-small word-break">
               {% if block_st.comparison_type == 'icon' %}
                 <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <use href="#icon-feature-yes"></use>
@@ -275,7 +276,7 @@
             aria-colindex="3"
             aria-describedby="FeatureComparisonCompetitor-{{ section.id }}"
           >
-            <div class="feature-comparison__competitor-content flex content-center border-bottom py-sp-3 px-sp-1 text-center h-full">
+            <div class="feature-comparison__competitor-content flex content-center border-bottom py-sp-3 px-sp-3 text-center h-full fs-small word-break">
               {% if block_st.comparison_type == 'icon' %}
                 <svg aria-hidden="true" focusable="false" width="22" height="22" viewBox="0 0 22 22" fill="none">
                   <use href="#icon-feature-no"></use>
