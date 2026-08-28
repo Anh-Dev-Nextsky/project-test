@@ -97,7 +97,7 @@
                 >
                   {% if media.media_type == 'video' -%}
                     <div class="video-thumbnail">
-                      {% render 'responsive-image', type: 'banner', image: media.preview_image, image_alt: image_alt, class="rounded-10" %}
+                      {% render 'responsive-image', type: 'banner', image: media.preview_image, image_alt: image_alt %}
                     </div>
                     <template>
                       {{
@@ -107,7 +107,7 @@
                     </template>
                     {%- assign autoplay_video = blank -%}
                   {% else %}
-                    {% render 'responsive-image', type: 'banner', image: media, image_alt: image_alt, class="rounded-10" %}
+                    {% render 'responsive-image', type: 'banner', image: media, image_alt: image_alt %}
                   {% endif %}
                   <button
                     aria-label="{{ 'accessibility.play_button.video' | t }}"
@@ -217,7 +217,7 @@
                           ></video>
                         </video-lightbox-item>
                       {% else %}
-                        {% render 'responsive-image', type: 'banner', image: media, image_alt: image_alt, disable_lazy_loading: true, class="rounded-10 h-full" %}
+                        {% render 'responsive-image', type: 'banner', image: media, image_alt: image_alt, disable_lazy_loading: true %}
                       {% endif %}
                     </div>
                   </div>
@@ -260,7 +260,7 @@
           >
             <video-local-scroll class="video-local flex" data-video-index="{{ video_sticky_index }}" tabindex="0">
               <div class="video-thumbnail">
-                {% render 'responsive-image', type: 'other', image: media.preview_image, image_alt: image_alt, class="rounded-10" %}
+                {% render 'responsive-image', type: 'other', image: media.preview_image, image_alt: image_alt %}
               </div>
               <template>
                 {{
@@ -342,3 +342,30 @@
   "presets": [{ "name": "t:sections.all.product_setting.media_lightbox.name" }]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% render ''responsive-image'', type: ''banner'', image: media.preview_image,
+    image_alt: image_alt, class="rounded-10" %}'
+  to: "{% render 'responsive-image', type: 'banner', image: media.preview_image, image_alt:
+    image_alt %}"
+  position: 3959..4056
+- from: '{% render ''responsive-image'', type: ''banner'', image: media, image_alt:
+    image_alt, class="rounded-10" %}'
+  to: "{% render 'responsive-image', type: 'banner', image: media, image_alt: image_alt
+    %}"
+  position: 4453..4536
+- from: '{% render ''responsive-image'', type: ''banner'', image: media, image_alt:
+    image_alt, disable_lazy_loading: true, class="rounded-10 h-full" %}'
+  to: "{% render 'responsive-image', type: 'banner', image: media, image_alt: image_alt,
+    disable_lazy_loading: true %}"
+  position: 9807..9918
+- from: '{% render ''responsive-image'', type: ''other'', image: media.preview_image,
+    image_alt: image_alt, class="rounded-10" %}'
+  to: "{% render 'responsive-image', type: 'other', image: media.preview_image, image_alt:
+    image_alt %}"
+  position: 11750..11846
+{% endcomment %}

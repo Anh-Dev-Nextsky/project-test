@@ -84,14 +84,7 @@
     {% endcapture %}
     <{{ element }} {{ attributes }}>
       <div class="video-thumbnail overflow-hidden rounded w-full h-full">
-        {%
-          render 'responsive-image',
-          type: 'product',
-          image: preview_image,
-          image_alt: alt_description | escape,
-          motion: false,
-          class: 'w-full h-full object-fit-cover'
-        %}
+        {% render 'responsive-image', type: 'product', image: preview_image, image_alt: alt_description, motion: false, class: 'w-full h-full object-fit-cover' %}
         {%- if autoplay == false or request.visual_preview_mode -%}
           <div class="deferred-media__poster-button absolute z-3 flex content-center wh-52">
             <button
@@ -384,3 +377,22 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+              render 'responsive-image',
+              type: 'product',
+              image: preview_image,
+              image_alt: alt_description | escape,
+              motion: false,
+              class: 'w-full h-full object-fit-cover'
+            %}
+  to: "{% render 'responsive-image', type: 'product', image: preview_image, image_alt:
+    alt_description, motion: false, class: 'w-full h-full object-fit-cover' %}"
+  position: 3819..3973
+{% endcomment %}

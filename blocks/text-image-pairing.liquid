@@ -40,14 +40,7 @@
     style="--aspect-ratio: {{ aspect_ratio_1 }};{% if image_style == 'oval' %}--img-rounded: 50px;{% endif %}--width: clamp(calc(var(--image-width) * 0.7), 12vw, var(--image-width));"
 >
   {%- if image_1 != blank -%}
-    {% render 'responsive-image',
-      type: 'other',
-      container: section.settings.section_width,
-      image: image_1,
-      image_alt: image_1.alt | default: default_alt | escape,
-      animate: 'zoom-out-small',
-      motion: true
-    %}
+    {% render 'responsive-image', type: 'other', container: section.settings.section_width, image: image_1, image_alt: image_1.alt, default: default_alt, animate: 'zoom-out-small', motion: true %}
   {%- else -%}
     {% render 'placeholder-render', type: 'lifestyle-1', class: 'img-placeholder h-full w-full' %}
   {%- endif -%}
@@ -70,14 +63,7 @@
     style="--aspect-ratio: {{ aspect_ratio_2 }};{% if image_style == 'oval' %}--img-rounded: 50px;{% endif %}--width: clamp(calc(var(--image-width) * 0.7), 12vw, var(--image-width));"
 >
   {%- if image_2 != blank -%}
-    {% render 'responsive-image',
-      type: 'other',
-      container: section.settings.section_width,
-      image: image_2,
-      image_alt: image_2.alt | default: default_alt | escape,
-      animate: 'zoom-out-small',
-      motion: true
-    %}
+    {% render 'responsive-image', type: 'other', container: section.settings.section_width, image: image_2, image_alt: image_2.alt, default: default_alt, animate: 'zoom-out-small', motion: true %}
   {%- else -%}
     {% render 'placeholder-render', type: 'lifestyle-1', class: 'img-placeholder h-full w-full' %}
   {%- endif -%}
@@ -100,14 +86,7 @@
     style="--aspect-ratio: {{ aspect_ratio_3 }};{% if image_style == 'oval' %}--img-rounded: 50px;{% endif %}--width: clamp(calc(var(--image-width) * 0.7), 12vw, var(--image-width));"
 >
   {%- if image_3 != blank -%}
-    {% render 'responsive-image',
-      type: 'other',
-      container: section.settings.section_width,
-      image: image_3,
-      image_alt: image_3.alt | default: default_alt | escape,
-      animate: 'zoom-out-small',
-      motion: true
-    %}
+    {% render 'responsive-image', type: 'other', container: section.settings.section_width, image: image_3, image_alt: image_3.alt, default: default_alt, animate: 'zoom-out-small', motion: true %}
   {%- else -%}
     {% render 'placeholder-render', type: 'lifestyle-1', class: 'img-placeholder h-full w-full' %}
   {%- endif -%}
@@ -311,3 +290,49 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'responsive-image',
+          type: 'other',
+          container: section.settings.section_width,
+          image: image_1,
+          image_alt: image_1.alt | default: default_alt | escape,
+          animate: 'zoom-out-small',
+          motion: true
+        %}
+  to: "{% render 'responsive-image', type: 'other', container: section.settings.section_width,
+    image: image_1, image_alt: image_1.alt, default: default_alt, animate: 'zoom-out-small',
+    motion: true %}"
+  position: 1910..2102
+- from: |-
+    {% render 'responsive-image',
+          type: 'other',
+          container: section.settings.section_width,
+          image: image_2,
+          image_alt: image_2.alt | default: default_alt | escape,
+          animate: 'zoom-out-small',
+          motion: true
+        %}
+  to: "{% render 'responsive-image', type: 'other', container: section.settings.section_width,
+    image: image_2, image_alt: image_2.alt, default: default_alt, animate: 'zoom-out-small',
+    motion: true %}"
+  position: 3016..3208
+- from: |-
+    {% render 'responsive-image',
+          type: 'other',
+          container: section.settings.section_width,
+          image: image_3,
+          image_alt: image_3.alt | default: default_alt | escape,
+          animate: 'zoom-out-small',
+          motion: true
+        %}
+  to: "{% render 'responsive-image', type: 'other', container: section.settings.section_width,
+    image: image_3, image_alt: image_3.alt, default: default_alt, animate: 'zoom-out-small',
+    motion: true %}"
+  position: 4122..4314
+{% endcomment %}

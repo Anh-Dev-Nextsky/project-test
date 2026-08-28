@@ -5,8 +5,8 @@
   assign video_local = section_st.video_local
   assign image = section_st.image
   assign media_type = section_st.media_type
-  assign section_st.text_alignment = 'center'
-  assign section_st.text_alignment_mobile = 'center'
+  assign renamed_variable_section_st_2e_text_alignment = 'center'
+  assign renamed_variable_section_st_2e_text_alignment_mobile = 'center'
 %}
 {%- capture style -%}
   --overlay-opacity: {{ overlay_opacity }}%; --section-pt: {{ section_st.padding_top }}; --section-pb: {{ section_st.padding_bottom }};
@@ -267,3 +267,16 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "  assign section_st.text_alignment = 'center'"
+  to: "  assign renamed_variable_section_st_2e_text_alignment = 'center'"
+  position: 256..321
+- from: "  assign section_st.text_alignment_mobile = 'center'"
+  to: "  assign renamed_variable_section_st_2e_text_alignment_mobile = 'center'"
+  position: 322..394
+{% endcomment %}

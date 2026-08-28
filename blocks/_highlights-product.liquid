@@ -9,13 +9,7 @@
           {% assign image_alt = highlights.icon.alt | default: closest.product.title | escape %}
           {% # theme-check-enable %}
           {%- if highlights.icon -%}
-            {%
-              render 'responsive-image',
-              type: 'other',
-              image: highlights.icon,
-              image_alt: image_alt,s
-              class: 'rounded w-custom max-w-100'
-            %}
+            {% render 'responsive-image', type: 'other', image: highlights.icon, image_alt: image_alt, class: 'rounded w-custom max-w-100' %}
           {% endif %}
           {%- if highlights.title -%}
             <div class="highlights-text heading-color mt-sp-2 w-full text-size">
@@ -40,3 +34,21 @@
   "presets": [{ "name": "t:sections.all.product_setting.highlights.name" }]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+                  render 'responsive-image',
+                  type: 'other',
+                  image: highlights.icon,
+                  image_alt: image_alt,s
+                  class: 'rounded w-custom max-w-100'
+                %}
+  to: "{% render 'responsive-image', type: 'other', image: highlights.icon, image_alt:
+    image_alt, class: 'rounded w-custom max-w-100' %}"
+  position: 558..687
+{% endcomment %}
