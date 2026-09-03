@@ -109,6 +109,7 @@
       "block_order": [
         "feedback_bQP9bw"
       ],
+      "disabled": true,
       "name": "t:sections.feedback-product.name",
       "settings": {
         "section_width": "fix_width",
