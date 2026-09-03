@@ -15,67 +15,67 @@
         "comparison_row_DWkD3J": {
           "type": "comparison_row",
           "settings": {
-            "feature_name": "Gut-friendly biotics (Pre, Pro & Post)",
-            "comparison_type": "icon",
-            "brand_content": "Brand content",
-            "competitor_content": "Competitor content"
+            "feature_name": "Gut-friendly biotics (Pre, Pro & Post)adasdsadasasdadasdsadasdsadsada",
+            "comparison_type": "text",
+            "brand_content": "Brand contentcontentcontentcontentcontentcontentcontent",
+            "competitor_content": "Competitor contentcontentcontentcontentcontentcontentcontentcontentcontent"
           }
         },
-        "comparison_row_YQmP67": {
+        "comparison_row_fJYEL8": {
           "type": "comparison_row",
           "settings": {
-            "feature_name": "No Added Sugars or Salt",
-            "comparison_type": "icon",
-            "brand_content": "Brand content",
-            "competitor_content": "Competitor content"
+            "feature_name": "Gut-friendly biotics (Pre, Pro & Post)adasdsadasasdadasdsadasdsadsada",
+            "comparison_type": "text",
+            "brand_content": "Brand contentcontentcontentcontentcontentcontentcontent",
+            "competitor_content": "Competitor contentcontentcontentcontentcontentcontentcontentcontentcontent"
           }
         },
-        "comparison_row_8DtVgU": {
+        "comparison_row_yrDwtN": {
           "type": "comparison_row",
           "settings": {
-            "feature_name": "Clear Ingredient List",
-            "comparison_type": "icon",
-            "brand_content": "Brand content",
-            "competitor_content": "Competitor content"
+            "feature_name": "Gut-friendly biotics (Pre, Pro & Post)adasdsadasasdadasdsadasdsadsada",
+            "comparison_type": "text",
+            "brand_content": "Brand contentcontentcontentcontentcontentcontentcontent",
+            "competitor_content": "Competitor contentcontentcontentcontentcontentcontentcontentcontentcontent"
           }
         },
-        "comparison_row_HzEfPq": {
+        "comparison_row_J4WBfN": {
           "type": "comparison_row",
           "settings": {
-            "feature_name": "Sustainably sourced Protein",
-            "comparison_type": "icon",
-            "brand_content": "Brand content",
-            "competitor_content": "Competitor content"
+            "feature_name": "Gut-friendly biotics (Pre, Pro & Post)adasdsadasasdadasdsadasdsadsada",
+            "comparison_type": "text",
+            "brand_content": "Brand contentcontentcontentcontentcontentcontentcontent",
+            "competitor_content": "Competitor contentcontentcontentcontentcontentcontentcontentcontentcontent"
           }
         },
-        "comparison_row_YYXUWT": {
+        "comparison_row_8d6yt9": {
           "type": "comparison_row",
           "settings": {
-            "feature_name": "Pollo-Pescatarian Recipes",
-            "comparison_type": "icon",
-            "brand_content": "Brand content",
-            "competitor_content": "Competitor content"
+            "feature_name": "Gut-friendly biotics (Pre, Pro & Post)adasdsadasasdadasdsadasdsadsada",
+            "comparison_type": "text",
+            "brand_content": "Brand contentcontentcontentcontentcontentcontentcontent",
+            "competitor_content": "Competitor contentcontentcontentcontentcontentcontentcontentcontentcontent"
           }
         }
       },
       "block_order": [
         "comparison_row_DWkD3J",
-        "comparison_row_YQmP67",
-        "comparison_row_8DtVgU",
-        "comparison_row_HzEfPq",
-        "comparison_row_YYXUWT"
+        "comparison_row_fJYEL8",
+        "comparison_row_yrDwtN",
+        "comparison_row_J4WBfN",
+        "comparison_row_8d6yt9"
       ],
       "name": "t:sections.feature-comparison.name",
       "settings": {
         "section_width": "fix_width",
-        "color_scheme": "",
+        "color_scheme": "scheme-070b6d81-d1cf-49ad-aa7a-4a016abd3a99",
         "subheading": "",
         "heading": "NATURAL RECIPES FOR GUT HEALTH",
         "description": "<p>Happy Tums = Happy Bums. Our recipes use easy to digest poultry & fish, no added sugars and gut-loving prebiotics, probiotics and postbiotics to support healthy digestion perfect for sensitive stomach cats and dogs.</p>",
         "heading_size": "medium",
         "show_rating": true,
         "rating_star": 5,
-        "rate_color": "#FFB005",
+        "rate_color": "#ffb005",
         "review_text": "Bed on 3,006 reviews",
         "content_vertical_alignment": "center",
         "header_alignment": "center",
