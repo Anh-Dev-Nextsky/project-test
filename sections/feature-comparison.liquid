@@ -127,9 +127,11 @@
         </h2>
       {% endif %}
 
-      <div class="section-description prose mb-sp-1 mb-md-sp-5">
-        {{ section_st.description }}
-      </div>
+      {% if section_st.description != blank %}
+        <div class="section-description prose mb-sp-1 mb-md-sp-5">
+          {{ section_st.description }}
+        </div>
+      {% endif %}
 
       {% if section_st.show_rating %}
         <div class="flex gap-sp-2 justify-content-{{ section_st.header_alignment }}">
