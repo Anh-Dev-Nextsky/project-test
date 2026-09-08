@@ -35,6 +35,10 @@
     overflow: hidden;
   }
 
+  .feature-comparison__row {
+    display: contents;
+  }
+
   .feature-comparison__feature {
     grid-column: 1 / 2;
     padding-inline-start: 1rem;
@@ -57,22 +61,22 @@
   {% if section_st.highlight_brand_column %}
     #shopify-section-{{ section.id }} .feature-comparison__feature,
     #shopify-section-{{ section.id }} .feature-comparison__brand {
-      background-color: #ffffff4b;
+      background-color: #5e7973;
     }
 
-    #shopify-section-{{ section.id }} .feature-comparison__feature:first-child {
+    #shopify-section-{{ section.id }} .feature-comparison__row:first-child .feature-comparison__feature {
       border-start-start-radius: 2rem;
     }
 
-    #shopify-section-{{ section.id }} .feature-comparison__brand:nth-child(2) {
+    #shopify-section-{{ section.id }} .feature-comparison__row:first-child .feature-comparison__brand {
       border-start-end-radius: 2rem;
     }
 
-    #shopify-section-{{ section.id }} .feature-comparison__feature:nth-last-child(3) {
+    #shopify-section-{{ section.id }} .feature-comparison__row:last-child .feature-comparison__feature {
       border-end-start-radius: 2rem;
     }
 
-    #shopify-section-{{ section.id }} .feature-comparison__brand:nth-last-child(2) {
+    #shopify-section-{{ section.id }} .feature-comparison__row:last-child .feature-comparison__brand {
       border-end-end-radius: 2rem;
     }
 
@@ -213,28 +217,30 @@
         aria-rowcount="{{ section.blocks.size | plus: 1 }}"
         aria-colcount="3"
       >
-        <div class="feature-comparison__feature" role="columnheader" aria-rowindex="1" aria-colindex="1">
-          <div class="feature-comparison__feature-content border-bottom h-full">
-            <span class="visually-hidden">
-              {{ 'sections.feature-comparison.table.feature_column' | t }}
-            </span>
+        <div class="feature-comparison__row" role="row" aria-rowindex="1">
+          <div class="feature-comparison__feature" role="columnheader" aria-colindex="1">
+            <div class="feature-comparison__feature-content border-bottom h-full">
+              <span class="visually-hidden">
+                {{ 'sections.feature-comparison.table.feature_column' | t }}
+              </span>
+            </div>
           </div>
-        </div>
-        <div class="feature-comparison__brand" role="columnheader" aria-rowindex="1" aria-colindex="2">
-          <h6
-            id="FeatureComparisonBrand-{{ section.id }}"
-            class="feature-comparison__brand-content border-bottom py-sp-3 px-sp-1 text-center h-full"
-          >
-            {{ section_st.brand_label | escape }}
-          </h6>
-        </div>
-        <div class="feature-comparison__competitor" role="columnheader" aria-rowindex="1" aria-colindex="3">
-          <h6
-            id="FeatureComparisonCompetitor-{{ section.id }}"
-            class="feature-comparison__competitor-content border-bottom py-sp-3 px-sp-1 text-center h-full"
-          >
-            {{ section_st.competitor_label | escape }}
-          </h6>
+          <div class="feature-comparison__brand" role="columnheader" aria-colindex="2">
+            <div
+              id="FeatureComparisonBrand-{{ section.id }}"
+              class="feature-comparison__brand-content border-bottom py-sp-3 px-sp-1 text-center h-full"
+            >
+              {{ section_st.brand_label | escape }}
+            </div>
+          </div>
+          <div class="feature-comparison__competitor" role="columnheader" aria-colindex="3">
+            <div
+              id="FeatureComparisonCompetitor-{{ section.id }}"
+              class="feature-comparison__competitor-content border-bottom py-sp-3 px-sp-1 text-center h-full"
+            >
+              {{ section_st.competitor_label | escape }}
+            </div>
+          </div>
         </div>
 
         {% for block in section.blocks %}
@@ -242,55 +248,54 @@
             assign block_st = block.settings
             assign row_index = forloop.index | plus: 1
           %}
-          <div
-            class="feature-comparison__feature{% if forloop.last %} last-row{% endif %}"
-            role="rowheader"
-            aria-rowindex="{{ row_index }}"
-            aria-colindex="1"
-            {{ block.shopify_attributes }}
-          >
-            <div class="feature-comparison__feature-content flex align-center border-bottom py-sp-3 px-sp-3 h-full fs-big-2 fw-500 word-break">
-              {{ block_st.feature_name | escape }}
+          <div class="feature-comparison__row" role="row" aria-rowindex="{{ row_index }}">
+            <div
+              class="feature-comparison__feature{% if forloop.last %} last-row{% endif %}"
+              role="rowheader"
+              aria-colindex="1"
+              {{ block.shopify_attributes }}
+            >
+              <div class="feature-comparison__feature-content flex align-center border-bottom py-sp-3 px-sp-3 h-full fs-big-2 fw-500 word-break">
+                {{ block_st.feature_name | escape }}
+              </div>
             </div>
-          </div>
-          <div
-            class="feature-comparison__brand{% if forloop.last %} last-row{% endif %}"
-            role="cell"
-            aria-rowindex="{{ row_index }}"
-            aria-colindex="2"
-            aria-describedby="FeatureComparisonBrand-{{ section.id }}"
-          >
-            <div class="feature-comparison__brand-content flex content-center border-bottom py-sp-3 px-sp-3 text-center h-full fs-small word-break">
-              {% if block_st.comparison_type == 'icon' %}
-                <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <use href="#icon-feature-yes"></use>
-                </svg>
-                <span class="visually-hidden">
-                  {{ 'sections.feature-comparison.table.included' | t }}
-                </span>
-              {% else %}
-                {{ block_st.brand_content | escape }}
-              {% endif %}
+            <div
+              class="feature-comparison__brand{% if forloop.last %} last-row{% endif %}"
+              role="cell"
+              aria-colindex="2"
+              aria-describedby="FeatureComparisonBrand-{{ section.id }}"
+            >
+              <div class="feature-comparison__brand-content flex content-center border-bottom py-sp-3 px-sp-3 text-center h-full fs-small word-break">
+                {% if block_st.comparison_type == 'icon' %}
+                  <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <use href="#icon-feature-yes"></use>
+                  </svg>
+                  <span class="visually-hidden">
+                    {{ 'sections.feature-comparison.table.included' | t }}
+                  </span>
+                {% else %}
+                  {{ block_st.brand_content | escape }}
+                {% endif %}
+              </div>
             </div>
-          </div>
-          <div
-            class="feature-comparison__competitor{% if forloop.last %} last-row{% endif %}"
-            role="cell"
-            aria-rowindex="{{ row_index }}"
-            aria-colindex="3"
-            aria-describedby="FeatureComparisonCompetitor-{{ section.id }}"
-          >
-            <div class="feature-comparison__competitor-content flex content-center border-bottom py-sp-3 px-sp-3 text-center h-full fs-small word-break">
-              {% if block_st.comparison_type == 'icon' %}
-                <svg aria-hidden="true" focusable="false" width="22" height="22" viewBox="0 0 22 22" fill="none">
-                  <use href="#icon-feature-no"></use>
-                </svg>
-                <span class="visually-hidden">
-                  {{ 'sections.feature-comparison.table.not_included' | t }}
-                </span>
-              {% else %}
-                {{ block_st.competitor_content | escape }}
-              {% endif %}
+            <div
+              class="feature-comparison__competitor{% if forloop.last %} last-row{% endif %}"
+              role="cell"
+              aria-colindex="3"
+              aria-describedby="FeatureComparisonCompetitor-{{ section.id }}"
+            >
+              <div class="feature-comparison__competitor-content flex content-center border-bottom py-sp-3 px-sp-3 text-center h-full fs-small word-break">
+                {% if block_st.comparison_type == 'icon' %}
+                  <svg aria-hidden="true" focusable="false" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <use href="#icon-feature-no"></use>
+                  </svg>
+                  <span class="visually-hidden">
+                    {{ 'sections.feature-comparison.table.not_included' | t }}
+                  </span>
+                {% else %}
+                  {{ block_st.competitor_content | escape }}
+                {% endif %}
+              </div>
             </div>
           </div>
         {% endfor %}
