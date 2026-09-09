@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "page_width": 1392,
@@ -6,6 +15,7 @@
     "rounded_input": 30,
     "enable_rtl": true,
     "logo_width": 116,
+    "open_as": "show_popup_link",
     "body_font": "instrument_sans_n5",
     "base_size": 16,
     "heading_font": "fraunces_i4",
@@ -73,7 +83,6 @@
     "search_popular_keywords": "",
     "search_collection_recommended": [],
     "search_product_recommended": [],
-    "open_as": "show_popup_link",
     "show_search_price": true,
     "social_media_facebook": "https://facebook.com/shopify",
     "social_media_instagram": "http://instagram.com/shopify",
@@ -177,7 +186,6 @@
       }
     },
     "content_for_index": [],
-    "blocks": {},
     "color_schemes": {
       "default": {
         "settings": {
