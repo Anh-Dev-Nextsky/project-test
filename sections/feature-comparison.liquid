@@ -221,20 +221,20 @@
           </div>
         </div>
         <div class="feature-comparison__brand" role="columnheader" aria-rowindex="1" aria-colindex="2">
-          <h6
+          <div
             id="FeatureComparisonBrand-{{ section.id }}"
-            class="feature-comparison__brand-content border-bottom py-sp-3 px-sp-1 text-center h-full"
+            class="feature-comparison__brand-content h6 border-bottom py-sp-3 px-sp-1 text-center h-full"
           >
             {{ section_st.brand_label | escape }}
-          </h6>
+          </div>
         </div>
         <div class="feature-comparison__competitor" role="columnheader" aria-rowindex="1" aria-colindex="3">
-          <h6
+          <div
             id="FeatureComparisonCompetitor-{{ section.id }}"
-            class="feature-comparison__competitor-content border-bottom py-sp-3 px-sp-1 text-center h-full"
+            class="feature-comparison__competitor-content h6 border-bottom py-sp-3 px-sp-1 text-center h-full"
           >
             {{ section_st.competitor_label | escape }}
-          </h6>
+          </div>
         </div>
 
         {% for block in section.blocks %}
