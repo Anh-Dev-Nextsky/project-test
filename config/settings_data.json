@@ -73,6 +73,7 @@
     "search_popular_keywords": "",
     "search_collection_recommended": [],
     "search_product_recommended": [],
+    "open_as": "show_popup_link",
     "show_search_price": true,
     "social_media_facebook": "https://facebook.com/shopify",
     "social_media_instagram": "http://instagram.com/shopify",

@@ -206,21 +206,15 @@
       class="feature-comparison__table-wrapper w-custom-md h-fit my-auto"
       style="--width-md: {{ section_st.desktop_table_width }}%;"
     >
-      <div
-        class="feature-comparison__table grid"
-        role="table"
-        aria-label="{{ 'sections.feature-comparison.table.label' | t }}"
-        aria-rowcount="{{ section.blocks.size | plus: 1 }}"
-        aria-colcount="3"
-      >
-        <div class="feature-comparison__feature" role="columnheader" aria-rowindex="1" aria-colindex="1">
+      <div class="feature-comparison__table grid">
+        <div class="feature-comparison__feature">
           <div class="feature-comparison__feature-content border-bottom h-full">
             <span class="visually-hidden">
               {{ 'sections.feature-comparison.table.feature_column' | t }}
             </span>
           </div>
         </div>
-        <div class="feature-comparison__brand" role="columnheader" aria-rowindex="1" aria-colindex="2">
+        <div class="feature-comparison__brand">
           <div
             id="FeatureComparisonBrand-{{ section.id }}"
             class="feature-comparison__brand-content h6 border-bottom py-sp-3 px-sp-1 text-center h-full"
@@ -228,7 +222,7 @@
             {{ section_st.brand_label | escape }}
           </div>
         </div>
-        <div class="feature-comparison__competitor" role="columnheader" aria-rowindex="1" aria-colindex="3">
+        <div class="feature-comparison__competitor">
           <div
             id="FeatureComparisonCompetitor-{{ section.id }}"
             class="feature-comparison__competitor-content h6 border-bottom py-sp-3 px-sp-1 text-center h-full"
@@ -240,26 +234,16 @@
         {% for block in section.blocks %}
           {% liquid
             assign block_st = block.settings
-            assign row_index = forloop.index | plus: 1
           %}
           <div
             class="feature-comparison__feature{% if forloop.last %} last-row{% endif %}"
-            role="rowheader"
-            aria-rowindex="{{ row_index }}"
-            aria-colindex="1"
             {{ block.shopify_attributes }}
           >
             <div class="feature-comparison__feature-content flex align-center border-bottom py-sp-3 px-sp-3 h-full fs-big-2 fw-500 word-break">
               {{ block_st.feature_name | escape }}
             </div>
           </div>
-          <div
-            class="feature-comparison__brand{% if forloop.last %} last-row{% endif %}"
-            role="cell"
-            aria-rowindex="{{ row_index }}"
-            aria-colindex="2"
-            aria-describedby="FeatureComparisonBrand-{{ section.id }}"
-          >
+          <div class="feature-comparison__brand{% if forloop.last %} last-row{% endif %}">
             <div class="feature-comparison__brand-content flex content-center border-bottom py-sp-3 px-sp-3 text-center h-full fs-small word-break">
               {% if block_st.comparison_type == 'icon' %}
                 <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -273,13 +257,7 @@
               {% endif %}
             </div>
           </div>
-          <div
-            class="feature-comparison__competitor{% if forloop.last %} last-row{% endif %}"
-            role="cell"
-            aria-rowindex="{{ row_index }}"
-            aria-colindex="3"
-            aria-describedby="FeatureComparisonCompetitor-{{ section.id }}"
-          >
+          <div class="feature-comparison__competitor{% if forloop.last %} last-row{% endif %}">
             <div class="feature-comparison__competitor-content flex content-center border-bottom py-sp-3 px-sp-3 text-center h-full fs-small word-break">
               {% if block_st.comparison_type == 'icon' %}
                 <svg aria-hidden="true" focusable="false" width="22" height="22" viewBox="0 0 22 22" fill="none">
