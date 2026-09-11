@@ -26,10 +26,13 @@
   .feature-comparison__table-wrapper {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    margin-inline-end: -4rem;
+    padding-inline-end: 4rem;
   }
 
   .feature-comparison__table {
     grid-template-columns: 50% 25% 25%;
+    /* width: max(56rem, calc(100% + 4rem)); */
     min-width: max-content;
     border-radius: 2rem;
     overflow: hidden;
@@ -88,9 +91,12 @@
   @media (min-width: 768px) {
     .feature-comparison__table-wrapper {
       overflow-x: visible;
+      margin-inline-end: 0;
+      padding-inline-end: 0;
     }
 
     .feature-comparison__table {
+      width: 100%;
       min-width: 0;
       border-radius: 0;
       overflow: visible;
