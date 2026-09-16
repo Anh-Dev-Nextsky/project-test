@@ -28,34 +28,23 @@
     -webkit-overflow-scrolling: touch;
     margin-inline-end: -4rem;
     padding-inline-end: 4rem;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
   }
-
-  .feature-comparison__table-wrapper::-webkit-scrollbar {
-    display: none;
-  }
-
   .feature-comparison__table {
     grid-template-columns: 50% 25% 25%;
     min-width: max-content;
     border-radius: 2rem;
     overflow: hidden;
   }
-
   .feature-comparison__feature {
     grid-column: 1 / 2;
     padding-inline-start: 1rem;
   }
-
   .feature-comparison__brand {
     grid-column: 2 / 3;
   }
-
   .feature-comparison__competitor {
     grid-column: 3 / 4;
   }
-
   .feature-comparison__feature.last-row,
   .feature-comparison__brand.last-row,
   .feature-comparison__competitor.last-row {
@@ -67,27 +56,21 @@
     #shopify-section-{{ section.id }} .feature-comparison__brand {
       background-color: #ffffff20;
     }
-
     #shopify-section-{{ section.id }} .feature-comparison__feature:first-child {
       border-start-start-radius: 2rem;
     }
-
     #shopify-section-{{ section.id }} .feature-comparison__brand:nth-child(2) {
       border-start-end-radius: 2rem;
     }
-
     #shopify-section-{{ section.id }} .feature-comparison__feature:nth-last-child(3) {
       border-end-start-radius: 2rem;
     }
-
     #shopify-section-{{ section.id }} .feature-comparison__brand:nth-last-child(2) {
       border-end-end-radius: 2rem;
     }
-
     #shopify-section-{{ section.id }} .feature-comparison__feature {
       box-shadow: calc(-8px * var(--flow-direction, 1)) 0 18px rgba(0, 0, 0, 0.06);
     }
-
     #shopify-section-{{ section.id }} .feature-comparison__brand {
       box-shadow: calc(8px * var(--flow-direction, 1)) 0 18px rgba(0, 0, 0, 0.06);
     }
@@ -99,10 +82,9 @@
       margin-inline-end: 0;
       padding-inline-end: 0;
     }
-
     .feature-comparison__table {
       width: 100%;
-      min-width: 0;
+      min-width: auto;
       border-radius: 0;
       overflow: visible;
     }
@@ -214,7 +196,7 @@
     </div>
 
     <div
-      class="feature-comparison__table-wrapper w-custom-md h-fit my-auto"
+      class="feature-comparison__table-wrapper w-custom-md h-fit my-auto hidden-scrollbar"
       style="--width-md: {{ section_st.desktop_table_width }}%;"
     >
       <div class="feature-comparison__table grid">
