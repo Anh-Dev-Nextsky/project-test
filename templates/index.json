@@ -128,7 +128,7 @@
         "color_scheme": "",
         "open_all_question": false,
         "faq_style": "background",
-        "show_image": true,
+        "show_image": false,
         "image_desktop_position": "left",
         "show_faqs_message": true,
         "subheading": "Have a Question?",
