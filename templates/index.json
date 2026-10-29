@@ -135,10 +135,15 @@
         "traceable",
         "guaranteed"
       ],
-      "name": "Trust badges",
       "custom_css": [
-        ".section__icon-box{background:#f3f1ea;--color-text:#444}.container{--page-width:1392px}.icon-box__item{gap:16px}.icon-box__icon img{border-radius:0}.icon-box__description{max-width:298px;margin:auto;font-size:16px;line-height:1.6}@media(min-width:1025px){.section__icon-box{padding:60px 0 100px}.flex-cols{--gap:24px!important;--gap-desktop:24px!important}}"
+        ".gradient{background:#F3F1EA;--color-text:#444}",
+        ".container{--page-width:1392px}",
+        ".icon-box__item{gap:16px}",
+        ".icon-box__icon img{border-radius:0}",
+        ".icon-box__description{max-width:298px;margin:auto;font-size:16px;line-height:1.6}",
+        "@media(min-width:1025px){.gradient{padding:60px 0 100px}.flex-cols{--gap:24px!important;--gap-desktop:24px!important}}"
       ],
+      "name": "Trust badges",
       "settings": {
         "section_width": "fix_width",
         "color_scheme": "default-color-scheme",
