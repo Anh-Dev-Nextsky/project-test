@@ -88,66 +88,9 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
-    },
-    "faqs_nNmjYq": {
-      "type": "faqs",
-      "blocks": {
-        "item_faq_KnCyhH": {
-          "type": "_item-faq",
-          "settings": {
-            "question": "Frequently asked questions?",
-            "answer": "<p>Write the answer.</p>"
-          },
-          "blocks": {}
-        },
-        "item_faq_zVkMQC": {
-          "type": "_item-faq",
-          "settings": {
-            "question": "Frequently asked questions?",
-            "answer": "<p>Write the answer.</p>"
-          },
-          "blocks": {}
-        },
-        "item_faq_tNT3at": {
-          "type": "_item-faq",
-          "settings": {
-            "question": "Frequently asked questions?",
-            "answer": "<p>Write the answer.</p>"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "item_faq_KnCyhH",
-        "item_faq_zVkMQC",
-        "item_faq_tNT3at"
-      ],
-      "name": "t:sections.faq.name",
-      "settings": {
-        "section_width": "fix_width",
-        "color_scheme": "",
-        "open_all_question": false,
-        "faq_style": "background",
-        "show_image": false,
-        "image_desktop_position": "left",
-        "show_faqs_message": true,
-        "subheading": "Have a Question?",
-        "heading": "<p>Help Center!</p>",
-        "drawn_underline": true,
-        "drawn_underline_type": "squiggle_underline",
-        "drawn_underline_color": "#FFB005",
-        "description": "<p>Add a short description for this block.</p>",
-        "button_label": "Button label",
-        "button_link": "",
-        "text_alignment": "start",
-        "padding_top": 48,
-        "padding_bottom": 48,
-        "show_divider": false
-      }
     }
   },
   "order": [
-    "feature_comparison_JxLTFn",
-    "faqs_nNmjYq"
+    "feature_comparison_JxLTFn"
   ]
 }
